@@ -1,0 +1,219 @@
+{
+  "files": {
+    "symptoms_core_ptbr.txt": {
+      "path": "C:\\Users\\cadu\\Dropbox\\Cadu\\Trabalho\\HealthTech\\healthtech\\nlp_clin\\data\\lexicons\\symptoms_core_ptbr.txt",
+      "exists": true,
+      "entity_type": "SYMPTOM",
+      "priority": 1,
+      "raw_count": 119,
+      "unique_in_file": 119,
+      "sample_entries": [
+        "amenorreia",
+        "anúria",
+        "artralgia",
+        "astenia",
+        "bolhas"
+      ]
+    },
+    "symptoms_expanded_ptbr.txt": {
+      "path": "C:\\Users\\cadu\\Dropbox\\Cadu\\Trabalho\\HealthTech\\healthtech\\nlp_clin\\data\\lexicons\\symptoms_expanded_ptbr.txt",
+      "exists": true,
+      "entity_type": "SYMPTOM",
+      "priority": 2,
+      "raw_count": 9044,
+      "unique_in_file": 9044,
+      "sample_entries": [
+        "amenorreia",
+        "amenorreia acentuada",
+        "amenorreia acentuada aguda",
+        "amenorreia acentuada contínua",
+        "amenorreia acentuada crônica"
+      ]
+    },
+    "anatomy_ptbr.txt": {
+      "path": "C:\\Users\\cadu\\Dropbox\\Cadu\\Trabalho\\HealthTech\\healthtech\\nlp_clin\\data\\lexicons\\anatomy_ptbr.txt",
+      "exists": true,
+      "entity_type": "ANATOMY",
+      "priority": 1,
+      "raw_count": 153,
+      "unique_in_file": 153,
+      "sample_entries": [
+        "abdome",
+        "abdome inferior",
+        "abdome superior",
+        "alvéolos",
+        "antebraço"
+      ]
+    },
+    "procedures_ptbr.txt": {
+      "path": "C:\\Users\\cadu\\Dropbox\\Cadu\\Trabalho\\HealthTech\\healthtech\\nlp_clin\\data\\lexicons\\procedures_ptbr.txt",
+      "exists": true,
+      "entity_type": "PROCEDURE",
+      "priority": 1,
+      "raw_count": 47,
+      "unique_in_file": 47,
+      "sample_entries": [
+        "acesso venoso central",
+        "acesso venoso periférico",
+        "administração de medicação",
+        "analgesia",
+        "anestesia"
+      ]
+    },
+    "tests_exams_ptbr.txt": {
+      "path": "C:\\Users\\cadu\\Dropbox\\Cadu\\Trabalho\\HealthTech\\healthtech\\nlp_clin\\data\\lexicons\\tests_exams_ptbr.txt",
+      "exists": true,
+      "entity_type": "TEST",
+      "priority": 1,
+      "raw_count": 48,
+      "unique_in_file": 48,
+      "sample_entries": [
+        "EAS",
+        "INR",
+        "PCR",
+        "TGO",
+        "TGP"
+      ]
+    },
+    "drugs_ptbr.txt": {
+      "path": "C:\\Users\\cadu\\Dropbox\\Cadu\\Trabalho\\HealthTech\\healthtech\\nlp_clin\\data\\lexicons\\drugs_ptbr.txt",
+      "exists": true,
+      "entity_type": "DRUG",
+      "priority": 1,
+      "raw_count": 37,
+      "unique_in_file": 37,
+      "sample_entries": [
+        "adrenalina",
+        "amoxicilina",
+        "amoxicilina com clavulanato",
+        "atenolol",
+        "azitromicina"
+      ]
+    }
+  },
+  "loaded": {
+    "symptoms_core_ptbr.txt": {
+      "entity_type": "SYMPTOM",
+      "entries_loaded": 119,
+      "sample_loaded": [
+        "amenorreia",
+        "anúria",
+        "artralgia",
+        "astenia",
+        "bolhas"
+      ]
+    },
+    "symptoms_expanded_ptbr.txt": {
+      "entity_type": "SYMPTOM",
+      "entries_loaded": 8925,
+      "sample_loaded": [
+        "amenorreia acentuada",
+        "amenorreia acentuada aguda",
+        "amenorreia acentuada contínua",
+        "amenorreia acentuada crônica",
+        "amenorreia acentuada há dias"
+      ]
+    },
+    "anatomy_ptbr.txt": {
+      "entity_type": "ANATOMY",
+      "entries_loaded": 153,
+      "sample_loaded": [
+        "abdome",
+        "abdome inferior",
+        "abdome superior",
+        "alvéolos",
+        "antebraço"
+      ]
+    },
+    "procedures_ptbr.txt": {
+      "entity_type": "PROCEDURE",
+      "entries_loaded": 47,
+      "sample_loaded": [
+        "acesso venoso central",
+        "acesso venoso periférico",
+        "administração de medicação",
+        "analgesia",
+        "anestesia"
+      ]
+    },
+    "tests_exams_ptbr.txt": {
+      "entity_type": "TEST",
+      "entries_loaded": 48,
+      "sample_loaded": [
+        "EAS",
+        "INR",
+        "PCR",
+        "TGO",
+        "TGP"
+      ]
+    },
+    "drugs_ptbr.txt": {
+      "entity_type": "DRUG",
+      "entries_loaded": 37,
+      "sample_loaded": [
+        "adrenalina",
+        "amoxicilina",
+        "amoxicilina com clavulanato",
+        "atenolol",
+        "azitromicina"
+      ]
+    }
+  },
+  "deduplication": {
+    "symptoms_core_ptbr.txt": {
+      "kept": 119,
+      "skipped": 0
+    },
+    "symptoms_expanded_ptbr.txt": {
+      "kept": 8925,
+      "skipped": 119
+    },
+    "anatomy_ptbr.txt": {
+      "kept": 153,
+      "skipped": 0
+    },
+    "procedures_ptbr.txt": {
+      "kept": 47,
+      "skipped": 0
+    },
+    "tests_exams_ptbr.txt": {
+      "kept": 48,
+      "skipped": 0
+    },
+    "drugs_ptbr.txt": {
+      "kept": 37,
+      "skipped": 0
+    }
+  },
+  "summary": {
+    "total_files": 6,
+    "total_raw_entries": 9448,
+    "total_loaded_entries": 9329,
+    "deduplication_rate": 0.012595258255715502,
+    "entries_by_type": {
+      "SYMPTOM": 9044,
+      "ANATOMY": 153,
+      "PROCEDURE": 47,
+      "TEST": 48,
+      "DRUG": 37
+    },
+    "files_by_type": {
+      "SYMPTOM": [
+        "symptoms_core_ptbr.txt",
+        "symptoms_expanded_ptbr.txt"
+      ],
+      "ANATOMY": [
+        "anatomy_ptbr.txt"
+      ],
+      "PROCEDURE": [
+        "procedures_ptbr.txt"
+      ],
+      "TEST": [
+        "tests_exams_ptbr.txt"
+      ],
+      "DRUG": [
+        "drugs_ptbr.txt"
+      ]
+    }
+  }
+}

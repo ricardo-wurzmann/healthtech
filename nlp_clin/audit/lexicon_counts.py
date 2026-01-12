@@ -5,7 +5,13 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from collections import defaultdict
-from unidecode import unidecode
+
+try:
+    from unidecode import unidecode
+except ImportError:
+    # Fallback if unidecode is not installed
+    def unidecode(s: str) -> str:
+        return s.encode("ascii", "ignore").decode("ascii")
 
 LEXICON_FILES = [
     ("symptoms_core_ptbr.txt", "SYMPTOM", 1),
