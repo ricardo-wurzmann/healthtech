@@ -1,0 +1,75 @@
+{
+  "doc_id": "pepv1_case_0020",
+  "source": "data\\raw\\pepv1.json",
+  "text": "20) ID: Feminino, 25 anos, nuligesta, em uso de contraceptivo oral combinado. QD: “Dor pélvica e corrimento com sangue.” HPMA: Há 7 dias iniciou mialgia inespecífica, cefaleia e febre não aferida, com melhora com paracetamol. Há 4 dias evoluiu com dor pélvica e corrimento vaginal mucossanguinolento intenso. Ao exame: regular estado geral; FC 80 bpm; PA 120 x 70 mmHg; temperatura axilar 37, 2°C (afebril no momento). Ausculta cardíaca e pulmonar normais. Linfonodos inguinais palpáveis, móveis, fibroelásticos e dolorosos. Genitais externos sem alterações. Ao exame especular (descrição compatível com quadro agudo): secreção cervical/vaginal mucossanguinolenta abundante, colo hiperemiado e friável ao toque; sem lesões vulvares evidentes. Em avaliação dirigida, refere dispareunia recente e dor hipogástrica à palpação; dor à mobilização do colo discretamente positiva, sem sinais de peritonismo. Diante da suspeita de IST/cervicite e possível doença inflamatória pélvica inicial, foram solicitados beta-hCG, NAAT para clamídia/gonococo, sorologias (HIV/sífilis/hepatites) e EAS/urocultura (resultados pendentes). ISDA: Febre prévia referida, atualmente afebril; corrimento mucossanguinolento; dor pélvica; nega disúria; nega tosse/dispneia; nega lesões cutâneas extensas. AP: Nega comorbidades. Medicações: ACO combinado; paracetamol recente. Alergias: nega. Cirurgias: nega. Sexual: em consulta, relata parceria sexual recente e uso irregular de preservativo (anotado por relevância clínica). AF: Não informado.",
+  "entities": [
+    {
+      "span": "cefaleia",
+      "start": 167,
+      "end": 175,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "HPMA: Há 7 dias iniciou mialgia inespecífica, cefaleia e febre não aferida, com melhora com paracetamol.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "febre",
+      "start": 178,
+      "end": 183,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "HPMA: Há 7 dias iniciou mialgia inespecífica, cefaleia e febre não aferida, com melhora com paracetamol.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paracetamol",
+      "start": 213,
+      "end": 224,
+      "type": "DRUG",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "HPMA: Há 7 dias iniciou mialgia inespecífica, cefaleia e febre não aferida, com melhora com paracetamol.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Febre",
+      "start": 1124,
+      "end": 1129,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Febre prévia referida, atualmente afebril; corrimento mucossanguinolento; dor pélvica; nega disúria; nega tosse/dispneia; nega lesões cutâneas extensas.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 1216,
+      "end": 1223,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Febre prévia referida, atualmente afebril; corrimento mucossanguinolento; dor pélvica; nega disúria; nega tosse/dispneia; nega lesões cutâneas extensas.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paracetamol",
+      "start": 1327,
+      "end": 1338,
+      "type": "DRUG",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "Medicações: ACO combinado; paracetamol recente.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 20,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,20 @@
+{
+  "doc_id": "pepv1_case_0064",
+  "source": "data\\raw\\pepv1.json",
+  "text": "64) ID: F, 19 anos. QD: “Suor excessivo nas mãos desde criança.” HPMA: Refere hiperidrose palmar importante desde a infância, com piora em situações de estresse e impacto funcional (dificuldade para escrever/segurar objetos, constrangimento social). Já realizou tratamento clínico com anticolinérgicos por >6 meses, sem resposta satisfatória. Evoluiu para tratamento definitivo com simpatectomia torácica bilateral (VATS), há cerca de 3 meses, com melhora acentuada da sudorese palmar; atualmente relata ressecamento importante das mãos e sudorese compensatória em dorso/abdome em dias quentes (hipótese: hiperidrose primária palmar com hiperidrose compensatória pós-simpatectomia). Nega febre, perda ponderal, dor torácica ou dispneia. ISDA: Nega palpitações, tremores, intolerância ao calor generalizada, diarreia, tosse crônica. Sem queixas urinárias ou neurológicas. AP: Sem comorbidades conhecidas. Sem uso contínuo de medicações no momento. Nega alergias conhecidas. Nega tabagismo e drogas; etilismo social eventual. Cirurgia prévia: simpatectomia torácica bilateral (recente). AF: BEG, afebril, eupneica. Extremidades: mãos secas e frias, sem cianose; sem lesões cutâneas. Sem alterações relevantes em ausculta cardíaca/pulmonar. Cicatrizes puntiformes compatíveis com VATS, sem sinais flogísticos.",
+  "entities": [
+    {
+      "span": "febre",
+      "start": 688,
+      "end": 693,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "Nega febre, perda ponderal, dor torácica ou dispneia.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 64,
+  "group": "caso_estruturado"
+}

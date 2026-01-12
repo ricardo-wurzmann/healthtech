@@ -1,0 +1,42 @@
+{
+  "doc_id": "pepv1_case_0029",
+  "source": "data\\raw\\pepv1.json",
+  "text": "29) ID: Feminino, 34 anos, tercigesta, 2 partos vaginais prévios, IG 33 semanas e 4 dias. QD: “Dor no baixo ventre após acidente de carro e bebê mexendo menos.” HPMA: Transferida do PA de cirurgia após trauma automobilístico (auto-auto) há 2 horas, com dor em andar inferior do abdome e diminuição da movimentação fetal desde o evento. Antecedente de HAS crônica em uso de alfametildopa 2 g/dia. Exame inicial: regular estado geral, corada, hidratada, afebril, PA 148×96 mmHg, abdome doloroso em hipogastro; dinâmica uterina irregular; BCF 134 bpm; AU 33 cm; tônus uterino normal. Toque: colo grosso, posterior, pérvio 1 cm. Optado por analgesia (escopolamina + dipirona EV) e reavaliação seriada. Após 2 horas, refere intensificação importante da dor. Reavaliação: PA 150×90 mmHg; abdome muito doloroso; dinâmica uterina 4 contrações/10 min; BCF 119 bpm; AU 36 cm; tônus discretamente aumentado. Toque: colo médio, medianizado, pérvio 3 cm. Cardiotocografia categoria 2. Pelo contexto (trauma + dor intensa + taquissistolia/aumento de tônus + alteração de BCF/CTG), registrado alto risco para descolamento prematuro de placenta e/ou sofrimento fetal: indicada vigilância contínua materno-fetal, coleta de hemograma, coagulograma/fibrinogênio, tipagem e prova cruzada, avaliação ultrassonográfica (quando não atrasar conduta) e discussão imediata de via de parto conforme estabilidade materna e status fetal. ISDA: Nega perda de líquido e sangramento vaginal evidente (questionado ativamente); nega dispneia/dor torácica; sem sintomas urinários; afebril. AP: HAS crônica. Medicações: alfametildopa 2 g/dia. Alergias: não referidas. Cirurgias: não referidas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "com dor",
+      "start": 249,
+      "end": 256,
+      "type": "SYMPTOM",
+      "score": 0.9090909090909091,
+      "assertion": "PRESENT",
+      "evidence": "HPMA: Transferida do PA de cirurgia após trauma automobilístico (auto-auto) há 2 horas, com dor em andar inferior do abdome e diminuição da movimentação fetal desde o evento.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": " dipirona",
+      "start": 661,
+      "end": 670,
+      "type": "DRUG",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "Optado por analgesia (escopolamina + dipirona EV) e reavaliação seriada.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 1206,
+      "end": 1215,
+      "type": "TEST",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "Pelo contexto (trauma + dor intensa + taquissistolia/aumento de tônus + alteração de BCF/CTG), registrado alto risco para descolamento prematuro de placenta e/ou sofrimento fetal: indicada vigilância contínua materno-fetal, coleta de hemograma, coagulograma/fibrinogênio, tipagem e prova cruzada, avaliação ultrassonográfica (quando não atrasar conduta) e discussão imediata de via de parto conforme estabilidade materna e status fetal.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 29,
+  "group": "caso_estruturado"
+}

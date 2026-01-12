@@ -1,0 +1,31 @@
+{
+  "doc_id": "pepv1_case_0033",
+  "source": "data\\raw\\pepv1.json",
+  "text": "33) ID: Masculino, 11 anos, fibrose cística, em seguimento regular em ambulatório de pneumologia. QD: “Tosse com catarro verde e falta de ar.” HPMA: Há 3 dias com tosse produtiva com expectoração esverdeada, associada a dispneia e dor torácica pleurítica, com piora de tolerância ao esforço e aumento de necessidade de fisioterapia respiratória domiciliar. Nega hemoptise. Mantém boa aceitação alimentar, sem vômitos. Radiografia de tórax com padrão semelhante ao basal, sem novos achados. Em culturas recentes de escarro houve crescimento de Staphylococcus aureus meticilino-sensível e Pseudomonas aeruginosa multi-sensível. Quadro sugerindo exacerbação pulmonar da fibrose cística; DDx: pneumonia comunitária, ABPA, exacerbação por broncoespasmo. ISDA: Nega diarreia, disúria, rash cutâneo e cefaleia importante. AP: Fibrose cística (demais comorbidades não informadas). Alergias: não referidas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "disúria",
+      "start": 770,
+      "end": 777,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega diarreia, disúria, rash cutâneo e cefaleia importante.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "cefaleia",
+      "start": 794,
+      "end": 802,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega diarreia, disúria, rash cutâneo e cefaleia importante.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 33,
+  "group": "caso_estruturado"
+}

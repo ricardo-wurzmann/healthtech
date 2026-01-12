@@ -1,0 +1,20 @@
+{
+  "doc_id": "pepv1_case_0011",
+  "source": "data\\raw\\pepv1.json",
+  "text": "11) Paciente masculino, de 6 anos de idade, foi levado ao pronto socorro infantil com quadro de varicela. O quadro se iniciou há 9 dias atrás, já havia melhorado da febre, porém voltou a apresentar febre de até 39°C há 2 dias. A mãe refere que a criança está mais prostrada, com recusa alimentar e que as lesões ficaram maiores e começaram a \"soltar a pele\". Refere também cansaço, mas sem tosse, coriza ou obstrução nasal. Nega vômitos ou diarreia. Refere diminuição da diurese no último dia. Nega uso de medicações recentemente. Nega alergias. Sem comorbidades. Ao exame clínico, a criança estava prostrada, sonolenta, com os seguintes parâmetros vitais: FC=162bpm, FR=46 irpm, com tempo de enchimento capilar de 4 segundos. PA = 90 x 62 mmHg, T = 39, 2°C. Sem alterações nas propedêuticas cardíaca e pulmonar. Abdome flácido com fígado palpável a 3 centímetros do rebordo costal direito, baço não palpável. Sem sinais de irritação meníngea. Pele apresentava-se eritrodermica, com lesões conforme foto abaixo.",
+  "entities": [
+    {
+      "span": "febre",
+      "start": 165,
+      "end": 170,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "O quadro se iniciou há 9 dias atrás, já havia melhorado da febre, porém voltou a apresentar febre de até 39°C há 2 dias.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 11,
+  "group": "prontuario"
+}

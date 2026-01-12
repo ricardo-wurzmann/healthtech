@@ -1,0 +1,53 @@
+{
+  "doc_id": "pepv1_case_0024",
+  "source": "data\\raw\\pepv1.json",
+  "text": "24) ID: Feminino, 32 anos, primigesta, IG 35 semanas (compatível com 1º US). QD: “Bebê mexendo menos há 1 dia.” HPMA: Gestante com 35 semanas, refere redução da movimentação fetal percebida há 24h. Traz anotações de pré-natal: ao exame, bom estado geral, PA 160×100 mmHg, FC 84 bpm, BRNF 2T com sopro sistólico em foco aórtico 2+/6+. Abdome gravídico, altura uterina 29 cm, BCF presente, dinâmica uterina ausente. Edema de mãos e face 2+/4+ e edema simétrico de MMII 2+/4+, sem sinais clínicos de TVP. Exames do dia anterior: proteinúria de 24h 1, 54 g/volume e ácido úrico 7, 5 mg/dL. Na admissão, realizada avaliação inicial de bem-estar materno-fetal: ausculta de BCF confirmada e orientada monitorização fetal (cardiotocografia) e ultrassonografia obstétrica com doppler conforme protocolo do serviço, além de investigação laboratorial materna para gravidade (hemograma/plaquetas, transaminases, creatinina, DHL) e pesquisa de sintomas de alarme (cefaleia, escotomas, epigastralgia, dispneia). ISDA: Nega febre; nega sintomas urinários; nega tosse/coriza. Em triagem dirigida para gravidade: questionada cefaleia intensa, alterações visuais e dor epigástrica (não descritas no enunciado; registradas como “a esclarecer/negadas se ausentes”). AP: Sem comorbidades informadas. Medicações: não informadas (a checar uso de AAS/anti-hipertensivo). Alergias/cirurgias: não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "cefaleia",
+      "start": 951,
+      "end": 959,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "Exames do dia anterior: proteinúria de 24h 1, 54 g/volume e ácido úrico 7, 5 mg/dL. Na admissão, realizada avaliação inicial de bem-estar materno-fetal: ausculta de BCF confirmada e orientada monitorização fetal (cardiotocografia) e ultrassonografia obstétrica com doppler conforme protocolo do serviço, além de investigação laboratorial materna para gravidade (hemograma/plaquetas, transaminases, creatinina, DHL) e pesquisa de sintomas de alarme (cefaleia, escotomas, epigastralgia, dispneia).",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "febre",
+      "start": 1009,
+      "end": 1014,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega febre; nega sintomas urinários; nega tosse/coriza.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "cefaleia",
+      "start": 1108,
+      "end": 1116,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "Em triagem dirigida para gravidade: questionada cefaleia intensa, alterações visuais e dor epigástrica (não descritas no enunciado; registradas como “a esclarecer/negadas se ausentes”).",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "dor epigástrica",
+      "start": 1147,
+      "end": 1162,
+      "type": "SYMPTOM",
+      "score": 0.99,
+      "assertion": "PRESENT",
+      "evidence": "Em triagem dirigida para gravidade: questionada cefaleia intensa, alterações visuais e dor epigástrica (não descritas no enunciado; registradas como “a esclarecer/negadas se ausentes”).",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 24,
+  "group": "caso_estruturado"
+}

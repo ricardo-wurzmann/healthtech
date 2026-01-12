@@ -1,0 +1,31 @@
+{
+  "doc_id": "pepv1_case_0043",
+  "source": "data\\raw\\pepv1.json",
+  "text": "43) ID: Feminino, 12 anos, sarcoma de Ewing em quadril esquerdo há 1 ano; internada há 3 dias para controle álgico. QD: “Sonolência e confusão.” HPMA: Em uso de omeprazol, gabapentina, amitriptilina, dipirona e morfina, com relato de pior controle álgico e necessidade de doses extras de morfina. Evoluiu há ~4 horas com sonolência e confusão. Ao exame: regular estado geral, sonolenta/confusa, abre olhos ao chamado; pupilas puntiformes; consegue sentar-se quando solicitada. Sinais vitais: FR 12 irpm, FC 60 bpm, PA 98×56 mmHg; glicemia capilar 70 mg/dL. Quadro compatível com intoxicação por opioide/efeito depressor do SNC por polifarmácia (toxíndrome opioide); DDx: hipercapnia, evento neurológico agudo, sepse. ISDA: Sem queixa respiratória nova, sem vômitos/diarreia e sem disúria (questionados). AP: Neoplasia óssea (sarcoma de Ewing) em tratamento; em uso de analgésicos opioides e adjuvantes. AF: Não informado.",
+  "entities": [
+    {
+      "span": "dipirona",
+      "start": 200,
+      "end": 208,
+      "type": "DRUG",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "HPMA: Em uso de omeprazol, gabapentina, amitriptilina, dipirona e morfina, com relato de pior controle álgico e necessidade de doses extras de morfina.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 780,
+      "end": 787,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Sem queixa respiratória nova, sem vômitos/diarreia e sem disúria (questionados).",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 43,
+  "group": "caso_estruturado"
+}

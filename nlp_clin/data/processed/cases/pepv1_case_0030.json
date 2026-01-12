@@ -1,0 +1,75 @@
+{
+  "doc_id": "pepv1_case_0030",
+  "source": "data\\raw\\pepv1.json",
+  "text": "30) ID: Feminino, 32 anos, puérpera de parto vaginal a termo, D8 pós-parto. QD: “Febre, calafrios e dor na mama esquerda.” HPMA: Procura pronto-atendimento no 8º dia pós-parto com calafrios, febre e mastalgia em mama esquerda. Antecedentes: HAS crônica desde os 13 anos e doença renal crônica não dialítica em seguimento com nefrologia. Exame: bom estado geral, corada, T oral 38, 4°C, FC 110 bpm, PA 98×60 mmHg. Abdome indolor; útero contraído; lóquios fisiológicos; toque vaginal: colo grosso, posterior, impérvio. Inspeção mamária (conforme imagem do enunciado) com achados compatíveis com processo inflamatório localizado; palpação da mama esquerda limitada pela dor, sem tumoração identificável (sem flutuação evidente). Diante de febre + taquicardia e PA limítrofe, registrado risco de infecção puerperal/mastite com necessidade de estratificar gravidade: iniciadas medidas de suporte (hidratação EV conforme avaliação clínica e função renal), analgesia e orientação para manutenção do esvaziamento mamário; solicitados hemograma, PCR e, se disponível, ultrassom de mama para excluir coleções/abscesso e guiar conduta antibiótica, com reavaliação seriada de sinais vitais. ISDA: Nega tosse/coriza; nega disúria; sem dor abdominal importante; sem sangramento uterino anormal. AP: HAS crônica + DRC não dialítica. Medicações habituais: não especificadas no enunciado (em prontuário real, registrar anti-hipertensivos/nefroprotetores e ajustar conforme lactação/DRC). Alergias/cirurgias: não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "Febre",
+      "start": 81,
+      "end": 86,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "QD: “Febre, calafrios e dor na mama esquerda.”",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "febre",
+      "start": 191,
+      "end": 196,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "HPMA: Procura pronto-atendimento no 8º dia pós-parto com calafrios, febre e mastalgia em mama esquerda.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "febre",
+      "start": 736,
+      "end": 741,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "Diante de febre + taquicardia e PA limítrofe, registrado risco de infecção puerperal/mastite com necessidade de estratificar gravidade: iniciadas medidas de suporte (hidratação EV conforme avaliação clínica e função renal), analgesia e orientação para manutenção do esvaziamento mamário; solicitados hemograma, PCR e, se disponível, ultrassom de mama para excluir coleções/abscesso e guiar conduta antibiótica, com reavaliação seriada de sinais vitais.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 1026,
+      "end": 1035,
+      "type": "TEST",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "Diante de febre + taquicardia e PA limítrofe, registrado risco de infecção puerperal/mastite com necessidade de estratificar gravidade: iniciadas medidas de suporte (hidratação EV conforme avaliação clínica e função renal), analgesia e orientação para manutenção do esvaziamento mamário; solicitados hemograma, PCR e, se disponível, ultrassom de mama para excluir coleções/abscesso e guiar conduta antibiótica, com reavaliação seriada de sinais vitais.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 1209,
+      "end": 1216,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega tosse/coriza; nega disúria; sem dor abdominal importante; sem sangramento uterino anormal.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "dor abdominal",
+      "start": 1222,
+      "end": 1235,
+      "type": "SYMPTOM",
+      "score": 0.99,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega tosse/coriza; nega disúria; sem dor abdominal importante; sem sangramento uterino anormal.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 30,
+  "group": "caso_estruturado"
+}

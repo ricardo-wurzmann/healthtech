@@ -1,0 +1,8 @@
+{
+  "doc_id": "pepv1_case_0013",
+  "source": "data\\raw\\pepv1.json",
+  "text": "13) Homem de 56 anos de idade, admitido por dor torácica retroesternal de forte intensidade, em pressão, há 30 minutos, sem irradiação e acompanhada de sudorese. É hipertenso, em uso regular de hidroclorotiazida. Tabagista de 30 maços/ano. Ao exame clínico: pulso de 84 bpm; frequência respiratória = 12 irpm; pressão arterial = 168 x 104 mmHg em MSD; pulsos assimétricos; bulhas cardíacas normofonéticas com sopro diastólico em foco aórtico 3+/6+; exame clínico pulmonar e abdominal normais. Realizados na sala de emergência os dois exames a seguir.",
+  "entities": [],
+  "case_id": 13,
+  "group": "prontuario"
+}

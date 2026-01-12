@@ -1,0 +1,20 @@
+{
+  "doc_id": "pepv1_case_0060",
+  "source": "data\\raw\\pepv1.json",
+  "text": "60) ID: Masculino, 76 anos. QD: Avaliação urológica após achado de PSA elevado e biópsia positiva. HPMA: Em check-up, PSA 4, 1 ng/mL (sem sintomas do trato urinário inferior). Nega disúria, hematúria, urgência, jato fraco, noctúria relevante, dor óssea, perda ponderal. Toque retal: próstata amolecida, sem nódulos palpáveis. Biópsia prostática: adenocarcinoma localizado, Gleason 3+3. Estadiamento com RM multiparamétrica de pelve e cintilografia óssea sem evidências de extensão extraprostatica/metástases. Hipótese: adenocarcinoma de próstata localizado de baixo risco. ISDA: Nega sintomas constitucionais; sem queixas gastrointestinais/respiratórias. AP: Comorbidades e medicações em revisão na consulta (nega uso de testosterona/exógenos). Nega alergias. AF: História familiar de Ca de próstata negada ou não referida. Hábitos: etilismo social; tabagismo pregresso negado ou remoto.",
+  "entities": [
+    {
+      "span": "disúria",
+      "start": 181,
+      "end": 188,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "Nega disúria, hematúria, urgência, jato fraco, noctúria relevante, dor óssea, perda ponderal.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 60,
+  "group": "caso_estruturado"
+}

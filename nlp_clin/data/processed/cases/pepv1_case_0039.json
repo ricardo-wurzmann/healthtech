@@ -1,0 +1,20 @@
+{
+  "doc_id": "pepv1_case_0039",
+  "source": "data\\raw\\pepv1.json",
+  "text": "39) ID: Feminino, 6 anos, assintomática, consulta de rotina. QD: “Pressão aferida elevada na consulta.” HPMA: Em consulta ambulatorial de rotina, sem queixas, PA sistólica e diastólica aferidas com técnica adequada e encontradas entre os percentis 90 e 95 para idade/sexo/estatura; exame físico sem alterações. Achado compatível com pressão arterial elevada (pediatria); DDx: efeito do avental branco, HAS secundária se persistente em medidas seriadas. ISDA: Nega cefaleia, alterações visuais, palpitações, dor torácica e sintomas urinários. AP: Sem comorbidades referidas; alergias não referidas. AF: A esclarecer (HAS precoce, nefropatias).",
+  "entities": [
+    {
+      "span": "cefaleia",
+      "start": 464,
+      "end": 472,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega cefaleia, alterações visuais, palpitações, dor torácica e sintomas urinários.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 39,
+  "group": "caso_estruturado"
+}

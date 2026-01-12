@@ -1,0 +1,31 @@
+{
+  "doc_id": "pepv1_case_0022",
+  "source": "data\\raw\\pepv1.json",
+  "text": "22) ID: Feminino, 40 anos, G2P2 (2 partos vaginais; último há 10 anos). QD: “Menstruação muito forte; hoje está intenso.” HPMA: Há 5 ciclos com sangramento menstrual excessivo: intervalos de 30 dias, duração de 7 dias, com eliminação de coágulos. Nega comorbidades, medicações de uso contínuo, cirurgias prévias e alergias. Marido vasectomizado. Encontra-se no 3º dia do ciclo, com sangramento intenso no momento. Refere cansaço e tontura leve ao levantar desde o início do ciclo atual, sem síncope, sem dor pélvica importante. Exame: FC 90 bpm, PA 120 x 80 mmHg; abdome flácido e indolor. Especular: colo epitelizado, grande quantidade de sangue em vagina com exteriorização pelo canal cervical. Toque: útero em AVF, não doloroso, tamanho normal, anexos livres. Pela intensidade do sangramento e tempo de evolução, solicitados hemograma, ferritina, TSH e USG transvaginal para investigação de AUB (sem resultados disponíveis no momento do registro). ISDA: Nega febre; nega corrimento fétido; nega sangramento pós-coital; nega equimoses/sangramentos gengivais; refere apenas hipermenorreia com coágulos e astenia. AP: Nega HAS/DM. Cirurgias: nega. Medicações: nega contínuas. Alergias: nega. AF: Não informado (a checar: miomas, coagulopatias, neoplasias ginecológicas).",
+  "entities": [
+    {
+      "span": "hemograma",
+      "start": 828,
+      "end": 837,
+      "type": "TEST",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "Pela intensidade do sangramento e tempo de evolução, solicitados hemograma, ferritina, TSH e USG transvaginal para investigação de AUB (sem resultados disponíveis no momento do registro).",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "febre",
+      "start": 962,
+      "end": 967,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega febre; nega corrimento fétido; nega sangramento pós-coital; nega equimoses/sangramentos gengivais; refere apenas hipermenorreia com coágulos e astenia.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 22,
+  "group": "caso_estruturado"
+}

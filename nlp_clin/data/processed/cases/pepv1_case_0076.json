@@ -1,0 +1,20 @@
+{
+  "doc_id": "pepv1_case_0076",
+  "source": "data\\raw\\pepv1.json",
+  "text": "76) ID: Masculino, 47 anos. QD: Agitação/irritabilidade com tremores intensos e sudorese há 2 dias. HPMA: Trazido por familiares por agressividade e irritabilidade há 48h, com recusa parcial em cooperar, ameaças à equipe. Refere cefaleia holocraniana, náuseas e sudorese. Familiar relata etilismo habitual e viagem longa recente, com padrão de consumo irregular no período. História pregressa de tremores e episódios semelhantes de cefaleia/sudorese há anos, sem gatilhos claros. No exame: desorientado no tempo, tremor distal importante em MMSS, diaforético, sem sintomas psicóticos francos, sem aceleração do pensamento; sem déficits focais descritos. Durante atendimento, tenta agredir equipe. SSVV aferidos no leito com taquicardia e PA elevada. Glicemia capilar sem hipoglicemia; eletrólitos com hipomagnesemia discreta. Hipótese clínica: síndrome de abstinência alcoólica grave (quadro hiperadrenérgico com agitação). ISDA: Nega dor torácica e dispneia no momento; sem queixas urinárias; sem diarreia. AP: Etilismo crônico (padrão diário). Nega uso regular de medicações. Nega alergias conhecidas. AF: Contexto social de consumo de álcool recorrente; familiares como rede de apoio.",
+  "entities": [
+    {
+      "span": "cefaleia",
+      "start": 229,
+      "end": 237,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "Refere cefaleia holocraniana, náuseas e sudorese.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 76,
+  "group": "caso_estruturado"
+}

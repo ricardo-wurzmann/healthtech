@@ -1,0 +1,20 @@
+{
+  "doc_id": "pepv1_case_0049",
+  "source": "data\\raw\\pepv1.json",
+  "text": "49) ID: RN, termo, AIG, em alojamento conjunto, idade pós-natal a confirmar na admissão. QD: “Pele amarelada.” HPMA: Durante avaliação de rotina do RN, observa-se icterícia cutânea estendendo-se até a região inferior do tronco, pouco abaixo do umbigo, sem sinais de toxemia. Mãe refere aleitamento materno exclusivo, com mamadas frequentes, sem vômitos. Diurese e evacuações presentes, sem colúria ou fezes hipocólicas referidas. Exame físico: RN em bom estado geral, ativo, hidratado, normotérmico, sem desconforto respiratório; icterícia em faixa compatível com progressão para tronco inferior. No contexto, hipótese clínica de icterícia neonatal com necessidade de correlação com idade em horas de vida e bilirrubina sérica/transcutânea para estratificação de risco e conduta. ISDA: Sem febre, sem letargia persistente, sem recusa alimentar importante. AP: Antecedentes perinatais não informados. AF: Não informado.",
+  "entities": [
+    {
+      "span": "febre",
+      "start": 790,
+      "end": 795,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Sem febre, sem letargia persistente, sem recusa alimentar importante.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 49,
+  "group": "caso_estruturado"
+}

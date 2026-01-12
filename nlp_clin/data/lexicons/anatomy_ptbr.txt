@@ -1,0 +1,153 @@
+abdome
+abdome inferior
+abdome superior
+alvéolos
+antebraço
+aorta
+apêndice
+artéria
+artéria carótida
+artéria pulmonar
+baço
+bexiga
+bilateral
+boca
+braço
+bronquíolos
+brônquios
+cabeça
+caixa torácica
+calcanhar
+capilar
+cavidade abdominal
+cavidade nasal
+cavidade pleural
+cerebelo
+clavícula
+colo do útero
+coluna cervical
+coluna lombar
+coluna torácica
+coração
+corpo
+costelas
+cotovelo
+couro cabeludo
+coxa
+crânio
+cérebro
+cólon
+cólon ascendente
+cólon descendente
+cólon transverso
+dedos
+dedos do pé
+dentes
+duodeno
+encéfalo
+epigástrio
+escroto
+escápula
+esterno
+estômago
+esôfago cervical
+face
+flanco direito
+flanco esquerdo
+fossa ilíaca direita
+fossa ilíaca esquerda
+fronte
+fáscia
+fígado
+gengiva
+hipocôndrio direito
+hipocôndrio esquerdo
+hipofaringe
+hipogástrio
+intestino delgado
+intestino grosso
+jejuno
+joelho
+lado direito
+lado esquerdo
+laringe
+lábios
+língua
+mandíbula
+maxila
+mediastino
+medula espinhal
+membro inferior
+membro superior
+membros
+mesogástrio
+mão
+músculo
+nariz
+nasofaringe
+nervos periféricos
+occipital
+olho
+olhos
+ombro
+orofaringe
+osso
+ouvido
+ouvido externo
+ouvido interno
+ouvido médio
+ovário
+ovários
+palato
+parietal
+pele
+pelve
+pelve renal
+pericárdio
+perna
+pescoço
+planta do pé
+pleura
+próstata
+pulmão
+pulmão direito
+pulmão esquerdo
+punho
+pálpebra
+pâncreas
+pé
+pênis
+quadril
+região periumbilical
+reto
+rim
+rins
+septo nasal
+sigmoide
+tecido subcutâneo
+temporal
+testículo
+testículos
+tornozelo
+traqueia
+trompas
+tronco
+tronco encefálico
+tórax
+umbigo
+ureter
+ureteres
+uretra
+vagina
+vasos periféricos
+veia
+veia cava
+veia jugular
+ventrículo
+vesícula biliar
+vias biliares
+átrio
+ânus
+íleo
+órbita
+útero

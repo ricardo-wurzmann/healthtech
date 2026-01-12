@@ -1,0 +1,64 @@
+{
+  "doc_id": "pepv1_case_0004",
+  "source": "data\\raw\\pepv1.json",
+  "text": "4) Paciente feminina, com 37 anos de idade, atendida no pronto-socorro com queixa de disúria há 3 dias, dor lombar direita e febre aferida de 38, 5°C. Há um mês, a paciente refere ter apresentado sintomas semelhantes e foi tratada com cefadroxila oral por 14 dias, sem a realização de exames subsidiários com regressão completa dos sintomas na ocasião. Realizados os seguintes exames laboratoriais e de imagem: hemograma: hemoglobina = 12, 3 g/dl; hematócrito = 38%; proteína C-reativa: 11 mg/dl; creatinina: 0, 9 mg/dl; urina tipo I; pH = 5, 0; aspecto ligeiramente turvo; densidade = 1, 006; odor = sui generis; sedimento urinário: células epiteliais raras; muco raro; cristais = ausentes; substâncias amorfas = ausentes; leucócitos = 134.000/ml; hemácias = 91.000/ml; cultura de urina: bactéria Gram-negativa em identificação;",
+  "entities": [
+    {
+      "span": "disúria",
+      "start": 85,
+      "end": 92,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "4) Paciente feminina, com 37 anos de idade, atendida no pronto-socorro com queixa de disúria há 3 dias, dor lombar direita e febre aferida de 38, 5°C.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "febre",
+      "start": 125,
+      "end": 130,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "4) Paciente feminina, com 37 anos de idade, atendida no pronto-socorro com queixa de disúria há 3 dias, dor lombar direita e febre aferida de 38, 5°C.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "cefadroxila",
+      "start": 235,
+      "end": 246,
+      "type": "DRUG",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "Há um mês, a paciente refere ter apresentado sintomas semelhantes e foi tratada com cefadroxila oral por 14 dias, sem a realização de exames subsidiários com regressão completa dos sintomas na ocasião.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 411,
+      "end": 420,
+      "type": "TEST",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "Realizados os seguintes exames laboratoriais e de imagem: hemograma: hemoglobina = 12, 3 g/dl; hematócrito = 38%; proteína C-reativa: 11 mg/dl; creatinina: 0, 9 mg/dl; urina tipo I; pH = 5, 0; aspecto ligeiramente turvo; densidade = 1, 006; odor = sui generis; sedimento urinário: células epiteliais raras; muco raro; cristais = ausentes; substâncias amorfas = ausentes; leucócitos = 134.000/ml; hemácias = 91.000/ml; cultura de urina: bactéria Gram-negativa em identificação;",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "leucócitos = 134.000/ml",
+      "start": 724,
+      "end": 747,
+      "type": "TEST",
+      "score": 0.99,
+      "assertion": "PRESENT",
+      "evidence": "Realizados os seguintes exames laboratoriais e de imagem: hemograma: hemoglobina = 12, 3 g/dl; hematócrito = 38%; proteína C-reativa: 11 mg/dl; creatinina: 0, 9 mg/dl; urina tipo I; pH = 5, 0; aspecto ligeiramente turvo; densidade = 1, 006; odor = sui generis; sedimento urinário: células epiteliais raras; muco raro; cristais = ausentes; substâncias amorfas = ausentes; leucócitos = 134.000/ml; hemácias = 91.000/ml; cultura de urina: bactéria Gram-negativa em identificação;",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 4,
+  "group": "prontuario"
+}

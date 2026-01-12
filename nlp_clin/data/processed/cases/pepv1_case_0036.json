@@ -1,0 +1,42 @@
+{
+  "doc_id": "pepv1_case_0036",
+  "source": "data\\raw\\pepv1.json",
+  "text": "36) ID: Feminino, 20 meses, previamente hígida. QD: “Manchas no corpo.” HPMA: Há 3 dias iniciou febre alta (máx. 39, 5°C) com discreta hiporexia, sem outros sintomas associados. Evoluiu com resolução da febre há ~18 horas e, ao despertar hoje, surgimento de exantema não pruriginoso em tronco e membros, com bom estado geral e exame físico sem outras alterações relevantes. Sem uso recente de antibióticos. Quadro compatível com exantema súbito (roséola); DDx: outras viroses exantemáticas, farmacodermia. ISDA: Nega vômitos/diarreia, disúria e sintomas respiratórios relevantes. AP: Sem comorbidades; alergias não referidas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "febre",
+      "start": 96,
+      "end": 101,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "HPMA: Há 3 dias iniciou febre alta (máx.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "febre",
+      "start": 203,
+      "end": 208,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "Evoluiu com resolução da febre há ~18 horas e, ao despertar hoje, surgimento de exantema não pruriginoso em tronco e membros, com bom estado geral e exame físico sem outras alterações relevantes.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 535,
+      "end": 542,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega vômitos/diarreia, disúria e sintomas respiratórios relevantes.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 36,
+  "group": "caso_estruturado"
+}

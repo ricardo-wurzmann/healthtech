@@ -1,0 +1,31 @@
+{
+  "doc_id": "pepv1_case_0052",
+  "source": "data\\raw\\pepv1.json",
+  "text": "52) ID: Mulher, 55 anos, hipertensa, tabagista. QD: “Dor na panturrilha direita ao caminhar.” HPMA: Há 6 meses com dor progressiva em panturrilha direita desencadeada à deambulação, limitando caminhada a ~300 metros, com melhora ao repouso. Nega dor em repouso e lesões tróficas. Ao exame: pulso femoral presente; pulsos poplíteo e distais ausentes em MID, com perfusão distal limítrofe e temperatura reduzida em comparação contralateral (a documentar). Traz duplex scan com oclusão de artéria femoral no canal dos adutores e fluxo reduzido em artérias distais. Quadro compatível com doença arterial obstrutiva periférica com claudicação por oclusão femoropoplítea. ISDA: Nega dor torácica, dispneia aos esforços habituais além do limite imposto pela claudicação, síncope. AP: HAS; tabagismo ativo (quantificar). Medicações não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "Dor",
+      "start": 53,
+      "end": 56,
+      "type": "SYMPTOM",
+      "score": 0.9090909090909091,
+      "assertion": "PRESENT",
+      "evidence": "QD: “Dor na panturrilha direita ao caminhar.”",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "dor em",
+      "start": 246,
+      "end": 252,
+      "type": "SYMPTOM",
+      "score": 0.9090909090909091,
+      "assertion": "NEGATED",
+      "evidence": "Nega dor em repouso e lesões tróficas.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 52,
+  "group": "caso_estruturado"
+}

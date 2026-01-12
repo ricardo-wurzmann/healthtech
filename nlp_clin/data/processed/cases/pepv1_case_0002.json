@@ -1,0 +1,31 @@
+{
+  "doc_id": "pepv1_case_0002",
+  "source": "data\\raw\\pepv1.json",
+  "text": "2). Homem de 38 anos de idade, vem ao Pronto Socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue. Refere ingerir cerca de 300mL de aguardente / dia, há 10 anos. Apresenta diarreia e perda de peso nos últimos seis meses; nega outras doenças. Ao exame clínico, está em regular estado geral, tem Índice de Massa Corpórea de 30kg/m², desidratado, com pulso de 100bpm, frequência respiratória de 28ipm e pressão arterial de 150 x 100mmHg, glicemia capilar de 200mg/dL. O abdome é globoso, tenso, distendido, com muita dor à palpação do epigástrio e hipocôndrio esquerdo. A descompressão brusca não piora a dor, e não há outras alterações relevantes.",
+  "entities": [
+    {
+      "span": "dor epigástrica",
+      "start": 69,
+      "end": 84,
+      "type": "SYMPTOM",
+      "score": 0.99,
+      "assertion": "HISTORICAL",
+      "evidence": "Homem de 38 anos de idade, vem ao Pronto Socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "dor",
+      "start": 669,
+      "end": 672,
+      "type": "SYMPTOM",
+      "score": 1.0,
+      "assertion": "PRESENT",
+      "evidence": "A descompressão brusca não piora a dor, e não há outras alterações relevantes.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 2,
+  "group": "prontuario"
+}

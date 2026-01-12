@@ -1,0 +1,48 @@
+EAS
+INR
+PCR
+TGO
+TGP
+TTPA
+beta hcg
+bilirrubinas
+coagulograma
+creatinina
+doppler
+ecg
+ecocardiograma
+eletrocardiograma
+eletrólitos
+enzimas hepáticas
+escala de dor
+escala de glasgow
+fast
+função hepática
+gasometria
+gasometria arterial
+gasometria venosa
+glasgow
+glicemia
+glicemia capilar
+hemograma
+hemograma completo
+lactato
+oximetria
+potássio
+proteína c reativa
+radiografia
+raio x
+ressonância magnética
+rm
+rx
+saturação de oxigênio
+score apache
+score sofa
+sódio
+tc
+tomografia
+tomografia computadorizada
+ultrassonografia
+ureia
+urina tipo 1
+usg

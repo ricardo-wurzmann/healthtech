@@ -1,0 +1,31 @@
+{
+  "doc_id": "pepv1_case_0038",
+  "source": "data\\raw\\pepv1.json",
+  "text": "38) ID: Feminino, 7 meses, sem seguimento prévio. QD: “Choro estridente e inchaço em mãos e pés.” HPMA: Há 3 dias com agitação e choro estridente, sem febre, sem trauma e sem uso de medicações. Nascida de parto vaginal não assistido; mãe sem pré-natal; sem avaliações médicas prévias. Ao exame: irritada e inconsolável; mucosas descoradas 2+/4+ e icterícia 2+/4+; sopro sistólico suave 2+/6 em foco mitral; FC 160 bpm, PA normal para idade. Edema importante não depressível de mãos até punhos e pés até tornozelos, com hiperemia e aumento de temperatura local. Quadro compatível com dactilite/vaso-oclusão por hemoglobinopatia (a confirmar); DDx: celulite, osteomielite/artrite séptica, reação alérgica. ISDA: Nega sintomas respiratórios, vômitos/diarreia e disúria (conforme cuidadora). AP: Sem comorbidades conhecidas; alergias não referidas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "febre",
+      "start": 151,
+      "end": 156,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "HPMA: Há 3 dias com agitação e choro estridente, sem febre, sem trauma e sem uso de medicações.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 758,
+      "end": 765,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega sintomas respiratórios, vômitos/diarreia e disúria (conforme cuidadora).",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 38,
+  "group": "caso_estruturado"
+}

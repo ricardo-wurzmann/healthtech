@@ -1,0 +1,8 @@
+{
+  "doc_id": "pepv1_case_0032",
+  "source": "data\\raw\\pepv1.json",
+  "text": "32) ID: Masculino, 5 anos, internado em enfermaria pediátrica (leito 01), D3 de tratamento. QD: “Apareceram lesões na pele coçando muito.” HPMA: Em 3º dia de tratamento de pneumonia lobar, com derrame pleural laminar à direita não puncionável, em uso de penicilina cristalina, com melhora clínica significativa do quadro respiratório. Desde a manhã de hoje, iniciou lesões cutâneas pruriginosas difusas (aspecto conforme imagem do enunciado). Encontra-se em quarto compartilhado com outras duas crianças, incluindo menina de 9 anos com imunossupressão grave por doença neoplásica (leito",
+  "entities": [],
+  "case_id": 32,
+  "group": "caso_estruturado"
+}

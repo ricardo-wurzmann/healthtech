@@ -1,0 +1,47 @@
+acesso venoso central
+acesso venoso periférico
+administração de medicação
+analgesia
+anestesia
+aspiração de vias aéreas
+atendimento inicial
+avaliação primária
+avaliação secundária
+cardioversão
+cateterismo
+cateterismo vesical
+cirurgia
+colar cervical
+coleta de sangue
+coleta de secreção
+curativo
+curativo compressivo
+desfibrilação
+drenagem
+drenagem abdominal
+drenagem torácica
+expansão volêmica
+hemostasia
+hidratação venosa
+imobilização
+imobilização de membro
+intubação
+intubação orotraqueal
+laparotomia
+lavagem gástrica
+massagem cardíaca
+monitorização cardíaca
+monitorização contínua
+oxigenoterapia
+procedimento cirúrgico
+reanimação cardiopulmonar
+sedação
+sonda nasoenteral
+sonda vesical de demora
+sondagem nasogástrica
+sondagem vesical
+sutura
+sutura cutânea
+toracotomia
+transfusão sanguínea
+ventilação mecânica

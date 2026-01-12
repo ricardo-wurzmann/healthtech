@@ -1,0 +1,31 @@
+{
+  "doc_id": "pepv1_case_0048",
+  "source": "data\\raw\\pepv1.json",
+  "text": "48) ID: Recém-nascido termo, parto vaginal espontâneo, AIG, 38 horas de vida. Mãe em situação de rua, pré-natal insuficiente (2 consultas no 2º trimestre). QD: “Febre e tremores em RN com 38 horas de vida.” HPMA: Iniciou com temperatura 38, 2°C e tremores com 38 horas de vida. Ao exame clínico: hipoativo e taquipneico (FR 56 irpm), sem outras alterações descritas. Exames laboratoriais: hemograma com leucocitose e desvio à esquerda, PCR elevada e LCR normal. Quadro compatível com sepse neonatal precoce, com necessidade de seguimento em unidade neonatal e monitorização clínica/laboratorial seriada. ISDA: Sem vômitos ou diarreia referidos; sem sinais cutâneos localizatórios descritos. AP: Sem antecedentes neonatais adicionais informados. AF: Contexto social materno de vulnerabilidade; demais antecedentes familiares não informados.",
+  "entities": [
+    {
+      "span": "Febre",
+      "start": 161,
+      "end": 166,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "QD: “Febre e tremores em RN com 38 horas de vida.”",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 389,
+      "end": 398,
+      "type": "TEST",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "Exames laboratoriais: hemograma com leucocitose e desvio à esquerda, PCR elevada e LCR normal.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 48,
+  "group": "caso_estruturado"
+}

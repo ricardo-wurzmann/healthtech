@@ -1,0 +1,31 @@
+{
+  "doc_id": "pepv1_case_0028",
+  "source": "data\\raw\\pepv1.json",
+  "text": "28) ID: Feminino, 35 anos, gestante, IG 39 semanas. QD: “Contrações fortes e regulares.” HPMA: Admitida no centro obstétrico em trabalho de parto espontâneo. Refere contrações regulares e dolorosas, sem sangramento vaginal. Nega perda de líquido há muitas horas, porém evoluiu com rotura espontânea de membranas já na admissão, com líquido amniótico claro. Ao exame: bom estado geral, sem sinais de sofrimento. Abdome gravídico, AU 37 cm, dinâmica uterina presente, BCF 146 bpm, apresentação cefálica. Toque vaginal: colo fino, medianizado, 7 cm, plano 0 de De Lee. Sem sinais clínicos de corioamnionite. Iniciada monitorização fetal contínua e medidas de rotina do pré-parto (acesso venoso, analgesia conforme protocolo/solicitação, hidratação venosa conforme necessidade). ISDA: Nega cefaleia intensa/escotomas; nega dispneia, dor torácica; nega disúria; afebril. AP: Nega doenças prévias (sem HAS/DM). Cirurgias: nega. Medicações: apenas polivitamínico/ferro (habitual de pré-natal). Alergias: nega. AF: Sem dados relevantes referidos.",
+  "entities": [
+    {
+      "span": "cefaleia",
+      "start": 786,
+      "end": 794,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega cefaleia intensa/escotomas; nega dispneia, dor torácica; nega disúria; afebril.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 848,
+      "end": 855,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega cefaleia intensa/escotomas; nega dispneia, dor torácica; nega disúria; afebril.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 28,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,42 @@
+{
+  "doc_id": "pepv1_case_0074",
+  "source": "data\\raw\\pepv1.json",
+  "text": "74) ID: Feminino, 68 anos. HAS e DM2. QD: “Fraqueza do lado direito e desvio da boca” há ~5 horas. HPMA: Refere início súbito há 5h de cefaleia holocraniana moderada, latejante, seguida de dificuldade para mobilizar MSD/MID direitos e desvio de rima labial para a esquerda. Nega trauma, convulsão, febre, vômitos em jato. No PS: BEG, consciente, orientada, afebril, PA 150 x 102 mmHg, pulso 72 bpm irregular. Ausculta cardíaca com bulhas arrítmicas, sem sopros. Neurológico: hemiparesia completa e proporcionada grau 3 à direita, disartria, anomia, hemi-hipoestesia completa à direita; sem rigidez de nuca. TC de crânio sem contraste sem sinais de hemorragia aguda; discreta perda de diferenciação córtico-subcortical fronto-insular esquerda. ECG 12 derivações com fibrilação atrial. Quadro compatível com AVC isquêmico em provável território de ACM esquerda, provável etiologia cardioembólica. ISDA: Nega dor torácica, palpitações percebidas, dispneia, tosse; nega dor abdominal, diarreia; diurese preservada. AP: HAS (losartana 50 mg/dia), DM2 (metformina 1.000 mg/dia). Nega alergias medicamentosas conhecidas. Nega AVC prévio. AF: Nega tabagismo atual; etilismo social. Mora com família, independente nas AVDs até o evento.",
+  "entities": [
+    {
+      "span": "cefaleia",
+      "start": 135,
+      "end": 143,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": "HPMA: Refere início súbito há 5h de cefaleia holocraniana moderada, latejante, seguida de dificuldade para mobilizar MSD/MID direitos e desvio de rima labial para a esquerda.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "febre",
+      "start": 298,
+      "end": 303,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "Nega trauma, convulsão, febre, vômitos em jato.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "dor abdominal",
+      "start": 966,
+      "end": 979,
+      "type": "SYMPTOM",
+      "score": 0.99,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega dor torácica, palpitações percebidas, dispneia, tosse; nega dor abdominal, diarreia; diurese preservada.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 74,
+  "group": "caso_estruturado"
+}

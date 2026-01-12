@@ -1,0 +1,8 @@
+{
+  "doc_id": "pepv1_case_0068",
+  "source": "data\\raw\\pepv1.json",
+  "text": "68) ID: M, 50 anos. QD: “Fezes negras há 3 horas.” HPMA: Início súbito de melena há ~3 horas. História de episódio semelhante há 1 ano, quando foi diagnosticado sangramento por varizes esofágicas e cirrose por HBV. Desde então em uso de propranolol e realiza sessões de escleroterapia. Relata uso recente de anti-inflamatórios por lombalgia. Na sala de emergência: orientado, FC 90 bpm, PA 80×50 mmHg, TEC >3 s. Submetido à endoscopia com achado de varizes de fundo gástrico com sangramento ativo (hipótese: HDA varicosa por hipertensão portal, em choque hipovolêmico). ISDA: Refere lipotimia e sudorese fria. Nega dor torácica. Nega hematêmese referida (predomínio de melena). Sem queixas urinárias associadas. AP: Cirrose por hepatite B. Episódio prévio de sangramento varicoso. Medicações: propranolol (uso regular). Procedimentos prévios: escleroterapia endoscópica. Uso recente de AINE. Alergias não referidas. Etilismo: não informado/negado. AF: REG, pálido, sudorético, extremidades frias, hipoperfusão periférica. PA 80×50, FC 90, TEC >3s. Abdome sem sinais de peritonite (sem dados adicionais relevantes). Sem estigmas descritos no momento. Pós-EDA: varizes de fundo gástrico com sangramento ativo.",
+  "entities": [],
+  "case_id": 68,
+  "group": "caso_estruturado"
+}

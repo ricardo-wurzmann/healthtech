@@ -1,0 +1,20 @@
+{
+  "doc_id": "pepv1_case_0050",
+  "source": "data\\raw\\pepv1.json",
+  "text": "50) ID: Mulher, 77 anos, emagrecida. QD: “Ferida dolorosa na língua com sangramento.” HPMA: Lesão dolorosa e sangrante em língua há 6 meses, com piora progressiva. Há 1 mês procurou dentista para remodelagem de prótese dentária (em uso há 15 anos) por aumento da mordedura da língua desde o início da lesão. Refere higiene da prótese apenas com enxágue diário antes de dormir. Tabagista prévia (20 maços/ano por 25 anos), cessou há 30 anos; nega etilismo. Ao exame da cavidade oral, lesão ulcerada em borda lateral de língua, infiltrada e friável, com sangramento ao toque, compatível com quadro crônico; avaliação cervical com pesquisa de linfonodomegalias a documentar. Quadro sugerindo neoplasia de língua (carcinoma espinocelular). ISDA: Nega febre; sem sintomas respiratórios; sem queixas gastrointestinais associadas. AP: Emagrecimento referido; demais comorbidades/medicações não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "febre",
+      "start": 747,
+      "end": 752,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega febre; sem sintomas respiratórios; sem queixas gastrointestinais associadas.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 50,
+  "group": "caso_estruturado"
+}

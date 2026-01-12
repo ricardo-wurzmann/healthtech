@@ -1,0 +1,103 @@
+{
+  "total_cases": 80,
+  "total_entities": 176,
+  "filled_count": 158,
+  "ambiguous_count": 13,
+  "not_found_count": 5,
+  "examples": {
+    "ambiguous": [
+      {
+        "case_id": "1",
+        "text": "pressão arterial",
+        "match_count": 3
+      },
+      {
+        "case_id": "7",
+        "text": "Frequência cardíaca",
+        "match_count": 2
+      },
+      {
+        "case_id": "7",
+        "text": "índice de pulsatilidade",
+        "match_count": 2
+      },
+      {
+        "case_id": "8",
+        "text": "PA",
+        "match_count": 9
+      },
+      {
+        "case_id": "11",
+        "text": "febre",
+        "match_count": 2
+      },
+      {
+        "case_id": "11",
+        "text": "prostrada",
+        "match_count": 2
+      },
+      {
+        "case_id": "11",
+        "text": "PA",
+        "match_count": 7
+      },
+      {
+        "case_id": "11",
+        "text": "T",
+        "match_count": 37
+      },
+      {
+        "case_id": "12",
+        "text": "Peso",
+        "match_count": 2
+      },
+      {
+        "case_id": "12",
+        "text": "Estatura",
+        "match_count": 2
+      },
+      {
+        "case_id": "12",
+        "text": "Perímetro cefálico",
+        "match_count": 2
+      },
+      {
+        "case_id": "13",
+        "text": "pulso",
+        "match_count": 2
+      },
+      {
+        "case_id": "14",
+        "text": "febre",
+        "match_count": 2
+      }
+    ],
+    "not_found": [
+      {
+        "case_id": "1",
+        "text": "FAST",
+        "match_count": 0
+      },
+      {
+        "case_id": "6",
+        "text": "Perfil hormonal",
+        "match_count": 0
+      },
+      {
+        "case_id": "9",
+        "text": "parto vaginal",
+        "match_count": 0
+      },
+      {
+        "case_id": "12",
+        "text": "chorar antes do horário da próxima mamada",
+        "match_count": 0
+      },
+      {
+        "case_id": "14",
+        "text": "cefaleia retro-orbitária",
+        "match_count": 0
+      }
+    ]
+  }
+}

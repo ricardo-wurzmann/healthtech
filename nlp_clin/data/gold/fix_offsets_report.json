@@ -1,0 +1,139 @@
+{
+  "total_cases": 80,
+  "total_entities": 176,
+  "fixed_count": 173,
+  "unchanged_count": 0,
+  "unresolved_count": 3,
+  "ambiguous_count": 173,
+  "status_counts": {
+    "ambiguous": 173,
+    "unresolved": 3
+  },
+  "examples": {
+    "ambiguous": [
+      {
+        "case_id": "1",
+        "text": "dor",
+        "old_start": 318,
+        "old_end": 322,
+        "new_start": 313,
+        "new_end": 316,
+        "span": "dor",
+        "method": "exact_cs_window"
+      },
+      {
+        "case_id": "1",
+        "text": "trauma craniano",
+        "old_start": 348,
+        "old_end": 365,
+        "new_start": 345,
+        "new_end": 360,
+        "span": "trauma craniano",
+        "method": "exact_cs_window"
+      },
+      {
+        "case_id": "1",
+        "text": "cefaleia intensa",
+        "old_start": 404,
+        "old_end": 422,
+        "new_start": 401,
+        "new_end": 417,
+        "span": "cefaleia intensa",
+        "method": "exact_cs_window"
+      },
+      {
+        "case_id": "1",
+        "text": "vômitos",
+        "old_start": 427,
+        "old_end": 435,
+        "new_start": 424,
+        "new_end": 431,
+        "span": "vômitos",
+        "method": "exact_cs_window"
+      },
+      {
+        "case_id": "1",
+        "text": "abdome doloroso",
+        "old_start": 1010,
+        "old_end": 1028,
+        "new_start": 1008,
+        "new_end": 1023,
+        "span": "Abdome doloroso",
+        "method": "exact_ci_window"
+      },
+      {
+        "case_id": "1",
+        "text": "equimose",
+        "old_start": 1086,
+        "old_end": 1096,
+        "new_start": 1083,
+        "new_end": 1091,
+        "span": "equimose",
+        "method": "exact_cs_window"
+      },
+      {
+        "case_id": "1",
+        "text": "escoriação",
+        "old_start": 1097,
+        "old_end": 1108,
+        "new_start": 1094,
+        "new_end": 1104,
+        "span": "escoriação",
+        "method": "exact_cs_window"
+      },
+      {
+        "case_id": "1",
+        "text": "pressão arterial",
+        "old_start": null,
+        "old_end": null,
+        "new_start": 510,
+        "new_end": 526,
+        "span": "pressão arterial",
+        "method": "exact_cs_global"
+      },
+      {
+        "case_id": "1",
+        "text": "frequência respiratória",
+        "old_start": 550,
+        "old_end": 577,
+        "new_start": 544,
+        "new_end": 567,
+        "span": "frequência respiratória",
+        "method": "exact_cs_window"
+      },
+      {
+        "case_id": "1",
+        "text": "saturação de oxigênio",
+        "old_start": 583,
+        "old_end": 609,
+        "new_start": 579,
+        "new_end": 600,
+        "span": "saturação de oxigênio",
+        "method": "exact_cs_window"
+      }
+    ],
+    "unresolved": [
+      {
+        "case_id": "9",
+        "text": "parto vaginal",
+        "old_start": null,
+        "old_end": null,
+        "message": "no_match_found"
+      },
+      {
+        "case_id": "12",
+        "text": "chorar antes do horário da próxima mamada",
+        "old_start": null,
+        "old_end": null,
+        "message": "no_match_found"
+      },
+      {
+        "case_id": "14",
+        "text": "cefaleia retro-orbitária",
+        "old_start": null,
+        "old_end": null,
+        "message": "no_match_found"
+      }
+    ]
+  }
+}

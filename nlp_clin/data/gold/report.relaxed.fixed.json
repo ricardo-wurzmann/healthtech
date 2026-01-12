@@ -1,0 +1,415 @@
+{
+  "config": {
+    "relaxed_matching": true,
+    "overlap_threshold": 0.5,
+    "use_iou": true,
+    "total_cases": 80,
+    "total_gold_entities_loaded": 176,
+    "total_pred_entities_loaded": 183,
+    "total_gold_entities_with_missing_offsets": 3,
+    "total_matches_found": 19
+  },
+  "ner": {
+    "overall": {
+      "precision": 0.10382513661202186,
+      "recall": 0.10982658959537572,
+      "f1": 0.10674157303370786,
+      "tp": 19,
+      "fp": 164,
+      "fn": 154
+    },
+    "per_type": {
+      "DRUG": {
+        "precision": 0.2857142857142857,
+        "recall": 0.15384615384615385,
+        "f1": 0.2,
+        "tp": 2,
+        "fp": 5,
+        "fn": 11
+      },
+      "SYMPTOM": {
+        "precision": 0.08641975308641975,
+        "recall": 0.1728395061728395,
+        "f1": 0.11522633744855966,
+        "tp": 14,
+        "fp": 148,
+        "fn": 67
+      },
+      "TEST": {
+        "precision": 0.15384615384615385,
+        "recall": 0.031746031746031744,
+        "f1": 0.05263157894736842,
+        "tp": 2,
+        "fp": 11,
+        "fn": 61
+      },
+      "PROCEDURE": {
+        "precision": 1.0,
+        "recall": 0.0625,
+        "f1": 0.11764705882352941,
+        "tp": 1,
+        "fp": 0,
+        "fn": 15
+      }
+    }
+  },
+  "assertion": {
+    "accuracy": 0.631578947368421,
+    "confusion_matrix": {
+      "PRESENT": {
+        "PRESENT": 9,
+        "NEGATED": 2,
+        "POSSIBLE": 0,
+        "HISTORICAL": 4
+      },
+      "NEGATED": {
+        "PRESENT": 0,
+        "NEGATED": 3,
+        "POSSIBLE": 0,
+        "HISTORICAL": 0
+      },
+      "POSSIBLE": {
+        "PRESENT": 0,
+        "NEGATED": 0,
+        "POSSIBLE": 0,
+        "HISTORICAL": 0
+      },
+      "HISTORICAL": {
+        "PRESENT": 0,
+        "NEGATED": 1,
+        "POSSIBLE": 0,
+        "HISTORICAL": 0
+      }
+    },
+    "total_matched": 19
+  },
+  "coverage": {
+    "total_cases": 80,
+    "cases_with_entities": 67,
+    "cases_without_entities": 13,
+    "pct_cases_with_entities": 83.75,
+    "avg_entities_per_case": 2.2875,
+    "entity_type_distribution": {
+      "SYMPTOM": 162,
+      "PROCEDURE": 1,
+      "DRUG": 7,
+      "TEST": 13
+    },
+    "top_entity_texts": [
+      {
+        "text": "febre",
+        "count": 49
+      },
+      {
+        "text": "vômitos",
+        "count": 29
+      },
+      {
+        "text": "disúria",
+        "count": 19
+      },
+      {
+        "text": "dor abdominal",
+        "count": 15
+      },
+      {
+        "text": "cefaleia",
+        "count": 14
+      },
+      {
+        "text": "hemograma",
+        "count": 8
+      },
+      {
+        "text": "dor em",
+        "count": 4
+      },
+      {
+        "text": "dor epigástrica",
+        "count": 3
+      },
+      {
+        "text": "paracetamol",
+        "count": 3
+      },
+      {
+        "text": "dor,",
+        "count": 2
+      },
+      {
+        "text": "“Febre",
+        "count": 2
+      },
+      {
+        "text": "dipirona",
+        "count": 2
+      },
+      {
+        "text": "(FAST",
+        "count": 1
+      },
+      {
+        "text": "com",
+        "count": 1
+      },
+      {
+        "text": "à palpação do",
+        "count": 1
+      },
+      {
+        "text": "muita dor",
+        "count": 1
+      },
+      {
+        "text": "palpação do epigástrio",
+        "count": 1
+      },
+      {
+        "text": "cefadroxila",
+        "count": 1
+      },
+      {
+        "text": "leucócitos = 134.000/ml",
+        "count": 1
+      },
+      {
+        "text": "dor na",
+        "count": 1
+      }
+    ]
+  },
+  "errors": {
+    "false_positives": [
+      {
+        "case_id": "2",
+        "text": "com",
+        "type": "SYMPTOM",
+        "start": 571,
+        "end": 574,
+        "score": 1.0,
+        "evidence": "Ao exame clínico, está em regular estado geral, tem Índice de Massa Corpórea de 30kg/m², desidratado, com pulso de 100bpm, frequência respiratória de 28ipm e pressão arterial de 150 x 100mmHg, glicemia capilar de 200mg/dL. O abdome é globoso, tenso, distendido, com muita dor à palpação do epigástrio e hipocôndrio esquerdo."
+      },
+      {
+        "case_id": "2",
+        "text": "à palpação do",
+        "type": "SYMPTOM",
+        "start": 585,
+        "end": 598,
+        "score": 0.923076923076923,
+        "evidence": "Ao exame clínico, está em regular estado geral, tem Índice de Massa Corpórea de 30kg/m², desidratado, com pulso de 100bpm, frequência respiratória de 28ipm e pressão arterial de 150 x 100mmHg, glicemia capilar de 200mg/dL. O abdome é globoso, tenso, distendido, com muita dor à palpação do epigástrio e hipocôndrio esquerdo."
+      },
+      {
+        "case_id": "2",
+        "text": "dor,",
+        "type": "SYMPTOM",
+        "start": 669,
+        "end": 673,
+        "score": 1.0,
+        "evidence": "A descompressão brusca não piora a dor, e não há outras alterações relevantes."
+      },
+      {
+        "case_id": "3",
+        "text": "muita dor",
+        "type": "SYMPTOM",
+        "start": 577,
+        "end": 586,
+        "score": 1.0,
+        "evidence": "O abdome é globoso, tenso, distendido, com muita dor à palpação do epigástrio e hipocôndrio esquerdo."
+      },
+      {
+        "case_id": "3",
+        "text": "palpação do epigástrio",
+        "type": "SYMPTOM",
+        "start": 589,
+        "end": 611,
+        "score": 0.923076923076923,
+        "evidence": "O abdome é globoso, tenso, distendido, com muita dor à palpação do epigástrio e hipocôndrio esquerdo."
+      },
+      {
+        "case_id": "3",
+        "text": "dor,",
+        "type": "SYMPTOM",
+        "start": 671,
+        "end": 675,
+        "score": 1.0,
+        "evidence": "A descompressão brusca não piora a dor, e não há outras alterações relevantes."
+      },
+      {
+        "case_id": "4",
+        "text": "leucócitos = 134.000/ml",
+        "type": "TEST",
+        "start": 724,
+        "end": 747,
+        "score": 0.99,
+        "evidence": "Realizados os seguintes exames laboratoriais e de imagem: hemograma: hemoglobina = 12, 3 g/dl; hematócrito = 38%; proteína C-reativa: 11 mg/dl; creatinina: 0, 9 mg/dl; urina tipo I; pH = 5, 0; aspecto ligeiramente turvo; densidade = 1, 006; odor = sui generis; sedimento urinário: células epiteliais raras; muco raro; cristais = ausentes; substâncias amorfas = ausentes; leucócitos = 134.000/ml; hemácias = 91.000/ml; cultura de urina: bactéria Gram-negativa em identificação;"
+      },
+      {
+        "case_id": "5",
+        "text": "dor na",
+        "type": "SYMPTOM",
+        "start": 37,
+        "end": 43,
+        "score": 0.9090909090909091,
+        "evidence": "Paciente de 45 anos de idade com dor na região lombar direita há 7 dias."
+      },
+      {
+        "case_id": "8",
+        "text": "relatando",
+        "type": "SYMPTOM",
+        "start": 167,
+        "end": 176,
+        "score": 0.9090909090909091,
+        "evidence": "8) Maria Helena, 35 anos, G2 P1c, 38 6/7 semanas (idade gestacional confirmada pela data da última menstruação e pela ultrassonografia precoce), procura a maternidade relatando dor em abdome inferior, tipo cólica, de intensidade moderada, a cada 5 minutos."
+      },
+      {
+        "case_id": "10",
+        "text": "e abdominal",
+        "type": "SYMPTOM",
+        "start": 996,
+        "end": 1007,
+        "score": 0.9523809523809522,
+        "evidence": "Sem alterações as propedêuticas cardíaca, pulmonar e abdominal."
+      }
+    ],
+    "false_negatives": [
+      {
+        "case_id": "1",
+        "text": "dor",
+        "type": "SYMPTOM",
+        "start": 313,
+        "end": 316,
+        "context": "ome contra o guidão da bicicleta e refere intensa dor no local. Apresenta, ainda, trauma craniano, sem "
+      },
+      {
+        "case_id": "1",
+        "text": "trauma craniano",
+        "type": "SYMPTOM",
+        "start": 345,
+        "end": 360,
+        "context": " e refere intensa dor no local. Apresenta, ainda, trauma craniano, sem perda de consciência, porém refere cefaleia "
+      },
+      {
+        "case_id": "1",
+        "text": "abdome doloroso",
+        "type": "SYMPTOM",
+        "start": 1008,
+        "end": 1023,
+        "context": "rterial = 120 x 70 mmHg; sem sangramento visível. Abdome doloroso à palpação em epigástrio e mesogástrio, onde se e"
+      },
+      {
+        "case_id": "1",
+        "text": "equimose",
+        "type": "SYMPTOM",
+        "start": 1083,
+        "end": 1091,
+        "context": "o em epigástrio e mesogástrio, onde se evidenciam equimose e escoriação. Toque retal sem alterações, diurese"
+      },
+      {
+        "case_id": "1",
+        "text": "escoriação",
+        "type": "SYMPTOM",
+        "start": 1094,
+        "end": 1104,
+        "context": "trio e mesogástrio, onde se evidenciam equimose e escoriação. Toque retal sem alterações, diurese clara. D – e"
+      },
+      {
+        "case_id": "1",
+        "text": "pressão arterial",
+        "type": "TEST",
+        "start": 510,
+        "end": 526,
+        "context": "do resgate no local do acidente: pulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência respiratória = 16 irp"
+      },
+      {
+        "case_id": "1",
+        "text": "frequência respiratória",
+        "type": "TEST",
+        "start": 544,
+        "end": 567,
+        "context": "ulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência respiratória = 16 irpm; saturação de oxigênio 97% em ar ambien"
+      },
+      {
+        "case_id": "1",
+        "text": "saturação de oxigênio",
+        "type": "TEST",
+        "start": 579,
+        "end": 600,
+        "context": "130 x 90 mmHg; frequência respiratória = 16 irpm; saturação de oxigênio 97% em ar ambiente. Tempo entre acidente e admiss"
+      },
+      {
+        "case_id": "1",
+        "text": "escala de coma de Glasgow",
+        "type": "TEST",
+        "start": 1153,
+        "end": 1178,
+        "context": "o. Toque retal sem alterações, diurese clara. D – escala de coma de Glasgow = 15; pupilas isocóricas e fotorreagentes. E – se"
+      },
+      {
+        "case_id": "1",
+        "text": "expansão volêmica",
+        "type": "PROCEDURE",
+        "start": 1259,
+        "end": 1276,
+        "context": "orreagentes. E – sem outras alterações. Realizada expansão volêmica com 2.000 ml de soro fisiológico e analgesia. Apó"
+      }
+    ],
+    "assertion_mismatches": [
+      {
+        "case_id": "1",
+        "text": "cefaleia intensa",
+        "type": "SYMPTOM",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "NEGATED",
+        "evidence": "Apresenta, ainda, trauma craniano, sem perda de consciência, porém refere cefaleia intensa."
+      },
+      {
+        "case_id": "2",
+        "text": "dor epigástrica intensa",
+        "type": "SYMPTOM",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "HISTORICAL",
+        "evidence": "Homem de 38 anos de idade, vem ao Pronto Socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue."
+      },
+      {
+        "case_id": "2",
+        "text": "vômitos",
+        "type": "SYMPTOM",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "HISTORICAL",
+        "evidence": "Homem de 38 anos de idade, vem ao Pronto Socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue."
+      },
+      {
+        "case_id": "3",
+        "text": "dor epigástrica intensa",
+        "type": "SYMPTOM",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "HISTORICAL",
+        "evidence": "3) Homem, 38 anos de idade, vem ao pronto-socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue."
+      },
+      {
+        "case_id": "3",
+        "text": "vômitos",
+        "type": "SYMPTOM",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "HISTORICAL",
+        "evidence": "3) Homem, 38 anos de idade, vem ao pronto-socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue."
+      },
+      {
+        "case_id": "4",
+        "text": "cefadroxila",
+        "type": "DRUG",
+        "gold_assertion": "HISTORICAL",
+        "pred_assertion": "NEGATED",
+        "evidence": "Há um mês, a paciente refere ter apresentado sintomas semelhantes e foi tratada com cefadroxila oral por 14 dias, sem a realização de exames subsidiários com regressão completa dos sintomas na ocasião."
+      },
+      {
+        "case_id": "10",
+        "text": "Hemograma Completo",
+        "type": "TEST",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "NEGATED",
+        "evidence": "No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas."
+      }
+    ]
+  }
+}

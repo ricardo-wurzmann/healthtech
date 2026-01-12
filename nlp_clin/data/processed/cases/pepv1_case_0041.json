@@ -1,0 +1,31 @@
+{
+  "doc_id": "pepv1_case_0041",
+  "source": "data\\raw\\pepv1.json",
+  "text": "41) ID: Feminino, 18 meses, seguimento de puericultura, sem queixas. QD: “Retorno para avaliação de palidez.” HPMA: Em bom estado geral, peso e estatura entre P15–P50 (curvas OMS). Na consulta anterior, observada discreta palidez cutânea sem outros achados e solicitados hemograma completo e reticulócitos. Exames (conforme anexos enviados): Hb 9, 4 g/dL; Ht 29, 6%; VCM 64, 5 fL; HCM 20, 5 pg; CHCM 31, 8 g/dL; RDW 15, 2%; leucócitos 12.770/mm³; plaquetas 466.000/mm³; reticulócitos 0, 4%. Quadro compatível com anemia microcítica/hipocrômica, provável anemia ferropriva; DDx: talassemia menor, anemia da inflamação. ISDA: Nega sangramentos, diarreia crônica, febre prolongada e dispneia aos esforços habituais. AP: Nega comorbidades e uso de medicações contínuas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "hemograma",
+      "start": 271,
+      "end": 280,
+      "type": "TEST",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "Na consulta anterior, observada discreta palidez cutânea sem outros achados e solicitados hemograma completo e reticulócitos.",
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "febre",
+      "start": 661,
+      "end": 666,
+      "type": "SYMPTOM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": "ISDA: Nega sangramentos, diarreia crônica, febre prolongada e dispneia aos esforços habituais.",
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 41,
+  "group": "caso_estruturado"
+}
