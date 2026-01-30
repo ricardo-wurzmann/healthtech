@@ -1,0 +1,5 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+nlp_clin/data/processed/

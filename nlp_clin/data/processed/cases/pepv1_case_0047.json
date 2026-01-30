@@ -1,8 +1,0 @@
-{
-  "doc_id": "pepv1_case_0047",
-  "source": "data\\raw\\pepv1.json",
-  "text": "47) ID: Gestante, 35 semanas e 2 dias, pré-natal adequado, HBsAg positivo. QD: “Parto vaginal em gestante HBsAg+ e conduta neonatal imediata.” HPMA: Evoluiu para parto vaginal sem intercorrências com 35s2d. Sorologia do pré-natal com HBsAg reagente; demais dados do rastreio não informados. RN masculino, pequeno para idade gestacional, peso ao nascer 1.850 g, com necessidade de avaliação neonatal direcionada (vitalidade ao nascimento e exame físico imediato a documentar), em contexto de risco de transmissão vertical do HBV. ISDA: Sem dados maternos adicionais de sintomas infecciosos no periparto. AP: Gestação atual com HBsAg positivo. Alergias: não informadas. AF: Não informado.",
-  "entities": [],
-  "case_id": 47,
-  "group": "caso_estruturado"
-}
