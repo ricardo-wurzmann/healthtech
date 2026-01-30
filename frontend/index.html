@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clinical NLP Debug</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Clinical NLP Debug</h1>
+      <p>Cole o prontuário abaixo e execute o pipeline.</p>
+
+      <textarea id="inputText" rows="10" placeholder="Cole aqui o texto clínico..."></textarea>
+      <div class="controls">
+        <button id="runBtn">Run pipeline</button>
+        <span id="status"></span>
+      </div>
+
+      <section>
+        <h2>Raw text</h2>
+        <pre id="rawText"></pre>
+      </section>
+      <section>
+        <h2>Preprocessed text</h2>
+        <pre id="preprocessedText"></pre>
+      </section>
+      <section>
+        <h2>Sentences (JSON)</h2>
+        <pre id="sentences"></pre>
+      </section>
+      <section>
+        <h2>Entities BEFORE filtering (JSON)</h2>
+        <pre id="entitiesBefore"></pre>
+      </section>
+      <section>
+        <h2>Entities AFTER filtering (JSON)</h2>
+        <pre id="entitiesAfter"></pre>
+      </section>
+      <section>
+        <h2>Filter log (JSON)</h2>
+        <pre id="filterLog"></pre>
+      </section>
+      <section>
+        <h2>Final output JSON</h2>
+        <pre id="finalOutput"></pre>
+      </section>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

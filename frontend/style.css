@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+
+.container {
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 0 16px 32px;
+}
+
+textarea {
+  width: 100%;
+  margin: 8px 0 12px;
+  padding: 10px;
+  font-family: inherit;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+pre {
+  background: #fff;
+  padding: 12px;
+  border: 1px solid #ddd;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.status {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.status.error {
+  color: #b00020;
+}
