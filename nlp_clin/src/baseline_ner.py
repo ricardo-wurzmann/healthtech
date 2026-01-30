@@ -5,6 +5,7 @@ import re
 from rapidfuzz import fuzz
 
 from src.lexicon import LEXICON
+from src.patterns import PATTERN_DEFS
 from src.search_index import LexiconIndex, MatchCandidate
 
 
@@ -22,6 +23,9 @@ class EntitySpan:
 
 # Initialize index once at module load
 _index = LexiconIndex(LEXICON)
+
+# Fuzzy matching is disabled for SYMPTOM to reduce false positives
+FUZZY_ENABLED_TYPES = {etype for _, etype in LEXICON if etype != "SYMPTOM"}
 
 
 def _normalize_for_match(s: str) -> str:
@@ -207,12 +211,8 @@ def extract_entities_baseline(text: str, sentences: List[Tuple[str, int, int]],
     results: List[EntitySpan] = []
     
     # 1) Regex patterns (high precision)
-    regex_patterns = [
-        (re.compile(r"\bFAST\b", re.IGNORECASE), "PROCEDURE", 0.95),
-    ]
-    
     for sent_text, ss, se in sentences:
-        for pat, etype, score in regex_patterns:
+        for pat, etype, score in PATTERN_DEFS:
             for m in pat.finditer(sent_text):
                 start = ss + m.start()
                 end = ss + m.end()
@@ -271,6 +271,11 @@ def extract_entities_baseline(text: str, sentences: List[Tuple[str, int, int]],
         # 3) Fuzzy fallback (only if no exact/token matches and enabled)
         if enable_fuzzy and not any(c.match_type in ("exact", "token") for c in candidates):
             fuzzy_candidates = _index.find_fuzzy_candidates(sent_norm, sent_tokens, candidates)
+            fuzzy_candidates = [
+                cand for cand in fuzzy_candidates if cand.entity_type in FUZZY_ENABLED_TYPES
+            ]
+            if not fuzzy_candidates:
+                continue
             
             for cand in fuzzy_candidates:
                 # Use rapidfuzz to find best match

@@ -33,7 +33,15 @@ def process_document(doc, text: str) -> DocOut:
     entities_dict = []
     for e in spans:
         sentence_text = text[e.sentence_start:e.sentence_end]
-        assertion = classify_assertion(sentence_text)
+        ent_start_in_sent = e.start - e.sentence_start
+        ent_end_in_sent = e.end - e.sentence_start
+        assertion = classify_assertion(
+            sentence_text,
+            ent_start_in_sent,
+            ent_end_in_sent,
+            e.type
+        )
+
         
         entities_dict.append({
             "span": e.span,
@@ -124,23 +132,23 @@ def run_on_json(json_path: str | Path, out_dir: str | Path) -> None:
     print(f"\nCompleted: {len(documents)} cases processed -> {out_dir}")
 
 
-def run_on_pdf(pdf_path: str | Path, out_path: str | Path) -> None:
-    """
-    Legacy function for PDF processing (kept for backward compatibility).
-    """
-    from src.ingest import load_pdf_as_document
+# def run_on_pdf(pdf_path: str | Path, out_path: str | Path) -> None:
+#     """
+#     Legacy function for PDF processing (kept for backward compatibility).
+#     """
+#     from src.ingest import load_pdf_as_document
     
-    doc = load_pdf_as_document(pdf_path)
-    text = normalize_text(doc.text)
+#     doc = load_pdf_as_document(pdf_path)
+#     text = normalize_text(doc.text)
     
-    result = process_document(doc, text)
+#     result = process_document(doc, text)
     
-    out_path = Path(out_path)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(
-        json.dumps(result, default=lambda o: o.__dict__, ensure_ascii=False, indent=2),
-        encoding="utf-8"
-    )
+#     out_path = Path(out_path)
+#     out_path.parent.mkdir(parents=True, exist_ok=True)
+#     out_path.write_text(
+#         json.dumps(result, default=lambda o: o.__dict__, ensure_ascii=False, indent=2),
+#         encoding="utf-8"
+#     )
 
 
 if __name__ == "__main__":
@@ -174,5 +182,5 @@ if __name__ == "__main__":
     else:
         # PDF mode (legacy)
         out_path = args.out or Path("data/processed/pipeline_output.json")
-        run_on_pdf(args.input, out_path)
+        # run_on_pdf(args.input, out_path)
         print(f"OK -> {out_path}")

@@ -130,10 +130,10 @@ def filter_entities(
         extracted_span = raw_text[start:end].strip()
         if not extracted_span:
             continue  # Empty span
-        
-        # Rule 2: Minimum length
-        if len(extracted_span) < config.min_chars:
-            continue
+
+        # Prefer provided span text for filtering semantics when available
+        span_text = (ent.get("span") or ent.get("text") or "").strip()
+        filter_span_pretrim = span_text if span_text else extracted_span
         
         # Check if span has at least one alphabetic character
         if not any(c.isalpha() for c in extracted_span):
@@ -142,7 +142,7 @@ def filter_entities(
         # Rule 3: Trim punctuation (optional)
         if config.trim_punct:
             new_start, new_end = trim_punctuation(raw_text, start, end)
-            if new_start < new_end:
+            if new_start < new_end and (new_start != start or new_end != end):
                 # Update entity with trimmed offsets
                 ent = ent.copy()
                 ent["start"] = new_start
@@ -150,15 +150,20 @@ def filter_entities(
                 ent["span"] = raw_text[new_start:new_end]
                 extracted_span = raw_text[new_start:new_end]
                 start, end = new_start, new_end
+        filter_span = (ent.get("span") or ent.get("text") or "").strip() or extracted_span
         
         # Check if filtering applies to this entity type
         if config.apply_to_types and entity_type not in config.apply_to_types:
-            # Not filtered, keep as-is
+            # Not filtered beyond integrity checks
             filtered.append(ent)
             continue
         
+        # Rule 2: Minimum length (applies only to selected types)
+        if len(filter_span_pretrim) < config.min_chars:
+            continue
+        
         # Rule 4: Stopword-only spans
-        tokens = tokenize_span(extracted_span)
+        tokens = tokenize_span(filter_span)
         if not tokens:
             continue  # No tokens found
         

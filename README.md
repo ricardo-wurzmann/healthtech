@@ -8,7 +8,7 @@ The pipeline performs the following tasks:
 1. **Text Ingestion**: Loads clinical cases from JSON files or PDFs
 2. **Text Preprocessing**: Normalizes whitespace, punctuation, and formatting
 3. **Sentence Segmentation**: Splits text into sentences using spaCy
-4. **Named Entity Recognition (NER)**: Extracts medical entities using a lexicon-based approach with fuzzy matching
+4. **Named Entity Recognition (NER)**: Extracts medical entities using patterns + lexicon-based matching
 5. **Assertion Classification**: Classifies entity assertions as PRESENT, NEGATED, POSSIBLE, or HISTORICAL
 6. **Entity Filtering**: Removes junk predictions (stopwords, invalid spans, non-nucleus symptoms)
 7. **Output Generation**: Produces structured JSON with entities, spans, and metadata
@@ -25,6 +25,7 @@ Input (JSON/PDF)
 [segment.py] → Sentences with offsets
     ↓
 [baseline_ner.py] → Entity spans
+    ├─ [patterns.py] → High-precision regex patterns
     ├─ [search_index.py] → Fast lexicon matching
     └─ [lexicon.py] → Medical term dictionary
     ↓
@@ -49,6 +50,7 @@ nlp_clin/
 │   ├── segment.py            # Sentence segmentation
 │   ├── search_index.py       # Lexicon indexing for fast matching
 │   ├── baseline_ner.py       # Entity extraction engine
+│   ├── patterns.py           # High-precision regex patterns (vitals, GCS)
 │   ├── lexicon.py            # Medical term dictionary
 │   ├── context.py            # Assertion classification
 │   ├── postprocess/          # Post-processing modules
@@ -159,12 +161,12 @@ nlp_clin/
 
 #### `baseline_ner.py`
 **Entity extraction engine** using layered retrieval:
-- **Layer 1**: Regex patterns (high precision, e.g., "FAST")
+- **Layer 1**: Regex patterns (high precision, e.g., vitals/GCS/FAST)
 - **Layer 2**: Exact phrase matches from lexicon
 - **Layer 3**: Token-based matching:
   - Single-token terms: whole word matching with boundaries
   - Multi-token terms: requires all tokens present, then confirms with substring
-- **Layer 4**: Fuzzy matching (only if no exact/token matches found)
+- **Layer 4**: Fuzzy matching (only if no exact/token matches found, excludes SYMPTOM)
 - **Overlap resolution**: Intelligently resolves overlapping spans (prefers longer spans, higher scores)
 - Maps normalized matches back to original text (handles accents)
 
@@ -175,6 +177,11 @@ nlp_clin/
 - `extract_entities_baseline()`: Main extraction function
 - `_find_span_in_original()`: Maps normalized matches to original text
 - `_resolve_overlaps()`: Resolves overlapping entity spans
+
+#### `patterns.py`
+**High-precision regex patterns**:
+- Captures vitals (PA, FC, FR, SpO2) and Glasgow/GCS
+- Emits type `TEST` (and `PROCEDURE` for FAST)
 
 #### `lexicon.py`
 **Medical term dictionary**:
@@ -402,10 +409,9 @@ LEXICON = [
 
 ### Adding Regex Patterns
 
-Edit `src/baseline_ner.py`, in `extract_entities_baseline()`:
+Edit `src/patterns.py`:
 ```python
-regex_patterns = [
-    (re.compile(r"\bFAST\b", re.IGNORECASE), "PROCEDURE", 0.95),
+PATTERN_DEFS = [
     (re.compile(r"\bSEU_PADRAO\b", re.IGNORECASE), "TYPE", 0.95),
 ]
 ```
@@ -440,6 +446,17 @@ config = FilterConfig(
 )
 ```
 
+## Audit Scripts
+
+Use these to inspect intermediate outputs quickly:
+
+```bash
+# From repo root
+python nlp_clin/audit/show_preprocess.py --case_id 1
+python nlp_clin/audit/show_segments.py --case_id 1
+python nlp_clin/audit/show_pipeline_case.py --case_id 1 --n_sent 30
+```
+
 ## Testing
 
 Unit tests are located in `tests/` directory:
@@ -449,7 +466,10 @@ Unit tests are located in `tests/` directory:
 
 Run tests:
 ```bash
-# From nlp_clin/ directory
+# From repo root
+PYTHONPATH="nlp_clin/src" pytest nlp_clin/tests
+
+# Or from nlp_clin/ directory
 python -m pytest tests/
 # Or
 python -m unittest discover tests

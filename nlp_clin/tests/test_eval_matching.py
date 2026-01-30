@@ -62,9 +62,9 @@ class TestMatching(unittest.TestCase):
     def test_compute_overlap_partial(self):
         """Test overlap computation for partial overlap."""
         # Gold: [10, 25], Pred: [10, 20]
-        # Overlap: 10, Union: 25, IoU = 10/25 = 0.4
+        # Overlap: 10, Union: 15, IoU = 10/15 = 0.666...
         overlap = compute_overlap(10, 25, 10, 20)
-        self.assertAlmostEqual(overlap, 0.4, places=2)
+        self.assertAlmostEqual(overlap, 0.67, places=2)
     
     def test_compute_overlap_no_overlap(self):
         """Test overlap computation for no overlap."""

@@ -1,0 +1,428 @@
+{
+  "config": {
+    "relaxed_matching": false,
+    "overlap_threshold": 0.5,
+    "use_iou": true,
+    "match_mode": null,
+    "total_cases": 80,
+    "total_gold_entities_loaded": 176,
+    "total_pred_entities_loaded": 538,
+    "total_gold_entities_with_missing_offsets": 3,
+    "total_matches_found": 23,
+    "matched_by_iou": 0,
+    "matched_by_min_cov": 0,
+    "matched_by_containment": 0
+  },
+  "ner": {
+    "overall": {
+      "precision": 0.04275092936802974,
+      "recall": 0.1329479768786127,
+      "f1": 0.06469760900140648,
+      "tp": 23,
+      "fp": 515,
+      "fn": 150
+    },
+    "per_type": {
+      "TEST": {
+        "precision": 0.019230769230769232,
+        "recall": 0.015873015873015872,
+        "f1": 0.017391304347826087,
+        "tp": 1,
+        "fp": 51,
+        "fn": 62
+      },
+      "ANATOMY": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 167,
+        "fn": 0
+      },
+      "SYMPTOM": {
+        "precision": 0.07142857142857142,
+        "recall": 0.2345679012345679,
+        "f1": 0.1095100864553314,
+        "tp": 19,
+        "fp": 247,
+        "fn": 62
+      },
+      "DRUG": {
+        "precision": 0.043478260869565216,
+        "recall": 0.07692307692307693,
+        "f1": 0.05555555555555555,
+        "tp": 1,
+        "fp": 22,
+        "fn": 12
+      },
+      "PROCEDURE": {
+        "precision": 0.06666666666666667,
+        "recall": 0.125,
+        "f1": 0.08695652173913045,
+        "tp": 2,
+        "fp": 28,
+        "fn": 14
+      }
+    }
+  },
+  "assertion": {
+    "accuracy": 0.6956521739130435,
+    "confusion_matrix": {
+      "PRESENT": {
+        "PRESENT": 12,
+        "NEGATED": 5,
+        "POSSIBLE": 0,
+        "HISTORICAL": 2
+      },
+      "NEGATED": {
+        "PRESENT": 0,
+        "NEGATED": 4,
+        "POSSIBLE": 0,
+        "HISTORICAL": 0
+      },
+      "POSSIBLE": {
+        "PRESENT": 0,
+        "NEGATED": 0,
+        "POSSIBLE": 0,
+        "HISTORICAL": 0
+      },
+      "HISTORICAL": {
+        "PRESENT": 0,
+        "NEGATED": 0,
+        "POSSIBLE": 0,
+        "HISTORICAL": 0
+      }
+    },
+    "total_matched": 23
+  },
+  "coverage": {
+    "total_cases": 80,
+    "cases_with_entities": 78,
+    "cases_without_entities": 2,
+    "pct_cases_with_entities": 97.5,
+    "avg_entities_per_case": 6.725,
+    "entity_type_distribution": {
+      "ANATOMY": 167,
+      "SYMPTOM": 266,
+      "TEST": 52,
+      "PROCEDURE": 30,
+      "DRUG": 23
+    },
+    "top_entity_texts": [
+      {
+        "text": "febre",
+        "count": 49
+      },
+      {
+        "text": "dispneia",
+        "count": 21
+      },
+      {
+        "text": "disúria",
+        "count": 19
+      },
+      {
+        "text": "dor torácica",
+        "count": 19
+      },
+      {
+        "text": "abdome",
+        "count": 18
+      },
+      {
+        "text": "Abdome",
+        "count": 14
+      },
+      {
+        "text": "diarreia",
+        "count": 14
+      },
+      {
+        "text": "dor abdominal",
+        "count": 11
+      },
+      {
+        "text": "cefaleia",
+        "count": 10
+      },
+      {
+        "text": "edema",
+        "count": 10
+      },
+      {
+        "text": "membros",
+        "count": 9
+      },
+      {
+        "text": "hemograma",
+        "count": 8
+      },
+      {
+        "text": "insulina",
+        "count": 8
+      },
+      {
+        "text": "tosse",
+        "count": 8
+      },
+      {
+        "text": "tórax",
+        "count": 7
+      },
+      {
+        "text": "ultrassonografia",
+        "count": 7
+      },
+      {
+        "text": "útero",
+        "count": 7
+      },
+      {
+        "text": "analgesia",
+        "count": 6
+      },
+      {
+        "text": "glicemia capilar",
+        "count": 6
+      },
+      {
+        "text": "dor à palpação",
+        "count": 6
+      }
+    ]
+  },
+  "errors": {
+    "false_positives": [
+      {
+        "case_id": "1",
+        "text": "abdome",
+        "type": "ANATOMY",
+        "start": 260,
+        "end": 266,
+        "score": 0.95,
+        "evidence": "Paciente relata ter traumatizado a região superior do abdome contra o guidão da bicicleta e refere intensa dor no local."
+      },
+      {
+        "case_id": "1",
+        "text": "colar cervical",
+        "type": "PROCEDURE",
+        "start": 738,
+        "end": 752,
+        "score": 0.99,
+        "evidence": "Na avaliação no pronto-socorro: A – vias aéreas pérvias, com colar cervical."
+      },
+      {
+        "case_id": "1",
+        "text": "tórax",
+        "type": "ANATOMY",
+        "start": 833,
+        "end": 838,
+        "score": 0.95,
+        "evidence": "B – murmúrios vesiculares presentes bilateralmente; expansibilidade simétrica; tórax indolor à palpação; sem crepitações; FR = 16 irpm; saturação de O2 = 98% em ar ambiente."
+      },
+      {
+        "case_id": "1",
+        "text": "Abdome",
+        "type": "ANATOMY",
+        "start": 1008,
+        "end": 1014,
+        "score": 0.95,
+        "evidence": "Abdome doloroso à palpação em epigástrio e mesogástrio, onde se evidenciam equimose e escoriação."
+      },
+      {
+        "case_id": "1",
+        "text": "epigástrio",
+        "type": "ANATOMY",
+        "start": 1038,
+        "end": 1048,
+        "score": 0.95,
+        "evidence": "Abdome doloroso à palpação em epigástrio e mesogástrio, onde se evidenciam equimose e escoriação."
+      },
+      {
+        "case_id": "1",
+        "text": "mesogástrio",
+        "type": "ANATOMY",
+        "start": 1051,
+        "end": 1062,
+        "score": 0.95,
+        "evidence": "Abdome doloroso à palpação em epigástrio e mesogástrio, onde se evidenciam equimose e escoriação."
+      },
+      {
+        "case_id": "1",
+        "text": "Glasgow",
+        "type": "TEST",
+        "start": 1171,
+        "end": 1178,
+        "score": 0.95,
+        "evidence": "D – escala de coma de Glasgow = 15; pupilas isocóricas e fotorreagentes."
+      },
+      {
+        "case_id": "1",
+        "text": "soro fisiológico",
+        "type": "DRUG",
+        "start": 1293,
+        "end": 1309,
+        "score": 0.99,
+        "evidence": "Realizada expansão volêmica com 2.000 ml de soro fisiológico e analgesia."
+      },
+      {
+        "case_id": "1",
+        "text": "ultrassonografia",
+        "type": "TEST",
+        "start": 1445,
+        "end": 1461,
+        "score": 0.95,
+        "evidence": "Foi realizada ultrassonografia focada no trauma (FAST)."
+      },
+      {
+        "case_id": "1",
+        "text": "FAST",
+        "type": "TEST",
+        "start": 1480,
+        "end": 1484,
+        "score": 0.95,
+        "evidence": "Foi realizada ultrassonografia focada no trauma (FAST)."
+      }
+    ],
+    "false_negatives": [
+      {
+        "case_id": "1",
+        "text": "dor",
+        "type": "SYMPTOM",
+        "start": 313,
+        "end": 316,
+        "context": "ome contra o guidão da bicicleta e refere intensa dor no local. Apresenta, ainda, trauma craniano, sem "
+      },
+      {
+        "case_id": "1",
+        "text": "trauma craniano",
+        "type": "SYMPTOM",
+        "start": 345,
+        "end": 360,
+        "context": " e refere intensa dor no local. Apresenta, ainda, trauma craniano, sem perda de consciência, porém refere cefaleia "
+      },
+      {
+        "case_id": "1",
+        "text": "vômitos",
+        "type": "SYMPTOM",
+        "start": 424,
+        "end": 431,
+        "context": " consciência, porém refere cefaleia intensa. Nega vômitos. Dados colhidos pela equipe do resgate no local d"
+      },
+      {
+        "case_id": "1",
+        "text": "abdome doloroso",
+        "type": "SYMPTOM",
+        "start": 1008,
+        "end": 1023,
+        "context": "rterial = 120 x 70 mmHg; sem sangramento visível. Abdome doloroso à palpação em epigástrio e mesogástrio, onde se e"
+      },
+      {
+        "case_id": "1",
+        "text": "equimose",
+        "type": "SYMPTOM",
+        "start": 1083,
+        "end": 1091,
+        "context": "o em epigástrio e mesogástrio, onde se evidenciam equimose e escoriação. Toque retal sem alterações, diurese"
+      },
+      {
+        "case_id": "1",
+        "text": "escoriação",
+        "type": "SYMPTOM",
+        "start": 1094,
+        "end": 1104,
+        "context": "trio e mesogástrio, onde se evidenciam equimose e escoriação. Toque retal sem alterações, diurese clara. D – e"
+      },
+      {
+        "case_id": "1",
+        "text": "pressão arterial",
+        "type": "TEST",
+        "start": 510,
+        "end": 526,
+        "context": "do resgate no local do acidente: pulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência respiratória = 16 irp"
+      },
+      {
+        "case_id": "1",
+        "text": "frequência respiratória",
+        "type": "TEST",
+        "start": 544,
+        "end": 567,
+        "context": "ulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência respiratória = 16 irpm; saturação de oxigênio 97% em ar ambien"
+      },
+      {
+        "case_id": "1",
+        "text": "escala de coma de Glasgow",
+        "type": "TEST",
+        "start": 1153,
+        "end": 1178,
+        "context": "o. Toque retal sem alterações, diurese clara. D – escala de coma de Glasgow = 15; pupilas isocóricas e fotorreagentes. E – se"
+      },
+      {
+        "case_id": "1",
+        "text": "ultrassonografia focada no trauma",
+        "type": "PROCEDURE",
+        "start": 1445,
+        "end": 1478,
+        "context": " pressão arterial de 120 x 70 mmHg. Foi realizada ultrassonografia focada no trauma (FAST)."
+      }
+    ],
+    "assertion_mismatches": [
+      {
+        "case_id": "1",
+        "text": "cefaleia intensa",
+        "type": "SYMPTOM",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "NEGATED",
+        "evidence": "Apresenta, ainda, trauma craniano, sem perda de consciência, porém refere cefaleia intensa."
+      },
+      {
+        "case_id": "2",
+        "text": "dor epigástrica intensa",
+        "type": "SYMPTOM",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "HISTORICAL",
+        "evidence": "Homem de 38 anos de idade, vem ao Pronto Socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue."
+      },
+      {
+        "case_id": "2",
+        "text": "diarreia",
+        "type": "SYMPTOM",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "NEGATED",
+        "evidence": "Apresenta diarreia e perda de peso nos últimos seis meses; nega outras doenças."
+      },
+      {
+        "case_id": "2",
+        "text": "perda de peso",
+        "type": "SYMPTOM",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "NEGATED",
+        "evidence": "Apresenta diarreia e perda de peso nos últimos seis meses; nega outras doenças."
+      },
+      {
+        "case_id": "3",
+        "text": "dor epigástrica intensa",
+        "type": "SYMPTOM",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "HISTORICAL",
+        "evidence": "3) Homem, 38 anos de idade, vem ao pronto-socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue."
+      },
+      {
+        "case_id": "3",
+        "text": "diarreia",
+        "type": "SYMPTOM",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "NEGATED",
+        "evidence": "Apresenta diarreia e perda de peso nos últimos seis meses; nega outras doenças."
+      },
+      {
+        "case_id": "3",
+        "text": "perda de peso",
+        "type": "SYMPTOM",
+        "gold_assertion": "PRESENT",
+        "pred_assertion": "NEGATED",
+        "evidence": "Apresenta diarreia e perda de peso nos últimos seis meses; nega outras doenças."
+      }
+    ]
+  }
+}

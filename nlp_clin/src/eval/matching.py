@@ -101,9 +101,9 @@ def compute_span_metrics(start1: int, end1: int, start2: int, end2: int) -> Tupl
     union = len1 + len2 - intersection
     iou = intersection / union if union > 0 else 0.0
     
-    # Min coverage (coverage of shorter span)
-    min_len = min(len1, len2)
-    min_cov = intersection / min_len if min_len > 0 else 0.0
+    # Min coverage (coverage of longer span) to avoid tiny-span matches
+    max_len = max(len1, len2)
+    min_cov = intersection / max_len if max_len > 0 else 0.0
     
     # Containment check
     is_containment = False
@@ -175,19 +175,19 @@ def relaxed_match(
         return False, None
     
     elif match_mode == MatchMode.IOU_OR_CONTAINMENT:
+        if is_containment and intersection > 0 and min_cov >= overlap_threshold:
+            return True, "containment"
         if iou >= overlap_threshold:
             return True, "iou"
-        if is_containment and intersection > 0:
-            return True, "containment"
         return False, None
     
     elif match_mode == MatchMode.IOU_OR_MIN_COV_OR_CONTAINMENT:
+        if is_containment and intersection > 0 and min_cov >= overlap_threshold:
+            return True, "containment"
         if iou >= overlap_threshold:
             return True, "iou"
         if min_cov >= overlap_threshold:
             return True, "min_cov"
-        if is_containment and intersection > 0:
-            return True, "containment"
         return False, None
     
     else:
