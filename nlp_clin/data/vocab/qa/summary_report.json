@@ -1,0 +1,1036 @@
+{
+  "generated_at": "2026-02-03T13:53:37.790341Z",
+  "staging_dir": "C:\\Users\\cadu\\Dropbox\\Cadu\\Trabalho\\HealthTech\\healthtech\\nlp_clin\\data\\vocab\\staging",
+  "total_concepts": 76848,
+  "files": {
+    "siglario_allowed_raw.csv": {
+      "count": 900
+    },
+    "siglario_prohibited_raw.csv": {
+      "count": 0
+    },
+    "siglario_ambiguous_raw.csv": {
+      "count": 0
+    },
+    "cid10_raw.csv": {
+      "count": 22706
+    },
+    "tuss_proc_raw.csv": {
+      "count": 5841
+    },
+    "tuss_drugs_raw.csv": {
+      "count": 45239
+    },
+    "labs_raw.csv": {
+      "count": 636
+    },
+    "lista_ampla_prontuario_raw.csv": {
+      "count": 825
+    },
+    "siglario_institucional_raw.csv": {
+      "count": 701
+    }
+  },
+  "warnings": [
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Exame de aptidão física e mental para concessão de benefícios fiscais conferidos pelas Secretaria da Receita Federal e da Fazenda Estadual, a quem fazem jus portadores de mobilidade reduzida, com nece"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Exame de aptidão física e mental para ratificação, quando a condição física e mental assim o requerer, dos exames realizados pelo órgão previdenciário, incluindo restrição ou liberação para a condução"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Assistência ao trabalho de parto, por hora (até o limite de 6 horas). Não deverá ser considerado se o parto ocorrer na primeira hora após o início da assistência. Após a primeira hora, além da assistê"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Enzimas eritrocitárias, (adenilatoquinase, desidrogenase láctica, fosfofructoquinase, fosfoglicerato quinase, gliceraldeído, 3 - fosfato desidrogenase, glicose fosfato isomerase, glicose 6 - fosfato d"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "LCR pronto socorro (aspectos cor + índice de cor + contagem global e específica de leucócitos e hemácias + proteína + glicose + cloro + lactato + bacterioscopia + cultura + látex para bactérias) 13/02"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Imuno-hematológicos: tipificação ABO, incluindo tipagem reversa e determinação do fator RH (D), incluindo prova para D-fraco e pesquisa e identificação de anticorpos séricos irregulares antieritrocitá"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Dosagem quantitativa de ácidos orgânicos, carnitina, perfil de acilcarnitina, ácidos graxos de cadeia muito longa, para o diagnóstico de erros inatos do metabolismo (perfil em uma amostra) 13/02/2009 "
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Eletroforese ou cromatografia (papel ou camada delgada) para identificação de aminoácidos ou glicídios ou oligossacarídios ou sialoligossacarídios glicosaminoglicanos ou outros compostos para detecção"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Análise de DNA fetal por enzima de restrição, por enzima utilizada, por amostra (adicional nos exames em que já foi feito o PCR 4.05.03.06- 2 e depende da enzima para estabelecer o diagnóstico) 13/02/"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Rastreamento de exon mutado (por gradiente de desnaturação ou conformação de polimorfismo de fita simples ou RNAse ou Clivagem Química ou outras técnicas) para identificação de fragmento mutado, por f"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Detecção pré-natal ou pós-natal de alterações cromossômicas submicroscópicas reconhecidamente causadoras de síndrome de genes contíguos, por FISH, qPCR ou outra técnica, por locus, por amostra 10/10/2"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Rastreamento pré-natal ou pós-natal de todo o genoma para identificar alterações cromossômicas submicroscópicas por CGH-array ou SNP- array ou outras técnicas, por clone ou oligo utilizado, por amostr"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "LCR ambulatorial rotina (aspectos cor + índice de cor + contagem global e específica de leucócitos e hemácias + citologia oncótica + proteína + glicose + cloro + eletroforese com concentração + IgG + "
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "LCR hospitalar neurologia (aspectos cor + índices de cor + contagem global e específica de leucócitos e hemácias + proteína + glicose + cloro + reações para neurocisticercose (2) + reações para neurol"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Os músculos latissimus dorsi, gracilis, rectus femoris, tensor fascia lata, flexor digitorum brevis, quando transplantados com sua inervação e praticada a microneurorrafia com finalidade de restaurar "
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Avaliação clínica e eletrônica de paciente portador de dispositivo cardíaco eletrônico implantável (marca-passo, estimulador multissítio/ressincronizador, desfibrilador ou monitor de eventos) 01/04/20"
+    },
+    {
+      "file": "tuss_proc",
+      "message": "name too long",
+      "sample": "Ablação percutânea por cateter para tratamento de arritmias cardíacas complexas (fibrilação atrial, taquicardia ventricular com modificação de cicatriz, taquicardias atriais macrorrentrantes com modif"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELIGARD 7,5 MG PO LIOF SUS INJ SC LIB PROL CT BL AL PLAS TRANS SER B + AGU DISP SEGUR + D EZSOSEDCI A+C B PLR AOLD PULTAOS ST RFAARNMS DAICLÊ SUETRIC AO +S ESM/AB + DESSEC 01/01/2016 31/03/2016 122140"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELIGARD 22,5 MG PO LIOF SUS INJ SC LIB PROL CT BL AL PLAS TRANS SER B + AGU DISP SEGUR + D ZEOSSDEICA C+ PBRL OADL UPTLOASS TFRAARNMSA DCIÊLU STEIRC OAS + S E/AMB + DESSEC 01/01/2016 31/03/2016 122140"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELIGARD 7,5 MG PO LIOF SUS INJ SC LIB PROL CT BL AL PLAS TRANS SER B + AGU DISP SEGUR + D EZSOSEDCI A+C B PLR AOLD PULTAOS ST RFAARNMS DAICLÊ SUETRIC AO +S ESM/AB + DESSEC 01/01/2016 31/03/2016 122140"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELIGARD 22,5 MG PO LIOF SUS INJ SC LIB PROL CT BL AL PLAS TRANS SER B + AGU DISP SEGUR + D ZEOSSDEICA C+ PBRL OADL UPTLOASS TFRAARNMSA DCIÊLU STEIRC OAS + S E/AMB + DESSEC 01/01/2016 31/03/2016 122140"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELIGARD 7,5 MG PO LIOF SUS INJ SC LIB PROL CT BL AL PLAS TRANS SER B + AGU DISP SEGUR + DEZSOSEDCI A+C B PLR AOLD PULTAOS ST RFAARNMS DAICLÊ SUETRIC AO +S ESM/AB + DESSEC 01/01/2016 31/03/2016 1221400"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELIGARD 22,5 MG PO LIOF SUS INJ SC LIB PROL CT BL AL PLAS TRANS SER B + AGU DISP SEGUR + DZEOSSDEICA C+ PBRL OADL UPTLOASS TFRAARNMSA DCIÊLU STEIRC OAS + S E/AMB + DESSEC 01/01/2016 31/03/2016 1221400"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELIGARD 7,5 MG PO LIOF SUS INJ SC LIB PROL CT BL AL PLAS TRANS SER B + AGU DISP SEGUR + DEZSOSEDCI A+C B PLR AOLD PULTAOS ST RFAARNMS DAICLÊ SUETRIC AO +S ESM/AB + DESSEC 01/01/2016 31/03/2016 1221400"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELIGARD 22,5 MG PO LIOF SUS INJ SC LIB PROL CT BL AL PLAS TRANS SER B + AGU DISP SEGUR + DZEOSSDEICA C+ PBRL OADL UPTLOASS TFRAARNMSA DCIÊLU STEIRC OAS + S E/AMB + DESSEC 01/01/2016 31/03/2016 1221400"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FRAÇÃO ÁCIDA CA ++ 3,0 MEQ/L 1:44 (138,00 + 2,00 + 3,00 + 1,00 + 4,00 + 104,56 + 39,44) MEQ/L SOL HD BOMBO PLAS TRA NFSALR XM 5ALCE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/03/2019 31/05/2019 1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FRAÇÃO ÁCIDA CA ++ 3,0 MEQ/L 1:44 (138,00 + 2,00 + 3,00 + 1,00 + 4,00 + 104,56 + 39,44) MEQ/L SOL HD CX 04 BOMBO PLA SF ATRRMANASCLE X I N5DLÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/03/2019 31/05/"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FRAÇÃO ÁCIDA CA ++ 3,0 MEQ/L 1:44 (138,00 + 2,00 + 3,00 + 1,00 + 4,00 + 104,56 + 39,44) MEQ/L SOL HD BOMBO PLAS TRA NFSALR XM 6A,2CLE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/03/2019 31/05/2019"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FRAÇÃO ÁCIDA CA ++ 3,0 MEQ/L 1:44 (138,00 + 2,00 + 3,00 + 1,00 + 4,00 + 104,56 + 39,44) MEQ/L SOL HD CX 04 BOMBO PLA SF ATRRMANASCLE X I N6D,2ÚLSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/03/2019 31/0"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FRAÇÃO ÁCIDA CA ++ 3,0 MEQ/L 1:44 (138,00 + 2,00 + 3,00 + 1,00 + 4,00 + 104,56 + 39,44) MEQ/L SOL HD BOMBO PLAS TRA NFSALR XM 1A0CLE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/03/2019 31/05/2019 "
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FRAÇÃO ÁCIDA CA ++ 3,0 MEQ/L 1:44 (138,00 + 2,00 + 3,00 + 1,00 + 4,00 + 104,56 + 39,44) MEQ/L SOL HD CX 02 BOMBO PLA SF ATRRMANASCLE X I N1D0ÚLSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/03/2019 31/05"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "CLORETO DE SÓDIO + CLORETO DE CÁLCIO + ASSOCIAÇÕES FARMA CNEA 138,0 + K 2,0 MEQ SOL HD ACD GAL PLAS INC X 5000 ML + 8,4% SOL BIC GAL X 5000 FMALRMACE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 10/10"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FRAÇÃO ÁCIDA CA ++ 3,0 MEQ/L 1:44 (138,00 + 2,00 + 3,00 + 1,00 + 4,00 + 104,56 + 39,44) MEQ/L SOL HD BOMBO PLAS TRANFSALR XM 5ALCE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/03/2019 31/05/2019 11"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FRAÇÃO ÁCIDA CA ++ 3,0 MEQ/L 1:44 (138,00 + 2,00 + 3,00 + 1,00 + 4,00 + 104,56 + 39,44) MEQ/L SOL HD CX 04 BOMBO PLASF ATRRMANASCLE X I N5DLÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/03/2019 31/05/2"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FRAÇÃO ÁCIDA CA ++ 3,0 MEQ/L 1:44 (138,00 + 2,00 + 3,00 + 1,00 + 4,00 + 104,56 + 39,44) MEQ/L SOL HD BOMBO PLAS TRANFSALR XM 6A,2CLE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/03/2019 31/05/2019 "
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FRAÇÃO ÁCIDA CA ++ 3,0 MEQ/L 1:44 (138,00 + 2,00 + 3,00 + 1,00 + 4,00 + 104,56 + 39,44) MEQ/L SOL HD CX 04 BOMBO PLASF ATRRMANASCLE X I N6D,2ÚLSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/03/2019 31/05"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FRAÇÃO ÁCIDA CA ++ 3,0 MEQ/L 1:44 (138,00 + 2,00 + 3,00 + 1,00 + 4,00 + 104,56 + 39,44) MEQ/L SOL HD BOMBO PLAS TRANFSALR XM 1A0CLE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/03/2019 31/05/2019 1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FRAÇÃO ÁCIDA CA ++ 3,0 MEQ/L 1:44 (138,00 + 2,00 + 3,00 + 1,00 + 4,00 + 104,56 + 39,44) MEQ/L SOL HD CX 02 BOMBO PLASF ATRRMANASCLE X I N1D0ÚLSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/03/2019 31/05/"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "CLORETO DE SÓDIO + CLORETO DE CÁLCIO + ASSOCIAÇÕES FARMACNEA 138,0 + K 2,0 MEQ SOL HD ACD GAL PLAS INC X 5000 ML + 8,4% SOL BIC GAL X 5000 FMALRMACE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 10/10/"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "IDELVION 250 UI PÓ LIOF SOL INJ CT FA VD TRANS + FA VD TRANS DIL X 2,5 ML + DISP TRANSF C/ F ILCTSRL OB E+H SREIRN G5 MCOLM + ÉERQCPIO + D2 EC PORMOPDRUETSOSASS F +A R1M CUACRÊAUTTIVICOOS LTDA 01/06/2"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "IDELVION 500 UI PÓ LIOF SOL INJ CT FA V D TRANS + FA VD TRANS DIL X 2,5 ML + DISP TRANSF C/ F CILSTLR BOE +H RSEINRG 5 CMOLM +É ERQCIPO + D 2E CPORMODPRUETSOSSA SF A+R 1M CAUCRÊAUTTIIVCOOS LTDA 01/06/"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "IDELVION 1000UI PÓ LIOF SOL INJ CT FA VD TRANS + FA VD TRANS DIL X 2,5 ML + DISP TRANSF C/ FCILSTLR BOE +H RSEINRG 5 CMOLM +É ERQCIPO + D 2E CPORMODPRUETSOSSA SF A+R 1M CAUCRÊAUTTIIVCOOS LTDA 01/06/20"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "IDELVION 2000 UI PÓ LIOF SOL INJ CT FA VD TRANS + FA VD TRANS DIL X 5 ML + DISP TRANSF C/ FI LCTSRLO B +E HSRERIN 1G0 C MOLM +É ERQCIPO + D 2E CPORMODPURETSOSSA FSA +R 1M CAUCRÊAUTTIIVCOOS LTDA 01/06/"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 250 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO NSJA INNFOUFSI- A+ V2E LNETNISÇ OFASR +M 2A CCUÊRUATTICIVAO LST D+A 1 GAZE 01/03/2019 31/05/2019 11300119900"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 500 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO NSJA INNFOUFSI- A+ V2E LNETNISÇ OFASR +M 2A CCUÊRUATTICIVAO LST D+A 1 GAZE 01/03/2019 31/05/2019 11300119900"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 750 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO NSJA INNFOUFSI- A+ V2E LNETNISÇ OFASR +M 2A CCUÊRUATTICIVAO LST D+A 1 GAZE 01/03/2019 31/05/2019 11300119900"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 1000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO SNAJN INOFFUI-SA V+ E2N LTEISN ÇFAORSM + A2C CÊUURTAICTAIV LOTDS A+ 1 GAZE 01/03/2019 31/05/2019 1130011990"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 1500 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO SNAJN INOFFUI-SA V+ E2N LTEISN ÇFAORSM + A2C CÊUURTAICTAIV LOTDS A+ 1 GAZE 01/03/2019 31/05/2019 1130011990"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 2000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO SNAJN INOFFUI-SA V+ E2N LTEISN ÇFAORSM + A2C CÊUURTAICTAIV LOTDS A+ 1 GAZE 01/03/2019 31/05/2019 1130011990"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 3000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO SNAJN INOFFUI-SA V+ E2N LTEISN ÇFAORSM + A2C CÊUURTAICTAIV LOTDS A+ 1 GAZE 01/03/2019 31/05/2019 1130011990"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 250 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO NBJ IIONGFUENS +B R2 ALSEINL ÇPORSO +D U2 TCOUSR FAATRIVMOASC +Ê U1 TGICAOZES LTDA 01/03/2019 31/05/2019 169"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "IDELVION 250 UI PÓ LIOF SOL INJ CT FA VD TRANS + FA VD TRANS DIL X 2,5 ML + DISP TRANSF C/ FILCTSRL OB E+H SREIRN G5 MCOLM + ÉERQCPIO + D2 EC PORMOPDRUETSOSASS F +A R1M CUACRÊAUTTIVICOOS LTDA 01/06/20"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "IDELVION 500 UI PÓ LIOF SOL INJ CT FA V D TRANS + FA VD TRANS DIL X 2,5 ML + DISP TRANSF C/ FCILSTLR BOE +H RSEINRG 5 CMOLM +É ERQCIPO + D 2E CPORMODPRUETSOSSA SF A+R 1M CAUCRÊAUTTIIVCOOS LTDA 01/06/2"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "IDELVION 1000UI PÓ LIOF SOL INJ CT FA VD TRANS + FA VD TRANS DIL X 2,5 ML + DISP TRANSF C/ FCILSTLR BOE +H RSEINRG 5 CMOLM +É ERQCIPO + D 2E CPORMODPRUETSOSSA SF A+R 1M CAUCRÊAUTTIIVCOOS LTDA 01/06/20"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "IDELVION 2000 UI PÓ LIOF SOL INJ CT FA VD TRANS + FA VD TRANS DIL X 5 ML + DISP TRANSF C/ FILCTSRLO B +E HSRERIN 1G0 C MOLM +É ERQCIPO + D 2E CPORMODPURETSOSSA FSA +R 1M CAUCRÊAUTTIIVCOOS LTDA 01/06/2"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 250 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CONSJA INNFOUFSI- A+ V2E LNETNISÇ OFASR +M 2A CCUÊRUATTICIVAO LST D+A 1 GAZE 01/03/2019 31/05/2019 113001199001"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 500 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CONSJA INNFOUFSI- A+ V2E LNETNISÇ OFASR +M 2A CCUÊRUATTICIVAO LST D+A 1 GAZE 01/03/2019 31/05/2019 113001199002"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 750 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CONSJA INNFOUFSI- A+ V2E LNETNISÇ OFASR +M 2A CCUÊRUATTICIVAO LST D+A 1 GAZE 01/03/2019 31/05/2019 113001199003"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 1000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 COSNAJN INOFFUI-SA V+ E2N LTEISN ÇFAORSM + A2C CÊUURTAICTAIV LOTDS A+ 1 GAZE 01/03/2019 31/05/2019 11300119900"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 1500 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 COSNAJN INOFFUI-SA V+ E2N LTEISN ÇFAORSM + A2C CÊUURTAICTAIV LOTDS A+ 1 GAZE 01/03/2019 31/05/2019 11300119900"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 2000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 COSNAJN INOFFUI-SA V+ E2N LTEISN ÇFAORSM + A2C CÊUURTAICTAIV LOTDS A+ 1 GAZE 01/03/2019 31/05/2019 11300119900"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 3000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 COSNAJN INOFFUI-SA V+ E2N LTEISN ÇFAORSM + A2C CÊUURTAICTAIV LOTDS A+ 1 GAZE 01/03/2019 31/05/2019 11300119900"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 250 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CONBJ IIONGFUENS +B R2 ALSEINL ÇPORSO +D U2 TCOUSR FAATRIVMOASC +Ê U1 TGICAOZES LTDA 01/03/2019 31/05/2019 1699"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 500 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO NBJ IIONGFUENS +B R2 ALSEINL ÇPORSO +D U2 TCOUSR FAATRIVMOASC +Ê U1 TGICAOZES LTDA 01/03/2019 31/05/2019 169"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 750 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO NBJ IIONGFUENS +B R2 ALSEINL ÇPORSO +D U2 TCOUSR FAATRIVMOASC +Ê U1 TGICAOZES LTDA 01/03/2019 31/05/2019 169"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 1000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO BNIJO IGNEFUNS B +R A2 SLIEL NPÇROOSD +U T2O CSU FRAARTMIVAOCSÊ +U 1TI CGOASZ ELTDA 01/03/2019 31/05/2019 1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 1500 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO BNIJO IGNEFUNS B +R A2 SLIEL NPÇROOSD +U T2O CSU FRAARTMIVAOCSÊ +U 1TI CGOASZ ELTDA 01/03/2019 31/05/2019 1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 2000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO BNIJO IGNEFUNS B +R A2 SLIEL NPÇROOSD +U T2O CSU FRAARTMIVAOCSÊ +U 1TI CGOASZ ELTDA 01/03/2019 31/05/2019 1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 3000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CO BNIJO IGNEFUNS B +R A2 SLIEL NPÇROOSD +U T2O CSU FRAARTMIVAOCSÊ +U 1TI CGOASZ ELTDA 01/03/2019 31/05/2019 1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 250 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CON JS AINNFOUFSI -+A 2V ELNENTIÇSO FSA R+M 2 ACCUÊRUATTIICVAO LST +D A1 GAZE 01/06/2019 31/08/2019 113001198001"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 500 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CON JS AINNFOUFSI -+A 2V ELNENTIÇSO FSA R+M 2 ACCUÊRUATTIICVAO LST +D A1 GAZE 01/06/2019 31/08/2019 113001198002"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 1000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CO NSAJ NINOFFUIS-A +V 2E NLTEINSÇ FOASR M+ 2A CCÊUURTAICTAIV LOTSD +A 1 GAZE 01/06/2019 31/08/2019 11300119800"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 2000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CO NSAJ NINOFFUIS-A +V 2E NLTEINSÇ FOASR M+ 2A CCÊUURTAICTAIV LOTSD +A 1 GAZE 01/06/2019 31/08/2019 11300119800"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 3000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CO NSAJ NINOFFUIS-A +V 2E NLTEINSÇ FOASR M+ 2A CCÊUURTAICTAIV LOTSD +A 1 GAZE 01/06/2019 31/08/2019 11300119800"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 3000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CO NBJI OINGFEUNS B+R 2A LSEILN PÇROOSD +U 2T OCUS RFAATRIMVOASC Ê+U 1T IGCAOZSE LTDA 01/10/2016 31/12/2016 169"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 2000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CO NBJI OINGFEUNS B+R 2A LSEILN PÇROOSD +U 2T OCUS RFAATRIMVOASC Ê+U 1T IGCAOZSE LTDA 01/10/2016 31/12/2016 169"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 1000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CO NBJI OINGFEUNS B+R 2A LSEILN PÇROOSD +U 2T OCUS RFAATRIMVOASC Ê+U 1T IGCAOZSE LTDA 01/10/2016 31/12/2016 169"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 500 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CON JB IINOFGUESN + B 2R LAESNILÇ PORSO +D 2U CTOURS AFTAIRVMOSA C+Ê 1U GTIACZOES LTDA 01/10/2016 31/12/2016 169"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 250 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CON JB IINOFGUESN + B 2R LAESNILÇ PORSO +D 2U CTOURS AFTAIRVMOSA C+Ê 1U GTIACZOES LTDA 01/10/2016 31/12/2016 169"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 500 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CONBJ IIONGFUENS +B R2 ALSEINL ÇPORSO +D U2 TCOUSR FAATRIVMOASC +Ê U1 TGICAOZES LTDA 01/03/2019 31/05/2019 1699"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 750 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 CONBJ IIONGFUENS +B R2 ALSEINL ÇPORSO +D U2 TCOUSR FAATRIVMOASC +Ê U1 TGICAOZES LTDA 01/03/2019 31/05/2019 1699"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 1000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 COBNIJO IGNEFUNS B +R A2 SLIEL NPÇROOSD +U T2O CSU FRAARTMIVAOCSÊ +U 1TI CGOASZ ELTDA 01/03/2019 31/05/2019 16"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 1500 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 COBNIJO IGNEFUNS B +R A2 SLIEL NPÇROOSD +U T2O CSU FRAARTMIVAOCSÊ +U 1TI CGOASZ ELTDA 01/03/2019 31/05/2019 16"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 2000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 COBNIJO IGNEFUNS B +R A2 SLIEL NPÇROOSD +U T2O CSU FRAARTMIVAOCSÊ +U 1TI CGOASZ ELTDA 01/03/2019 31/05/2019 16"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELOCTATE 3000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 3 ML + 1 ADAPT + 1 COBNIJO IGNEFUNS B +R A2 SLIEL NPÇROOSD +U T2O CSU FRAARTMIVAOCSÊ +U 1TI CGOASZ ELTDA 01/03/2019 31/05/2019 16"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 1000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CONSAJ NINOFFUIS-A +V 2E NLTEINSÇ FOASR M+ 2A CCÊUURTAICTAIV LOTSD +A 1 GAZE 01/06/2019 31/08/2019 113001198003"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 2000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CONSAJ NINOFFUIS-A +V 2E NLTEINSÇ FOASR M+ 2A CCÊUURTAICTAIV LOTSD +A 1 GAZE 01/06/2019 31/08/2019 113001198004"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 3000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CONSAJ NINOFFUIS-A +V 2E NLTEINSÇ FOASR M+ 2A CCÊUURTAICTAIV LOTSD +A 1 GAZE 01/06/2019 31/08/2019 113001198005"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 3000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CONBJI OINGFEUNS B+R 2A LSEILN PÇROOSD +U 2T OCUS RFAATRIMVOASC Ê+U 1T IGCAOZSE LTDA 01/10/2016 31/12/2016 1699"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 2000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CONBJI OINGFEUNS B+R 2A LSEILN PÇROOSD +U 2T OCUS RFAATRIMVOASC Ê+U 1T IGCAOZSE LTDA 01/10/2016 31/12/2016 1699"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 1000 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CONBJI OINGFEUNS B+R 2A LSEILN PÇROOSD +U 2T OCUS RFAATRIMVOASC Ê+U 1T IGCAOZSE LTDA 01/10/2016 31/12/2016 1699"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 500 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CONJB IINOFGUESN + B 2R LAESNILÇ PORSO +D 2U CTOURS AFTAIRVMOSA C+Ê 1U GTIACZOES LTDA 01/10/2016 31/12/2016 1699"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ELPROLIX 250 UI PO LIOF SOL INJ CT 1 FA VD TRANS + 1 SER PREENC DIL X 5 ML + 1ADAPT + 1 CONJB IINOFGUESN + B 2R LAESNILÇ PORSO +D 2U CTOURS AFTAIRVMOSA C+Ê 1U GTIACZOES LTDA 01/10/2016 31/12/2016 1699"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "OTEZLA 10 MG COM REV CT BL AL PLAS TRANS X 4 + 20 MG COM REV CT BL AL PLAS TRANS X 4 +C 3E0L GMEGN EC OBRMA SRIELV P RCTO DBLU TAOL SP LFAASR MTRAACNÊSU XT I1C9OS LTDA. 01/03/2019 31/05/2019 196140003"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "OTEZLA 10 MG COM REV CT BL AL PLAS TRANS X 4 + 20 MG COM REV CT BL AL PLAS TRANS X 4 +C 3E0L GMEGN EC OBRMA SRIELV P RCTO DBLU TAOL SP LFAASR MTRAACNÊSU XT I1C9OS LTDA. 01/03/2019 31/05/2019 196140003"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FURP-BENZILPENICILINA PROCAÍNA + BENZILPENICILINA POTÁSSIC A300.000 UI + 100.000 UI PO INJ CX 50 FA VD INC + DIL CX 50 AMP X 2 ML (EMB HOSP) FUNDAÇÃO PARA O REMÉDIO POPULAR - FURP 10/10/2012 31/08/201"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FURP-BENZILPENICILINA PROCAÍNA + BENZILPENICILINA POTÁSSICA300.000 UI + 100.000 UI PO INJ CX 50 FA VD INC + DIL CX 50 AMP X 2 ML (EMB HOSP) FUNDAÇÃO PARA O REMÉDIO POPULAR - FURP 10/10/2012 31/08/2014"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "PLEGRIDY 63 MCG SOL INJ CT SER PREENC VD TRANS X 0,5 ML EM CAN APLIC + 94 MCG SOL INJ CT BSEIORG PERNE EBNRCA SVIDL PTRROANDSU TXO 0S,5 F AMRLM EAMC ÊCUATNI CAOPSL ILCTDA 01/01/2018 31/03/2018 1699300"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "PLEGRIDY 63 MCG SOL INJ CT SER PREENC VD TRANS X 0,5 ML EM CAN APLIC + 94 MCG SOL INJ CT BSEIORG PERNE EBNRCA SVIDL PTRROANDSU TXO 0S,5 F AMRLM EAMC ÊCUATNI CAOPSL ILCTDA 01/01/2018 31/03/2018 1699300"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "BUTILBROMETO DE ESCOPOLAMINA + DIPIRONA SÓDICA 6,67 MG/ML + 333,4 MG/ML SOL OR CX 100 FR PLAS OPC GOT X 20ML (EMB HOSP) FARMACE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 10/10/2012 31/08/2014 11085"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "BUTILBROMETO DE ESCOPOLAMINA + DIPIRONA SÓDICA 6,67 MG/ML + 333,4 MG/ML SOL OR CX 100 FR PLAS OPC GOT X 20ML (EMB HOSP) FARMACE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 10/10/2012 31/08/2014 11085"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FARMACE CPHD - FRAÇÃO ÁCIDA COM CÁLCIO 2,5 MEQ/L (210,7+5,22+6,43+3,55+10,83) G/L SOL HEMO BOMBO PLAS TRANS X 5 L FARMACE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/01/2016 31/03/2016 11085004100"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FARMACE CPHD - FRAÇÃO ÁCIDA COM CÁLCIO 2,5 MEQ/L (210,7+5,22+6,43+3,55+10,83) G/L SOL HEMO CX 4 BOMBO PLAS TRANS X 5 L FARMACE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/01/2016 31/03/2016 110850"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FARMACE CPHD - FRAÇÃO ÁCIDA COM CÁLCIO 2,5 MEQ/L (210,7+5,22+6,43+3,55+10,83) G/L SOL HEMO BOMBO PLAS TRANS X 5 L FARMACE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/01/2016 31/03/2016 11085004100"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FARMACE CPHD - FRAÇÃO ÁCIDA COM CÁLCIO 2,5 MEQ/L (210,7+5,22+6,43+3,55+10,83) G/L SOL HEMO CX 4 BOMBO PLAS TRANS X 5 L FARMACE INDÚSTRIA QUÍMICO-FARMACÊUTICA CEARENSE LTDA 01/01/2016 31/03/2016 110850"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "DIMENIDRINATO + CLORIDRATO DE PIRIDOXINA 50 MG/ML + 50 MG/ML SOL INJ CX 100 AMP VD AMB X 1 ML (EMB FRAC) MULTILAB INDÚSTRIA E COMÉRCIO DE PRODUTOS FARMACÊUTIC OS1 L0T/D04A/2017 09/07/2017 118190178004"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "DEXANEURIN 0,53 MG/ML + 50 MG/ML + 50 MG/ML + 5,3 MG/ML SOL INJ CT 3 AMP VD AMB X 2 ML +U 5N,I2Ã OM GQ/UMÍML ISCOAL F IANRJM CTA C3Ê AUMTIPC AV DN AACMIOBN XA 1L MS/LA 01/01/2016 31/03/2016 1049713510"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "DIPROPIONATO DE BETAMETASONA + FOSFATO DISSÓDICO DE BET A6M,43ET MASGO/MNAL + 2,63 MG/ML SUS INJ CX 50 AMP VD TRANS X 1 ML (EMB HOSP) PHARLAB INDÚSTRIA FARMACÊUTICA S.A. 01/06/2016 31/08/2016 14107011"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "DEXANEURIN 0,53 MG/ML + 50 MG/ML + 50 MG/ML + 5,3 MG/ML SOL INJ CT 3 AMP VD AMB X 2 ML +U 5N,I2Ã OM GQ/UMÍML ISCOAL F IANRJM CTA C3Ê AUMTIPC AV DN AACMIOBN XA 1L MS/LA 01/01/2016 31/03/2016 1049713510"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "DIPROPIONATO DE BETAMETASONA + FOSFATO DISSÓDICO DE BETA6M,43ET MASGO/MNAL + 2,63 MG/ML SUS INJ CX 50 AMP VD TRANS X 1 ML (EMB HOSP) PHARLAB INDÚSTRIA FARMACÊUTICA S.A. 01/06/2016 31/08/2016 141070110"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "PROCEDIMENTO MEDICO TABELADO PELO GOVERNO CONJ DE BOLSAS NAS DIFERENTES CONCENTRAÇÕES DE DEXTROSE 1,5%, 2,5% OU 4,25% B, ANXATSE ARP HROESSEPNITTAALÇAÕRE LST DDEA 2L OU 6L MAIS ACESSORIOS, EQUIPOS DI0"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "PROCEDIMENTO MEDICO TABELADO PELO GOVERNO CONJ DE BOLSAS NAS DIFERENTES CONCENTRAÇÕES DE DEXTROSE 1,5%, 2,5% OU 4,25%B, ANXATSE ARP HROESSEPNITTAALÇAÕRE LST DDEA 2L OU 6L MAIS ACESSORIOS, EQUIPOS DI0V"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ISOFARMA - SOLUÇÃO GLICOFISIOLÓGICA (GLICOSE 5% + CLORETO 5D0E M SÓGD/MIOL 0 +, 99% M)G/ML SOL INJ IV CX BOLS PLAS INC X 250 SIST FECH ISOFARMA INDUSTRIAL FARMACÊUTICA LTDA 10/10/2012 31/08/2014 15170"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ISOFARMA - SOLUÇÃO GLICOFISIOLÓGICA (GLICOSE 5% + CLORETO 5D0E M SÓGD/MIOL 0 +, 99% M)G/ML SOL INJ IV CX BOLS PLAS INC X 500 SIST FECH ISOFARMA INDUSTRIAL FARMACÊUTICA LTDA 10/10/2012 31/08/2014 15170"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ISOFARMA - SOLUÇÃO GLICOFISIOLÓGICA (GLICOSE 5% + CLORETO 5D0E M SÓGD/MIOL 0 +, 99% M)G/ML SOL INJ IV CX BOLS PLAS INC X 250 SIST FECH ISOFARMA INDUSTRIAL FARMACÊUTICA LTDA 10/10/2012 31/08/2014 15170"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ISOFARMA - SOLUÇÃO GLICOFISIOLÓGICA (GLICOSE 5% + CLORETO 5D0E M SÓGD/MIOL 0 +, 99% M)G/ML SOL INJ IV CX BOLS PLAS INC X 500 SIST FECH ISOFARMA INDUSTRIAL FARMACÊUTICA LTDA 10/10/2012 31/08/2014 15170"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "BERINERT 500 UI LIOF INJ CT FA VD TRANS+ FA VD TRANS DIL X 10ML + DISP TRANSF + SER 10 ML + CESQLP B +E H2R CIONGM PCROEMSSÉARSC I+O 1 D CEU PRRAOTDIVUOTOS FARMACÊUTICOS LTDA 01/01/2018 31/03/2018 101"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "BERINERT 500 UI LIOF INJ CT FA VD TRANS+ FA VD TRANS DIL X 10ML + DISP TRANSF + SER 10 ML + CESQLP B +E H2R CIONGM PCROEMSSÉARSC I+O 1 D CEU PRRAOTDIVUOTOS FARMACÊUTICOS LTDA 01/01/2018 31/03/2018 101"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "LANSOPRAZOL + CLARITROMICINA + AMOXICILINA 30 MG CAP + 500 MG COM REV + 500 MG CAP CT BL AL PLAS INC X 28 + BL AL PLAS INC XL A1B4O +R 1A4T Ó+ R2I8O TEUTO BRASILEIRO S/A 10/10/2012 31/08/2014 10370054"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "LANSOPRAZOL + CLARITROMICINA + AMOXICILINA 30 MG CAP GEL DURA + 500 MG COMP REV + 500 MG CAP GEL DURA CT 7 BL AL PLAS I NPCR 2A T+I 2D +O 4N A+D 3U0Z MZIG & C CAIPA GLTEDLA DURA BL AL PLAS INC X 28 01"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "LANSOPRAZOL + CLARITROMICINA + AMOXICILINA 30 MG CAP + 500 MG COM REV + 500 MG CAP CT BL AL PLAS INC X 28 + BL AL PLAS INC XL A1B4O +R 1A4T Ó+ R2I8O TEUTO BRASILEIRO S/A 10/10/2012 31/08/2014 10370054"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "LANSOPRAZOL + CLARITROMICINA + AMOXICILINA 30 MG CAP GEL DURA + 500 MG COMP REV + 500 MG CAP GEL DURA CT 7 BL AL PLAS INPCR 2A T+I 2D +O 4N A+D 3U0Z MZIG & C CAIPA GLTEDLA DURA BL AL PLAS INC X 28 01/"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "OMEPRAMIX 20 MG CAP DURA LIB RETARD + 500 MG COM REV + 500 MG CAP DURA CT BL AL PLAS T RAACNHSÉ XL A1B4O +R BALT ÓALR PIOLSA SF ATRRMANASC ÊXU 1T4IC +O BSL S A.AL PLAS TRANS X 28 01/01/2018 31/03/2018"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "OMEPRAMIX 20 MG CAP DURA LIB RETARD + 500 MG COM REV + 500 MG CAP DURA CT BL AL PLAS T RAACNHSÉ XL A2B8O +R BALT ÓALR PIOLSA SF ATRRMANASC ÊXU 1T4IC +O BSL S A.AL PLAS TRANS X 28 01/01/2018 31/03/2018"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "OMEPRAMIX 20 MG CAP DURA LIB RETARD + 500 MG COM REV + 500 MG CAP DURA CT BL AL PLAS T RAACNHSÉ XL A4B2O +R BALT ÓALR PIOLSA SF ATRRMANASC ÊXU 1T4IC +O BSL S A.AL PLAS TRANS X 28 01/01/2018 31/03/2018"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "OMEPRAMIX 20 MG CAP DURA LIB RETARD + 500 MG COM REV + 500 MG CAP DURA CT BL AL PLAS TRAACNHSÉ XL A1B4O +R BALT ÓALR PIOLSA SF ATRRMANASC ÊXU 1T4IC +O BSL S A.AL PLAS TRANS X 28 01/01/2018 31/03/2018 "
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "OMEPRAMIX 20 MG CAP DURA LIB RETARD + 500 MG COM REV + 500 MG CAP DURA CT BL AL PLAS TRAACNHSÉ XL A2B8O +R BALT ÓALR PIOLSA SF ATRRMANASC ÊXU 1T4IC +O BSL S A.AL PLAS TRANS X 28 01/01/2018 31/03/2018 "
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "OMEPRAMIX 20 MG CAP DURA LIB RETARD + 500 MG COM REV + 500 MG CAP DURA CT BL AL PLAS TRAACNHSÉ XL A4B2O +R BALT ÓALR PIOLSA SF ATRRMANASC ÊXU 1T4IC +O BSL S A.AL PLAS TRANS X 28 01/01/2018 31/03/2018 "
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "PIPERACILINA SÓDICA + TAZOBACTAM SÓDICO 4 G + 0,5 G PO SOL INJ IV CX 20 FA VD INC + 20 BOLS PVC TRANS SIST FECH COM CONEC TNOORV XA 1FA0R0 MMAL I(NEDMÚBS HTROIASP F)A RMACÊUTICA LTDA 01/01/2016 31/03/"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "PIPERACILINA SÓDICA + TAZOBACTAM SÓDICO 4 G + 0,5 G PO SOL INJ IV CX 20 FA VD INC + 20 BOLS PVC TRANS SIST FECH COM CONECTNOORV XA 1FA0R0 MMAL I(NEDMÚBS HTROIASP F)A RMACÊUTICA LTDA 01/01/2016 31/03/2"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "POLICRESULENO + CLORIDRATO DE CINCHOCAÍNA 50 MG/G + 10 MG/G POM RET CT 50 BG AL X 3 G + 50 APLIC (EMB FRAC) MULTILAB INDÚSTRIA E COMÉRCIO DE PRODUTOS FARMACÊUTIC OS0 L1T/D06A/2016 31/08/2016 118190166"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "POLICRESULENO + CLORIDRATO DE CINCHOCAÍNA 50 MG/G + 10 MG/G POM RET CT 50 BG AL X 3 G + 50 APLIC (EMB FRAC) MULTILAB INDÚSTRIA E COMÉRCIO DE PRODUTOS FARMACÊUTICOS0 L1T/D06A/2016 31/08/2016 1181901660"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FLUOCINOLONA ACETONIDA + SULFATO DE POLIMIXINA B + SULFA T0O,2 D5E0 NMEGO/MMILC I+N 1A0 +.0 C0L0O URII/DMRAL T+O 3 ,D5E M LIGD/OMCLA I+N 2A0 MG/ML SOL OTO CT FR PLAS OPC GOT GXE 1O0L MABL INDÚSTRIA FA"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FLUOCINOLONA ACETONIDA + SULFATO DE POLIMIXINA B + SULFA T0O,2 D5E0 NMEGO/M MICLI N+ A1 0+. 0C0LO0 RUIID/ RMALT O+ 3D,E5 0L0ID MOCGA/Í NMAL + 20 MG/ ML SOL OTO CT FR PLAS OPC LGEOGTR AX N1D0 PMHLARMA "
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "MALEATO DE DEXCLORFENIRAMINA + SULFATO DE PSEUDOEFEDRI N0A,4 + M GGU/AMIFLE N+ E4S MINGA/ML + 20 MG/ML SOL OR CT FR PLAS AMB X 120 ML + COP LEGRAND PHARMA INDÚSTRIA FARMACÊUTICA LTDA 01/06/2019 31/08/"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FLUOCINOLONA ACETONIDA + SULFATO DE POLIMIXINA B + SULFAT0O,2 D5E0 NMEGO/MMILC I+N 1A0 +.0 C0L0O URII/DMRAL T+O 3 ,D5E M LIGD/OMCLA I+N 2A0 MG/ML SOL OTO CT FR PLAS OPC GOT GXE 1O0L MABL INDÚSTRIA FAR"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "FLUOCINOLONA ACETONIDA + SULFATO DE POLIMIXINA B + SULFAT0O,2 D5E0 NMEGO/M MICLI N+ A1 0+. 0C0LO0 RUIID/ RMALT O+ 3D,E5 0L0ID MOCGA/Í NMAL + 20 MG/ ML SOL OTO CT FR PLAS OPC LGEOGTR AX N1D0 PMHLARMA I"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "MALEATO DE DEXCLORFENIRAMINA + SULFATO DE PSEUDOEFEDRIN0A,4 + M GGU/AMIFLE N+ E4S MINGA/ML + 20 MG/ML SOL OR CT FR PLAS AMB X 120 ML + COP LEGRAND PHARMA INDÚSTRIA FARMACÊUTICA LTDA 01/06/2019 31/08/2"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "PERJETA HER 420 MG SOL DIL INFUS IV CT FA VD TRANS X 14 ML + 440 MG PO LIOF SOL INJ IV CT FA V DPR TORDAUNTS O+S D RILO FCAH VED Q TURÍMANICSO XS 2 E0 F MARLMACÊUTICOS S.A. 01/05/2014 31/08/2014 10100"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "PERJETA HER 420 MG SOL DIL INFUS IV CT FA VD TRANS X 14 ML + 440 MG PO LIOF SOL INJ IV CT FA VDPR TORDAUNTS O+S D RILO FCAH VED Q TURÍMANICSO XS 2 E0 F MARLMACÊUTICOS S.A. 01/05/2014 31/08/2014 101000"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMIC I1D MINGA/ + G N +IS 2T,A5T MINGA/ G + 0,25 MG/ G + 100.000 UI/ G POM DERM CT BG AL X 30 G BRAINFARMA INDÚSTRIA QUÍMICA E FARMACÊUTICA S.A 01/03"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMIC I1D,0IN MA G+ /NGI S+T 2A,T5I NMAG/G + 0,25 MG/G + 100000 UI/G POM DERM CT BG AL X 30 G EUROFARMA LABORATÓRIOS S.A. 01/01/2016 31/03/2016 100430"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMIC I1D MINGA/ + G N +IS 2T,A5T MINGA/ G + 0,25 MG/ G + 100.000 UI/ G POM DERM CT BG AL X 30 G LABORATÓRIO NEO QUÍMICA COMÉRCIO E INDÚSTRIA LTDA 10/"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMIC I1D MINGA/ +G N +I S2T,5A TMINGA/G + 0,25 MG/G + 100.000 UI/G POM DERM CT BG AL X 30 G SANOFI MEDLEY FARMACÊUTICA LTDA. 01/10/2019 09/07/2017 18"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMIC I1D MINGA/ +G N +I S2T,5A TMINGA/G + 0,25MG/G + 100.000 UI/G CREM DERM CT BG AL X 30 G SANOFI MEDLEY FARMACÊUTICA LTDA. 01/10/2019 09/07/2017 18"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ACETONIDA DE TRIANCINOLONA + SULFATO DE NEOMICINA + GRA M1 IMCIDGI/NGA + + 2 N,5IS MTAGT/INGA + 0,25 MG/G + 100.000 UI/G CREM DERM CT BG AL X 30 G GERMED FARMACEUTICA LTDA 10/10/2012 31/08/2014 105830"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ACETONIDA DE TRIANCINOLONA + SULFATO DE NEOMICINA + GRA M1 IMCIDGI/NGA + + 2 N,5IS MTAGT/INGA + 0,25 MG/G + 100.000 UI/G CREM DERM CT BG AL X 30 G LEGRAND PHARMA INDÚSTRIA FARMACÊUTICA LTDA 10/10/2012"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ACETONIDA DE TRIANCINOLONA + SULFATO DE NEOMICINA + GRA M1 IMCIDGI/NGA + + 2 N,5IS MTAGT/INGA + 0,25 MG/G + 100.000 UI/G POM DERM CT BG AL X 30 G LEGRAND PHARMA INDÚSTRIA FARMACÊUTICA LTDA 10/10/2012 "
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMICI1D MINGA/ + G N +IS 2T,A5T MINGA/ G + 0,25 MG/ G + 100.000 UI/ G POM DERM CT BG AL X 30 G BRAINFARMA INDÚSTRIA QUÍMICA E FARMACÊUTICA S.A 01/03/"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMICI1D,0IN MA G+ /NGI S+T 2A,T5I NMAG/G + 0,25 MG/G + 100000 UI/G POM DERM CT BG AL X 30 G EUROFARMA LABORATÓRIOS S.A. 01/01/2016 31/03/2016 1004309"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMICI1D MINGA/ + G N +IS 2T,A5T MINGA/ G + 0,25 MG/ G + 100.000 UI/ G POM DERM CT BG AL X 30 G LABORATÓRIO NEO QUÍMICA COMÉRCIO E INDÚSTRIA LTDA 10/1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMICI1D MINGA/ +G N +I S2T,5A TMINGA/G + 0,25 MG/G + 100.000 UI/G POM DERM CT BG AL X 30 G SANOFI MEDLEY FARMACÊUTICA LTDA. 01/10/2019 09/07/2017 183"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "TRIANCINOLONA ACETONIDA + SULFATO DE NEOMICINA + GRAMICI1D MINGA/ +G N +I S2T,5A TMINGA/G + 0,25MG/G + 100.000 UI/G CREM DERM CT BG AL X 30 G SANOFI MEDLEY FARMACÊUTICA LTDA. 01/10/2019 09/07/2017 183"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ACETONIDA DE TRIANCINOLONA + SULFATO DE NEOMICINA + GRAM1 IMCIDGI/NGA + + 2 N,5IS MTAGT/INGA + 0,25 MG/G + 100.000 UI/G CREM DERM CT BG AL X 30 G GERMED FARMACEUTICA LTDA 10/10/2012 31/08/2014 1058304"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ACETONIDA DE TRIANCINOLONA + SULFATO DE NEOMICINA + GRAM1 IMCIDGI/NGA + + 2 N,5IS MTAGT/INGA + 0,25 MG/G + 100.000 UI/G CREM DERM CT BG AL X 30 G LEGRAND PHARMA INDÚSTRIA FARMACÊUTICA LTDA 10/10/2012 "
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "ACETONIDA DE TRIANCINOLONA + SULFATO DE NEOMICINA + GRAM1 IMCIDGI/NGA + + 2 N,5IS MTAGT/INGA + 0,25 MG/G + 100.000 UI/G POM DERM CT BG AL X 30 G LEGRAND PHARMA INDÚSTRIA FARMACÊUTICA LTDA 10/10/2012 3"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0MG/G POM DERM CT BG AL X 20G ACHÉ LABORATÓRIOS FARMACÊUTICOS S.A 01/12/2013 31/08/2014 1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10 MG/G CREM DERM CT BG AL X 20 G ACHÉ LABORATÓRIOS FARMACÊUTICOS S.A 10/10/2012 31/08/2014 "
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0.A5F MTAGT/OG ++ C1L IMOGQ/UGIN +O 1L0 MG/G +10 MG/G CREM DERM CT BG AL X 20 G BRAINFARMA INDÚSTRIA QUÍMICA E FARMACÊUTICA S.A 01/01/2016 31/0"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA/ SULFATO DE GENTAMICINA/ TOLN A0,F5T AMTGO//G C +L I1O QMUGI/NGO +L /10 MG/G + 10 MG/G POM DERM CT BG AL X 20G BRAINFARMA INDÚSTRIA QUÍMICA E FARMACÊUTICA S.A 01/06/2019 31/08"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA+SULFATO DE GENTAMICINA+TOLN A0F,T5A MTOG+/CGL +IO 1Q,0U MINGO/LG + 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 20 G CIMED INDÚSTRIA DE MEDICAMENTOS LTDA 01/01/2018 31/03/2018 14"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA+SULFATO DE GENTAMICINA+TOLN A0F,T5A MTOG+/CGL +IO 1Q,0U MINGO/LG + 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 20 G EUROFARMA LABORATÓRIOS S.A. 01/01/2016 31/03/2016 10043090100"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA+SULFATO DE GENTAMICINA+TOLN A0F,T5A MTOG+/CGL +IO 1Q,0U MINGO/LG + 10,0 MG/G + 10,0 MG/G CREM DERM CT BG AL X 20 G EUROFARMA LABORATÓRIOS S.A. 01/01/2016 31/03/2016 1004309000"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G CREM DERM CT BG AL X 20 G GEOLAB INDÚSTRIA FARMACÊUTICA S/A 10/04/2017 09/07/2017 "
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G CREM DERM CT BG AL X 10 G GEOLAB INDÚSTRIA FARMACÊUTICA S/A 10/04/2017 09/07/2017 "
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 10 G GEOLAB INDÚSTRIA FARMACÊUTICA S/A 10/04/2017 09/07/2017 1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 20 G GEOLAB INDÚSTRIA FARMACÊUTICA S/A 10/04/2017 09/07/2017 1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA+SULFATO DE GENTAMICINA+TOLN A0F,T5A MTOG+/CGL +IO 1Q MUIGN/OGL + 10 MG/G + 10 MG/G POM DERM CT BG AL X 20G LABORATÓRIO NEO QUÍMICA COMÉRCIO E INDÚSTRIA LTDA 10/10/2012 31/08/2"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L IMOGQ/UGIN +O 1L0 MG/G + 10 MG/G CREM DERM CT BG AL X 20 G LABORATÓRIO TEUTO BRASILEIRO S/A 10/10/2012 31/08/2014 1037004"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1LMIOGQ/UGI N+ O10L MG/G + 10 MG/G POM DERM CT BG AL X 20 G LABORATÓRIO TEUTO BRASILEIRO S/A 10/10/2012 31/08/2014 103700500"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 20 G BIOSINTÉTICA FARMACÊUTICA LTDA 01/01/2018 31/03/2018 1121"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT O/G + + C 1LI,O0 QMUGIN /OG L+ 10,0 MG /G + 10,0 MG/G CREM DERM CT BG AL X 20G BIOSINTÉTICA FARMACÊUTICA LTDA 10/10/2012 31/08/2014"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L IMOGQ/UGIN +O 1L0 MG/G + 10 MG/G CREM DERM CT BG AL X 20 G SANOFI MEDLEY FARMACÊUTICA LTDA. 01/10/2019 09/07/2017 1832602"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/O G + + C 1LI,O0 QMUGIN/ OG L+ 10,0 MG/ G + 10,0 MG/ G POM DERM CT BG AL X 20 G SANOFI MEDLEY FARMACÊUTICA LTDA. 01/10/2019 09/07/2"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G CREM DERM CT BG AL X 20 G NOVA QUIMICA FARMACÊUTICA S/A 01/01/2018 31/03/2018 1267"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 20 G NOVA QUIMICA FARMACÊUTICA S/A 01/01/2018 31/03/2018 12675"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L IMOGQ/UGIN +O 1L0 MG/G + 10 MG/G CREM DERM CT BG AL X 20 G LEGRAND PHARMA INDÚSTRIA FARMACÊUTICA LTDA 01/03/2019 31/05/20"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10 MG/G + 10 MG/G POM DERM CT BG AL X 20 G LEGRAND PHARMA INDÚSTRIA FARMACÊUTICA LTDA 01/01/2018 31/03/2"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G CREM DERM CT BG AL X 20 G CELLERA FARMACÊUTICA S.A. 01/03/2019 31/05/2019 10440020"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOL N0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 20 G CELLERA FARMACÊUTICA S.A. 01/03/2019 31/05/2019 104400206"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0MG/G POM DERM CT BG AL X 20G ACHÉ LABORATÓRIOS FARMACÊUTICOS S.A 01/12/2013 31/08/2014 10"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10 MG/G CREM DERM CT BG AL X 20 G ACHÉ LABORATÓRIOS FARMACÊUTICOS S.A 10/10/2012 31/08/2014 1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0.A5F MTAGT/OG ++ C1L IMOGQ/UGIN +O 1L0 MG/G +10 MG/G CREM DERM CT BG AL X 20 G BRAINFARMA INDÚSTRIA QUÍMICA E FARMACÊUTICA S.A 01/01/2016 31/03"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA/ SULFATO DE GENTAMICINA/ TOLNA0,F5T AMTGO//G C +L I1O QMUGI/NGO +L /10 MG/G + 10 MG/G POM DERM CT BG AL X 20G BRAINFARMA INDÚSTRIA QUÍMICA E FARMACÊUTICA S.A 01/06/2019 31/08/"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA+SULFATO DE GENTAMICINA+TOLNA0F,T5A MTOG+/CGL +IO 1Q,0U MINGO/LG + 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 20 G CIMED INDÚSTRIA DE MEDICAMENTOS LTDA 01/01/2018 31/03/2018 143"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA+SULFATO DE GENTAMICINA+TOLNA0F,T5A MTOG+/CGL +IO 1Q,0U MINGO/LG + 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 20 G EUROFARMA LABORATÓRIOS S.A. 01/01/2016 31/03/2016 100430901001"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA+SULFATO DE GENTAMICINA+TOLNA0F,T5A MTOG+/CGL +IO 1Q,0U MINGO/LG + 10,0 MG/G + 10,0 MG/G CREM DERM CT BG AL X 20 G EUROFARMA LABORATÓRIOS S.A. 01/01/2016 31/03/2016 10043090000"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G CREM DERM CT BG AL X 20 G GEOLAB INDÚSTRIA FARMACÊUTICA S/A 10/04/2017 09/07/2017 1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G CREM DERM CT BG AL X 10 G GEOLAB INDÚSTRIA FARMACÊUTICA S/A 10/04/2017 09/07/2017 1"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 10 G GEOLAB INDÚSTRIA FARMACÊUTICA S/A 10/04/2017 09/07/2017 15"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 20 G GEOLAB INDÚSTRIA FARMACÊUTICA S/A 10/04/2017 09/07/2017 15"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA+SULFATO DE GENTAMICINA+TOLNA0F,T5A MTOG+/CGL +IO 1Q MUIGN/OGL + 10 MG/G + 10 MG/G POM DERM CT BG AL X 20G LABORATÓRIO NEO QUÍMICA COMÉRCIO E INDÚSTRIA LTDA 10/10/2012 31/08/20"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/OG ++ C1L IMOGQ/UGIN +O 1L0 MG/G + 10 MG/G CREM DERM CT BG AL X 20 G LABORATÓRIO TEUTO BRASILEIRO S/A 10/10/2012 31/08/2014 10370049"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/OG ++ C1LMIOGQ/UGI N+ O10L MG/G + 10 MG/G POM DERM CT BG AL X 20 G LABORATÓRIO TEUTO BRASILEIRO S/A 10/10/2012 31/08/2014 1037005000"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 20 G BIOSINTÉTICA FARMACÊUTICA LTDA 01/01/2018 31/03/2018 11213"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT O/G + + C 1LI,O0 QMUGIN /OG L+ 10,0 MG /G + 10,0 MG/G CREM DERM CT BG AL X 20G BIOSINTÉTICA FARMACÊUTICA LTDA 10/10/2012 31/08/2014 "
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/OG ++ C1L IMOGQ/UGIN +O 1L0 MG/G + 10 MG/G CREM DERM CT BG AL X 20 G SANOFI MEDLEY FARMACÊUTICA LTDA. 01/10/2019 09/07/2017 18326024"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/O G + + C 1LI,O0 QMUGIN/ OG L+ 10,0 MG/ G + 10,0 MG/ G POM DERM CT BG AL X 20 G SANOFI MEDLEY FARMACÊUTICA LTDA. 01/10/2019 09/07/20"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G CREM DERM CT BG AL X 20 G NOVA QUIMICA FARMACÊUTICA S/A 01/01/2018 31/03/2018 12675"
+    },
+    {
+      "file": "tuss_drugs",
+      "message": "name too long",
+      "sample": "VALERATO DE BETAMETASONA + SULFATO DE GENTAMICINA + TOLN0,A5F MTAGT/OG ++ C1L,I0O MQUGI/NGO +L 10,0 MG/G + 10,0 MG/G POM DERM CT BG AL X 20 G NOVA QUIMICA FARMACÊUTICA S/A 01/01/2018 31/03/2018 126750"
+    }
+  ]
+}
