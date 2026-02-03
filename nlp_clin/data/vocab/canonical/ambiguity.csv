@@ -1,0 +1,17 @@
+entry_text,concept_id,conflict_type,possible_meanings,context_rule,source_file
+ADA,7d1362bfd0a4,multiple_meanings,ADENOSINA DEAMINASE; AMPLITUDE DE ACOMODAÇÃO,,siglarario1.pdf
+ADA,75b39a9478df,multiple_meanings,ADENOSINA DEAMINASE; AMPLITUDE DE ACOMODAÇÃO,,siglarario1.pdf
+ANTI,29f6524b4e95,multiple_meanings,HIV I EXAME ANTI VÍRUS DA IMUNODEFICIÊNCIA HUMANA TIPO I; HIV II EXAME ANTI VÍRUS DA IMUNODEFICIÊNCIA HUMANA TIPO II,,siglarario1.pdf
+ANTI,1ca1b718cb46,multiple_meanings,HIV I EXAME ANTI VÍRUS DA IMUNODEFICIÊNCIA HUMANA TIPO I; HIV II EXAME ANTI VÍRUS DA IMUNODEFICIÊNCIA HUMANA TIPO II,,siglarario1.pdf
+CA,ce725f79358d,multiple_meanings,125 CA 125; 15.3 CA 15.3; 19-9 CA 19-9; CÂNCER,,siglarario1.pdf
+CA,4dfb92184f5e,multiple_meanings,125 CA 125; 15.3 CA 15.3; 19-9 CA 19-9; CÂNCER,,siglarario1.pdf
+CA,0e10f72243dd,multiple_meanings,125 CA 125; 15.3 CA 15.3; 19-9 CA 19-9; CÂNCER,,siglarario1.pdf
+CA,cd589f423782,multiple_meanings,125 CA 125; 15.3 CA 15.3; 19-9 CA 19-9; CÂNCER,,siglarario1.pdf
+CKMB,a02a074c001d,multiple_meanings,CREATINOFOSFOQUINASE FRAÇÃO MB; FRAÇÃO DA ENZIMA CPK,,siglarario1.pdf
+CKMB,bd5ab7084777,multiple_meanings,CREATINOFOSFOQUINASE FRAÇÃO MB; FRAÇÃO DA ENZIMA CPK,,siglarario1.pdf
+HCV,941dba4a363c,multiple_meanings,HIDRATAÇÃO VENOSA CENTRAL; VÍRUS DA HEPATITE C,,siglarario1.pdf
+HSV,e2cef117459b,multiple_meanings,-1 VÍRUS HERPES SIMPLES TIPO 1; -2 VÍRUS HERPES SIMPLES TIPO 2,,siglarario1.pdf
+HSV,1310c0174903,multiple_meanings,-1 VÍRUS HERPES SIMPLES TIPO 1; -2 VÍRUS HERPES SIMPLES TIPO 2,,siglarario1.pdf
+HCV,1398f5990550,multiple_meanings,HIDRATAÇÃO VENOSA CENTRAL; VÍRUS DA HEPATITE C,,siglarario1.pdf
+OC,100bbb2d1125,multiple_meanings,GRAUS CELSIUS; OCULAR,,siglarario1.pdf
+OC,f25993aa1be6,multiple_meanings,GRAUS CELSIUS; OCULAR,,siglarario1.pdf

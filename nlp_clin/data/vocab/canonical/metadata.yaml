@@ -1,0 +1,19 @@
+generated_at: 2026-02-03T17:32:50.950859Z
+staging_dir: C:\Users\cadu\Dropbox\Cadu\Trabalho\HealthTech\healthtech\nlp_clin\data\vocab\staging
+canonical_dir: C:\Users\cadu\Dropbox\Cadu\Trabalho\HealthTech\healthtech\nlp_clin\data\vocab\canonical
+counts:
+  concepts: 62423
+  entries: 137109
+  blocked_terms: 0
+  ambiguity: 16
+vocabulary_breakdown:
+  CID10: 22706
+  TUSS_PROC: 5841
+  TUSS_DRUG: 45239
+  LABS: 636
+  SIGLARIO: 900
+entry_type_breakdown:
+  official: 75322
+  code: 73786
+  abbr: 900
+hash: e18e5f5e960d54e04356446cd47ba6ec81ae5ebc815a1ee3dedd41dfce20cb88
