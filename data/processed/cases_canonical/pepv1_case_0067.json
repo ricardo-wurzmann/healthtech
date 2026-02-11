@@ -1,0 +1,351 @@
+{
+  "doc_id": "pepv1_case_0067",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "67) ID: M, 27 anos. QD: “Politrauma por queda de moto.” HPMA: Vítima de queda de moto após colisão em alta velocidade. Chega ao PS com vias aéreas pérvias, MV presente e simétrico, FR 30 irpm, FC 125 bpm e PA 90×50 mmHg. Apresenta sinais de fraturas em face, antebraço direito e perna direita. Queixa de dor à palpação de bacia e apresenta distensão abdominal. Foram realizados exames de imagem (RX/TC conforme protocolo de trauma) já em avaliação pela equipe (hipótese: choque hemorrágico no politraumatizado, provável foco pélvico/abdominal). ISDA: Nega vômitos no momento; sem queixas respiratórias específicas além de taquipneia. Sem informação confiável sobre diurese pós-trauma. AP: Sem antecedentes e medicações de uso contínuo conhecidos na admissão (informação limitada pelo contexto de trauma). Alergias não referidas. AF: ABCDE: A pérvia, sem estridor; B MV simétrico, taquipneico; C pele fria, TEC aumentado, taquicárdico, PA limítrofe; D consciente porém ansioso, sem déficits focais evidentes à triagem; E escoriações/traumas em face e membros. Abdome distendido, doloroso. Pelve dolorosa à palpação. Imobilização e monitorização contínua em sala de trauma.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "67) ID: M, 27 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PS",
+      "start": 128,
+      "end": 130,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "588331c61fba",
+        "concept_name": "PRESSÃO DE SUPORTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Chega ao PS com vias aéreas pérvias, MV presente e simétrico, FR 30 irpm, FC 125 bpm e PA 90×50 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "MV",
+      "start": 156,
+      "end": 158,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b5c8f31217e7",
+        "concept_name": "MURMÚRIO VESICULAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Chega ao PS com vias aéreas pérvias, MV presente e simétrico, FR 30 irpm, FC 125 bpm e PA 90×50 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FR",
+      "start": 181,
+      "end": 183,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Chega ao PS com vias aéreas pérvias, MV presente e simétrico, FR 30 irpm, FC 125 bpm e PA 90×50 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 187,
+      "end": 191,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Chega ao PS com vias aéreas pérvias, MV presente e simétrico, FR 30 irpm, FC 125 bpm e PA 90×50 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 193,
+      "end": 195,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Chega ao PS com vias aéreas pérvias, MV presente e simétrico, FR 30 irpm, FC 125 bpm e PA 90×50 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 200,
+      "end": 203,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Chega ao PS com vias aéreas pérvias, MV presente e simétrico, FR 30 irpm, FC 125 bpm e PA 90×50 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 206,
+      "end": 208,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Chega ao PS com vias aéreas pérvias, MV presente e simétrico, FR 30 irpm, FC 125 bpm e PA 90×50 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "RX",
+      "start": 396,
+      "end": 398,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "8d67856dd068",
+        "concept_name": "RAIOS X/RADIOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Foram realizados exames de imagem (RX/TC conforme protocolo de trauma) já em avaliação pela equipe (hipótese: choque hemorrágico no politraumatizado, provável foco pélvico/abdominal)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 580,
+      "end": 587,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega vômitos no momento; sem queixas respiratórias específicas além de taquipneia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 685,
+      "end": 687,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem antecedentes e medicações de uso contínuo conhecidos na admissão (informação limitada pelo contexto de trauma)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 829,
+      "end": 831,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: ABCDE: A pérvia, sem estridor; B MV simétrico, taquipneico; C pele fria, TEC aumentado, taquicárdico, PA limítrofe; D consciente porém ansioso, sem déficits focais evidentes à triagem; E escoriações/traumas em face e membros."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "estridor",
+      "start": 854,
+      "end": 862,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R06.1",
+        "concept_name": "Estridor",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AF: ABCDE: A pérvia, sem estridor; B MV simétrico, taquipneico; C pele fria, TEC aumentado, taquicárdico, PA limítrofe; D consciente porém ansioso, sem déficits focais evidentes à triagem; E escoriações/traumas em face e membros."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "MV",
+      "start": 866,
+      "end": 868,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b5c8f31217e7",
+        "concept_name": "MURMÚRIO VESICULAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: ABCDE: A pérvia, sem estridor; B MV simétrico, taquipneico; C pele fria, TEC aumentado, taquicárdico, PA limítrofe; D consciente porém ansioso, sem déficits focais evidentes à triagem; E escoriações/traumas em face e membros."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pele",
+      "start": 895,
+      "end": 899,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.5",
+        "concept_name": "Pele",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AF: ABCDE: A pérvia, sem estridor; B MV simétrico, taquipneico; C pele fria, TEC aumentado, taquicárdico, PA limítrofe; D consciente porém ansioso, sem déficits focais evidentes à triagem; E escoriações/traumas em face e membros."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 935,
+      "end": 937,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: ABCDE: A pérvia, sem estridor; B MV simétrico, taquipneico; C pele fria, TEC aumentado, taquicárdico, PA limítrofe; D consciente porém ansioso, sem déficits focais evidentes à triagem; E escoriações/traumas em face e membros."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 1059,
+      "end": 1065,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome distendido, doloroso."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Pelve",
+      "start": 1088,
+      "end": 1093,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.3",
+        "concept_name": "Pelve",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Pelve dolorosa à palpação."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 67,
+  "group": "caso_estruturado"
+}

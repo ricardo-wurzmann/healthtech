@@ -1,0 +1,294 @@
+{
+  "doc_id": "pepv1_case_0055",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "55) ID: Mulher, 62 anos. QD: Lombalgia baixa com irradiação para face lateral da coxa esquerda há 2 meses. HPMA: Dor lombar baixa há 2 meses, em pontada, com irradiação para a face lateral da coxa esquerda, piora aos movimentos e melhora ao repouso noturno. Nega trauma, febre e emagrecimento. Procurou PS há 3 semanas, recebeu dipirona sem alívio. Antecedentes: HAS, DM2 e câncer de mama em uso de tamoxifeno. Exame neurológico sem parestesias, força 5/5 global, reflexos preservados, sem déficits focais; demais exame clínico sem alterações relevantes. Contexto clínico compatível com lombalgia subaguda com componente radicular, em paciente com antecedente oncológico em uso de tamoxifeno, exigindo investigação etiológica direcionada. ISDA: Nega alterações esfincterianas, anestesia em sela, claudicação neurogênica ou dor noturna progressiva (questionados). AP: HAS, DM2, câncer de mama em uso de tamoxifeno. Medicações em uso além do tamoxifeno: não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "55) ID: Mulher, 62 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "lateral",
+      "start": 70,
+      "end": 77,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "7a48e4a6867b",
+        "concept_name": "LATERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: Lombalgia baixa com irradiação para face lateral da coxa esquerda há 2 meses."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Dor lombar baixa",
+      "start": 113,
+      "end": 129,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "M54.5",
+        "concept_name": "Dor lombar baixa",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Dor lombar baixa há 2 meses, em pontada, com irradiação para a face lateral da coxa esquerda, piora aos movimentos e melhora ao repouso noturno."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "lateral",
+      "start": 181,
+      "end": 188,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "7a48e4a6867b",
+        "concept_name": "LATERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Dor lombar baixa há 2 meses, em pontada, com irradiação para a face lateral da coxa esquerda, piora aos movimentos e melhora ao repouso noturno."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PS",
+      "start": 303,
+      "end": 305,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "588331c61fba",
+        "concept_name": "PRESSÃO DE SUPORTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Procurou PS há 3 semanas, recebeu dipirona sem alívio."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "dipirona",
+      "start": 328,
+      "end": 336,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90055888",
+        "concept_name": "DIPIRONA SÓDICA 50 MG/ML SOL OR CT FR VD AMB X 100 ML + CP MED EMS S/A 10/10/2012 31/08/2014 1023508000011",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Procurou PS há 3 semanas, recebeu dipirona sem alívio."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 363,
+      "end": 366,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Antecedentes: HAS, DM2 e câncer de mama em uso de tamoxifeno."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "câncer",
+      "start": 374,
+      "end": 380,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd589f423782",
+        "concept_name": "CÂNCER",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Antecedentes: HAS, DM2 e câncer de mama em uso de tamoxifeno."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mama",
+      "start": 384,
+      "end": 388,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.6",
+        "concept_name": "Mama",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Antecedentes: HAS, DM2 e câncer de mama em uso de tamoxifeno."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 635,
+      "end": 643,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Contexto clínico compatível com lombalgia subaguda com componente radicular, em paciente com antecedente oncológico em uso de tamoxifeno, exigindo investigação etiológica direcionada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 863,
+      "end": 865,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS, DM2, câncer de mama em uso de tamoxifeno."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 867,
+      "end": 870,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS, DM2, câncer de mama em uso de tamoxifeno."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "câncer",
+      "start": 877,
+      "end": 883,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd589f423782",
+        "concept_name": "CÂNCER",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AP: HAS, DM2, câncer de mama em uso de tamoxifeno."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mama",
+      "start": 887,
+      "end": 891,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.6",
+        "concept_name": "Mama",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AP: HAS, DM2, câncer de mama em uso de tamoxifeno."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 968,
+      "end": 970,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 55,
+  "group": "caso_estruturado"
+}

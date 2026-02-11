@@ -1,0 +1,370 @@
+{
+  "doc_id": "pepv1_case_0069",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "69) ID: Homem, 60 anos, hipertenso e diabético tipo 2. QD: \"Dor torácica com irradiação para mandíbula e dificuldade respiratória.\" HPMA: Paciente com histórico de HAS e DM2, em uso de medicações regulares (losartana, metformina), com controle glicêmico subótimo. Apresenta dor torácica em aperto, que irradia para mandíbula e braço esquerdo, de início súbito há 30 minutos, associada a dispneia e sudorese profusa. Nega náuseas ou vômitos. Ao exame físico: PA 160×100 mmHg, FC 108 bpm, FR 24 irpm, saturação de oxigênio 96% em ar ambiente, ausculte-se estertores finos nas bases pulmonares, bulhas com sopro sistólico em foco mitral. Realizada ECG com alteração sugestiva de infarto do miocárdio com supra de ST em parede anterior. Hipótese de síndrome coronariana aguda (infarto do miocárdio). ISDA: Nega febre, vômitos, disúria, sincope ou dor abdominal. AP: HAS e DM2 com histórico de controle subótimo, sem comorbidades adicionais. AF: Nega tabagismo, etilismo excessivo ou histórico familiar de doenças cardíacas.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "69) ID: Homem, 60 anos, hipertenso e diabético tipo 2."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mandíbula",
+      "start": 93,
+      "end": 102,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C41.1",
+        "concept_name": "Mandíbula",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: \"Dor torácica com irradiação para mandíbula e dificuldade respiratória.\""
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Paciente",
+      "start": 138,
+      "end": 146,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Paciente com histórico de HAS e DM2, em uso de medicações regulares (losartana, metformina), com controle glicêmico subótimo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 164,
+      "end": 167,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Paciente com histórico de HAS e DM2, em uso de medicações regulares (losartana, metformina), com controle glicêmico subótimo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "losartana",
+      "start": 207,
+      "end": 216,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90046838",
+        "concept_name": "LOSARTANA POTÁSSICA 50 MG COM REV CT 3 BL AL PLAS OPC X 10 CRISTÁLIA PRODUTOS QUÍMICOS FARMACÊUTICOS LTDA. 10/10/2012 31/08/2014 1029803370028",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "HPMA: Paciente com histórico de HAS e DM2, em uso de medicações regulares (losartana, metformina), com controle glicêmico subótimo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mandíbula",
+      "start": 315,
+      "end": 324,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C41.1",
+        "concept_name": "Mandíbula",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Apresenta dor torácica em aperto, que irradia para mandíbula e braço esquerdo, de início súbito há 30 minutos, associada a dispneia e sudorese profusa."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "exame físico",
+      "start": 444,
+      "end": 456,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame físico: PA 160×100 mmHg, FC 108 bpm, FR 24 irpm, saturação de oxigênio 96% em ar ambiente, ausculte-se estertores finos nas bases pulmonares, bulhas com sopro sistólico em foco mitral."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 458,
+      "end": 460,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame físico: PA 160×100 mmHg, FC 108 bpm, FR 24 irpm, saturação de oxigênio 96% em ar ambiente, ausculte-se estertores finos nas bases pulmonares, bulhas com sopro sistólico em foco mitral."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 475,
+      "end": 477,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame físico: PA 160×100 mmHg, FC 108 bpm, FR 24 irpm, saturação de oxigênio 96% em ar ambiente, ausculte-se estertores finos nas bases pulmonares, bulhas com sopro sistólico em foco mitral."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 482,
+      "end": 485,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame físico: PA 160×100 mmHg, FC 108 bpm, FR 24 irpm, saturação de oxigênio 96% em ar ambiente, ausculte-se estertores finos nas bases pulmonares, bulhas com sopro sistólico em foco mitral."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FR",
+      "start": 487,
+      "end": 489,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame físico: PA 160×100 mmHg, FC 108 bpm, FR 24 irpm, saturação de oxigênio 96% em ar ambiente, ausculte-se estertores finos nas bases pulmonares, bulhas com sopro sistólico em foco mitral."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 493,
+      "end": 497,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame físico: PA 160×100 mmHg, FC 108 bpm, FR 24 irpm, saturação de oxigênio 96% em ar ambiente, ausculte-se estertores finos nas bases pulmonares, bulhas com sopro sistólico em foco mitral."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "oxigênio",
+      "start": 512,
+      "end": 520,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "d9aebd108866",
+        "concept_name": "OXIGÊNIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame físico: PA 160×100 mmHg, FC 108 bpm, FR 24 irpm, saturação de oxigênio 96% em ar ambiente, ausculte-se estertores finos nas bases pulmonares, bulhas com sopro sistólico em foco mitral."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ECG",
+      "start": 645,
+      "end": 648,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b6dfe7f75c7b",
+        "concept_name": "ELETROCARDIOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Realizada ECG com alteração sugestiva de infarto do miocárdio com supra de ST em parede anterior."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "síndrome coronariana aguda",
+      "start": 745,
+      "end": 771,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "f528c4848bca",
+        "concept_name": "SÍNDROME CORONARIANA AGUDA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hipótese de síndrome coronariana aguda (infarto do miocárdio)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 823,
+      "end": 830,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega febre, vômitos, disúria, sincope ou dor abdominal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 858,
+      "end": 860,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS e DM2 com histórico de controle subótimo, sem comorbidades adicionais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 862,
+      "end": 865,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS e DM2 com histórico de controle subótimo, sem comorbidades adicionais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 937,
+      "end": 939,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Nega tabagismo, etilismo excessivo ou histórico familiar de doenças cardíacas."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 69,
+  "group": "caso_estruturado"
+}

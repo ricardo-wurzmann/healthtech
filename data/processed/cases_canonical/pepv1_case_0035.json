@@ -1,0 +1,218 @@
+{
+  "doc_id": "pepv1_case_0035",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "35) ID: Masculino, 4 anos, previamente hígido. QD: “Vômitos e diarreia.” HPMA: Há 2 dias com vômitos e diarreia, associados a febre (máx. 38, 5°C). Na avaliação inicial em PS: regular estado geral, descorado 1+/4+, hipoativo, TEC 5 s, FR 26 irpm, T 37, 3°C, sem outros achados ao exame. Iniciada expansão volêmica e coletados exames: Na 138 mEq/L, K 2, 1 mEq/L, ureia 48 mg/dL, creatinina 0, 3 mg/dL; gasometria venosa pH 7, 29, HCO ₃⁻ 17 mEq/L. Quadro sugestivo de gastroenterite aguda com desidratação e hipocalemia grave; DDx: sepse de foco gastrointestinal, intoxicação/ingestão. ISDA: Nega tosse/dispneia, otalgia, exantema e disúria. AP: Sem comorbidades; alergias não referidas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "35) ID: Masculino, 4 anos, previamente hígido."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PS",
+      "start": 172,
+      "end": 174,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "588331c61fba",
+        "concept_name": "PRESSÃO DE SUPORTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Na avaliação inicial em PS: regular estado geral, descorado 1+/4+, hipoativo, TEC 5 s, FR 26 irpm, T 37, 3°C, sem outros achados ao exame."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FR",
+      "start": 235,
+      "end": 237,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Na avaliação inicial em PS: regular estado geral, descorado 1+/4+, hipoativo, TEC 5 s, FR 26 irpm, T 37, 3°C, sem outros achados ao exame."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 241,
+      "end": 245,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Na avaliação inicial em PS: regular estado geral, descorado 1+/4+, hipoativo, TEC 5 s, FR 26 irpm, T 37, 3°C, sem outros achados ao exame."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "creatinina",
+      "start": 378,
+      "end": 388,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5b011c4e27db",
+        "concept_name": "CREATININA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Iniciada expansão volêmica e coletados exames: Na 138 mEq/L, K 2, 1 mEq/L, ureia 48 mg/dL, creatinina 0, 3 mg/dL; gasometria venosa pH 7, 29, HCO ₃⁻ 17 mEq/L. Quadro sugestivo de gastroenterite aguda com desidratação e hipocalemia grave; DDx: sepse de foco gastrointestinal, intoxicação/ingestão."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "gasometria",
+      "start": 401,
+      "end": 411,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "24d08cbfcbf3",
+        "concept_name": "GASOMETRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Iniciada expansão volêmica e coletados exames: Na 138 mEq/L, K 2, 1 mEq/L, ureia 48 mg/dL, creatinina 0, 3 mg/dL; gasometria venosa pH 7, 29, HCO ₃⁻ 17 mEq/L. Quadro sugestivo de gastroenterite aguda com desidratação e hipocalemia grave; DDx: sepse de foco gastrointestinal, intoxicação/ingestão."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 595,
+      "end": 600,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega tosse/dispneia, otalgia, exantema e disúria."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "otalgia",
+      "start": 611,
+      "end": 618,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "H92.0",
+        "concept_name": "Otalgia",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega tosse/dispneia, otalgia, exantema e disúria."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 631,
+      "end": 638,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega tosse/dispneia, otalgia, exantema e disúria."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 640,
+      "end": 642,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades; alergias não referidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 686,
+      "end": 688,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 35,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,161 @@
+{
+  "doc_id": "pepv1_case_0037",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "37) ID: RN masculino, 22 dias de vida, termo, AIG, parto vaginal, Apgar 9/10; tipagem mãe O+ e RN A+. QD: “Icterícia desde o nascimento.” HPMA: Mãe refere icterícia desde o nascimento. Em aleitamento materno exclusivo, com boa aceitação das mamadas. Diurese abundante (troca de fralda a cada 3 horas), urina de cor acastanhada e evacua 5–6x/dia, com fezes claras/hipocólicas (fralda conforme figura do enunciado). Ao exame: hidratado, icterícia 3+/4+, abdome globoso e flácido, fígado palpável a 2 cm do RCD e baço palpável a 1 cm do RCE; peso atual 3310 g (PN 3100 g). História neonatal com icterícia neonatal tardia e fototerapia por 48 h, alta no 4º DVP. Quadro de colestase neonatal com alta suspeição de atresia de vias biliares; DDx: hepatite neonatal, cisto de colédoco, causas metabólicas/infecciosas de colestase. ISDA: Nega febre, vômitos biliosos, letargia e dificuldade alimentar importante. AP: Sem intercorrências perinatais além do descrito; triagens neonatais não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "37) ID: RN masculino, 22 dias de vida, termo, AIG, parto vaginal, Apgar 9/10; tipagem mãe O+ e RN A+."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "cor",
+      "start": 311,
+      "end": 314,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bd3eac2e3bd5",
+        "concept_name": "CORTISOL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Diurese abundante (troca de fralda a cada 3 horas), urina de cor acastanhada e evacua 5–6x/dia, com fezes claras/hipocólicas (fralda conforme figura do enunciado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 452,
+      "end": 458,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame: hidratado, icterícia 3+/4+, abdome globoso e flácido, fígado palpável a 2 cm do RCD e baço palpável a 1 cm do RCE; peso atual 3310 g (PN 3100 g)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "fígado",
+      "start": 478,
+      "end": 484,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D13.4",
+        "concept_name": "Fígado",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame: hidratado, icterícia 3+/4+, abdome globoso e flácido, fígado palpável a 2 cm do RCD e baço palpável a 1 cm do RCE; peso atual 3310 g (PN 3100 g)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "baço",
+      "start": 510,
+      "end": 514,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C26.1",
+        "concept_name": "Baço",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame: hidratado, icterícia 3+/4+, abdome globoso e flácido, fígado palpável a 2 cm do RCD e baço palpável a 1 cm do RCE; peso atual 3310 g (PN 3100 g)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "DVP",
+      "start": 653,
+      "end": 656,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "925cbbc8494f",
+        "concept_name": "DERIVAÇÃO VENTRICULAR PERITONEAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "História neonatal com icterícia neonatal tardia e fototerapia por 48 h, alta no 4º DVP."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 904,
+      "end": 906,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem intercorrências perinatais além do descrito; triagens neonatais não informadas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 992,
+      "end": 994,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 37,
+  "group": "caso_estruturado"
+}

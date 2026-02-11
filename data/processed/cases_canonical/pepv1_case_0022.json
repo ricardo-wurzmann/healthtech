@@ -1,0 +1,313 @@
+{
+  "doc_id": "pepv1_case_0022",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "22) ID: Feminino, 40 anos, G2P2 (2 partos vaginais; último há 10 anos). QD: “Menstruação muito forte; hoje está intenso.” HPMA: Há 5 ciclos com sangramento menstrual excessivo: intervalos de 30 dias, duração de 7 dias, com eliminação de coágulos. Nega comorbidades, medicações de uso contínuo, cirurgias prévias e alergias. Marido vasectomizado. Encontra-se no 3º dia do ciclo, com sangramento intenso no momento. Refere cansaço e tontura leve ao levantar desde o início do ciclo atual, sem síncope, sem dor pélvica importante. Exame: FC 90 bpm, PA 120 x 80 mmHg; abdome flácido e indolor. Especular: colo epitelizado, grande quantidade de sangue em vagina com exteriorização pelo canal cervical. Toque: útero em AVF, não doloroso, tamanho normal, anexos livres. Pela intensidade do sangramento e tempo de evolução, solicitados hemograma, ferritina, TSH e USG transvaginal para investigação de AUB (sem resultados disponíveis no momento do registro). ISDA: Nega febre; nega corrimento fétido; nega sangramento pós-coital; nega equimoses/sangramentos gengivais; refere apenas hipermenorreia com coágulos e astenia. AP: Nega HAS/DM. Cirurgias: nega. Medicações: nega contínuas. Alergias: nega. AF: Não informado (a checar: miomas, coagulopatias, neoplasias ginecológicas).",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "22) ID: Feminino, 40 anos, G2P2 (2 partos vaginais; último há 10 anos)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ciclo",
+      "start": 371,
+      "end": 376,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90207360",
+        "concept_name": "CICLO 21 0,15 MG + 0,03 MG COM CT BL AL PLAS INC X 21 UNIÃO QUÍMICA FARMACÊUTICA NACIONAL S/A 01/01/2016 31/03/2016 1049702860016",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Encontra-se no 3º dia do ciclo, com sangramento intenso no momento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ciclo",
+      "start": 474,
+      "end": 479,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90207360",
+        "concept_name": "CICLO 21 0,15 MG + 0,03 MG COM CT BL AL PLAS INC X 21 UNIÃO QUÍMICA FARMACÊUTICA NACIONAL S/A 01/01/2016 31/03/2016 1049702860016",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Refere cansaço e tontura leve ao levantar desde o início do ciclo atual, sem síncope, sem dor pélvica importante."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 535,
+      "end": 537,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exame: FC 90 bpm, PA 120 x 80 mmHg; abdome flácido e indolor."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 541,
+      "end": 544,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exame: FC 90 bpm, PA 120 x 80 mmHg; abdome flácido e indolor."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 546,
+      "end": 548,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exame: FC 90 bpm, PA 120 x 80 mmHg; abdome flácido e indolor."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 564,
+      "end": 570,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exame: FC 90 bpm, PA 120 x 80 mmHg; abdome flácido e indolor."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "vagina",
+      "start": 650,
+      "end": 656,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D07.2",
+        "concept_name": "Vagina",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Especular: colo epitelizado, grande quantidade de sangue em vagina com exteriorização pelo canal cervical."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "útero",
+      "start": 704,
+      "end": 709,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D39.0",
+        "concept_name": "Útero",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Toque: útero em AVF, não doloroso, tamanho normal, anexos livres."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 828,
+      "end": 837,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b3810f8eaf",
+        "concept_name": "HEMOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Pela intensidade do sangramento e tempo de evolução, solicitados hemograma, ferritina, TSH e USG transvaginal para investigação de AUB (sem resultados disponíveis no momento do registro)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ferritina",
+      "start": 839,
+      "end": 848,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cb373a713514",
+        "concept_name": "FERRITINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Pela intensidade do sangramento e tempo de evolução, solicitados hemograma, ferritina, TSH e USG transvaginal para investigação de AUB (sem resultados disponíveis no momento do registro)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "TSH",
+      "start": 850,
+      "end": 853,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e5e400b0ddee",
+        "concept_name": "HORMÔNIO TIREOESTIMULANTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Pela intensidade do sangramento e tempo de evolução, solicitados hemograma, ferritina, TSH e USG transvaginal para investigação de AUB (sem resultados disponíveis no momento do registro)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "USG",
+      "start": 856,
+      "end": 859,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Pela intensidade do sangramento e tempo de evolução, solicitados hemograma, ferritina, TSH e USG transvaginal para investigação de AUB (sem resultados disponíveis no momento do registro)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1114,
+      "end": 1116,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Nega HAS/DM."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 1123,
+      "end": 1126,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Nega HAS/DM."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1192,
+      "end": 1194,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado (a checar: miomas, coagulopatias, neoplasias ginecológicas)."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 22,
+  "group": "caso_estruturado"
+}

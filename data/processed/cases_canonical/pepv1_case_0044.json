@@ -1,0 +1,218 @@
+{
+  "doc_id": "pepv1_case_0044",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "44) ID: Menina, 5 anos, DM1, em atendimento em sala de emergência. QD: “Confusão mental durante tratamento de cetoacidose diabética.” HPMA: Há 3 horas em manejo de cetoacidose diabética, tendo recebido desde a admissão 3 expansões de SF 0, 9% (20 mL/kg cada), 2 correções de potássio e 2 doses de insulina ultrarrápida 0, 1 U/kg. Glicemia capilar de entrada 484 mg/dL, evoluindo com queda rápida para 78 mg/dL no momento. Passou a apresentar rebaixamento do nível de consciência/confusão mental, associado a bradicardia e hipertensão arterial, mantendo-se em leito monitorizado; quadro sugestivo de edema cerebral relacionado ao tratamento da CAD, com necessidade de reavaliações neurológicas seriadas e vigilância de padrão ventilatório. ISDA: Sem diarreia no momento; sem sinais de sangramento; sem queixa urinária adicional referida pelos responsáveis. AP: DM1. Uso de insulina em esquema habitual (não detalhado). Alergias: não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "44) ID: Menina, 5 anos, DM1, em atendimento em sala de emergência."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 96,
+      "end": 106,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: “Confusão mental durante tratamento de cetoacidose diabética.”"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "SF",
+      "start": 234,
+      "end": 236,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e18f9438f5ae",
+        "concept_name": "SORO FISIOLÓGICO/ SOLUÇÃO FISIOLÓGICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Há 3 horas em manejo de cetoacidose diabética, tendo recebido desde a admissão 3 expansões de SF 0, 9% (20 mL/kg cada), 2 correções de potássio e 2 doses de insulina ultrarrápida 0, 1 U/kg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "insulina",
+      "start": 297,
+      "end": 305,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "393abdc04902",
+        "concept_name": "INSULINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Há 3 horas em manejo de cetoacidose diabética, tendo recebido desde a admissão 3 expansões de SF 0, 9% (20 mL/kg cada), 2 correções de potássio e 2 doses de insulina ultrarrápida 0, 1 U/kg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Glicemia capilar",
+      "start": 330,
+      "end": 346,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "101fab9e861b",
+        "concept_name": "GLICEMIA CAPILAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Glicemia capilar de entrada 484 mg/dL, evoluindo com queda rápida para 78 mg/dL no momento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "edema cerebral",
+      "start": 599,
+      "end": 613,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "G93.6",
+        "concept_name": "Edema cerebral",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Passou a apresentar rebaixamento do nível de consciência/confusão mental, associado a bradicardia e hipertensão arterial, mantendo-se em leito monitorizado; quadro sugestivo de edema cerebral relacionado ao tratamento da CAD, com necessidade de reavaliações neurológicas seriadas e vigilância de padrão ventilatório."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 629,
+      "end": 639,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Passou a apresentar rebaixamento do nível de consciência/confusão mental, associado a bradicardia e hipertensão arterial, mantendo-se em leito monitorizado; quadro sugestivo de edema cerebral relacionado ao tratamento da CAD, com necessidade de reavaliações neurológicas seriadas e vigilância de padrão ventilatório."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "CAD",
+      "start": 643,
+      "end": 646,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "a5bc5274e9ad",
+        "concept_name": "CIRURGIA DE APARELHO DIGESTIVO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Passou a apresentar rebaixamento do nível de consciência/confusão mental, associado a bradicardia e hipertensão arterial, mantendo-se em leito monitorizado; quadro sugestivo de edema cerebral relacionado ao tratamento da CAD, com necessidade de reavaliações neurológicas seriadas e vigilância de padrão ventilatório."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 856,
+      "end": 858,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: DM1."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "insulina",
+      "start": 872,
+      "end": 880,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "393abdc04902",
+        "concept_name": "INSULINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Uso de insulina em esquema habitual (não detalhado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 944,
+      "end": 946,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 44,
+  "group": "caso_estruturado"
+}

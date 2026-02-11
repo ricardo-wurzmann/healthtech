@@ -1,0 +1,237 @@
+{
+  "doc_id": "pepv1_case_0017",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "17) Mulher de 46 anos de idade procura a unidade básica de saúde com queixa de tosse seca há 8 meses. A tosse ocorre dois dias da semana no período diurno e quase todas as noites, além de episódios intermitentes de rouquidão. Teve um ganho de peso de 10 kg nos últimos dois anos, que associa ao aumento do consumo de alimentos com alto teor calórico. Tentou iniciar programa de atividade física, mas interrompeu, pois no último ano apresenta dispneia aos grandes esforços. Também no último ano, relata dor retroesternal com pirose que melhora com o uso de antiácidos. Tem antecente pessoal de enxaqueca, com diminuição significatia de frequência e da intensidade das crises após introdução de propranolol 60 mg/dia há 8 meses. Refere que antes da introdução do propranolol tinha 2 crises intensas semanais. Ex-tabagista de 6 anos-maço, parou há 20 anos. No exame clínico: EG, consciente, orientada, corada, hidratada, acianótica, anictérica, eupneica, índice de massa corpórea = 31, 7 kg/m², altura = 168 cm, pressão arterial=130 x 88mmHg, frequência cardiaca = 76 bpm, semiologias cardíaca, pulmonar, abdominal e de membros inferiores sem alterações. Traz os seguintes exames complementares: adiografia de tórax sem alterações. Ecocardiograma com fração de ejeção de 65%, restantes do exame normal. Espirometria: Cite as três principais hipóteses diagnósticas para o caso além da enxaqueca crônica.",
+  "entities": [
+    {
+      "span": "unidade básica de saúde",
+      "start": 41,
+      "end": 64,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "0b8536c41fc8",
+        "concept_name": "UNIDADE BÁSICA DE SAÚDE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "17) Mulher de 46 anos de idade procura a unidade básica de saúde com queixa de tosse seca há 8 meses."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 79,
+      "end": 84,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "17) Mulher de 46 anos de idade procura a unidade básica de saúde com queixa de tosse seca há 8 meses."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 104,
+      "end": 109,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "A tosse ocorre dois dias da semana no período diurno e quase todas as noites, além de episódios intermitentes de rouquidão."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pirose",
+      "start": 524,
+      "end": 530,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R12",
+        "concept_name": "Pirose",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Também no último ano, relata dor retroesternal com pirose que melhora com o uso de antiácidos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "propranolol 60 mg",
+      "start": 693,
+      "end": 710,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90434064",
+        "concept_name": "PROPRANOLOL 10 MG COM CT BL AL PLAS INC X 30 EMS SIGMA PHARMA LTDA 01/08/2019 31/10/2019 1356907100015",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Tem antecente pessoal de enxaqueca, com diminuição significatia de frequência e da intensidade das crises após introdução de propranolol 60 mg/dia há 8 meses."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "propranolol",
+      "start": 761,
+      "end": 772,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90434064",
+        "concept_name": "PROPRANOLOL 10 MG COM CT BL AL PLAS INC X 30 EMS SIGMA PHARMA LTDA 01/08/2019 31/10/2019 1356907100015",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Refere que antes da introdução do propranolol tinha 2 crises intensas semanais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tabagista",
+      "start": 810,
+      "end": 819,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b6f8820db60b",
+        "concept_name": "TABAGISTA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ex-tabagista de 6 anos-maço, parou há 20 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pressão arterial",
+      "start": 1009,
+      "end": 1025,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No exame clínico: EG, consciente, orientada, corada, hidratada, acianótica, anictérica, eupneica, índice de massa corpórea = 31, 7 kg/m², altura = 168 cm, pressão arterial=130 x 88mmHg, frequência cardiaca = 76 bpm, semiologias cardíaca, pulmonar, abdominal e de membros inferiores sem alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 1065,
+      "end": 1068,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "No exame clínico: EG, consciente, orientada, corada, hidratada, acianótica, anictérica, eupneica, índice de massa corpórea = 31, 7 kg/m², altura = 168 cm, pressão arterial=130 x 88mmHg, frequência cardiaca = 76 bpm, semiologias cardíaca, pulmonar, abdominal e de membros inferiores sem alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "membros inferiores",
+      "start": 1117,
+      "end": 1135,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "50b05748c28a",
+        "concept_name": "MEMBROS INFERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No exame clínico: EG, consciente, orientada, corada, hidratada, acianótica, anictérica, eupneica, índice de massa corpórea = 31, 7 kg/m², altura = 168 cm, pressão arterial=130 x 88mmHg, frequência cardiaca = 76 bpm, semiologias cardíaca, pulmonar, abdominal e de membros inferiores sem alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tórax",
+      "start": 1207,
+      "end": 1212,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.1",
+        "concept_name": "Tórax",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Traz os seguintes exames complementares: adiografia de tórax sem alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "fração de ejeção",
+      "start": 1248,
+      "end": 1264,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "43ec8f14ac7a",
+        "concept_name": "FRAÇÃO DE EJEÇÃO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ecocardiograma com fração de ejeção de 65%, restantes do exame normal."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 17,
+  "group": "prontuario"
+}

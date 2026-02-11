@@ -1,0 +1,123 @@
+{
+  "doc_id": "pepv1_case_0034",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "34) ID: Feminino, 12 anos, previamente hígida. QD: “Dor de garganta e febre.” HPMA: Há 2 dias com febre (máx. 39, 2°C), odinofagia intensa, cefaleia e dor abdominal. Nega tosse e coriza. Ao exame: bom estado geral, linfonodomegalias cervicais bilaterais fibroelásticas (~1 cm), sem outros achados relevantes além de hiperemia/exsudato em oroscopia conforme enunciado. Prova rápida para estreptococo negativa. Quadro compatível com faringoamigdalite viral (considerar mononucleose); DDx: faringoamigdalite estreptocócica, abscesso peritonsilar. ISDA: Nega dispneia, dor torácica, vômitos persistentes, diarreia e sintomas urinários. AP: Sem comorbidades e sem alergias referidas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "34) ID: Feminino, 12 anos, previamente hígida."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Dor de garganta",
+      "start": 52,
+      "end": 67,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R07.0",
+        "concept_name": "Dor de garganta",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: “Dor de garganta e febre.”"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 171,
+      "end": 176,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega tosse e coriza."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 197,
+      "end": 213,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame: bom estado geral, linfonodomegalias cervicais bilaterais fibroelásticas (~1 cm), sem outros achados relevantes além de hiperemia/exsudato em oroscopia conforme enunciado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 632,
+      "end": 634,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades e sem alergias referidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 679,
+      "end": 681,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 34,
+  "group": "caso_estruturado"
+}

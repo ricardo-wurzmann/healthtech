@@ -1,0 +1,465 @@
+{
+  "doc_id": "pepv1_case_0079",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "79) ID: Masculino, 67 anos. QD: Piora de dispneia e ortopneia. HPMA: Portador de HAS e miocardiopatia isquêmica (IAM com revascularização há 3 anos). Há 2 anos com dispneia aos moderados esforços e edema de MMII, com melhora após tratamento; em uso de enalapril e carvedilol em doses máximas, espironolactona e AAS. Hoje, de madrugada, acordou subitamente “angustiado”, com dispneia intensa e melhora parcial ao sentar/ir à janela (“tomar ar fresco”), mantendo ortopneia. Ao exame: REG, descorado 1+/4+, taquipneico (FR 28), PA 130×70, FC 90, SatO ₂ 96% AA; estertores finos bibasais; bulhas arrítmicas normofonéticas, sopro sistólico em foco mitral e B4; hepatimetria 15 cm; edema depressível 2+/4+ em MMII. Exames iniciais: Hb 12, leucócitos 8.000, Na 132, K 5, 0, Cr 1, 2, ureia 80, DHL 600; ECG e RX de tórax (conforme enunciado). Conjunto sugere descompensação de insuficiência cardíaca (perfil congesto, com episódio compatível com dispneia paroxística noturna/edema agudo de pulmão incipiente) em paciente com cardiopatia isquêmica. ISDA: Nega febre, dor pleurítica, hemoptise e dor abdominal. AP: HAS; cardiopatia isquêmica (IAM + revascularização há 3 anos). Alergias: nega. AF: Ex-tabagismo não informado; demais sem dados contributivos.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "79) ID: Masculino, 67 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 81,
+      "end": 84,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Portador de HAS e miocardiopatia isquêmica (IAM com revascularização há 3 anos)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "miocardiopatia isquêmica",
+      "start": 87,
+      "end": 111,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "I25.5",
+        "concept_name": "Miocardiopatia isquêmica",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Portador de HAS e miocardiopatia isquêmica (IAM com revascularização há 3 anos)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "IAM",
+      "start": 113,
+      "end": 116,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "867c8413a8c2",
+        "concept_name": "INFARTO AGUDO DO MIOCÁRDIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Portador de HAS e miocardiopatia isquêmica (IAM com revascularização há 3 anos)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "MMII",
+      "start": 207,
+      "end": 211,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "50b05748c28a",
+        "concept_name": "MEMBROS INFERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Há 2 anos com dispneia aos moderados esforços e edema de MMII, com melhora após tratamento; em uso de enalapril e carvedilol em doses máximas, espironolactona e AAS."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 230,
+      "end": 240,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Há 2 anos com dispneia aos moderados esforços e edema de MMII, com melhora após tratamento; em uso de enalapril e carvedilol em doses máximas, espironolactona e AAS."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "carvedilol",
+      "start": 264,
+      "end": 274,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90011791",
+        "concept_name": "CARVEDILOL 12,5 MG COM CT BL AL PLAS INC X 15 BIOLAB FARMA GENERICOS LTDA 01/06/2019 31/03/2016 1049201860064",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Há 2 anos com dispneia aos moderados esforços e edema de MMII, com melhora após tratamento; em uso de enalapril e carvedilol em doses máximas, espironolactona e AAS."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "espironolactona",
+      "start": 293,
+      "end": 308,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90056302",
+        "concept_name": "ESPIRONOLACTONA 25 MG COM CT BL AL PLAS INC X 30 EMS S/A 10/10/2012 31/08/2014 1023506320019",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Há 2 anos com dispneia aos moderados esforços e edema de MMII, com melhora após tratamento; em uso de enalapril e carvedilol em doses máximas, espironolactona e AAS."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FR",
+      "start": 517,
+      "end": 519,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: REG, descorado 1+/4+, taquipneico (FR 28), PA 130×70, FC 90, SatO ₂ 96% AA; estertores finos bibasais; bulhas arrítmicas normofonéticas, sopro sistólico em foco mitral e B4; hepatimetria 15 cm; edema depressível 2+/4+ em MMII."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 525,
+      "end": 527,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: REG, descorado 1+/4+, taquipneico (FR 28), PA 130×70, FC 90, SatO ₂ 96% AA; estertores finos bibasais; bulhas arrítmicas normofonéticas, sopro sistólico em foco mitral e B4; hepatimetria 15 cm; edema depressível 2+/4+ em MMII."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 536,
+      "end": 538,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: REG, descorado 1+/4+, taquipneico (FR 28), PA 130×70, FC 90, SatO ₂ 96% AA; estertores finos bibasais; bulhas arrítmicas normofonéticas, sopro sistólico em foco mitral e B4; hepatimetria 15 cm; edema depressível 2+/4+ em MMII."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "MMII",
+      "start": 703,
+      "end": 707,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "50b05748c28a",
+        "concept_name": "MEMBROS INFERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: REG, descorado 1+/4+, taquipneico (FR 28), PA 130×70, FC 90, SatO ₂ 96% AA; estertores finos bibasais; bulhas arrítmicas normofonéticas, sopro sistólico em foco mitral e B4; hepatimetria 15 cm; edema depressível 2+/4+ em MMII."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "leucócitos",
+      "start": 733,
+      "end": 743,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5cafb91f3dd1",
+        "concept_name": "LEUCÓCITOS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames iniciais: Hb 12, leucócitos 8.000, Na 132, K 5, 0, Cr 1, 2, ureia 80, DHL 600; ECG e RX de tórax (conforme enunciado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "DHL",
+      "start": 786,
+      "end": 789,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "d9bb9279209b",
+        "concept_name": "DESIDROGENASE LÁTICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exames iniciais: Hb 12, leucócitos 8.000, Na 132, K 5, 0, Cr 1, 2, ureia 80, DHL 600; ECG e RX de tórax (conforme enunciado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ECG",
+      "start": 795,
+      "end": 798,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b6dfe7f75c7b",
+        "concept_name": "ELETROCARDIOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exames iniciais: Hb 12, leucócitos 8.000, Na 132, K 5, 0, Cr 1, 2, ureia 80, DHL 600; ECG e RX de tórax (conforme enunciado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "RX",
+      "start": 801,
+      "end": 803,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "8d67856dd068",
+        "concept_name": "RAIOS X/RADIOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exames iniciais: Hb 12, leucócitos 8.000, Na 132, K 5, 0, Cr 1, 2, ureia 80, DHL 600; ECG e RX de tórax (conforme enunciado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tórax",
+      "start": 807,
+      "end": 812,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.1",
+        "concept_name": "Tórax",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames iniciais: Hb 12, leucócitos 8.000, Na 132, K 5, 0, Cr 1, 2, ureia 80, DHL 600; ECG e RX de tórax (conforme enunciado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "edema agudo de pulmão",
+      "start": 967,
+      "end": 988,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "7863e24cc83f",
+        "concept_name": "EDEMA AGUDO DE PULMÃO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Conjunto sugere descompensação de insuficiência cardíaca (perfil congesto, com episódio compatível com dispneia paroxística noturna/edema agudo de pulmão incipiente) em paciente com cardiopatia isquêmica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 1004,
+      "end": 1012,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Conjunto sugere descompensação de insuficiência cardíaca (perfil congesto, com episódio compatível com dispneia paroxística noturna/edema agudo de pulmão incipiente) em paciente com cardiopatia isquêmica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemoptise",
+      "start": 1074,
+      "end": 1083,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R04.2",
+        "concept_name": "Hemoptise",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega febre, dor pleurítica, hemoptise e dor abdominal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1101,
+      "end": 1103,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS; cardiopatia isquêmica (IAM + revascularização há 3 anos)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 1105,
+      "end": 1108,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS; cardiopatia isquêmica (IAM + revascularização há 3 anos)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "IAM",
+      "start": 1133,
+      "end": 1136,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "867c8413a8c2",
+        "concept_name": "INFARTO AGUDO DO MIOCÁRDIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS; cardiopatia isquêmica (IAM + revascularização há 3 anos)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1184,
+      "end": 1186,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Ex-tabagismo não informado; demais sem dados contributivos."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 79,
+  "group": "caso_estruturado"
+}

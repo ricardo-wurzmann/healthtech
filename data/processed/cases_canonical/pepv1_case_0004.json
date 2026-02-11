@@ -1,0 +1,199 @@
+{
+  "doc_id": "pepv1_case_0004",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "4) Paciente feminina, com 37 anos de idade, atendida no pronto-socorro com queixa de disúria há 3 dias, dor lombar direita e febre aferida de 38, 5°C. Há um mês, a paciente refere ter apresentado sintomas semelhantes e foi tratada com cefadroxila oral por 14 dias, sem a realização de exames subsidiários com regressão completa dos sintomas na ocasião. Realizados os seguintes exames laboratoriais e de imagem: hemograma: hemoglobina = 12, 3 g/dl; hematócrito = 38%; proteína C-reativa: 11 mg/dl; creatinina: 0, 9 mg/dl; urina tipo I; pH = 5, 0; aspecto ligeiramente turvo; densidade = 1, 006; odor = sui generis; sedimento urinário: células epiteliais raras; muco raro; cristais = ausentes; substâncias amorfas = ausentes; leucócitos = 134.000/ml; hemácias = 91.000/ml; cultura de urina: bactéria Gram-negativa em identificação;",
+  "entities": [
+    {
+      "span": "Paciente",
+      "start": 3,
+      "end": 11,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "4) Paciente feminina, com 37 anos de idade, atendida no pronto-socorro com queixa de disúria há 3 dias, dor lombar direita e febre aferida de 38, 5°C."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 85,
+      "end": 92,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "4) Paciente feminina, com 37 anos de idade, atendida no pronto-socorro com queixa de disúria há 3 dias, dor lombar direita e febre aferida de 38, 5°C."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 164,
+      "end": 172,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Há um mês, a paciente refere ter apresentado sintomas semelhantes e foi tratada com cefadroxila oral por 14 dias, sem a realização de exames subsidiários com regressão completa dos sintomas na ocasião."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foi",
+      "start": 219,
+      "end": 222,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Há um mês, a paciente refere ter apresentado sintomas semelhantes e foi tratada com cefadroxila oral por 14 dias, sem a realização de exames subsidiários com regressão completa dos sintomas na ocasião."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "cefadroxila",
+      "start": 235,
+      "end": 246,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90018222",
+        "concept_name": "CEFADROXILA 500 MG CAP GEL DURA CT BL AL PVC/PVDC INC X 8 AUROBINDO PHARMA INDÚSTRIA FARMACÊUTICA LIMITADA 10/10/2012 31/08/2014 1516700260017",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Há um mês, a paciente refere ter apresentado sintomas semelhantes e foi tratada com cefadroxila oral por 14 dias, sem a realização de exames subsidiários com regressão completa dos sintomas na ocasião."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 411,
+      "end": 420,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b3810f8eaf",
+        "concept_name": "HEMOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Realizados os seguintes exames laboratoriais e de imagem: hemograma: hemoglobina = 12, 3 g/dl; hematócrito = 38%; proteína C-reativa: 11 mg/dl; creatinina: 0, 9 mg/dl; urina tipo I; pH = 5, 0; aspecto ligeiramente turvo; densidade = 1, 006; odor = sui generis; sedimento urinário: células epiteliais raras; muco raro; cristais = ausentes; substâncias amorfas = ausentes; leucócitos = 134.000/ml; hemácias = 91.000/ml; cultura de urina: bactéria Gram-negativa em identificação;"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hematócrito",
+      "start": 448,
+      "end": 459,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "699a2d9ea20d",
+        "concept_name": "HEMATÓCRITO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Realizados os seguintes exames laboratoriais e de imagem: hemograma: hemoglobina = 12, 3 g/dl; hematócrito = 38%; proteína C-reativa: 11 mg/dl; creatinina: 0, 9 mg/dl; urina tipo I; pH = 5, 0; aspecto ligeiramente turvo; densidade = 1, 006; odor = sui generis; sedimento urinário: células epiteliais raras; muco raro; cristais = ausentes; substâncias amorfas = ausentes; leucócitos = 134.000/ml; hemácias = 91.000/ml; cultura de urina: bactéria Gram-negativa em identificação;"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "creatinina",
+      "start": 497,
+      "end": 507,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5b011c4e27db",
+        "concept_name": "CREATININA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Realizados os seguintes exames laboratoriais e de imagem: hemograma: hemoglobina = 12, 3 g/dl; hematócrito = 38%; proteína C-reativa: 11 mg/dl; creatinina: 0, 9 mg/dl; urina tipo I; pH = 5, 0; aspecto ligeiramente turvo; densidade = 1, 006; odor = sui generis; sedimento urinário: células epiteliais raras; muco raro; cristais = ausentes; substâncias amorfas = ausentes; leucócitos = 134.000/ml; hemácias = 91.000/ml; cultura de urina: bactéria Gram-negativa em identificação;"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "leucócitos",
+      "start": 724,
+      "end": 734,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5cafb91f3dd1",
+        "concept_name": "LEUCÓCITOS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Realizados os seguintes exames laboratoriais e de imagem: hemograma: hemoglobina = 12, 3 g/dl; hematócrito = 38%; proteína C-reativa: 11 mg/dl; creatinina: 0, 9 mg/dl; urina tipo I; pH = 5, 0; aspecto ligeiramente turvo; densidade = 1, 006; odor = sui generis; sedimento urinário: células epiteliais raras; muco raro; cristais = ausentes; substâncias amorfas = ausentes; leucócitos = 134.000/ml; hemácias = 91.000/ml; cultura de urina: bactéria Gram-negativa em identificação;"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "cultura de urina",
+      "start": 771,
+      "end": 787,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "7999a6a9b868",
+        "concept_name": "CULTURA DE URINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Realizados os seguintes exames laboratoriais e de imagem: hemograma: hemoglobina = 12, 3 g/dl; hematócrito = 38%; proteína C-reativa: 11 mg/dl; creatinina: 0, 9 mg/dl; urina tipo I; pH = 5, 0; aspecto ligeiramente turvo; densidade = 1, 006; odor = sui generis; sedimento urinário: células epiteliais raras; muco raro; cristais = ausentes; substâncias amorfas = ausentes; leucócitos = 134.000/ml; hemácias = 91.000/ml; cultura de urina: bactéria Gram-negativa em identificação;"
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 4,
+  "group": "prontuario"
+}

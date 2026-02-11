@@ -1,0 +1,237 @@
+{
+  "doc_id": "pepv1_case_0021",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "21) ID: Feminino, 27 anos, maratonista, G1P1 (parto vaginal há 7 anos). QD: “Não menstruo desde que tirei o DIU.” HPMA: Usava DIU liberador de progestogênio há 8 meses; retirou por desejo pessoal. Desde então, manteve treinamento habitual e utiliza preservativo. Refere amenorreia desde a retirada, sem dor pélvica. Beta-hCG negativo. Foi realizado teste do progestagênio com medroxiprogesterona 10 mg/dia por 10 dias, sem sangramento de privação. Dosagens: FSH 1, 2 mUI/mL e LH 2, 1 mUI/mL. Ressonância de sela túrcica normal. Em anamnese dirigida, relata aumento recente do volume de treino e restrição calórica para performance, com leve perda ponderal e redução de gordura corporal; nega galactorreia e queixa visual. Exame geral sem sinais de virilização; sem galactorreia à expressão. ISDA: Nega cefaleia progressiva/alteração visual; nega galactorreia; nega fogachos; nega corrimento; queixa principal é amenorreia. AP: Sem comorbidades referidas. Cirurgias: nega. Medicações: nega uso contínuo além de suplementos esportivos ocasionais. Alergias: nega. Hábitos: atleta de endurance, alto gasto energético. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "21) ID: Feminino, 27 anos, maratonista, G1P1 (parto vaginal há 7 anos)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "DIU",
+      "start": 108,
+      "end": 111,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d8e7faa64c7e",
+        "concept_name": "DISPOSITIVO INTRA UTERINO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "QD: “Não menstruo desde que tirei o DIU.”"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "DIU",
+      "start": 126,
+      "end": 129,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "d8e7faa64c7e",
+        "concept_name": "DISPOSITIVO INTRA UTERINO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Usava DIU liberador de progestogênio há 8 meses; retirou por desejo pessoal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Beta",
+      "start": 316,
+      "end": 320,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90206770",
+        "concept_name": "BETA LONG 3MG + 3MG/ML SUS INJ CT AMP VD AMB X 1 ML UNIÃO QUÍMICA FARMACÊUTICA NACIONAL S/A 10/10/2012 31/08/2014 1049711730014",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Beta-hCG negativo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "negativo",
+      "start": 325,
+      "end": 333,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "9e4cc76c8747",
+        "concept_name": "NEGATIVO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Beta-hCG negativo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Foi",
+      "start": 335,
+      "end": 338,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Foi realizado teste do progestagênio com medroxiprogesterona 10 mg/dia por 10 dias, sem sangramento de privação."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "teste",
+      "start": 349,
+      "end": 354,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90583787",
+        "concept_name": "TESTE VENCIMENTO TESTE VENCTO EMPRESA DE TESTE LTDA. (VS01) 01/06/2024 31/08/2024 1672500150010",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Foi realizado teste do progestagênio com medroxiprogesterona 10 mg/dia por 10 dias, sem sangramento de privação."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FSH",
+      "start": 458,
+      "end": 461,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f829abdfbd02",
+        "concept_name": "HORMÔNIO FOLÍCULO- ESTIMULANTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Dosagens: FSH 1, 2 mUI/mL e LH 2, 1 mUI/mL. Ressonância de sela túrcica normal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "LH",
+      "start": 476,
+      "end": 478,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "7dfb126ca9aa",
+        "concept_name": "HORMÔNIO LUTEINIZANTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Dosagens: FSH 1, 2 mUI/mL e LH 2, 1 mUI/mL. Ressonância de sela túrcica normal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixa principal",
+      "start": 892,
+      "end": 908,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "9885505b89eb",
+        "concept_name": "QUEIXA PRINCIPAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega cefaleia progressiva/alteração visual; nega galactorreia; nega fogachos; nega corrimento; queixa principal é amenorreia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 923,
+      "end": 925,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades referidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1114,
+      "end": 1116,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 21,
+  "group": "caso_estruturado"
+}

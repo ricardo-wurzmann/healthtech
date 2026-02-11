@@ -1,0 +1,256 @@
+{
+  "doc_id": "pepv1_case_0012",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "12) Paciente com 23 dias de vida, sexo feminino, é levada para sua primeira consulta pediátrica. Mãe com 28 anos de idade, primeira gestação, e pai, 35 anos de idade, ambos hígidos. A gestação ocorreu sem intercorrências. O bebê nasceu a termo (idade gestacional de 39 semanas), parto vaginal sem intercorrências, Peso de nascimento = 3290g, Estatura = 49cm, Perímetro cefálico = 35cm, Apgar 8/9/10. Não houve intercorrências no período neonatal e o recém-nascido teve alta hospitalar no 3º dia de vida, pesando 3000g, com icterícia zona I de Krammer e recebendo aleitamento materno exclusivo. Ainda na maternidade recebeu as vacinas contra BCG e Hepatite B. A mãe está preocupada pois acredita que \"seu leite está fraco\" e que não está sendo suficiente para nutrir o recém-nascido. Ela refere que está amamentando de 3 em 3 horas, por aproximadamente 30 a 40 minutos, mas ele frequentemente chora antes do horário da próxima mamada. Refere que esta queixa ficou muito mais intensa na última semana, que ele tem episódios de choro inconsolável entre as mamadas, diariamente, que pioram no período nortuno. Está acordando praticamente de hora em hora durante a madrugada. A mãe nota que há urina e fezes amareladas e semi-líquidas em quase todas as trocas de fralda. A mãe também está bastante preocupada com manchas vermelhas que surgiram no corpo do bebê nos últimos dias. Ao exame clínico, a criança apresenta-se em bom estado geral, corada, hidratada e ativa, anictérica. Peso = 3600g Estatura = 52 cm Perímetro cefálico = 37 cm. Exames cardíaco e pulmonar sem alterações. Pulsos periféricos presentes e simétricos. Abdome flácido, ruídos hidroaéreos presentes, fígado palpável a 1cm do RCD e baço não palpável. Períneo íntegro. Manobra de Ortolani negativa; Reflexo vermelho presente bilateralmente; Exame da pele: vide foto anexa. A mãe questiona a necessidade de introduzir fórmula láctea infantil para complementar a alimentação da criança. Indique o parâmetro mais importante a ser utilizado para orientar esta decisão.",
+  "entities": [
+    {
+      "span": "Paciente",
+      "start": 4,
+      "end": 12,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "12) Paciente com 23 dias de vida, sexo feminino, é levada para sua primeira consulta pediátrica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pai",
+      "start": 144,
+      "end": 147,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e3828c94ba95",
+        "concept_name": "PRESSÃO ARTERIAL INVASIVA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Mãe com 28 anos de idade, primeira gestação, e pai, 35 anos de idade, ambos hígidos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "seu",
+      "start": 700,
+      "end": 703,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "3218c197d430",
+        "concept_name": "ENFERMAGEM EM SISTEMA URINÁRIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ainda na maternidade recebeu as vacinas contra BCG e Hepatite B. A mãe está preocupada pois acredita que \"seu leite está fraco\" e que não está sendo suficiente para nutrir o recém-nascido."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "leite",
+      "start": 704,
+      "end": 709,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90089324",
+        "concept_name": "LEITE DE MAGNÉSIA PHILLIPS 80,95 MG/ML SUS OR CX FR PLAS OPC X 120 ML GLAXOSMITHKLINE BRASIL LTDA 10/10/2012 31/08/2014 1010701440042",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Ainda na maternidade recebeu as vacinas contra BCG e Hepatite B. A mãe está preocupada pois acredita que \"seu leite está fraco\" e que não está sendo suficiente para nutrir o recém-nascido."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hora",
+      "start": 1137,
+      "end": 1141,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90247795",
+        "concept_name": "HORA H 1,5 MG COM CT BL AL PLAS INC X 1 INDÚSTRIA FARMACÊUTICA MELCON DO BRASIL S.A. 01/01/2016 31/03/2016 1558900030061",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Está acordando praticamente de hora em hora durante a madrugada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hora",
+      "start": 1145,
+      "end": 1149,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90247795",
+        "concept_name": "HORA H 1,5 MG COM CT BL AL PLAS INC X 1 INDÚSTRIA FARMACÊUTICA MELCON DO BRASIL S.A. 01/01/2016 31/03/2016 1558900030061",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Está acordando praticamente de hora em hora durante a madrugada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 1418,
+      "end": 1434,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico, a criança apresenta-se em bom estado geral, corada, hidratada e ativa, anictérica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 1619,
+      "end": 1625,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome flácido, ruídos hidroaéreos presentes, fígado palpável a 1cm do RCD e baço não palpável."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "fígado",
+      "start": 1665,
+      "end": 1671,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D13.4",
+        "concept_name": "Fígado",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome flácido, ruídos hidroaéreos presentes, fígado palpável a 1cm do RCD e baço não palpável."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "baço",
+      "start": 1696,
+      "end": 1700,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C26.1",
+        "concept_name": "Baço",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome flácido, ruídos hidroaéreos presentes, fígado palpável a 1cm do RCD e baço não palpável."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pele",
+      "start": 1813,
+      "end": 1817,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.5",
+        "concept_name": "Pele",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Manobra de Ortolani negativa; Reflexo vermelho presente bilateralmente; Exame da pele: vide foto anexa."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foto",
+      "start": 1824,
+      "end": 1828,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "4ddc8dd5f330",
+        "concept_name": "FOTOCOAGULAÇÃO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Manobra de Ortolani negativa; Reflexo vermelho presente bilateralmente; Exame da pele: vide foto anexa."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ser",
+      "start": 1986,
+      "end": 1989,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bc0dbacd82ca",
+        "concept_name": "SERINGA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Indique o parâmetro mais importante a ser utilizado para orientar esta decisão."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 12,
+  "group": "prontuario"
+}

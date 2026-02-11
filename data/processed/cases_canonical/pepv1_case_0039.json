@@ -1,0 +1,218 @@
+{
+  "doc_id": "pepv1_case_0039",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "39) ID: Feminino, 6 anos, assintomática, consulta de rotina. QD: “Pressão aferida elevada na consulta.” HPMA: Em consulta ambulatorial de rotina, sem queixas, PA sistólica e diastólica aferidas com técnica adequada e encontradas entre os percentis 90 e 95 para idade/sexo/estatura; exame físico sem alterações. Achado compatível com pressão arterial elevada (pediatria); DDx: efeito do avental branco, HAS secundária se persistente em medidas seriadas. ISDA: Nega cefaleia, alterações visuais, palpitações, dor torácica e sintomas urinários. AP: Sem comorbidades referidas; alergias não referidas. AF: A esclarecer (HAS precoce, nefropatias).",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "39) ID: Feminino, 6 anos, assintomática, consulta de rotina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 150,
+      "end": 157,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Em consulta ambulatorial de rotina, sem queixas, PA sistólica e diastólica aferidas com técnica adequada e encontradas entre os percentis 90 e 95 para idade/sexo/estatura; exame físico sem alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 159,
+      "end": 161,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Em consulta ambulatorial de rotina, sem queixas, PA sistólica e diastólica aferidas com técnica adequada e encontradas entre os percentis 90 e 95 para idade/sexo/estatura; exame físico sem alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "exame físico",
+      "start": 282,
+      "end": 294,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Em consulta ambulatorial de rotina, sem queixas, PA sistólica e diastólica aferidas com técnica adequada e encontradas entre os percentis 90 e 95 para idade/sexo/estatura; exame físico sem alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pressão arterial",
+      "start": 333,
+      "end": 349,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Achado compatível com pressão arterial elevada (pediatria); DDx: efeito do avental branco, HAS secundária se persistente em medidas seriadas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 402,
+      "end": 405,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Achado compatível com pressão arterial elevada (pediatria); DDx: efeito do avental branco, HAS secundária se persistente em medidas seriadas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "palpitações",
+      "start": 494,
+      "end": 505,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R00.2",
+        "concept_name": "Palpitações",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega cefaleia, alterações visuais, palpitações, dor torácica e sintomas urinários."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 542,
+      "end": 544,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades referidas; alergias não referidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 598,
+      "end": 600,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: A esclarecer (HAS precoce, nefropatias)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "A esclarecer",
+      "start": 602,
+      "end": 614,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "88005203de44",
+        "concept_name": "A ESCLARECER",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AF: A esclarecer (HAS precoce, nefropatias)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 616,
+      "end": 619,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: A esclarecer (HAS precoce, nefropatias)."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 39,
+  "group": "caso_estruturado"
+}

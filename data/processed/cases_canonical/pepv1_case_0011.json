@@ -1,0 +1,256 @@
+{
+  "doc_id": "pepv1_case_0011",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "11) Paciente masculino, de 6 anos de idade, foi levado ao pronto socorro infantil com quadro de varicela. O quadro se iniciou há 9 dias atrás, já havia melhorado da febre, porém voltou a apresentar febre de até 39°C há 2 dias. A mãe refere que a criança está mais prostrada, com recusa alimentar e que as lesões ficaram maiores e começaram a \"soltar a pele\". Refere também cansaço, mas sem tosse, coriza ou obstrução nasal. Nega vômitos ou diarreia. Refere diminuição da diurese no último dia. Nega uso de medicações recentemente. Nega alergias. Sem comorbidades. Ao exame clínico, a criança estava prostrada, sonolenta, com os seguintes parâmetros vitais: FC=162bpm, FR=46 irpm, com tempo de enchimento capilar de 4 segundos. PA = 90 x 62 mmHg, T = 39, 2°C. Sem alterações nas propedêuticas cardíaca e pulmonar. Abdome flácido com fígado palpável a 3 centímetros do rebordo costal direito, baço não palpável. Sem sinais de irritação meníngea. Pele apresentava-se eritrodermica, com lesões conforme foto abaixo.",
+  "entities": [
+    {
+      "span": "Paciente",
+      "start": 4,
+      "end": 12,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "11) Paciente masculino, de 6 anos de idade, foi levado ao pronto socorro infantil com quadro de varicela."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foi",
+      "start": 44,
+      "end": 47,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "11) Paciente masculino, de 6 anos de idade, foi levado ao pronto socorro infantil com quadro de varicela."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pele",
+      "start": 352,
+      "end": 356,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.5",
+        "concept_name": "Pele",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "A mãe refere que a criança está mais prostrada, com recusa alimentar e que as lesões ficaram maiores e começaram a \"soltar a pele\"."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 390,
+      "end": 395,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Refere também cansaço, mas sem tosse, coriza ou obstrução nasal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 657,
+      "end": 659,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico, a criança estava prostrada, sonolenta, com os seguintes parâmetros vitais: FC=162bpm, FR=46 irpm, com tempo de enchimento capilar de 4 segundos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FR",
+      "start": 668,
+      "end": 670,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico, a criança estava prostrada, sonolenta, com os seguintes parâmetros vitais: FC=162bpm, FR=46 irpm, com tempo de enchimento capilar de 4 segundos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 674,
+      "end": 678,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico, a criança estava prostrada, sonolenta, com os seguintes parâmetros vitais: FC=162bpm, FR=46 irpm, com tempo de enchimento capilar de 4 segundos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 727,
+      "end": 729,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "PA = 90 x 62 mmHg, T = 39, 2°C."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 813,
+      "end": 819,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome flácido com fígado palpável a 3 centímetros do rebordo costal direito, baço não palpável."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "fígado",
+      "start": 832,
+      "end": 838,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D13.4",
+        "concept_name": "Fígado",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome flácido com fígado palpável a 3 centímetros do rebordo costal direito, baço não palpável."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "baço",
+      "start": 891,
+      "end": 895,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C26.1",
+        "concept_name": "Baço",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome flácido com fígado palpável a 3 centímetros do rebordo costal direito, baço não palpável."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Pele",
+      "start": 944,
+      "end": 948,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.5",
+        "concept_name": "Pele",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Pele apresentava-se eritrodermica, com lesões conforme foto abaixo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foto",
+      "start": 999,
+      "end": 1003,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "4ddc8dd5f330",
+        "concept_name": "FOTOCOAGULAÇÃO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Pele apresentava-se eritrodermica, com lesões conforme foto abaixo."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 11,
+  "group": "prontuario"
+}

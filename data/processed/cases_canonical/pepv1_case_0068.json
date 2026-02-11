@@ -1,0 +1,427 @@
+{
+  "doc_id": "pepv1_case_0068",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "68) ID: M, 50 anos. QD: “Fezes negras há 3 horas.” HPMA: Início súbito de melena há ~3 horas. História de episódio semelhante há 1 ano, quando foi diagnosticado sangramento por varizes esofágicas e cirrose por HBV. Desde então em uso de propranolol e realiza sessões de escleroterapia. Relata uso recente de anti-inflamatórios por lombalgia. Na sala de emergência: orientado, FC 90 bpm, PA 80×50 mmHg, TEC >3 s. Submetido à endoscopia com achado de varizes de fundo gástrico com sangramento ativo (hipótese: HDA varicosa por hipertensão portal, em choque hipovolêmico). ISDA: Refere lipotimia e sudorese fria. Nega dor torácica. Nega hematêmese referida (predomínio de melena). Sem queixas urinárias associadas. AP: Cirrose por hepatite B. Episódio prévio de sangramento varicoso. Medicações: propranolol (uso regular). Procedimentos prévios: escleroterapia endoscópica. Uso recente de AINE. Alergias não referidas. Etilismo: não informado/negado. AF: REG, pálido, sudorético, extremidades frias, hipoperfusão periférica. PA 80×50, FC 90, TEC >3s. Abdome sem sinais de peritonite (sem dados adicionais relevantes). Sem estigmas descritos no momento. Pós-EDA: varizes de fundo gástrico com sangramento ativo.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "68) ID: M, 50 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "melena",
+      "start": 74,
+      "end": 80,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "K92.1",
+        "concept_name": "Melena",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Início súbito de melena há ~3 horas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foi",
+      "start": 143,
+      "end": 146,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "HISTORICAL",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "História de episódio semelhante há 1 ano, quando foi diagnosticado sangramento por varizes esofágicas e cirrose por HBV."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HBV",
+      "start": 210,
+      "end": 213,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b800b2df22d3",
+        "concept_name": "VÍRUS DA HEPATITE B",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "História de episódio semelhante há 1 ano, quando foi diagnosticado sangramento por varizes esofágicas e cirrose por HBV."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "propranolol",
+      "start": 237,
+      "end": 248,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90434064",
+        "concept_name": "PROPRANOLOL 10 MG COM CT BL AL PLAS INC X 30 EMS SIGMA PHARMA LTDA 01/08/2019 31/10/2019 1356907100015",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Desde então em uso de propranolol e realiza sessões de escleroterapia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "anti",
+      "start": 308,
+      "end": 312,
+      "type": "ABBREV",
+      "score": 0.5,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "1ca1b718cb46",
+        "concept_name": "HIV II EXAME ANTI VÍRUS DA IMUNODEFICIÊNCIA HUMANA TIPO II",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "context_required",
+        "entry_type": "abbr",
+        "sentence": "Relata uso recente de anti-inflamatórios por lombalgia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 376,
+      "end": 378,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Na sala de emergência: orientado, FC 90 bpm, PA 80×50 mmHg, TEC >3 s. Submetido à endoscopia com achado de varizes de fundo gástrico com sangramento ativo (hipótese: HDA varicosa por hipertensão portal, em choque hipovolêmico)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 382,
+      "end": 385,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Na sala de emergência: orientado, FC 90 bpm, PA 80×50 mmHg, TEC >3 s. Submetido à endoscopia com achado de varizes de fundo gástrico com sangramento ativo (hipótese: HDA varicosa por hipertensão portal, em choque hipovolêmico)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 387,
+      "end": 389,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Na sala de emergência: orientado, FC 90 bpm, PA 80×50 mmHg, TEC >3 s. Submetido à endoscopia com achado de varizes de fundo gástrico com sangramento ativo (hipótese: HDA varicosa por hipertensão portal, em choque hipovolêmico)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hipertensão portal",
+      "start": 525,
+      "end": 543,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "K76.6",
+        "concept_name": "Hipertensão portal",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Na sala de emergência: orientado, FC 90 bpm, PA 80×50 mmHg, TEC >3 s. Submetido à endoscopia com achado de varizes de fundo gástrico com sangramento ativo (hipótese: HDA varicosa por hipertensão portal, em choque hipovolêmico)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "choque hipovolêmico",
+      "start": 548,
+      "end": 567,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R57.1",
+        "concept_name": "Choque hipovolêmico",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Na sala de emergência: orientado, FC 90 bpm, PA 80×50 mmHg, TEC >3 s. Submetido à endoscopia com achado de varizes de fundo gástrico com sangramento ativo (hipótese: HDA varicosa por hipertensão portal, em choque hipovolêmico)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hematêmese",
+      "start": 634,
+      "end": 644,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "K92.0",
+        "concept_name": "Hematêmese",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega hematêmese referida (predomínio de melena)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "melena",
+      "start": 669,
+      "end": 675,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "K92.1",
+        "concept_name": "Melena",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega hematêmese referida (predomínio de melena)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 682,
+      "end": 689,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Sem queixas urinárias associadas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 712,
+      "end": 714,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Cirrose por hepatite B. Episódio prévio de sangramento varicoso."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "propranolol",
+      "start": 793,
+      "end": 804,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90434064",
+        "concept_name": "PROPRANOLOL 10 MG COM CT BL AL PLAS INC X 30 EMS SIGMA PHARMA LTDA 01/08/2019 31/10/2019 1356907100015",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Medicações: propranolol (uso regular)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AINE",
+      "start": 886,
+      "end": 890,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "7e64af96dc48",
+        "concept_name": "ANTI-INFLAMATÓRIO NÃO ESTEROIDE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Uso recente de AINE."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 948,
+      "end": 950,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: REG, pálido, sudorético, extremidades frias, hipoperfusão periférica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 1022,
+      "end": 1024,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "PA 80×50, FC 90, TEC >3s."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 1032,
+      "end": 1034,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "PA 80×50, FC 90, TEC >3s."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 1048,
+      "end": 1054,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome sem sinais de peritonite (sem dados adicionais relevantes)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "EDA",
+      "start": 1154,
+      "end": 1157,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "818c762f6652",
+        "concept_name": "ENDOSCOPIA DIGESTIVA ALTA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Pós-EDA: varizes de fundo gástrico com sangramento ativo."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 68,
+  "group": "caso_estruturado"
+}

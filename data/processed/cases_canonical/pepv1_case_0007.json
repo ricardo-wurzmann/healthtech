@@ -1,0 +1,370 @@
+{
+  "doc_id": "pepv1_case_0007",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "7) Maria da Silva, 39 anos, em acompanhamento pré natal, primigesta, atualmente com 29 semanas de gestação (confirmada por ultrassonografia de primeiro trimestre). Antecede… pessoal: hipotireoidismo de diabetes mellitus diagnosticados há 10 anos. Ambas as doenças necessitavam de tratamento medicamentoso prévio à gestação. Nega tabagismo, etilismo e uso de drogas. Medicamentos em uso: levotiroxina 150 mcg/dia, insulina NPH (café da manhã- 16 ui, almoço- 8 ui, às 22hs - 8 ui), insulina regular (café da manhã- 10 ui, almoço - 8 ui, jantar - 4 ui e vitaminas). A paciente refere estar muito preocupada por ter lido na internet sobre as complicações que o diabetes pode causar ao seu bebê como alterações de crescimento e liquido amniótico. Ao exame clínico: bom estado geral, corada, hidratada. acianótica, anictérica, afebril. Pressão arterial 125 x 85 mmHg. Frequência cardíaca: 86 bpm. Abdome gravídico, BCF: 140 bpm, dinâmica uterina ausente, tônus uterino normal, altura uterina: 23 cm. A paciente realizou ultrassonografia obstétrica com peso estimado fetal de 950g e índice de liquido amniótico: 11 cm. A seguinte imagem acompanhava o exame: Resultados anexos à imagem. S/D - Razão sístole diástole = 7, 58. PI - índice de pulsatilidade = 2, 09. Frequência cardíaca fetal = 132 bpm. Valores de referência para medida de índice de pulsatilidade e de razão sístole diástrole na artéria umbilical, baseada na idade gestacional.",
+  "entities": [
+    {
+      "span": "ultrassonografia",
+      "start": 123,
+      "end": 139,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "7) Maria da Silva, 39 anos, em acompanhamento pré natal, primigesta, atualmente com 29 semanas de gestação (confirmada por ultrassonografia de primeiro trimestre)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 280,
+      "end": 290,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ambas as doenças necessitavam de tratamento medicamentoso prévio à gestação."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "levotiroxina 150 mcg",
+      "start": 387,
+      "end": 407,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90383710",
+        "concept_name": "LEVOTIROXINA SÓDICA 75 MCG COM BL AL/ AL X 30 MERCK S/A 01/01/2018 31/03/2018 1008903920078",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Medicamentos em uso: levotiroxina 150 mcg/dia, insulina NPH (café da manhã- 16 ui, almoço- 8 ui, às 22hs - 8 ui), insulina regular (café da manhã- 10 ui, almoço - 8 ui, jantar - 4 ui e vitaminas)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "insulina",
+      "start": 413,
+      "end": 421,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "393abdc04902",
+        "concept_name": "INSULINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Medicamentos em uso: levotiroxina 150 mcg/dia, insulina NPH (café da manhã- 16 ui, almoço- 8 ui, às 22hs - 8 ui), insulina regular (café da manhã- 10 ui, almoço - 8 ui, jantar - 4 ui e vitaminas)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "NPH",
+      "start": 422,
+      "end": 425,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "633a5f1782bd",
+        "concept_name": "NEUTRAL PROTAMINE HAGEDORN",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Medicamentos em uso: levotiroxina 150 mcg/dia, insulina NPH (café da manhã- 16 ui, almoço- 8 ui, às 22hs - 8 ui), insulina regular (café da manhã- 10 ui, almoço - 8 ui, jantar - 4 ui e vitaminas)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "insulina",
+      "start": 480,
+      "end": 488,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "393abdc04902",
+        "concept_name": "INSULINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Medicamentos em uso: levotiroxina 150 mcg/dia, insulina NPH (café da manhã- 16 ui, almoço- 8 ui, às 22hs - 8 ui), insulina regular (café da manhã- 10 ui, almoço - 8 ui, jantar - 4 ui e vitaminas)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 565,
+      "end": 573,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "A paciente refere estar muito preocupada por ter lido na internet sobre as complicações que o diabetes pode causar ao seu bebê como alterações de crescimento e liquido amniótico."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "seu",
+      "start": 681,
+      "end": 684,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "3218c197d430",
+        "concept_name": "ENFERMAGEM EM SISTEMA URINÁRIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "A paciente refere estar muito preocupada por ter lido na internet sobre as complicações que o diabetes pode causar ao seu bebê como alterações de crescimento e liquido amniótico."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 760,
+      "end": 776,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico: bom estado geral, corada, hidratada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Pressão arterial",
+      "start": 830,
+      "end": 846,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Pressão arterial 125 x 85 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Frequência cardíaca",
+      "start": 862,
+      "end": 881,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Frequência cardíaca: 86 bpm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 886,
+      "end": 889,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Frequência cardíaca: 86 bpm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 891,
+      "end": 897,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome gravídico, BCF: 140 bpm, dinâmica uterina ausente, tônus uterino normal, altura uterina: 23 cm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 918,
+      "end": 921,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Abdome gravídico, BCF: 140 bpm, dinâmica uterina ausente, tônus uterino normal, altura uterina: 23 cm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 996,
+      "end": 1004,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "A paciente realizou ultrassonografia obstétrica com peso estimado fetal de 950g e índice de liquido amniótico: 11 cm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ultrassonografia",
+      "start": 1014,
+      "end": 1030,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "A paciente realizou ultrassonografia obstétrica com peso estimado fetal de 950g e índice de liquido amniótico: 11 cm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PI",
+      "start": 1217,
+      "end": 1219,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "8ea7667f2c73",
+        "concept_name": "PIAUÍ",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "PI - índice de pulsatilidade = 2, 09."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Frequência cardíaca",
+      "start": 1255,
+      "end": 1274,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Frequência cardíaca fetal = 132 bpm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 1287,
+      "end": 1290,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Frequência cardíaca fetal = 132 bpm."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 7,
+  "group": "prontuario"
+}

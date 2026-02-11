@@ -1,0 +1,332 @@
+{
+  "doc_id": "pepv1_case_0072",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "72) ID: Homem, 60 anos, tabagista, com histórico de IAM. QD: \"Dor abdominal associada a vômitos e náuseas.\" HPMA: Paciente com histórico de infarto do miocárdio há 5 anos, tratado com angioplastia, em uso de AAS e atorvastatina. Refere dor abdominal intensa há 24 horas, tipo cólica, com piora após ingestão de alimentos gordurosos, associada a náuseas e vômitos (em 3 episódios). Nega febre, melena, alterações do hábito intestinal ou urinárias. Ao exame físico: abdome distendido, doloroso à palpação profunda em epigástrio, com ausência de sinais peritoneais. Exames laboratoriais mostram amilase e lipase elevadas, com ultrassonografia abdominal revelando colelitíase. Hipótese de colecistite aguda com possível pancreatite secundária. ISDA: Nega sintomas respiratórios, sem história de icterícia ou disúria. AP: IAM prévio, com angioplastia; em uso de AAS e atorvastatina. AF: Nega etilismo; tabagismo 40 maços/ano.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "72) ID: Homem, 60 anos, tabagista, com histórico de IAM."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tabagista",
+      "start": 24,
+      "end": 33,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b6f8820db60b",
+        "concept_name": "TABAGISTA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "72) ID: Homem, 60 anos, tabagista, com histórico de IAM."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "IAM",
+      "start": 52,
+      "end": 55,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "867c8413a8c2",
+        "concept_name": "INFARTO AGUDO DO MIOCÁRDIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "72) ID: Homem, 60 anos, tabagista, com histórico de IAM."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Paciente",
+      "start": 114,
+      "end": 122,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Paciente com histórico de infarto do miocárdio há 5 anos, tratado com angioplastia, em uso de AAS e atorvastatina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "atorvastatina",
+      "start": 214,
+      "end": 227,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90141962",
+        "concept_name": "ATORVASTATINA CÁLCICA 80 MG COM REV CT BL AL/AL X 30 LEGRAND PHARMA INDÚSTRIA FARMACÊUTICA LTDA 10/10/2012 31/08/2014 1677301440206",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "HPMA: Paciente com histórico de infarto do miocárdio há 5 anos, tratado com angioplastia, em uso de AAS e atorvastatina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "melena",
+      "start": 393,
+      "end": 399,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "K92.1",
+        "concept_name": "Melena",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega febre, melena, alterações do hábito intestinal ou urinárias."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "exame físico",
+      "start": 450,
+      "end": 462,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame físico: abdome distendido, doloroso à palpação profunda em epigástrio, com ausência de sinais peritoneais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 464,
+      "end": 470,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame físico: abdome distendido, doloroso à palpação profunda em epigástrio, com ausência de sinais peritoneais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "amilase",
+      "start": 592,
+      "end": 599,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "819f40300761",
+        "concept_name": "AMILASE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames laboratoriais mostram amilase e lipase elevadas, com ultrassonografia abdominal revelando colelitíase."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "lipase",
+      "start": 602,
+      "end": 608,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "729b35824f44",
+        "concept_name": "LIPASE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames laboratoriais mostram amilase e lipase elevadas, com ultrassonografia abdominal revelando colelitíase."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ultrassonografia",
+      "start": 623,
+      "end": 639,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames laboratoriais mostram amilase e lipase elevadas, com ultrassonografia abdominal revelando colelitíase."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "colecistite aguda",
+      "start": 685,
+      "end": 702,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "K81.0",
+        "concept_name": "Colecistite aguda",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hipótese de colecistite aguda com possível pancreatite secundária."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 804,
+      "end": 811,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega sintomas respiratórios, sem história de icterícia ou disúria."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 813,
+      "end": 815,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: IAM prévio, com angioplastia; em uso de AAS e atorvastatina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "IAM",
+      "start": 817,
+      "end": 820,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "867c8413a8c2",
+        "concept_name": "INFARTO AGUDO DO MIOCÁRDIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: IAM prévio, com angioplastia; em uso de AAS e atorvastatina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "atorvastatina",
+      "start": 863,
+      "end": 876,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90141962",
+        "concept_name": "ATORVASTATINA CÁLCICA 80 MG COM REV CT BL AL/AL X 30 LEGRAND PHARMA INDÚSTRIA FARMACÊUTICA LTDA 10/10/2012 31/08/2014 1677301440206",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "AP: IAM prévio, com angioplastia; em uso de AAS e atorvastatina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 878,
+      "end": 880,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Nega etilismo; tabagismo 40 maços/ano."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 72,
+  "group": "caso_estruturado"
+}

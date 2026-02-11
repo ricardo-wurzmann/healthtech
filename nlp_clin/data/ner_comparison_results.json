@@ -1,0 +1,203 @@
+[
+  {
+    "case_id": 1,
+    "description": "Simple case with CID and procedure",
+    "text": "Paciente com diarreia infecciosa (A09). Realizou consulta em consultório.",
+    "text_length": 73,
+    "new_count": 2,
+    "new_entities": [
+      {
+        "text": "Paciente",
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "entity_type": "ABBREV",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "confidence": 0.95,
+        "start": 0,
+        "end": 8
+      },
+      {
+        "text": "A09",
+        "concept_id": "A09",
+        "concept_name": "Diarréia e gastroenterite de origem infecciosa presumível",
+        "entity_type": "PROBLEM",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "code",
+        "confidence": 0.9,
+        "start": 34,
+        "end": 37
+      }
+    ]
+  },
+  {
+    "case_id": 2,
+    "description": "Case with abbreviations",
+    "text": "Solicitado HCV e ADA. Paciente com histórico de CA.",
+    "text_length": 51,
+    "new_count": 4,
+    "new_entities": [
+      {
+        "text": "HCV",
+        "concept_id": "1398f5990550",
+        "concept_name": "HIDRATAÇÃO VENOSA CENTRAL",
+        "entity_type": "ABBREV",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "context_required",
+        "entry_type": "abbr",
+        "confidence": 0.5,
+        "start": 11,
+        "end": 14
+      },
+      {
+        "text": "ADA",
+        "concept_id": "75b39a9478df",
+        "concept_name": "ADENOSINA DEAMINASE",
+        "entity_type": "ABBREV",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "context_required",
+        "entry_type": "abbr",
+        "confidence": 0.5,
+        "start": 17,
+        "end": 20
+      },
+      {
+        "text": "Paciente",
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "entity_type": "ABBREV",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "confidence": 0.95,
+        "start": 22,
+        "end": 30
+      },
+      {
+        "text": "CA",
+        "concept_id": "0e10f72243dd",
+        "concept_name": "19-9 CA 19-9",
+        "entity_type": "ABBREV",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "context_required",
+        "entry_type": "abbr",
+        "confidence": 0.5,
+        "start": 48,
+        "end": 50
+      }
+    ]
+  },
+  {
+    "case_id": 3,
+    "description": "Case with lab tests",
+    "text": "Exames: hemograma completo, glicemia de jejum, creatinina sérica.",
+    "text_length": 65,
+    "new_count": 3,
+    "new_entities": [
+      {
+        "text": "hemograma",
+        "concept_id": "25b3810f8eaf",
+        "concept_name": "HEMOGRAMA",
+        "entity_type": "ABBREV",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "confidence": 0.95,
+        "start": 8,
+        "end": 17
+      },
+      {
+        "text": "jejum",
+        "concept_id": "cd39bdc1059e",
+        "concept_name": "JEJUM",
+        "entity_type": "ABBREV",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "confidence": 0.95,
+        "start": 40,
+        "end": 45
+      },
+      {
+        "text": "creatinina",
+        "concept_id": "5b011c4e27db",
+        "concept_name": "CREATININA",
+        "entity_type": "ABBREV",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "confidence": 0.95,
+        "start": 47,
+        "end": 57
+      }
+    ]
+  },
+  {
+    "case_id": 4,
+    "description": "Case with medications",
+    "text": "Prescrito paracetamol 500mg e omeprazol 20mg.",
+    "text_length": 45,
+    "new_count": 2,
+    "new_entities": [
+      {
+        "text": "paracetamol 500mg",
+        "concept_id": "90012712",
+        "concept_name": "PARACETAMOL + FOSFATO DE CODEÍNA 500 + 30 MG COM CT BL AL PLAS INC X 12 BIOLAB FARMA GENERICOS LTDA 01/06/2019 31/03/2016 1049201850050",
+        "entity_type": "DRUG",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "confidence": 0.85,
+        "start": 10,
+        "end": 27
+      },
+      {
+        "text": "omeprazol 20mg",
+        "concept_id": "90047524",
+        "concept_name": "OMEPRAZOL 20 MG CAP GEL DURA C/ MCGRAN CT BL AL PLAS BCO OPC X 07 CRISTÁLIA PRODUTOS QUÍMICOS FARMACÊUTICOS LTDA. 10/10/2012 31/08/2014 1029803540047",
+        "entity_type": "DRUG",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "confidence": 0.85,
+        "start": 30,
+        "end": 44
+      }
+    ]
+  },
+  {
+    "case_id": 5,
+    "description": "Complex case with multiple entity types",
+    "text": "Paciente diabético (E11) em uso de metformina. Queixa de cefaleia intensa. Solicitado TAC de crânio e glicemia.",
+    "text_length": 111,
+    "new_count": 1,
+    "new_entities": [
+      {
+        "text": "Paciente",
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "entity_type": "ABBREV",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "confidence": 0.95,
+        "start": 0,
+        "end": 8
+      }
+    ]
+  }
+]

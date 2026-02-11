@@ -1,0 +1,256 @@
+{
+  "doc_id": "pepv1_case_0060",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "60) ID: Masculino, 76 anos. QD: Avaliação urológica após achado de PSA elevado e biópsia positiva. HPMA: Em check-up, PSA 4, 1 ng/mL (sem sintomas do trato urinário inferior). Nega disúria, hematúria, urgência, jato fraco, noctúria relevante, dor óssea, perda ponderal. Toque retal: próstata amolecida, sem nódulos palpáveis. Biópsia prostática: adenocarcinoma localizado, Gleason 3+3. Estadiamento com RM multiparamétrica de pelve e cintilografia óssea sem evidências de extensão extraprostatica/metástases. Hipótese: adenocarcinoma de próstata localizado de baixo risco. ISDA: Nega sintomas constitucionais; sem queixas gastrointestinais/respiratórias. AP: Comorbidades e medicações em revisão na consulta (nega uso de testosterona/exógenos). Nega alergias. AF: História familiar de Ca de próstata negada ou não referida. Hábitos: etilismo social; tabagismo pregresso negado ou remoto.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "60) ID: Masculino, 76 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PSA",
+      "start": 67,
+      "end": 70,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e0ba63fed7ec",
+        "concept_name": "ANTÍGENO PROSTÁTICO ESPECÍFICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "QD: Avaliação urológica após achado de PSA elevado e biópsia positiva."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PSA",
+      "start": 118,
+      "end": 121,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e0ba63fed7ec",
+        "concept_name": "ANTÍGENO PROSTÁTICO ESPECÍFICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Em check-up, PSA 4, 1 ng/mL (sem sintomas do trato urinário inferior)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 181,
+      "end": 188,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega disúria, hematúria, urgência, jato fraco, noctúria relevante, dor óssea, perda ponderal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Toque retal",
+      "start": 270,
+      "end": 281,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e11f1dc5b597",
+        "concept_name": "TOQUE RETAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Toque retal: próstata amolecida, sem nódulos palpáveis."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "próstata",
+      "start": 283,
+      "end": 291,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D07.5",
+        "concept_name": "Próstata",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Toque retal: próstata amolecida, sem nódulos palpáveis."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pelve",
+      "start": 426,
+      "end": 431,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.3",
+        "concept_name": "Pelve",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Estadiamento com RM multiparamétrica de pelve e cintilografia óssea sem evidências de extensão extraprostatica/metástases."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "próstata",
+      "start": 537,
+      "end": 545,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D07.5",
+        "concept_name": "Próstata",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hipótese: adenocarcinoma de próstata localizado de baixo risco."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 614,
+      "end": 621,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega sintomas constitucionais; sem queixas gastrointestinais/respiratórias."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 655,
+      "end": 657,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Comorbidades e medicações em revisão na consulta (nega uso de testosterona/exógenos)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "testosterona",
+      "start": 721,
+      "end": 733,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "e03dbf409c02",
+        "concept_name": "TESTOSTERONA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AP: Comorbidades e medicações em revisão na consulta (nega uso de testosterona/exógenos)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 760,
+      "end": 762,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: História familiar de Ca de próstata negada ou não referida."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "próstata",
+      "start": 791,
+      "end": 799,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D07.5",
+        "concept_name": "Próstata",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AF: História familiar de Ca de próstata negada ou não referida."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 60,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,161 @@
+{
+  "doc_id": "pepv1_case_0057",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "57) ID: Mulher, 65 anos. QD: Epigastralgia crônica com diagnóstico recente de neoplasia gástrica. HPMA: Epigastralgia há 3 meses, insidiosa, com piora pós-prandial e redução de apetite (refere também fadiga aos esforços habituais). Realizou EDA com lesão ulcerada de 2, 2 cm em fundo gástrico; anatomopatológico confirmou adenocarcinoma gástrico indiferenciado com células em anel de sinete. TC evidenciou somente a lesão gástrica, sem metástases. Mantém-se hemodinamicamente estável, sem sinais de sangramento ativo no momento. ISDA: Nega hematêmese/melena recentes; sem vômitos incoercíveis; sem icterícia. AP: Comorbidades/uso de medicações não informados. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "57) ID: Mulher, 65 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "neoplasia",
+      "start": 78,
+      "end": 87,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0c76b34aee3",
+        "concept_name": "NEOPLASIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: Epigastralgia crônica com diagnóstico recente de neoplasia gástrica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "EDA",
+      "start": 241,
+      "end": 244,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "818c762f6652",
+        "concept_name": "ENDOSCOPIA DIGESTIVA ALTA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Realizou EDA com lesão ulcerada de 2, 2 cm em fundo gástrico; anatomopatológico confirmou adenocarcinoma gástrico indiferenciado com células em anel de sinete."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemodinamicamente",
+      "start": 458,
+      "end": 475,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f02b49020101",
+        "concept_name": "HEMODINAMICAMENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Mantém-se hemodinamicamente estável, sem sinais de sangramento ativo no momento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hematêmese",
+      "start": 540,
+      "end": 550,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "K92.0",
+        "concept_name": "Hematêmese",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega hematêmese/melena recentes; sem vômitos incoercíveis; sem icterícia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "melena",
+      "start": 551,
+      "end": 557,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "K92.1",
+        "concept_name": "Melena",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega hematêmese/melena recentes; sem vômitos incoercíveis; sem icterícia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 609,
+      "end": 611,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Comorbidades/uso de medicações não informados."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 660,
+      "end": 662,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 57,
+  "group": "caso_estruturado"
+}

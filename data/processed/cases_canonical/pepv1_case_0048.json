@@ -1,0 +1,161 @@
+{
+  "doc_id": "pepv1_case_0048",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "48) ID: Recém-nascido termo, parto vaginal espontâneo, AIG, 38 horas de vida. Mãe em situação de rua, pré-natal insuficiente (2 consultas no 2º trimestre). QD: “Febre e tremores em RN com 38 horas de vida.” HPMA: Iniciou com temperatura 38, 2°C e tremores com 38 horas de vida. Ao exame clínico: hipoativo e taquipneico (FR 56 irpm), sem outras alterações descritas. Exames laboratoriais: hemograma com leucocitose e desvio à esquerda, PCR elevada e LCR normal. Quadro compatível com sepse neonatal precoce, com necessidade de seguimento em unidade neonatal e monitorização clínica/laboratorial seriada. ISDA: Sem vômitos ou diarreia referidos; sem sinais cutâneos localizatórios descritos. AP: Sem antecedentes neonatais adicionais informados. AF: Contexto social materno de vulnerabilidade; demais antecedentes familiares não informados.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "48) ID: Recém-nascido termo, parto vaginal espontâneo, AIG, 38 horas de vida."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FR",
+      "start": 321,
+      "end": 323,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico: hipoativo e taquipneico (FR 56 irpm), sem outras alterações descritas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 327,
+      "end": 331,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico: hipoativo e taquipneico (FR 56 irpm), sem outras alterações descritas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 389,
+      "end": 398,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b3810f8eaf",
+        "concept_name": "HEMOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames laboratoriais: hemograma com leucocitose e desvio à esquerda, PCR elevada e LCR normal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "LCR",
+      "start": 450,
+      "end": 453,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2b5ee4757233",
+        "concept_name": "LÍQUIDO CEFALORRAQUIDIANO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exames laboratoriais: hemograma com leucocitose e desvio à esquerda, PCR elevada e LCR normal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "clínica",
+      "start": 574,
+      "end": 581,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "9d123e457f16",
+        "concept_name": "CLÍNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro compatível com sepse neonatal precoce, com necessidade de seguimento em unidade neonatal e monitorização clínica/laboratorial seriada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 691,
+      "end": 693,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem antecedentes neonatais adicionais informados."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 745,
+      "end": 747,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Contexto social materno de vulnerabilidade; demais antecedentes familiares não informados."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 48,
+  "group": "caso_estruturado"
+}

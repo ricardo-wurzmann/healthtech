@@ -1,0 +1,389 @@
+{
+  "doc_id": "pepv1_case_0020",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "20) ID: Feminino, 25 anos, nuligesta, em uso de contraceptivo oral combinado. QD: “Dor pélvica e corrimento com sangue.” HPMA: Há 7 dias iniciou mialgia inespecífica, cefaleia e febre não aferida, com melhora com paracetamol. Há 4 dias evoluiu com dor pélvica e corrimento vaginal mucossanguinolento intenso. Ao exame: regular estado geral; FC 80 bpm; PA 120 x 70 mmHg; temperatura axilar 37, 2°C (afebril no momento). Ausculta cardíaca e pulmonar normais. Linfonodos inguinais palpáveis, móveis, fibroelásticos e dolorosos. Genitais externos sem alterações. Ao exame especular (descrição compatível com quadro agudo): secreção cervical/vaginal mucossanguinolenta abundante, colo hiperemiado e friável ao toque; sem lesões vulvares evidentes. Em avaliação dirigida, refere dispareunia recente e dor hipogástrica à palpação; dor à mobilização do colo discretamente positiva, sem sinais de peritonismo. Diante da suspeita de IST/cervicite e possível doença inflamatória pélvica inicial, foram solicitados beta-hCG, NAAT para clamídia/gonococo, sorologias (HIV/sífilis/hepatites) e EAS/urocultura (resultados pendentes). ISDA: Febre prévia referida, atualmente afebril; corrimento mucossanguinolento; dor pélvica; nega disúria; nega tosse/dispneia; nega lesões cutâneas extensas. AP: Nega comorbidades. Medicações: ACO combinado; paracetamol recente. Alergias: nega. Cirurgias: nega. Sexual: em consulta, relata parceria sexual recente e uso irregular de preservativo (anotado por relevância clínica). AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "20) ID: Feminino, 25 anos, nuligesta, em uso de contraceptivo oral combinado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mialgia",
+      "start": 145,
+      "end": 152,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "M79.1",
+        "concept_name": "Mialgia",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Há 7 dias iniciou mialgia inespecífica, cefaleia e febre não aferida, com melhora com paracetamol."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paracetamol",
+      "start": 213,
+      "end": 224,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "90012712",
+        "concept_name": "PARACETAMOL + FOSFATO DE CODEÍNA 500 + 30 MG COM CT BL AL PLAS INC X 12 BIOLAB FARMA GENERICOS LTDA 01/06/2019 31/03/2016 1049201850050",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "HPMA: Há 7 dias iniciou mialgia inespecífica, cefaleia e febre não aferida, com melhora com paracetamol."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 341,
+      "end": 343,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: regular estado geral; FC 80 bpm; PA 120 x 70 mmHg; temperatura axilar 37, 2°C (afebril no momento)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 347,
+      "end": 350,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: regular estado geral; FC 80 bpm; PA 120 x 70 mmHg; temperatura axilar 37, 2°C (afebril no momento)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 352,
+      "end": 354,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: regular estado geral; FC 80 bpm; PA 120 x 70 mmHg; temperatura axilar 37, 2°C (afebril no momento)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "temperatura axilar",
+      "start": 370,
+      "end": 388,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "0bb1ae87d35d",
+        "concept_name": "TEMPERATURA AXILAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame: regular estado geral; FC 80 bpm; PA 120 x 70 mmHg; temperatura axilar 37, 2°C (afebril no momento)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Ausculta cardíaca",
+      "start": 419,
+      "end": 436,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "09642353f773",
+        "concept_name": "AUSCULTA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ausculta cardíaca e pulmonar normais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "dispareunia",
+      "start": 773,
+      "end": 784,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "N94.1",
+        "concept_name": "Dispareunia",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Em avaliação dirigida, refere dispareunia recente e dor hipogástrica à palpação; dor à mobilização do colo discretamente positiva, sem sinais de peritonismo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "doença inflamatória pélvica",
+      "start": 948,
+      "end": 975,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "0f20096fbd84",
+        "concept_name": "DOENÇA INFLAMATÓRIA PÉLVICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Diante da suspeita de IST/cervicite e possível doença inflamatória pélvica inicial, foram solicitados beta-hCG, NAAT para clamídia/gonococo, sorologias (HIV/sífilis/hepatites) e EAS/urocultura (resultados pendentes)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "beta",
+      "start": 1003,
+      "end": 1007,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90206770",
+        "concept_name": "BETA LONG 3MG + 3MG/ML SUS INJ CT AMP VD AMB X 1 ML UNIÃO QUÍMICA FARMACÊUTICA NACIONAL S/A 10/10/2012 31/08/2014 1049711730014",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Diante da suspeita de IST/cervicite e possível doença inflamatória pélvica inicial, foram solicitados beta-hCG, NAAT para clamídia/gonococo, sorologias (HIV/sífilis/hepatites) e EAS/urocultura (resultados pendentes)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HIV",
+      "start": 1054,
+      "end": 1057,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "8790d0c6ebdc",
+        "concept_name": "VÍRUS DA IMUNODEFICIÊNCIA HUMANA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Diante da suspeita de IST/cervicite e possível doença inflamatória pélvica inicial, foram solicitados beta-hCG, NAAT para clamídia/gonococo, sorologias (HIV/sífilis/hepatites) e EAS/urocultura (resultados pendentes)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "EAS",
+      "start": 1079,
+      "end": 1082,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "161dc4101a70",
+        "concept_name": "ELEMENTOS ANORMAIS DO SEDIMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Diante da suspeita de IST/cervicite e possível doença inflamatória pélvica inicial, foram solicitados beta-hCG, NAAT para clamídia/gonococo, sorologias (HIV/sífilis/hepatites) e EAS/urocultura (resultados pendentes)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "urocultura",
+      "start": 1083,
+      "end": 1093,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25792c5572e6",
+        "concept_name": "UROCULTURA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Diante da suspeita de IST/cervicite e possível doença inflamatória pélvica inicial, foram solicitados beta-hCG, NAAT para clamídia/gonococo, sorologias (HIV/sífilis/hepatites) e EAS/urocultura (resultados pendentes)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 1216,
+      "end": 1223,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Febre prévia referida, atualmente afebril; corrimento mucossanguinolento; dor pélvica; nega disúria; nega tosse/dispneia; nega lesões cutâneas extensas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 1230,
+      "end": 1235,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Febre prévia referida, atualmente afebril; corrimento mucossanguinolento; dor pélvica; nega disúria; nega tosse/dispneia; nega lesões cutâneas extensas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1277,
+      "end": 1279,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Nega comorbidades."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paracetamol",
+      "start": 1327,
+      "end": 1338,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90012712",
+        "concept_name": "PARACETAMOL + FOSFATO DE CODEÍNA 500 + 30 MG COM CT BL AL PLAS INC X 12 BIOLAB FARMA GENERICOS LTDA 01/06/2019 31/03/2016 1049201850050",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Medicações: ACO combinado; paracetamol recente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "clínica",
+      "start": 1489,
+      "end": 1496,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "9d123e457f16",
+        "concept_name": "CLÍNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Sexual: em consulta, relata parceria sexual recente e uso irregular de preservativo (anotado por relevância clínica)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1499,
+      "end": 1501,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 20,
+  "group": "caso_estruturado"
+}

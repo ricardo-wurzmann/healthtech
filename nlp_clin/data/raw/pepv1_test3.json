@@ -1,0 +1,17 @@
+[
+  {
+    "case_id": 1,
+    "group": "prontuario",
+    "raw_text": "1) Adolescente masculino de 16 anos de idade, trazido ao pronto-socorro de hospital terciário pelo Serviço de Resgate, foi vítima de queda de bicicleta após colisão em alta velocidade contra anteparo fixo. Paciente relata ter traumatizado a região superior do abdome contra o guidão da bicicleta e refere intensa dor no local. Apresenta, ainda, trauma craniano, sem perda de consciência, porém refere cefaleia intensa. Nega vômitos. Dados colhidos pela equipe do resgate no local do acidente: pulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência respiratória = 16 irpm; saturação de oxigênio 97% em ar ambiente. Tempo entre acidente e admissão hospitalar: 30 minutos. Na avaliação no pronto-socorro: A – vias aéreas pérvias, com colar cervical. B – murmúrios vesiculares presentes bilateralmente; expansibilidade simétrica; tórax indolor à palpação; sem crepitações; FR = 16 irpm; saturação de O2 = 98% em ar ambiente. C – pulso = 108 bpm; pressão arterial = 120 x 70 mmHg; sem sangramento visível. Abdome doloroso à palpação em epigástrio e mesogástrio, onde se evidenciam equimose e escoriação. Toque retal sem alterações, diurese clara. D – escala de coma de Glasgow = 15; pupilas isocóricas e fotorreagentes. E – sem outras alterações. Realizada expansão volêmica com 2.000 ml de soro fisiológico e analgesia. Após essas medidas, o paciente apresenta frequência cardíaca de 86 bpm e pressão arterial de 120 x 70 mmHg. Foi realizada ultrassonografia focada no trauma (FAST)."
+  },
+  {
+    "case_id": 2,
+    "group": "prontuario",
+    "raw_text": "2). Homem de 38 anos de idade, vem ao Pronto Socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue. Refere ingerir cerca de 300mL de aguardente / dia, há 10 anos. Apresenta diarreia e perda de peso nos últimos seis meses; nega outras doenças. Ao exame clínico, está em regular estado geral, tem Índice de Massa Corpórea de 30kg/m², desidratado, com pulso de 100bpm, frequência respiratória de 28ipm e pressão arterial de 150x100mmHg, glicemia capilar de 200mg/dL. O abdome é globoso, tenso, distendido, com muita dor à palpação do epigástrio e hipocôndrio esquerdo. A descompressão brusca não piora a dor, e não há outras alterações relevantes."
+  },
+  {
+    "case_id": 3,
+    "group": "prontuario",
+    "raw_text": "3) Homem, 38 anos de idade, vem ao pronto-socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue. Refere ingerir cerca de 300 ml de aguardente/dia, há 10 anos. Apresenta diarreia e perda de peso nos últimos seis meses; nega outras doenças. Ao exame clínico, está em regular estado geral, tem índice de massa corpórea de 30 kg/m², desidratado, com pulso de 100 bpm, frequência respiratória de 28 irpm e pressão arterial de 150 x 100 mmHg, glicemia capilar de 200 mg/dl. O abdome é globoso, tenso, distendido, com muita dor à palpação do epigástrio e hipocôndrio esquerdo. A descompressão brusca não piora a dor, e não há outras alterações relevantes."
+  }
+]

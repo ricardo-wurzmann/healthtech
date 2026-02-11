@@ -1,0 +1,142 @@
+{
+  "doc_id": "pepv1_case_0003",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "3) Homem, 38 anos de idade, vem ao pronto-socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue. Refere ingerir cerca de 300 ml de aguardente/dia, há 10 anos. Apresenta diarreia e perda de peso nos últimos seis meses; nega outras doenças. Ao exame clínico, está em regular estado geral, tem índice de massa corpórea de 30 kg/m², desidratado, com pulso de 100 bpm, frequência respiratória de 28 irpm e pressão arterial de 150 x 100 mmHg, glicemia capilar de 200 mg/dl. O abdome é globoso, tenso, distendido, com muita dor à palpação do epigástrio e hipocôndrio esquerdo. A descompressão brusca não piora a dor, e não há outras alterações relevantes.",
+  "entities": [
+    {
+      "span": "bpm",
+      "start": 425,
+      "end": 428,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico, está em regular estado geral, tem índice de massa corpórea de 30 kg/m², desidratado, com pulso de 100 bpm, frequência respiratória de 28 irpm e pressão arterial de 150 x 100 mmHg, glicemia capilar de 200 mg/dl."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "frequência respiratória",
+      "start": 430,
+      "end": 453,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico, está em regular estado geral, tem índice de massa corpórea de 30 kg/m², desidratado, com pulso de 100 bpm, frequência respiratória de 28 irpm e pressão arterial de 150 x 100 mmHg, glicemia capilar de 200 mg/dl."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 460,
+      "end": 464,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico, está em regular estado geral, tem índice de massa corpórea de 30 kg/m², desidratado, com pulso de 100 bpm, frequência respiratória de 28 irpm e pressão arterial de 150 x 100 mmHg, glicemia capilar de 200 mg/dl."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pressão arterial",
+      "start": 467,
+      "end": 483,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico, está em regular estado geral, tem índice de massa corpórea de 30 kg/m², desidratado, com pulso de 100 bpm, frequência respiratória de 28 irpm e pressão arterial de 150 x 100 mmHg, glicemia capilar de 200 mg/dl."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "glicemia capilar",
+      "start": 503,
+      "end": 519,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "101fab9e861b",
+        "concept_name": "GLICEMIA CAPILAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico, está em regular estado geral, tem índice de massa corpórea de 30 kg/m², desidratado, com pulso de 100 bpm, frequência respiratória de 28 irpm e pressão arterial de 150 x 100 mmHg, glicemia capilar de 200 mg/dl."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 536,
+      "end": 542,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "O abdome é globoso, tenso, distendido, com muita dor à palpação do epigástrio e hipocôndrio esquerdo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hipocôndrio esquerdo",
+      "start": 614,
+      "end": 634,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dea409a669f9",
+        "concept_name": "HIPOCÔNDRIO ESQUERDO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "O abdome é globoso, tenso, distendido, com muita dor à palpação do epigástrio e hipocôndrio esquerdo."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 3,
+  "group": "prontuario"
+}

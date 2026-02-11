@@ -1,0 +1,275 @@
+{
+  "doc_id": "pepv1_case_0073",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "73) ID: Mulher, 30 anos, com histórico de hipertireoidismo. QD: \"Vômitos persistentes e perda de peso.\" HPMA: Paciente com histórico de hipertireoidismo controlado com metimazol, em tratamento regular. Nos últimos 2 meses, tem apresentado quadro progressivo de perda de peso (aproximadamente 5 kg), associado a episódios intermitentes de vômitos e náuseas. Refere também tremores em mãos, ansiedade, insônia e intolerância ao calor. Ao exame físico: PA 120×70 mmHg, FC 110 bpm, mão trêmula à palpação. Exame de tireoide: glândula difusamente aumentada, indolor, com nódulos palpáveis. O exame laboratorial revelou TSH supresso, T4 livre elevado. Hipótese de hipertireoidismo não controlado ou resistência ao tratamento. ISDA: Nega queixas pulmonares, disúria ou dor abdominal. AP: Hipertireoidismo em uso de metimazol. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "73) ID: Mulher, 30 anos, com histórico de hipertireoidismo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Paciente",
+      "start": 110,
+      "end": 118,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Paciente com histórico de hipertireoidismo controlado com metimazol, em tratamento regular."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 182,
+      "end": 192,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Paciente com histórico de hipertireoidismo controlado com metimazol, em tratamento regular."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "exame físico",
+      "start": 436,
+      "end": 448,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame físico: PA 120×70 mmHg, FC 110 bpm, mão trêmula à palpação."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 450,
+      "end": 452,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame físico: PA 120×70 mmHg, FC 110 bpm, mão trêmula à palpação."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 466,
+      "end": 468,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame físico: PA 120×70 mmHg, FC 110 bpm, mão trêmula à palpação."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 473,
+      "end": 476,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame físico: PA 120×70 mmHg, FC 110 bpm, mão trêmula à palpação."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "TSH",
+      "start": 614,
+      "end": 617,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e5e400b0ddee",
+        "concept_name": "HORMÔNIO TIREOESTIMULANTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "O exame laboratorial revelou TSH supresso, T4 livre elevado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "T4 livre",
+      "start": 628,
+      "end": 636,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "51a180633c81",
+        "concept_name": "T4 LIVRE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "O exame laboratorial revelou TSH supresso, T4 livre elevado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 708,
+      "end": 718,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hipótese de hipertireoidismo não controlado ou resistência ao tratamento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 731,
+      "end": 738,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega queixas pulmonares, disúria ou dor abdominal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 751,
+      "end": 758,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega queixas pulmonares, disúria ou dor abdominal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 777,
+      "end": 779,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Hipertireoidismo em uso de metimazol."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 819,
+      "end": 821,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 73,
+  "group": "caso_estruturado"
+}

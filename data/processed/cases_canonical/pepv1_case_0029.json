@@ -1,0 +1,408 @@
+{
+  "doc_id": "pepv1_case_0029",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "29) ID: Feminino, 34 anos, tercigesta, 2 partos vaginais prévios, IG 33 semanas e 4 dias. QD: “Dor no baixo ventre após acidente de carro e bebê mexendo menos.” HPMA: Transferida do PA de cirurgia após trauma automobilístico (auto-auto) há 2 horas, com dor em andar inferior do abdome e diminuição da movimentação fetal desde o evento. Antecedente de HAS crônica em uso de alfametildopa 2 g/dia. Exame inicial: regular estado geral, corada, hidratada, afebril, PA 148×96 mmHg, abdome doloroso em hipogastro; dinâmica uterina irregular; BCF 134 bpm; AU 33 cm; tônus uterino normal. Toque: colo grosso, posterior, pérvio 1 cm. Optado por analgesia (escopolamina + dipirona EV) e reavaliação seriada. Após 2 horas, refere intensificação importante da dor. Reavaliação: PA 150×90 mmHg; abdome muito doloroso; dinâmica uterina 4 contrações/10 min; BCF 119 bpm; AU 36 cm; tônus discretamente aumentado. Toque: colo médio, medianizado, pérvio 3 cm. Cardiotocografia categoria 2. Pelo contexto (trauma + dor intensa + taquissistolia/aumento de tônus + alteração de BCF/CTG), registrado alto risco para descolamento prematuro de placenta e/ou sofrimento fetal: indicada vigilância contínua materno-fetal, coleta de hemograma, coagulograma/fibrinogênio, tipagem e prova cruzada, avaliação ultrassonográfica (quando não atrasar conduta) e discussão imediata de via de parto conforme estabilidade materna e status fetal. ISDA: Nega perda de líquido e sangramento vaginal evidente (questionado ativamente); nega dispneia/dor torácica; sem sintomas urinários; afebril. AP: HAS crônica. Medicações: alfametildopa 2 g/dia. Alergias: não referidas. Cirurgias: não referidas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "29) ID: Feminino, 34 anos, tercigesta, 2 partos vaginais prévios, IG 33 semanas e 4 dias."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 182,
+      "end": 184,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Transferida do PA de cirurgia após trauma automobilístico (auto-auto) há 2 horas, com dor em andar inferior do abdome e diminuição da movimentação fetal desde o evento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 278,
+      "end": 284,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Transferida do PA de cirurgia após trauma automobilístico (auto-auto) há 2 horas, com dor em andar inferior do abdome e diminuição da movimentação fetal desde o evento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 351,
+      "end": 354,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "HISTORICAL",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Antecedente de HAS crônica em uso de alfametildopa 2 g/dia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 461,
+      "end": 463,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exame inicial: regular estado geral, corada, hidratada, afebril, PA 148×96 mmHg, abdome doloroso em hipogastro; dinâmica uterina irregular; BCF 134 bpm; AU 33 cm; tônus uterino normal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 477,
+      "end": 483,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exame inicial: regular estado geral, corada, hidratada, afebril, PA 148×96 mmHg, abdome doloroso em hipogastro; dinâmica uterina irregular; BCF 134 bpm; AU 33 cm; tônus uterino normal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 544,
+      "end": 547,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exame inicial: regular estado geral, corada, hidratada, afebril, PA 148×96 mmHg, abdome doloroso em hipogastro; dinâmica uterina irregular; BCF 134 bpm; AU 33 cm; tônus uterino normal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "dipirona",
+      "start": 662,
+      "end": 670,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90055888",
+        "concept_name": "DIPIRONA SÓDICA 50 MG/ML SOL OR CT FR VD AMB X 100 ML + CP MED EMS S/A 10/10/2012 31/08/2014 1023508000011",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Optado por analgesia (escopolamina + dipirona EV) e reavaliação seriada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "EV",
+      "start": 671,
+      "end": 673,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "fed8d4906506",
+        "concept_name": "ENDOVENOSA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Optado por analgesia (escopolamina + dipirona EV) e reavaliação seriada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 766,
+      "end": 768,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Reavaliação: PA 150×90 mmHg; abdome muito doloroso; dinâmica uterina 4 contrações/10 min; BCF 119 bpm; AU 36 cm; tônus discretamente aumentado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 782,
+      "end": 788,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Reavaliação: PA 150×90 mmHg; abdome muito doloroso; dinâmica uterina 4 contrações/10 min; BCF 119 bpm; AU 36 cm; tônus discretamente aumentado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 851,
+      "end": 854,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Reavaliação: PA 150×90 mmHg; abdome muito doloroso; dinâmica uterina 4 contrações/10 min; BCF 119 bpm; AU 36 cm; tônus discretamente aumentado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "placenta",
+      "start": 1120,
+      "end": 1128,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D39.2",
+        "concept_name": "Placenta",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Pelo contexto (trauma + dor intensa + taquissistolia/aumento de tônus + alteração de BCF/CTG), registrado alto risco para descolamento prematuro de placenta e/ou sofrimento fetal: indicada vigilância contínua materno-fetal, coleta de hemograma, coagulograma/fibrinogênio, tipagem e prova cruzada, avaliação ultrassonográfica (quando não atrasar conduta) e discussão imediata de via de parto conforme estabilidade materna e status fetal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 1206,
+      "end": 1215,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b3810f8eaf",
+        "concept_name": "HEMOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Pelo contexto (trauma + dor intensa + taquissistolia/aumento de tônus + alteração de BCF/CTG), registrado alto risco para descolamento prematuro de placenta e/ou sofrimento fetal: indicada vigilância contínua materno-fetal, coleta de hemograma, coagulograma/fibrinogênio, tipagem e prova cruzada, avaliação ultrassonográfica (quando não atrasar conduta) e discussão imediata de via de parto conforme estabilidade materna e status fetal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "coagulograma",
+      "start": 1217,
+      "end": 1229,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bca44410d9c1",
+        "concept_name": "COAGULOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Pelo contexto (trauma + dor intensa + taquissistolia/aumento de tônus + alteração de BCF/CTG), registrado alto risco para descolamento prematuro de placenta e/ou sofrimento fetal: indicada vigilância contínua materno-fetal, coleta de hemograma, coagulograma/fibrinogênio, tipagem e prova cruzada, avaliação ultrassonográfica (quando não atrasar conduta) e discussão imediata de via de parto conforme estabilidade materna e status fetal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "fibrinogênio",
+      "start": 1230,
+      "end": 1242,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c81f14482ad8",
+        "concept_name": "FIBRINOGÊNIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Pelo contexto (trauma + dor intensa + taquissistolia/aumento de tônus + alteração de BCF/CTG), registrado alto risco para descolamento prematuro de placenta e/ou sofrimento fetal: indicada vigilância contínua materno-fetal, coleta de hemograma, coagulograma/fibrinogênio, tipagem e prova cruzada, avaliação ultrassonográfica (quando não atrasar conduta) e discussão imediata de via de parto conforme estabilidade materna e status fetal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "conduta",
+      "start": 1317,
+      "end": 1324,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "1f9083ca360b",
+        "concept_name": "CONDUTA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Pelo contexto (trauma + dor intensa + taquissistolia/aumento de tônus + alteração de BCF/CTG), registrado alto risco para descolamento prematuro de placenta e/ou sofrimento fetal: indicada vigilância contínua materno-fetal, coleta de hemograma, coagulograma/fibrinogênio, tipagem e prova cruzada, avaliação ultrassonográfica (quando não atrasar conduta) e discussão imediata de via de parto conforme estabilidade materna e status fetal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "materna",
+      "start": 1385,
+      "end": 1392,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90214021",
+        "concept_name": "MATERNA COM REV CT FR PLAS OPC X 30 WYETH INDÚSTRIA FARMACÊUTICA LTDA 10/10/2012 31/08/2014 1211000800019",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Pelo contexto (trauma + dor intensa + taquissistolia/aumento de tônus + alteração de BCF/CTG), registrado alto risco para descolamento prematuro de placenta e/ou sofrimento fetal: indicada vigilância contínua materno-fetal, coleta de hemograma, coagulograma/fibrinogênio, tipagem e prova cruzada, avaliação ultrassonográfica (quando não atrasar conduta) e discussão imediata de via de parto conforme estabilidade materna e status fetal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1555,
+      "end": 1557,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS crônica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 1559,
+      "end": 1562,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS crônica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1658,
+      "end": 1660,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 29,
+  "group": "caso_estruturado"
+}

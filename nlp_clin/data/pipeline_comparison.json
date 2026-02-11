@@ -1,0 +1,664 @@
+{
+  "summary": {
+    "total_both": 10,
+    "total_only_baseline": 611,
+    "total_only_canonical": 1011,
+    "agreement_rate": 0.6127450980392157
+  },
+  "entity_types": {
+    "baseline": {
+      "ANATOMY": 171,
+      "SYMPTOM": 263,
+      "TEST": 134,
+      "PROCEDURE": 30,
+      "DRUG": 23
+    },
+    "canonical": {
+      "ABBREV": 761,
+      "PROBLEM": 198,
+      "DRUG": 62
+    }
+  },
+  "documents": [
+    {
+      "doc_id": "pepv1_case_0001",
+      "baseline_count": 21,
+      "canonical_count": 24,
+      "both_count": 0,
+      "only_baseline_count": 21,
+      "only_canonical_count": 24
+    },
+    {
+      "doc_id": "pepv1_case_0002",
+      "baseline_count": 8,
+      "canonical_count": 5,
+      "both_count": 0,
+      "only_baseline_count": 8,
+      "only_canonical_count": 5
+    },
+    {
+      "doc_id": "pepv1_case_0003",
+      "baseline_count": 9,
+      "canonical_count": 7,
+      "both_count": 0,
+      "only_baseline_count": 9,
+      "only_canonical_count": 7
+    },
+    {
+      "doc_id": "pepv1_case_0004",
+      "baseline_count": 5,
+      "canonical_count": 10,
+      "both_count": 0,
+      "only_baseline_count": 5,
+      "only_canonical_count": 10
+    },
+    {
+      "doc_id": "pepv1_case_0005",
+      "baseline_count": 2,
+      "canonical_count": 3,
+      "both_count": 0,
+      "only_baseline_count": 2,
+      "only_canonical_count": 3
+    },
+    {
+      "doc_id": "pepv1_case_0006",
+      "baseline_count": 1,
+      "canonical_count": 3,
+      "both_count": 0,
+      "only_baseline_count": 1,
+      "only_canonical_count": 3
+    },
+    {
+      "doc_id": "pepv1_case_0007",
+      "baseline_count": 7,
+      "canonical_count": 19,
+      "both_count": 0,
+      "only_baseline_count": 7,
+      "only_canonical_count": 19
+    },
+    {
+      "doc_id": "pepv1_case_0008",
+      "baseline_count": 7,
+      "canonical_count": 15,
+      "both_count": 0,
+      "only_baseline_count": 7,
+      "only_canonical_count": 15
+    },
+    {
+      "doc_id": "pepv1_case_0009",
+      "baseline_count": 1,
+      "canonical_count": 6,
+      "both_count": 0,
+      "only_baseline_count": 1,
+      "only_canonical_count": 6
+    },
+    {
+      "doc_id": "pepv1_case_0010",
+      "baseline_count": 12,
+      "canonical_count": 26,
+      "both_count": 1,
+      "only_baseline_count": 11,
+      "only_canonical_count": 25
+    },
+    {
+      "doc_id": "pepv1_case_0011",
+      "baseline_count": 13,
+      "canonical_count": 13,
+      "both_count": 0,
+      "only_baseline_count": 13,
+      "only_canonical_count": 13
+    },
+    {
+      "doc_id": "pepv1_case_0012",
+      "baseline_count": 7,
+      "canonical_count": 13,
+      "both_count": 0,
+      "only_baseline_count": 7,
+      "only_canonical_count": 13
+    },
+    {
+      "doc_id": "pepv1_case_0013",
+      "baseline_count": 4,
+      "canonical_count": 7,
+      "both_count": 0,
+      "only_baseline_count": 4,
+      "only_canonical_count": 7
+    },
+    {
+      "doc_id": "pepv1_case_0014",
+      "baseline_count": 10,
+      "canonical_count": 12,
+      "both_count": 1,
+      "only_baseline_count": 9,
+      "only_canonical_count": 11
+    },
+    {
+      "doc_id": "pepv1_case_0015",
+      "baseline_count": 16,
+      "canonical_count": 19,
+      "both_count": 0,
+      "only_baseline_count": 16,
+      "only_canonical_count": 19
+    },
+    {
+      "doc_id": "pepv1_case_0016",
+      "baseline_count": 19,
+      "canonical_count": 30,
+      "both_count": 0,
+      "only_baseline_count": 19,
+      "only_canonical_count": 30
+    },
+    {
+      "doc_id": "pepv1_case_0017",
+      "baseline_count": 8,
+      "canonical_count": 12,
+      "both_count": 0,
+      "only_baseline_count": 8,
+      "only_canonical_count": 12
+    },
+    {
+      "doc_id": "pepv1_case_0018",
+      "baseline_count": 7,
+      "canonical_count": 10,
+      "both_count": 0,
+      "only_baseline_count": 7,
+      "only_canonical_count": 10
+    },
+    {
+      "doc_id": "pepv1_case_0019",
+      "baseline_count": 11,
+      "canonical_count": 12,
+      "both_count": 0,
+      "only_baseline_count": 11,
+      "only_canonical_count": 12
+    },
+    {
+      "doc_id": "pepv1_case_0020",
+      "baseline_count": 13,
+      "canonical_count": 20,
+      "both_count": 2,
+      "only_baseline_count": 11,
+      "only_canonical_count": 18
+    },
+    {
+      "doc_id": "pepv1_case_0021",
+      "baseline_count": 3,
+      "canonical_count": 12,
+      "both_count": 0,
+      "only_baseline_count": 3,
+      "only_canonical_count": 12
+    },
+    {
+      "doc_id": "pepv1_case_0022",
+      "baseline_count": 11,
+      "canonical_count": 16,
+      "both_count": 0,
+      "only_baseline_count": 11,
+      "only_canonical_count": 16
+    },
+    {
+      "doc_id": "pepv1_case_0023",
+      "baseline_count": 13,
+      "canonical_count": 20,
+      "both_count": 0,
+      "only_baseline_count": 13,
+      "only_canonical_count": 20
+    },
+    {
+      "doc_id": "pepv1_case_0024",
+      "baseline_count": 12,
+      "canonical_count": 22,
+      "both_count": 0,
+      "only_baseline_count": 12,
+      "only_canonical_count": 22
+    },
+    {
+      "doc_id": "pepv1_case_0025",
+      "baseline_count": 2,
+      "canonical_count": 13,
+      "both_count": 0,
+      "only_baseline_count": 2,
+      "only_canonical_count": 13
+    },
+    {
+      "doc_id": "pepv1_case_0026",
+      "baseline_count": 7,
+      "canonical_count": 14,
+      "both_count": 0,
+      "only_baseline_count": 7,
+      "only_canonical_count": 14
+    },
+    {
+      "doc_id": "pepv1_case_0027",
+      "baseline_count": 8,
+      "canonical_count": 21,
+      "both_count": 1,
+      "only_baseline_count": 7,
+      "only_canonical_count": 20
+    },
+    {
+      "doc_id": "pepv1_case_0028",
+      "baseline_count": 8,
+      "canonical_count": 11,
+      "both_count": 0,
+      "only_baseline_count": 8,
+      "only_canonical_count": 11
+    },
+    {
+      "doc_id": "pepv1_case_0029",
+      "baseline_count": 10,
+      "canonical_count": 21,
+      "both_count": 0,
+      "only_baseline_count": 10,
+      "only_canonical_count": 21
+    },
+    {
+      "doc_id": "pepv1_case_0030",
+      "baseline_count": 11,
+      "canonical_count": 28,
+      "both_count": 0,
+      "only_baseline_count": 11,
+      "only_canonical_count": 28
+    },
+    {
+      "doc_id": "pepv1_case_0031",
+      "baseline_count": 3,
+      "canonical_count": 8,
+      "both_count": 0,
+      "only_baseline_count": 3,
+      "only_canonical_count": 8
+    },
+    {
+      "doc_id": "pepv1_case_0032",
+      "baseline_count": 1,
+      "canonical_count": 6,
+      "both_count": 0,
+      "only_baseline_count": 1,
+      "only_canonical_count": 6
+    },
+    {
+      "doc_id": "pepv1_case_0033",
+      "baseline_count": 10,
+      "canonical_count": 10,
+      "both_count": 0,
+      "only_baseline_count": 10,
+      "only_canonical_count": 10
+    },
+    {
+      "doc_id": "pepv1_case_0034",
+      "baseline_count": 9,
+      "canonical_count": 6,
+      "both_count": 0,
+      "only_baseline_count": 9,
+      "only_canonical_count": 6
+    },
+    {
+      "doc_id": "pepv1_case_0035",
+      "baseline_count": 9,
+      "canonical_count": 11,
+      "both_count": 0,
+      "only_baseline_count": 9,
+      "only_canonical_count": 11
+    },
+    {
+      "doc_id": "pepv1_case_0036",
+      "baseline_count": 6,
+      "canonical_count": 6,
+      "both_count": 0,
+      "only_baseline_count": 6,
+      "only_canonical_count": 6
+    },
+    {
+      "doc_id": "pepv1_case_0037",
+      "baseline_count": 5,
+      "canonical_count": 8,
+      "both_count": 0,
+      "only_baseline_count": 5,
+      "only_canonical_count": 8
+    },
+    {
+      "doc_id": "pepv1_case_0038",
+      "baseline_count": 4,
+      "canonical_count": 7,
+      "both_count": 0,
+      "only_baseline_count": 4,
+      "only_canonical_count": 7
+    },
+    {
+      "doc_id": "pepv1_case_0039",
+      "baseline_count": 2,
+      "canonical_count": 11,
+      "both_count": 0,
+      "only_baseline_count": 2,
+      "only_canonical_count": 11
+    },
+    {
+      "doc_id": "pepv1_case_0040",
+      "baseline_count": 4,
+      "canonical_count": 9,
+      "both_count": 0,
+      "only_baseline_count": 4,
+      "only_canonical_count": 9
+    },
+    {
+      "doc_id": "pepv1_case_0041",
+      "baseline_count": 4,
+      "canonical_count": 14,
+      "both_count": 0,
+      "only_baseline_count": 4,
+      "only_canonical_count": 14
+    },
+    {
+      "doc_id": "pepv1_case_0042",
+      "baseline_count": 10,
+      "canonical_count": 14,
+      "both_count": 0,
+      "only_baseline_count": 10,
+      "only_canonical_count": 14
+    },
+    {
+      "doc_id": "pepv1_case_0043",
+      "baseline_count": 9,
+      "canonical_count": 21,
+      "both_count": 2,
+      "only_baseline_count": 7,
+      "only_canonical_count": 19
+    },
+    {
+      "doc_id": "pepv1_case_0044",
+      "baseline_count": 7,
+      "canonical_count": 11,
+      "both_count": 0,
+      "only_baseline_count": 7,
+      "only_canonical_count": 11
+    },
+    {
+      "doc_id": "pepv1_case_0045",
+      "baseline_count": 2,
+      "canonical_count": 8,
+      "both_count": 0,
+      "only_baseline_count": 2,
+      "only_canonical_count": 8
+    },
+    {
+      "doc_id": "pepv1_case_0046",
+      "baseline_count": 0,
+      "canonical_count": 7,
+      "both_count": 0,
+      "only_baseline_count": 0,
+      "only_canonical_count": 7
+    },
+    {
+      "doc_id": "pepv1_case_0047",
+      "baseline_count": 0,
+      "canonical_count": 6,
+      "both_count": 0,
+      "only_baseline_count": 0,
+      "only_canonical_count": 6
+    },
+    {
+      "doc_id": "pepv1_case_0048",
+      "baseline_count": 6,
+      "canonical_count": 8,
+      "both_count": 0,
+      "only_baseline_count": 6,
+      "only_canonical_count": 8
+    },
+    {
+      "doc_id": "pepv1_case_0049",
+      "baseline_count": 5,
+      "canonical_count": 8,
+      "both_count": 0,
+      "only_baseline_count": 5,
+      "only_canonical_count": 8
+    },
+    {
+      "doc_id": "pepv1_case_0050",
+      "baseline_count": 6,
+      "canonical_count": 13,
+      "both_count": 0,
+      "only_baseline_count": 6,
+      "only_canonical_count": 13
+    },
+    {
+      "doc_id": "pepv1_case_0051",
+      "baseline_count": 3,
+      "canonical_count": 7,
+      "both_count": 0,
+      "only_baseline_count": 3,
+      "only_canonical_count": 7
+    },
+    {
+      "doc_id": "pepv1_case_0052",
+      "baseline_count": 5,
+      "canonical_count": 6,
+      "both_count": 0,
+      "only_baseline_count": 5,
+      "only_canonical_count": 6
+    },
+    {
+      "doc_id": "pepv1_case_0053",
+      "baseline_count": 5,
+      "canonical_count": 9,
+      "both_count": 0,
+      "only_baseline_count": 5,
+      "only_canonical_count": 9
+    },
+    {
+      "doc_id": "pepv1_case_0054",
+      "baseline_count": 6,
+      "canonical_count": 8,
+      "both_count": 0,
+      "only_baseline_count": 6,
+      "only_canonical_count": 8
+    },
+    {
+      "doc_id": "pepv1_case_0055",
+      "baseline_count": 8,
+      "canonical_count": 15,
+      "both_count": 1,
+      "only_baseline_count": 7,
+      "only_canonical_count": 14
+    },
+    {
+      "doc_id": "pepv1_case_0056",
+      "baseline_count": 4,
+      "canonical_count": 14,
+      "both_count": 2,
+      "only_baseline_count": 2,
+      "only_canonical_count": 12
+    },
+    {
+      "doc_id": "pepv1_case_0057",
+      "baseline_count": 3,
+      "canonical_count": 8,
+      "both_count": 0,
+      "only_baseline_count": 3,
+      "only_canonical_count": 8
+    },
+    {
+      "doc_id": "pepv1_case_0058",
+      "baseline_count": 4,
+      "canonical_count": 11,
+      "both_count": 0,
+      "only_baseline_count": 4,
+      "only_canonical_count": 11
+    },
+    {
+      "doc_id": "pepv1_case_0059",
+      "baseline_count": 11,
+      "canonical_count": 12,
+      "both_count": 0,
+      "only_baseline_count": 11,
+      "only_canonical_count": 12
+    },
+    {
+      "doc_id": "pepv1_case_0060",
+      "baseline_count": 7,
+      "canonical_count": 13,
+      "both_count": 0,
+      "only_baseline_count": 7,
+      "only_canonical_count": 13
+    },
+    {
+      "doc_id": "pepv1_case_0061",
+      "baseline_count": 4,
+      "canonical_count": 7,
+      "both_count": 0,
+      "only_baseline_count": 4,
+      "only_canonical_count": 7
+    },
+    {
+      "doc_id": "pepv1_case_0062",
+      "baseline_count": 9,
+      "canonical_count": 6,
+      "both_count": 0,
+      "only_baseline_count": 9,
+      "only_canonical_count": 6
+    },
+    {
+      "doc_id": "pepv1_case_0063",
+      "baseline_count": 7,
+      "canonical_count": 13,
+      "both_count": 0,
+      "only_baseline_count": 7,
+      "only_canonical_count": 13
+    },
+    {
+      "doc_id": "pepv1_case_0064",
+      "baseline_count": 8,
+      "canonical_count": 12,
+      "both_count": 0,
+      "only_baseline_count": 8,
+      "only_canonical_count": 12
+    },
+    {
+      "doc_id": "pepv1_case_0065",
+      "baseline_count": 18,
+      "canonical_count": 19,
+      "both_count": 0,
+      "only_baseline_count": 18,
+      "only_canonical_count": 19
+    },
+    {
+      "doc_id": "pepv1_case_0066",
+      "baseline_count": 7,
+      "canonical_count": 8,
+      "both_count": 0,
+      "only_baseline_count": 7,
+      "only_canonical_count": 8
+    },
+    {
+      "doc_id": "pepv1_case_0067",
+      "baseline_count": 13,
+      "canonical_count": 18,
+      "both_count": 0,
+      "only_baseline_count": 13,
+      "only_canonical_count": 18
+    },
+    {
+      "doc_id": "pepv1_case_0068",
+      "baseline_count": 7,
+      "canonical_count": 22,
+      "both_count": 0,
+      "only_baseline_count": 7,
+      "only_canonical_count": 22
+    },
+    {
+      "doc_id": "pepv1_case_0069",
+      "baseline_count": 13,
+      "canonical_count": 19,
+      "both_count": 0,
+      "only_baseline_count": 13,
+      "only_canonical_count": 19
+    },
+    {
+      "doc_id": "pepv1_case_0070",
+      "baseline_count": 9,
+      "canonical_count": 15,
+      "both_count": 0,
+      "only_baseline_count": 9,
+      "only_canonical_count": 15
+    },
+    {
+      "doc_id": "pepv1_case_0071",
+      "baseline_count": 11,
+      "canonical_count": 24,
+      "both_count": 0,
+      "only_baseline_count": 11,
+      "only_canonical_count": 24
+    },
+    {
+      "doc_id": "pepv1_case_0072",
+      "baseline_count": 8,
+      "canonical_count": 17,
+      "both_count": 0,
+      "only_baseline_count": 8,
+      "only_canonical_count": 17
+    },
+    {
+      "doc_id": "pepv1_case_0073",
+      "baseline_count": 5,
+      "canonical_count": 14,
+      "both_count": 0,
+      "only_baseline_count": 5,
+      "only_canonical_count": 14
+    },
+    {
+      "doc_id": "pepv1_case_0074",
+      "baseline_count": 17,
+      "canonical_count": 17,
+      "both_count": 0,
+      "only_baseline_count": 17,
+      "only_canonical_count": 17
+    },
+    {
+      "doc_id": "pepv1_case_0075",
+      "baseline_count": 15,
+      "canonical_count": 19,
+      "both_count": 0,
+      "only_baseline_count": 15,
+      "only_canonical_count": 19
+    },
+    {
+      "doc_id": "pepv1_case_0076",
+      "baseline_count": 6,
+      "canonical_count": 10,
+      "both_count": 0,
+      "only_baseline_count": 6,
+      "only_canonical_count": 10
+    },
+    {
+      "doc_id": "pepv1_case_0077",
+      "baseline_count": 10,
+      "canonical_count": 6,
+      "both_count": 0,
+      "only_baseline_count": 10,
+      "only_canonical_count": 6
+    },
+    {
+      "doc_id": "pepv1_case_0078",
+      "baseline_count": 6,
+      "canonical_count": 9,
+      "both_count": 0,
+      "only_baseline_count": 6,
+      "only_canonical_count": 9
+    },
+    {
+      "doc_id": "pepv1_case_0079",
+      "baseline_count": 15,
+      "canonical_count": 24,
+      "both_count": 0,
+      "only_baseline_count": 15,
+      "only_canonical_count": 24
+    },
+    {
+      "doc_id": "pepv1_case_0080",
+      "baseline_count": 9,
+      "canonical_count": 3,
+      "both_count": 0,
+      "only_baseline_count": 9,
+      "only_canonical_count": 3
+    }
+  ]
+}

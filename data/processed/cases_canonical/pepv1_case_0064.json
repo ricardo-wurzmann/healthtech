@@ -1,0 +1,237 @@
+{
+  "doc_id": "pepv1_case_0064",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "64) ID: F, 19 anos. QD: “Suor excessivo nas mãos desde criança.” HPMA: Refere hiperidrose palmar importante desde a infância, com piora em situações de estresse e impacto funcional (dificuldade para escrever/segurar objetos, constrangimento social). Já realizou tratamento clínico com anticolinérgicos por >6 meses, sem resposta satisfatória. Evoluiu para tratamento definitivo com simpatectomia torácica bilateral (VATS), há cerca de 3 meses, com melhora acentuada da sudorese palmar; atualmente relata ressecamento importante das mãos e sudorese compensatória em dorso/abdome em dias quentes (hipótese: hiperidrose primária palmar com hiperidrose compensatória pós-simpatectomia). Nega febre, perda ponderal, dor torácica ou dispneia. ISDA: Nega palpitações, tremores, intolerância ao calor generalizada, diarreia, tosse crônica. Sem queixas urinárias ou neurológicas. AP: Sem comorbidades conhecidas. Sem uso contínuo de medicações no momento. Nega alergias conhecidas. Nega tabagismo e drogas; etilismo social eventual. Cirurgia prévia: simpatectomia torácica bilateral (recente). AF: BEG, afebril, eupneica. Extremidades: mãos secas e frias, sem cianose; sem lesões cutâneas. Sem alterações relevantes em ausculta cardíaca/pulmonar. Cicatrizes puntiformes compatíveis com VATS, sem sinais flogísticos.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "64) ID: F, 19 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 262,
+      "end": 272,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Já realizou tratamento clínico com anticolinérgicos por >6 meses, sem resposta satisfatória."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 356,
+      "end": 366,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Evoluiu para tratamento definitivo com simpatectomia torácica bilateral (VATS), há cerca de 3 meses, com melhora acentuada da sudorese palmar; atualmente relata ressecamento importante das mãos e sudorese compensatória em dorso/abdome em dias quentes (hipótese: hiperidrose primária palmar com hiperidrose compensatória pós-simpatectomia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 571,
+      "end": 577,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Evoluiu para tratamento definitivo com simpatectomia torácica bilateral (VATS), há cerca de 3 meses, com melhora acentuada da sudorese palmar; atualmente relata ressecamento importante das mãos e sudorese compensatória em dorso/abdome em dias quentes (hipótese: hiperidrose primária palmar com hiperidrose compensatória pós-simpatectomia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "palpitações",
+      "start": 748,
+      "end": 759,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R00.2",
+        "concept_name": "Palpitações",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega palpitações, tremores, intolerância ao calor generalizada, diarreia, tosse crônica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 817,
+      "end": 822,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega palpitações, tremores, intolerância ao calor generalizada, diarreia, tosse crônica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 836,
+      "end": 843,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Sem queixas urinárias ou neurológicas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 871,
+      "end": 873,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades conhecidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1085,
+      "end": 1087,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: BEG, afebril, eupneica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "BEG",
+      "start": 1089,
+      "end": 1092,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: BEG, afebril, eupneica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "cianose",
+      "start": 1151,
+      "end": 1158,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R23.0",
+        "concept_name": "Cianose",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Extremidades: mãos secas e frias, sem cianose; sem lesões cutâneas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ausculta cardíaca",
+      "start": 1210,
+      "end": 1227,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "09642353f773",
+        "concept_name": "AUSCULTA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Sem alterações relevantes em ausculta cardíaca/pulmonar."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 64,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,142 @@
+{
+  "doc_id": "pepv1_case_0013",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "13) Homem de 56 anos de idade, admitido por dor torácica retroesternal de forte intensidade, em pressão, há 30 minutos, sem irradiação e acompanhada de sudorese. É hipertenso, em uso regular de hidroclorotiazida. Tabagista de 30 maços/ano. Ao exame clínico: pulso de 84 bpm; frequência respiratória = 12 irpm; pressão arterial = 168 x 104 mmHg em MSD; pulsos assimétricos; bulhas cardíacas normofonéticas com sopro diastólico em foco aórtico 3+/6+; exame clínico pulmonar e abdominal normais. Realizados na sala de emergência os dois exames a seguir.",
+  "entities": [
+    {
+      "span": "hidroclorotiazida",
+      "start": 194,
+      "end": 211,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dce69882270b",
+        "concept_name": "HIDROCLOROTIAZIDA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "É hipertenso, em uso regular de hidroclorotiazida."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Tabagista",
+      "start": 213,
+      "end": 222,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b6f8820db60b",
+        "concept_name": "TABAGISTA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Tabagista de 30 maços/ano."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 270,
+      "end": 273,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico: pulso de 84 bpm; frequência respiratória = 12 irpm; pressão arterial = 168 x 104 mmHg em MSD; pulsos assimétricos; bulhas cardíacas normofonéticas com sopro diastólico em foco aórtico 3+/6+; exame clínico pulmonar e abdominal normais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "frequência respiratória",
+      "start": 275,
+      "end": 298,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico: pulso de 84 bpm; frequência respiratória = 12 irpm; pressão arterial = 168 x 104 mmHg em MSD; pulsos assimétricos; bulhas cardíacas normofonéticas com sopro diastólico em foco aórtico 3+/6+; exame clínico pulmonar e abdominal normais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 304,
+      "end": 308,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico: pulso de 84 bpm; frequência respiratória = 12 irpm; pressão arterial = 168 x 104 mmHg em MSD; pulsos assimétricos; bulhas cardíacas normofonéticas com sopro diastólico em foco aórtico 3+/6+; exame clínico pulmonar e abdominal normais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pressão arterial",
+      "start": 310,
+      "end": 326,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico: pulso de 84 bpm; frequência respiratória = 12 irpm; pressão arterial = 168 x 104 mmHg em MSD; pulsos assimétricos; bulhas cardíacas normofonéticas com sopro diastólico em foco aórtico 3+/6+; exame clínico pulmonar e abdominal normais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "MSD",
+      "start": 347,
+      "end": 350,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "016b856fb55a",
+        "concept_name": "MEMBRO SUPERIOR DIREITO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico: pulso de 84 bpm; frequência respiratória = 12 irpm; pressão arterial = 168 x 104 mmHg em MSD; pulsos assimétricos; bulhas cardíacas normofonéticas com sopro diastólico em foco aórtico 3+/6+; exame clínico pulmonar e abdominal normais."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 13,
+  "group": "prontuario"
+}

@@ -1,0 +1,66 @@
+{
+  "doc_id": "pepv1_case_0080",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "80) ID: Feminino, 30 anos. QD: Dor e edema articular em punho direito e joelho esquerdo há 1 dia. HPMA: Início há 24h de artralgia aguda em punho direito e joelho esquerdo, com edema, calor e eritema locais; refere limitação funcional por dor. Ao exame, além das artrites, apresenta lesão pustulosa em antebraço esquerdo. Realizada artrocentese de joelho (1 mL), com 10.000 células e 90% PMN, sem microrganismos ao Gram e cultura negativa. Pelo padrão de artrite aguda oligoarticular associada a lesão cutânea pustulosa e líquido sinovial inflamatório com Gram/cultura negativos, quadro compatível com infecção gonocócica disseminada (síndrome artrite-dermatite). ISDA: Nega sintomas respiratórios e urinários no momento; sem sintomas gastrointestinais relevantes. AP: Sem comorbidades conhecidas. Alergias: nega. AF: Sem dados contributivos no enunciado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "80) ID: Feminino, 30 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 765,
+      "end": 767,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades conhecidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 814,
+      "end": 816,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Sem dados contributivos no enunciado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 80,
+  "group": "caso_estruturado"
+}

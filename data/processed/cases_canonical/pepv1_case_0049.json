@@ -1,0 +1,161 @@
+{
+  "doc_id": "pepv1_case_0049",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "49) ID: RN, termo, AIG, em alojamento conjunto, idade pós-natal a confirmar na admissão. QD: “Pele amarelada.” HPMA: Durante avaliação de rotina do RN, observa-se icterícia cutânea estendendo-se até a região inferior do tronco, pouco abaixo do umbigo, sem sinais de toxemia. Mãe refere aleitamento materno exclusivo, com mamadas frequentes, sem vômitos. Diurese e evacuações presentes, sem colúria ou fezes hipocólicas referidas. Exame físico: RN em bom estado geral, ativo, hidratado, normotérmico, sem desconforto respiratório; icterícia em faixa compatível com progressão para tronco inferior. No contexto, hipótese clínica de icterícia neonatal com necessidade de correlação com idade em horas de vida e bilirrubina sérica/transcutânea para estratificação de risco e conduta. ISDA: Sem febre, sem letargia persistente, sem recusa alimentar importante. AP: Antecedentes perinatais não informados. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "49) ID: RN, termo, AIG, em alojamento conjunto, idade pós-natal a confirmar na admissão."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Pele",
+      "start": 94,
+      "end": 98,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.5",
+        "concept_name": "Pele",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: “Pele amarelada.”"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Exame físico",
+      "start": 430,
+      "end": 442,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exame físico: RN em bom estado geral, ativo, hidratado, normotérmico, sem desconforto respiratório; icterícia em faixa compatível com progressão para tronco inferior."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 450,
+      "end": 466,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exame físico: RN em bom estado geral, ativo, hidratado, normotérmico, sem desconforto respiratório; icterícia em faixa compatível com progressão para tronco inferior."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "clínica",
+      "start": 619,
+      "end": 626,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "9d123e457f16",
+        "concept_name": "CLÍNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No contexto, hipótese clínica de icterícia neonatal com necessidade de correlação com idade em horas de vida e bilirrubina sérica/transcutânea para estratificação de risco e conduta."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "conduta",
+      "start": 771,
+      "end": 778,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "1f9083ca360b",
+        "concept_name": "CONDUTA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No contexto, hipótese clínica de icterícia neonatal com necessidade de correlação com idade em horas de vida e bilirrubina sérica/transcutânea para estratificação de risco e conduta."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 856,
+      "end": 858,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Antecedentes perinatais não informados."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 900,
+      "end": 902,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 49,
+  "group": "caso_estruturado"
+}

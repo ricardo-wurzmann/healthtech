@@ -1,0 +1,256 @@
+{
+  "doc_id": "pepv1_case_0050",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "50) ID: Mulher, 77 anos, emagrecida. QD: “Ferida dolorosa na língua com sangramento.” HPMA: Lesão dolorosa e sangrante em língua há 6 meses, com piora progressiva. Há 1 mês procurou dentista para remodelagem de prótese dentária (em uso há 15 anos) por aumento da mordedura da língua desde o início da lesão. Refere higiene da prótese apenas com enxágue diário antes de dormir. Tabagista prévia (20 maços/ano por 25 anos), cessou há 30 anos; nega etilismo. Ao exame da cavidade oral, lesão ulcerada em borda lateral de língua, infiltrada e friável, com sangramento ao toque, compatível com quadro crônico; avaliação cervical com pesquisa de linfonodomegalias a documentar. Quadro sugerindo neoplasia de língua (carcinoma espinocelular). ISDA: Nega febre; sem sintomas respiratórios; sem queixas gastrointestinais associadas. AP: Emagrecimento referido; demais comorbidades/medicações não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "50) ID: Mulher, 77 anos, emagrecida."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "língua",
+      "start": 61,
+      "end": 67,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D10.1",
+        "concept_name": "Língua",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: “Ferida dolorosa na língua com sangramento.”"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "língua",
+      "start": 122,
+      "end": 128,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D10.1",
+        "concept_name": "Língua",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Lesão dolorosa e sangrante em língua há 6 meses, com piora progressiva."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "língua",
+      "start": 276,
+      "end": 282,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D10.1",
+        "concept_name": "Língua",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Há 1 mês procurou dentista para remodelagem de prótese dentária (em uso há 15 anos) por aumento da mordedura da língua desde o início da lesão."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Tabagista",
+      "start": 377,
+      "end": 386,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b6f8820db60b",
+        "concept_name": "TABAGISTA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Tabagista prévia (20 maços/ano por 25 anos), cessou há 30 anos; nega etilismo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "lateral",
+      "start": 507,
+      "end": 514,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "7a48e4a6867b",
+        "concept_name": "LATERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame da cavidade oral, lesão ulcerada em borda lateral de língua, infiltrada e friável, com sangramento ao toque, compatível com quadro crônico; avaliação cervical com pesquisa de linfonodomegalias a documentar."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "língua",
+      "start": 518,
+      "end": 524,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D10.1",
+        "concept_name": "Língua",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame da cavidade oral, lesão ulcerada em borda lateral de língua, infiltrada e friável, com sangramento ao toque, compatível com quadro crônico; avaliação cervical com pesquisa de linfonodomegalias a documentar."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "neoplasia",
+      "start": 689,
+      "end": 698,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0c76b34aee3",
+        "concept_name": "NEOPLASIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro sugerindo neoplasia de língua (carcinoma espinocelular)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "língua",
+      "start": 702,
+      "end": 708,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D10.1",
+        "concept_name": "Língua",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro sugerindo neoplasia de língua (carcinoma espinocelular)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "carcinoma espinocelular",
+      "start": 710,
+      "end": 733,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "523a3c48e02d",
+        "concept_name": "CARCINOMA ESPINOCELULAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro sugerindo neoplasia de língua (carcinoma espinocelular)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 786,
+      "end": 793,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega febre; sem sintomas respiratórios; sem queixas gastrointestinais associadas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 824,
+      "end": 826,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Emagrecimento referido; demais comorbidades/medicações não informadas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 899,
+      "end": 901,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 50,
+  "group": "caso_estruturado"
+}

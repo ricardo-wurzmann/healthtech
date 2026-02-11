@@ -1,0 +1,142 @@
+{
+  "doc_id": "pepv1_case_0046",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "46) ID: Gestante, 23 anos, G?P?, em acompanhamento pré-natal. QD: “Reavaliação de sífilis na admissão para o parto.” HPMA: Primeira sorologia na gestação com TPPA positivo e VDRL 1: 64, tratada adequadamente na 12ª semana. Controles seriados mostraram queda até VDRL 1: 4 na 30ª semana. Evoluiu com 39 semanas para parto vaginal, sem intercorrências obstétricas. Na admissão para o parto, novo exame materno evidenciou VDRL 1: 32. No RN, VDRL 1: 16 e TPPA reagente. Contexto clínico-laboratorial compatível com sífilis na gestação com sorologia materna em ascensão no termo e RN sob suspeita de sífilis congênita, com necessidade de avaliação neonatal completa e correlação com exame físico e exames complementares do RN. ISDA: Gestante nega lesões genitais recentes e exantema no período (questionado na admissão); sem queixas neurológicas/oculares referidas. AP: Sífilis na gestação tratada na 12ª semana (esquema não detalhado no enunciado). Alergias: não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "46) ID: Gestante, 23 anos, G?P?,"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "novo",
+      "start": 389,
+      "end": 393,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90361415",
+        "concept_name": "NOVO RINO 0,5 MG/ML SOL NAS CT FR PLAS OPC GOT X 15 ML VALEANT FARMACÊUTICA DO BRASIL LTDA 10/04/2017 09/07/2017 1057501160018",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Na admissão para o parto, novo exame materno evidenciou VDRL 1: 32."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "materna",
+      "start": 545,
+      "end": 552,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "90214021",
+        "concept_name": "MATERNA COM REV CT FR PLAS OPC X 30 WYETH INDÚSTRIA FARMACÊUTICA LTDA 10/10/2012 31/08/2014 1211000800019",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Contexto clínico-laboratorial compatível com sífilis na gestação com sorologia materna em ascensão no termo e RN sob suspeita de sífilis congênita, com necessidade de avaliação neonatal completa e correlação com exame físico e exames complementares do RN."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "exame físico",
+      "start": 678,
+      "end": 690,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Contexto clínico-laboratorial compatível com sífilis na gestação com sorologia materna em ascensão no termo e RN sob suspeita de sífilis congênita, com necessidade de avaliação neonatal completa e correlação com exame físico e exames complementares do RN."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 820,
+      "end": 827,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Gestante nega lesões genitais recentes e exantema no período (questionado na admissão); sem queixas neurológicas/oculares referidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 861,
+      "end": 863,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sífilis na gestação tratada na 12ª semana (esquema não detalhado no enunciado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 971,
+      "end": 973,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 46,
+  "group": "caso_estruturado"
+}

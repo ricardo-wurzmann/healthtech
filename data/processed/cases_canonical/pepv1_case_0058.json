@@ -1,0 +1,218 @@
+{
+  "doc_id": "pepv1_case_0058",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "58) ID: Homem, 69 anos. QD: Enterorragia aguda. HPMA: Apresentou 3 episódios de enterorragia nas últimas 6 horas, sem episódios prévios semelhantes. Nega comorbidades, cirurgias, uso de medicações (incluindo antiagregantes/anticoagulantes) e nega sintomas prodrômicos relevantes. Ao exame: estável hemodinamicamente, corado, abdome flácido, levemente distendido e indolor, sem outros achados. Permaneceu em observação por 24 horas sem novo sangramento, evoluindo para preparo de cólon e colonoscopia eletiva após estabilização, em quadro compatível com hemorragia digestiva baixa. ISDA: Nega dor abdominal intensa, febre, vômitos ou síncope. AP: Nega comorbidades/uso de medicações. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "58) ID: Homem, 69 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "anticoagulantes",
+      "start": 223,
+      "end": 238,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "T45.5",
+        "concept_name": "Anticoagulantes",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega comorbidades, cirurgias, uso de medicações (incluindo antiagregantes/anticoagulantes) e nega sintomas prodrômicos relevantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemodinamicamente",
+      "start": 298,
+      "end": 315,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f02b49020101",
+        "concept_name": "HEMODINAMICAMENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame: estável hemodinamicamente, corado, abdome flácido, levemente distendido e indolor, sem outros achados."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 325,
+      "end": 331,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame: estável hemodinamicamente, corado, abdome flácido, levemente distendido e indolor, sem outros achados."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "observação",
+      "start": 407,
+      "end": 417,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "1eff3333e2e3",
+        "concept_name": "OBSERVAÇÃO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Permaneceu em observação por 24 horas sem novo sangramento, evoluindo para preparo de cólon e colonoscopia eletiva após estabilização, em quadro compatível com hemorragia digestiva baixa."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "novo",
+      "start": 435,
+      "end": 439,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "90361415",
+        "concept_name": "NOVO RINO 0,5 MG/ML SOL NAS CT FR PLAS OPC GOT X 15 ML VALEANT FARMACÊUTICA DO BRASIL LTDA 10/04/2017 09/07/2017 1057501160018",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Permaneceu em observação por 24 horas sem novo sangramento, evoluindo para preparo de cólon e colonoscopia eletiva após estabilização, em quadro compatível com hemorragia digestiva baixa."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "cólon",
+      "start": 479,
+      "end": 484,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "D01.0",
+        "concept_name": "Cólon",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Permaneceu em observação por 24 horas sem novo sangramento, evoluindo para preparo de cólon e colonoscopia eletiva após estabilização, em quadro compatível com hemorragia digestiva baixa."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "colonoscopia",
+      "start": 487,
+      "end": 499,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "362dc56bc967",
+        "concept_name": "COLONOSCOPIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Permaneceu em observação por 24 horas sem novo sangramento, evoluindo para preparo de cólon e colonoscopia eletiva após estabilização, em quadro compatível com hemorragia digestiva baixa."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemorragia digestiva baixa",
+      "start": 553,
+      "end": 579,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "7e3f577e219d",
+        "concept_name": "HEMORRAGIA DIGESTIVA BAIXA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Permaneceu em observação por 24 horas sem novo sangramento, evoluindo para preparo de cólon e colonoscopia eletiva após estabilização, em quadro compatível com hemorragia digestiva baixa."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 642,
+      "end": 644,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Nega comorbidades/uso de medicações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 683,
+      "end": 685,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 58,
+  "group": "caso_estruturado"
+}

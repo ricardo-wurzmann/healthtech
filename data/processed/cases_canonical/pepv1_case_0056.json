@@ -1,0 +1,275 @@
+{
+  "doc_id": "pepv1_case_0056",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "56) ID: Mulher, 45 anos. QD: Obesidade grave com falha de perda ponderal sustentada em seguimento clínico. HPMA: Ganho ponderal progressivo desde gestação há 20 anos. Há 5 anos com DM2 e DRGE, em uso de metformina, insulina NPH e omeprazol. Segue com endocrinologista e nutricionista há 3 anos, sem perda sustentada apesar de intervenções comportamentais, com recidivas. Atualmente com 125 kg e IMC 48, 9 kg/m², com impacto funcional (limitação a esforços e piora de qualidade do sono referida na anamnese dirigida) e controle metabólico variável em domicílio. Quadro compatível com obesidade mórbida com comorbidades metabólicas, refratária a tratamento clínico otimizado. ISDA: Nega dor torácica; refere pirose intermitente controlada com IBP; sem queixas respiratórias agudas. AP: DM2; DRGE. Medicações: metformina, NPH, omeprazol. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "56) ID: Mulher, 45 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "DRGE",
+      "start": 187,
+      "end": 191,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "57b4295f0059",
+        "concept_name": "DOENÇA DO REFLUXO GASTROESOFÁGICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Há 5 anos com DM2 e DRGE, em uso de metformina, insulina NPH e omeprazol."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "insulina",
+      "start": 215,
+      "end": 223,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "393abdc04902",
+        "concept_name": "INSULINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Há 5 anos com DM2 e DRGE, em uso de metformina, insulina NPH e omeprazol."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "NPH",
+      "start": 224,
+      "end": 227,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "633a5f1782bd",
+        "concept_name": "NEUTRAL PROTAMINE HAGEDORN",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Há 5 anos com DM2 e DRGE, em uso de metformina, insulina NPH e omeprazol."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "omeprazol",
+      "start": 230,
+      "end": 239,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90047524",
+        "concept_name": "OMEPRAZOL 20 MG CAP GEL DURA C/ MCGRAN CT BL AL PLAS BCO OPC X 07 CRISTÁLIA PRODUTOS QUÍMICOS FARMACÊUTICOS LTDA. 10/10/2012 31/08/2014 1029803540047",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Há 5 anos com DM2 e DRGE, em uso de metformina, insulina NPH e omeprazol."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "IMC",
+      "start": 395,
+      "end": 398,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "1efcbebbb9ac",
+        "concept_name": "ÍNDICE DE MASSA CORPORAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Atualmente com 125 kg e IMC 48, 9 kg/m², com impacto funcional (limitação a esforços e piora de qualidade do sono referida na anamnese dirigida) e controle metabólico variável em domicílio."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 644,
+      "end": 654,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro compatível com obesidade mórbida com comorbidades metabólicas, refratária a tratamento clínico otimizado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pirose",
+      "start": 706,
+      "end": 712,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R12",
+        "concept_name": "Pirose",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega dor torácica; refere pirose intermitente controlada com IBP; sem queixas respiratórias agudas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 750,
+      "end": 757,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega dor torácica; refere pirose intermitente controlada com IBP; sem queixas respiratórias agudas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 780,
+      "end": 782,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: DM2; DRGE."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "DRGE",
+      "start": 789,
+      "end": 793,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "57b4295f0059",
+        "concept_name": "DOENÇA DO REFLUXO GASTROESOFÁGICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: DM2; DRGE."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "NPH",
+      "start": 819,
+      "end": 822,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "633a5f1782bd",
+        "concept_name": "NEUTRAL PROTAMINE HAGEDORN",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Medicações: metformina, NPH, omeprazol."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "omeprazol",
+      "start": 824,
+      "end": 833,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90047524",
+        "concept_name": "OMEPRAZOL 20 MG CAP GEL DURA C/ MCGRAN CT BL AL PLAS BCO OPC X 07 CRISTÁLIA PRODUTOS QUÍMICOS FARMACÊUTICOS LTDA. 10/10/2012 31/08/2014 1029803540047",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Medicações: metformina, NPH, omeprazol."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 835,
+      "end": 837,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 56,
+  "group": "caso_estruturado"
+}

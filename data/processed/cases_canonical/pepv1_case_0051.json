@@ -1,0 +1,142 @@
+{
+  "doc_id": "pepv1_case_0051",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "51) ID: Lactente masculino, 8 meses, previamente hígido. QD: “Crises de choro com vômitos biliosos.” HPMA: Há 3 dias com episódios de choro intenso em crises, associados a vômitos biliosos em grande quantidade, com piora do estado geral. Na chegada ao pronto-socorro: regular estado geral, má perfusão periférica, prostrado e febril. Abdome com massa palpável em fossa ilíaca e flanco direitos; peso e estatura adequados para idade; demais exame físico sem alterações relevantes. À abertura da fralda, presença de evacuação com aspecto compatível com muco e sangue (conforme enunciado). Quadro clínico compatível com invaginação intestinal (intussuscepção ileocólica). ISDA: Sem sintomas respiratórios; sem história de trauma; sem disúria (não aplicável/ não referida). AP: Sem comorbidades; sem uso contínuo de medicações; alergias não referidas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "51) ID: Lactente masculino, 8 meses, previamente hígido."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 334,
+      "end": 340,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome com massa palpável em fossa ilíaca e flanco direitos; peso e estatura adequados para idade; demais exame físico sem alterações relevantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "exame físico",
+      "start": 440,
+      "end": 452,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome com massa palpável em fossa ilíaca e flanco direitos; peso e estatura adequados para idade; demais exame físico sem alterações relevantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "intussuscepção",
+      "start": 641,
+      "end": 655,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "K56.1",
+        "concept_name": "Intussuscepção",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro clínico compatível com invaginação intestinal (intussuscepção ileocólica)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 731,
+      "end": 738,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Sem sintomas respiratórios; sem história de trauma; sem disúria (não aplicável/ não referida)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 770,
+      "end": 772,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades; sem uso contínuo de medicações; alergias não referidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 848,
+      "end": 850,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 51,
+  "group": "caso_estruturado"
+}

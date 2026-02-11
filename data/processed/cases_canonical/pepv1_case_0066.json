@@ -1,0 +1,161 @@
+{
+  "doc_id": "pepv1_case_0066",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "66) ID: M, 54 anos. QD: “Caroço na virilha direita que não volta e ficou doloroso.” HPMA: Abaulamento em região inguinal direita há ~2 anos, previamente redutível, com aumento aos esforços. Há ~1 mês tornou-se irredutível. Há 1 dia iniciou dor intensa local e hiperemia sobre o abaulamento, com piora progressiva. Nega trauma local. Antecedente de cirurgia para correção de hérnia inguinal bilateral aos 15 anos. No contexto, quadro compatível com hérnia inguinal encarcerada com sinais inflamatórios locais (hipótese: hérnia inguinal encarcerada/estrangulada em recidiva). ISDA: Refere náuseas ocasionais desde ontem; nega hematêmese/melena. Evacuação/eliminação de flatos não bem caracterizadas nas últimas 24h. Nega sintomas urinários. AP: Cirurgia: herniorrafia inguinal bilateral na adolescência. Nega comorbidades conhecidas e uso contínuo de medicações. Nega alergias. Tabagismo prévio (cessado); etilismo social. AF: REG, álgico. SSVV: taquicardia discreta, afebril. Abdome: flácido, dor leve difusa sem sinais claros de peritonite. Região inguinal direita: massa endurecida, dolorosa, irredutível, com hiperemia local; tosse/impulso herniário ausente pela irredutibilidade. Demais sistemas sem alterações relevantes.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "66) ID: M, 54 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hematêmese",
+      "start": 624,
+      "end": 634,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "K92.0",
+        "concept_name": "Hematêmese",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Refere náuseas ocasionais desde ontem; nega hematêmese/melena."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "melena",
+      "start": 635,
+      "end": 641,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "K92.1",
+        "concept_name": "Melena",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Refere náuseas ocasionais desde ontem; nega hematêmese/melena."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 739,
+      "end": 741,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Cirurgia: herniorrafia inguinal bilateral na adolescência."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 921,
+      "end": 923,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: REG, álgico."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "SSVV",
+      "start": 938,
+      "end": 942,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "6edda192e163",
+        "concept_name": "SINAIS VITAIS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "SSVV: taquicardia discreta, afebril."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 975,
+      "end": 981,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome: flácido, dor leve difusa sem sinais claros de peritonite."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 1128,
+      "end": 1133,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Região inguinal direita: massa endurecida, dolorosa, irredutível, com hiperemia local; tosse/impulso herniário ausente pela irredutibilidade."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 66,
+  "group": "caso_estruturado"
+}

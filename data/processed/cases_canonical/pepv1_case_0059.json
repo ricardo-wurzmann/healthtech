@@ -1,0 +1,237 @@
+{
+  "doc_id": "pepv1_case_0059",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "59) ID: Feminina, 35 anos. QD: “Nódulo no fígado” em USG de rotina. HPMA: Paciente assintomática, encaminhada pelo ginecologista após USG abdominal de rastreio evidenciar nódulo hepático heterogêneo, hipoecoico, medindo ~4, 9 cm (maior diâmetro). Em uso de contraceptivo oral combinado há anos. Refere antecedente de transfusão sanguínea após complicação no primeiro parto, nega etilismo. Nega dor abdominal, febre, perda ponderal, icterícia, colúria, acolia, prurido, náuseas/vômitos. Exame físico sem estigmas de hepatopatia crônica. Hipótese clínica de adenoma hepatocelular em usuária de estrogênio; realizada TC de abdome com contraste para melhor caracterização, descrevendo lesão sólida hepática hipervascular (predomínio em fase arterial), sem dilatação de vias biliares e sem sinais de hipertensão portal. ISDA: Sem queixas respiratórias/cardiovasculares/urinárias; sem sangramentos. AP: Nega comorbidades conhecidas. Sem cirurgias além de cesariana prévia (cicatriz em hipogástrio). Nega alergias medicamentosas. Medicações: ACO combinado. AF: Nega história familiar de hepatopatia/hemocromatose/neoplasias hepáticas. Nega tabagismo; nega etilismo.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "59) ID: Feminina, 35 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "fígado",
+      "start": 42,
+      "end": 48,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D13.4",
+        "concept_name": "Fígado",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: “Nódulo no fígado” em USG de rotina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "USG",
+      "start": 53,
+      "end": 56,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "QD: “Nódulo no fígado” em USG de rotina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Paciente",
+      "start": 74,
+      "end": 82,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Paciente assintomática, encaminhada pelo ginecologista após USG abdominal de rastreio evidenciar nódulo hepático heterogêneo, hipoecoico, medindo ~4, 9 cm (maior diâmetro)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "USG",
+      "start": 134,
+      "end": 137,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Paciente assintomática, encaminhada pelo ginecologista após USG abdominal de rastreio evidenciar nódulo hepático heterogêneo, hipoecoico, medindo ~4, 9 cm (maior diâmetro)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Exame físico",
+      "start": 486,
+      "end": 498,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exame físico sem estigmas de hepatopatia crônica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "clínica",
+      "start": 545,
+      "end": 552,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "9d123e457f16",
+        "concept_name": "CLÍNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hipótese clínica de adenoma hepatocelular em usuária de estrogênio; realizada TC de abdome com contraste para melhor caracterização, descrevendo lesão sólida hepática hipervascular (predomínio em fase arterial), sem dilatação de vias biliares e sem sinais de hipertensão portal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 620,
+      "end": 626,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hipótese clínica de adenoma hepatocelular em usuária de estrogênio; realizada TC de abdome com contraste para melhor caracterização, descrevendo lesão sólida hepática hipervascular (predomínio em fase arterial), sem dilatação de vias biliares e sem sinais de hipertensão portal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hipertensão portal",
+      "start": 795,
+      "end": 813,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "K76.6",
+        "concept_name": "Hipertensão portal",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hipótese clínica de adenoma hepatocelular em usuária de estrogênio; realizada TC de abdome com contraste para melhor caracterização, descrevendo lesão sólida hepática hipervascular (predomínio em fase arterial), sem dilatação de vias biliares e sem sinais de hipertensão portal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 825,
+      "end": 832,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Sem queixas respiratórias/cardiovasculares/urinárias; sem sangramentos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 893,
+      "end": 895,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Nega comorbidades conhecidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1050,
+      "end": 1052,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Nega história familiar de hepatopatia/hemocromatose/neoplasias hepáticas."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 59,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,180 @@
+{
+  "doc_id": "pepv1_case_0078",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "78) ID: Feminino, 22 anos. QD: Rebaixamento do nível de consciência e crises convulsivas. HPMA: Há 4 dias evoluindo com queda importante do estado geral, sonolência progressiva e confusão, associada a 2 episódios de convulsão tônico-clônica generalizada. Na chegada ao PS, mantinha rebaixamento de consciência, Glasgow 13, sem sinais de irritação meníngea e fundo de olho sem papiledema. Ao exame neurológico, apresentava hemiparesia à esquerda. Realizada TC de crânio (conforme imagem do enunciado), evidenciando lesão focal com efeito de massa/edema associado, quadro que se correlaciona com lesão expansiva intracraniana de provável etiologia infecciosa (abscesso cerebral), posteriormente confirmada. ISDA: Nega tosse e sintomas urinários; sem queixas gastrointestinais relevantes. AP: Nega comorbidades conhecidas e uso crônico de medicações. Alergias: nega. AF: Sem história familiar contributiva relatada.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "78) ID: Feminino, 22 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "sonolência",
+      "start": 154,
+      "end": 164,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R40.0",
+        "concept_name": "Sonolência",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Há 4 dias evoluindo com queda importante do estado geral, sonolência progressiva e confusão, associada a 2 episódios de convulsão tônico-clônica generalizada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tônico",
+      "start": 226,
+      "end": 232,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90114426",
+        "concept_name": "TÔNICO VITAL 0,4 MG/ML + 0,9067 MG/ML SOL OR CT FR PLAS AMB X 500 ML LABORATÓRIO GLOBO LTDA 01/01/2016 31/03/2016 1053500280025",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "HPMA: Há 4 dias evoluindo com queda importante do estado geral, sonolência progressiva e confusão, associada a 2 episódios de convulsão tônico-clônica generalizada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PS",
+      "start": 269,
+      "end": 271,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "588331c61fba",
+        "concept_name": "PRESSÃO DE SUPORTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Na chegada ao PS, mantinha rebaixamento de consciência, Glasgow 13, sem sinais de irritação meníngea e fundo de olho sem papiledema."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "olho",
+      "start": 367,
+      "end": 371,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "D09.2",
+        "concept_name": "Olho",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Na chegada ao PS, mantinha rebaixamento de consciência, Glasgow 13, sem sinais de irritação meníngea e fundo de olho sem papiledema."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 716,
+      "end": 721,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega tosse e sintomas urinários; sem queixas gastrointestinais relevantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 748,
+      "end": 755,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega tosse e sintomas urinários; sem queixas gastrointestinais relevantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 786,
+      "end": 788,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Nega comorbidades conhecidas e uso crônico de medicações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 864,
+      "end": 866,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Sem história familiar contributiva relatada."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 78,
+  "group": "caso_estruturado"
+}

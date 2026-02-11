@@ -1,0 +1,332 @@
+{
+  "doc_id": "pepv1_case_0074",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "74) ID: Feminino, 68 anos. HAS e DM2. QD: “Fraqueza do lado direito e desvio da boca” há ~5 horas. HPMA: Refere início súbito há 5h de cefaleia holocraniana moderada, latejante, seguida de dificuldade para mobilizar MSD/MID direitos e desvio de rima labial para a esquerda. Nega trauma, convulsão, febre, vômitos em jato. No PS: BEG, consciente, orientada, afebril, PA 150 x 102 mmHg, pulso 72 bpm irregular. Ausculta cardíaca com bulhas arrítmicas, sem sopros. Neurológico: hemiparesia completa e proporcionada grau 3 à direita, disartria, anomia, hemi-hipoestesia completa à direita; sem rigidez de nuca. TC de crânio sem contraste sem sinais de hemorragia aguda; discreta perda de diferenciação córtico-subcortical fronto-insular esquerda. ECG 12 derivações com fibrilação atrial. Quadro compatível com AVC isquêmico em provável território de ACM esquerda, provável etiologia cardioembólica. ISDA: Nega dor torácica, palpitações percebidas, dispneia, tosse; nega dor abdominal, diarreia; diurese preservada. AP: HAS (losartana 50 mg/dia), DM2 (metformina 1.000 mg/dia). Nega alergias medicamentosas conhecidas. Nega AVC prévio. AF: Nega tabagismo atual; etilismo social. Mora com família, independente nas AVDs até o evento.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "74) ID: Feminino, 68 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 27,
+      "end": 30,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HAS e DM2."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "MSD",
+      "start": 216,
+      "end": 219,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "016b856fb55a",
+        "concept_name": "MEMBRO SUPERIOR DIREITO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Refere início súbito há 5h de cefaleia holocraniana moderada, latejante, seguida de dificuldade para mobilizar MSD/MID direitos e desvio de rima labial para a esquerda."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PS",
+      "start": 325,
+      "end": 327,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "588331c61fba",
+        "concept_name": "PRESSÃO DE SUPORTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "No PS: BEG, consciente, orientada, afebril, PA 150 x 102 mmHg, pulso 72 bpm irregular."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "BEG",
+      "start": 329,
+      "end": 332,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "No PS: BEG, consciente, orientada, afebril, PA 150 x 102 mmHg, pulso 72 bpm irregular."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 366,
+      "end": 368,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "No PS: BEG, consciente, orientada, afebril, PA 150 x 102 mmHg, pulso 72 bpm irregular."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 394,
+      "end": 397,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "No PS: BEG, consciente, orientada, afebril, PA 150 x 102 mmHg, pulso 72 bpm irregular."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Ausculta cardíaca",
+      "start": 409,
+      "end": 426,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "09642353f773",
+        "concept_name": "AUSCULTA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ausculta cardíaca com bulhas arrítmicas, sem sopros."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ECG",
+      "start": 743,
+      "end": 746,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b6dfe7f75c7b",
+        "concept_name": "ELETROCARDIOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "ECG 12 derivações com fibrilação atrial."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "fibrilação atrial",
+      "start": 765,
+      "end": 782,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ab98c94bdb3c",
+        "concept_name": "FIBRILAÇÃO ATRIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ECG 12 derivações com fibrilação atrial."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ACM",
+      "start": 846,
+      "end": 849,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "85cb7aae5969",
+        "concept_name": "A CRITÉRIO MÉDICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Quadro compatível com AVC isquêmico em provável território de ACM esquerda, provável etiologia cardioembólica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "palpitações",
+      "start": 920,
+      "end": 931,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R00.2",
+        "concept_name": "Palpitações",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega dor torácica, palpitações percebidas, dispneia, tosse; nega dor abdominal, diarreia; diurese preservada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 954,
+      "end": 959,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega dor torácica, palpitações percebidas, dispneia, tosse; nega dor abdominal, diarreia; diurese preservada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1011,
+      "end": 1013,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS (losartana 50 mg/dia), DM2 (metformina 1.000 mg/dia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 1015,
+      "end": 1018,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS (losartana 50 mg/dia), DM2 (metformina 1.000 mg/dia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "losartana 50 mg",
+      "start": 1020,
+      "end": 1035,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90046838",
+        "concept_name": "LOSARTANA POTÁSSICA 50 MG COM REV CT 3 BL AL PLAS OPC X 10 CRISTÁLIA PRODUTOS QUÍMICOS FARMACÊUTICOS LTDA. 10/10/2012 31/08/2014 1029803370028",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "AP: HAS (losartana 50 mg/dia), DM2 (metformina 1.000 mg/dia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1131,
+      "end": 1133,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Nega tabagismo atual; etilismo social."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 74,
+  "group": "caso_estruturado"
+}

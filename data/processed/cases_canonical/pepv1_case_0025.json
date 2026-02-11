@@ -1,0 +1,256 @@
+{
+  "doc_id": "pepv1_case_0025",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "25) ID: Feminino, 32 anos, primigesta, IG 35 semanas (1º US compatível). QD: “Estou internada pela pressão e agora subiu de novo; vim por bebê mexendo menos.” HPMA: Mesma gestante do caso anterior: admitida por PA 160×100 mmHg, edema de face/mãos, proteinúria 24h 1, 54 g e ácido úrico 7, 5 mg/dL, associada a queixa de diminuição de movimentação fetal há 1 dia. Após 2 dias de internação, evolui com novo pico hipertensivo, PA 170×120 mmHg. Realizada avaliação de vitalidade fetal: índice de líquido amniótico 7, 3 cm e cardiotocografia realizada conforme traçado do exame (não detalhado no texto do enunciado). Mantida vigilância materna para sinais de iminência de eclâmpsia/HELLP e reavaliação seriada de exames laboratoriais, além de controle pressórico e discussão de timing de resolução conforme critérios obstétricos e vitalidade fetal. ISDA: Nega sintomas respiratórios; nega sintomas urinários. Triagem dirigida: questionada cefaleia/alterações visuais/epigastralgia (não descritas; registrar conforme presença/ausência na sua adaptação). AP: Sem comorbidades informadas. Medicações durante internação: não informadas no enunciado (em prontuário real, registrar anti-hipertensivos usados e necessidade de sulfato de magnésio conforme gravidade). AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "25) ID: Feminino, 32 anos, primigesta, IG 35 semanas (1º US compatível)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "novo",
+      "start": 124,
+      "end": 128,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90361415",
+        "concept_name": "NOVO RINO 0,5 MG/ML SOL NAS CT FR PLAS OPC GOT X 15 ML VALEANT FARMACÊUTICA DO BRASIL LTDA 10/04/2017 09/07/2017 1057501160018",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "QD: “Estou internada pela pressão e agora subiu de novo; vim por bebê mexendo menos.”"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 211,
+      "end": 213,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Mesma gestante do caso anterior: admitida por PA 160×100 mmHg, edema de face/mãos, proteinúria 24h 1, 54 g e ácido úrico 7, 5 mg/dL, associada a queixa de diminuição de movimentação fetal há 1 dia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "proteinúria",
+      "start": 248,
+      "end": 259,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b38df573f454",
+        "concept_name": "PROTEINÚRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Mesma gestante do caso anterior: admitida por PA 160×100 mmHg, edema de face/mãos, proteinúria 24h 1, 54 g e ácido úrico 7, 5 mg/dL, associada a queixa de diminuição de movimentação fetal há 1 dia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ácido úrico",
+      "start": 274,
+      "end": 285,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cb34b03daac8",
+        "concept_name": "ÁCIDO ÚRICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Mesma gestante do caso anterior: admitida por PA 160×100 mmHg, edema de face/mãos, proteinúria 24h 1, 54 g e ácido úrico 7, 5 mg/dL, associada a queixa de diminuição de movimentação fetal há 1 dia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "novo",
+      "start": 401,
+      "end": 405,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90361415",
+        "concept_name": "NOVO RINO 0,5 MG/ML SOL NAS CT FR PLAS OPC GOT X 15 ML VALEANT FARMACÊUTICA DO BRASIL LTDA 10/04/2017 09/07/2017 1057501160018",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Após 2 dias de internação, evolui com novo pico hipertensivo, PA 170×120 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 425,
+      "end": 427,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Após 2 dias de internação, evolui com novo pico hipertensivo, PA 170×120 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "materna",
+      "start": 632,
+      "end": 639,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90214021",
+        "concept_name": "MATERNA COM REV CT FR PLAS OPC X 30 WYETH INDÚSTRIA FARMACÊUTICA LTDA 10/10/2012 31/08/2014 1211000800019",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Mantida vigilância materna para sinais de iminência de eclâmpsia/HELLP e reavaliação seriada de exames laboratoriais, além de controle pressórico e discussão de timing de resolução conforme critérios obstétricos e vitalidade fetal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1049,
+      "end": 1051,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades informadas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "anti",
+      "start": 1172,
+      "end": 1176,
+      "type": "ABBREV",
+      "score": 0.5,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "1ca1b718cb46",
+        "concept_name": "HIV II EXAME ANTI VÍRUS DA IMUNODEFICIÊNCIA HUMANA TIPO II",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "context_required",
+        "entry_type": "abbr",
+        "sentence": "Medicações durante internação: não informadas no enunciado (em prontuário real, registrar anti-hipertensivos usados e necessidade de sulfato de magnésio conforme gravidade)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "sulfato",
+      "start": 1215,
+      "end": 1222,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90002709",
+        "concept_name": "SULFATO DE VINCRISTINA 1 MG/ML SOL INJ CT FA VD INC X 2 ML ACCORD FARMACÊUTICA LTDA 10/10/2012 31/08/2014 1553700180018",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Medicações durante internação: não informadas no enunciado (em prontuário real, registrar anti-hipertensivos usados e necessidade de sulfato de magnésio conforme gravidade)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "magnésio",
+      "start": 1226,
+      "end": 1234,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "9bd945034b0f",
+        "concept_name": "MAGNÉSIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Medicações durante internação: não informadas no enunciado (em prontuário real, registrar anti-hipertensivos usados e necessidade de sulfato de magnésio conforme gravidade)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1256,
+      "end": 1258,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 25,
+  "group": "caso_estruturado"
+}

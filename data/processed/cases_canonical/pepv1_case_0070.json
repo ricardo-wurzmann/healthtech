@@ -1,0 +1,294 @@
+{
+  "doc_id": "pepv1_case_0070",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "70) ID: Mulher, 48 anos, com diagnóstico de doença arterial obstrutiva periférica (DAOP). QD: \"Dor crônica em membros inferiores com piora progressiva.\" HPMA: Paciente com histórico de DAOP, em acompanhamento regular para controle de sintomas. Refere dor em membros inferiores, especialmente após caminhada, com limitação para deambulação desde há 1 ano, piorando nas últimas 4 semanas, associada a sensação de cansaço nas pernas e dificuldade para manter-se em pé por períodos prolongados. Refere também, ao exame físico, diminuição da pulsação em membros inferiores (pulsos femorais e poplíteos ausentes bilateralmente), com palidez em membros distais e resfriamento. Ultrassonografia Doppler revelou estenose crítica em artérias poplíteas bilaterais, confirmando a piora do quadro de DAOP. Quadro compatível com claudicação intermitente grave com risco de isquemia crítica. ISDA: Nega queixas sistêmicas como dor torácica, dispneia ou edema. AP: História de tabagismo (30 maços/ano), sem hipertensão ou diabetes relatada. AF: Nega histórico de doenças cardiovasculares ou trombofilia.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "70) ID: Mulher, 48 anos, com diagnóstico de doença arterial obstrutiva periférica (DAOP)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "doença arterial obstrutiva periférica",
+      "start": 44,
+      "end": 81,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bc263b2c4bc1",
+        "concept_name": "DOENÇA ARTERIAL OBSTRUTIVA PERIFÉRICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "70) ID: Mulher, 48 anos, com diagnóstico de doença arterial obstrutiva periférica (DAOP)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "DAOP",
+      "start": 83,
+      "end": 87,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bc263b2c4bc1",
+        "concept_name": "DOENÇA ARTERIAL OBSTRUTIVA PERIFÉRICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "70) ID: Mulher, 48 anos, com diagnóstico de doença arterial obstrutiva periférica (DAOP)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "membros inferiores",
+      "start": 110,
+      "end": 128,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "50b05748c28a",
+        "concept_name": "MEMBROS INFERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: \"Dor crônica em membros inferiores com piora progressiva.\""
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Paciente",
+      "start": 159,
+      "end": 167,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Paciente com histórico de DAOP, em acompanhamento regular para controle de sintomas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "DAOP",
+      "start": 185,
+      "end": 189,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bc263b2c4bc1",
+        "concept_name": "DOENÇA ARTERIAL OBSTRUTIVA PERIFÉRICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Paciente com histórico de DAOP, em acompanhamento regular para controle de sintomas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "membros inferiores",
+      "start": 258,
+      "end": 276,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "50b05748c28a",
+        "concept_name": "MEMBROS INFERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Refere dor em membros inferiores, especialmente após caminhada, com limitação para deambulação desde há 1 ano, piorando nas últimas 4 semanas, associada a sensação de cansaço nas pernas e dificuldade para manter-se em pé por períodos prolongados."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "exame físico",
+      "start": 509,
+      "end": 521,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Refere também, ao exame físico, diminuição da pulsação em membros inferiores (pulsos femorais e poplíteos ausentes bilateralmente), com palidez em membros distais e resfriamento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "membros inferiores",
+      "start": 549,
+      "end": 567,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "50b05748c28a",
+        "concept_name": "MEMBROS INFERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Refere também, ao exame físico, diminuição da pulsação em membros inferiores (pulsos femorais e poplíteos ausentes bilateralmente), com palidez em membros distais e resfriamento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "palidez",
+      "start": 627,
+      "end": 634,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R23.1",
+        "concept_name": "Palidez",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Refere também, ao exame físico, diminuição da pulsação em membros inferiores (pulsos femorais e poplíteos ausentes bilateralmente), com palidez em membros distais e resfriamento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Ultrassonografia",
+      "start": 670,
+      "end": 686,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ultrassonografia Doppler revelou estenose crítica em artérias poplíteas bilaterais, confirmando a piora do quadro de DAOP."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "DAOP",
+      "start": 787,
+      "end": 791,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bc263b2c4bc1",
+        "concept_name": "DOENÇA ARTERIAL OBSTRUTIVA PERIFÉRICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ultrassonografia Doppler revelou estenose crítica em artérias poplíteas bilaterais, confirmando a piora do quadro de DAOP."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 888,
+      "end": 895,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega queixas sistêmicas como dor torácica, dispneia ou edema."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 945,
+      "end": 947,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: História de tabagismo (30 maços/ano), sem hipertensão ou diabetes relatada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1025,
+      "end": 1027,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Nega histórico de doenças cardiovasculares ou trombofilia."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 70,
+  "group": "caso_estruturado"
+}

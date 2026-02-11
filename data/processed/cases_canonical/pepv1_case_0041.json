@@ -1,0 +1,275 @@
+{
+  "doc_id": "pepv1_case_0041",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "41) ID: Feminino, 18 meses, seguimento de puericultura, sem queixas. QD: “Retorno para avaliação de palidez.” HPMA: Em bom estado geral, peso e estatura entre P15–P50 (curvas OMS). Na consulta anterior, observada discreta palidez cutânea sem outros achados e solicitados hemograma completo e reticulócitos. Exames (conforme anexos enviados): Hb 9, 4 g/dL; Ht 29, 6%; VCM 64, 5 fL; HCM 20, 5 pg; CHCM 31, 8 g/dL; RDW 15, 2%; leucócitos 12.770/mm³; plaquetas 466.000/mm³; reticulócitos 0, 4%. Quadro compatível com anemia microcítica/hipocrômica, provável anemia ferropriva; DDx: talassemia menor, anemia da inflamação. ISDA: Nega sangramentos, diarreia crônica, febre prolongada e dispneia aos esforços habituais. AP: Nega comorbidades e uso de medicações contínuas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "41) ID: Feminino, 18 meses, seguimento de puericultura, sem queixas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 60,
+      "end": 67,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "41) ID: Feminino, 18 meses, seguimento de puericultura, sem queixas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "palidez",
+      "start": 100,
+      "end": 107,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R23.1",
+        "concept_name": "Palidez",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: “Retorno para avaliação de palidez.”"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 119,
+      "end": 135,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Em bom estado geral, peso e estatura entre P15–P50 (curvas OMS)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "OMS",
+      "start": 175,
+      "end": 178,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "3355c8ea6c92",
+        "concept_name": "ORGANIZAÇÃO MUNDIAL DA SAÚDE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Em bom estado geral, peso e estatura entre P15–P50 (curvas OMS)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "palidez",
+      "start": 222,
+      "end": 229,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R23.1",
+        "concept_name": "Palidez",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Na consulta anterior, observada discreta palidez cutânea sem outros achados e solicitados hemograma completo e reticulócitos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 271,
+      "end": 280,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "25b3810f8eaf",
+        "concept_name": "HEMOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Na consulta anterior, observada discreta palidez cutânea sem outros achados e solicitados hemograma completo e reticulócitos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "VCM",
+      "start": 367,
+      "end": 370,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "9d8a8aedd2f9",
+        "concept_name": "VOLUME CORPUSCULAR MÉDIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exames (conforme anexos enviados): Hb 9, 4 g/dL; Ht 29, 6%; VCM 64, 5 fL; HCM 20, 5 pg; CHCM 31, 8 g/dL; RDW 15, 2%; leucócitos 12.770/mm³; plaquetas 466.000/mm³; reticulócitos 0, 4%."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HCM",
+      "start": 381,
+      "end": 384,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "8ce8ddd584d7",
+        "concept_name": "HEMOGLOBINA CORPUSCULAR MÉDIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exames (conforme anexos enviados): Hb 9, 4 g/dL; Ht 29, 6%; VCM 64, 5 fL; HCM 20, 5 pg; CHCM 31, 8 g/dL; RDW 15, 2%; leucócitos 12.770/mm³; plaquetas 466.000/mm³; reticulócitos 0, 4%."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "CHCM",
+      "start": 395,
+      "end": 399,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "097547240377",
+        "concept_name": "CONCENTRAÇÃO DE HEMOGLOBINA CORPUSCULAR MÉDIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exames (conforme anexos enviados): Hb 9, 4 g/dL; Ht 29, 6%; VCM 64, 5 fL; HCM 20, 5 pg; CHCM 31, 8 g/dL; RDW 15, 2%; leucócitos 12.770/mm³; plaquetas 466.000/mm³; reticulócitos 0, 4%."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "leucócitos",
+      "start": 424,
+      "end": 434,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5cafb91f3dd1",
+        "concept_name": "LEUCÓCITOS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames (conforme anexos enviados): Hb 9, 4 g/dL; Ht 29, 6%; VCM 64, 5 fL; HCM 20, 5 pg; CHCM 31, 8 g/dL; RDW 15, 2%; leucócitos 12.770/mm³; plaquetas 466.000/mm³; reticulócitos 0, 4%."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "plaquetas",
+      "start": 447,
+      "end": 456,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "3b4bc43def14",
+        "concept_name": "PLAQUETAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames (conforme anexos enviados): Hb 9, 4 g/dL; Ht 29, 6%; VCM 64, 5 fL; HCM 20, 5 pg; CHCM 31, 8 g/dL; RDW 15, 2%; leucócitos 12.770/mm³; plaquetas 466.000/mm³; reticulócitos 0, 4%."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 713,
+      "end": 715,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Nega comorbidades e uso de medicações contínuas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 766,
+      "end": 768,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 41,
+  "group": "caso_estruturado"
+}

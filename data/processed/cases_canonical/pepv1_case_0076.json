@@ -1,0 +1,199 @@
+{
+  "doc_id": "pepv1_case_0076",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "76) ID: Masculino, 47 anos. QD: Agitação/irritabilidade com tremores intensos e sudorese há 2 dias. HPMA: Trazido por familiares por agressividade e irritabilidade há 48h, com recusa parcial em cooperar, ameaças à equipe. Refere cefaleia holocraniana, náuseas e sudorese. Familiar relata etilismo habitual e viagem longa recente, com padrão de consumo irregular no período. História pregressa de tremores e episódios semelhantes de cefaleia/sudorese há anos, sem gatilhos claros. No exame: desorientado no tempo, tremor distal importante em MMSS, diaforético, sem sintomas psicóticos francos, sem aceleração do pensamento; sem déficits focais descritos. Durante atendimento, tenta agredir equipe. SSVV aferidos no leito com taquicardia e PA elevada. Glicemia capilar sem hipoglicemia; eletrólitos com hipomagnesemia discreta. Hipótese clínica: síndrome de abstinência alcoólica grave (quadro hiperadrenérgico com agitação). ISDA: Nega dor torácica e dispneia no momento; sem queixas urinárias; sem diarreia. AP: Etilismo crônico (padrão diário). Nega uso regular de medicações. Nega alergias conhecidas. AF: Contexto social de consumo de álcool recorrente; familiares como rede de apoio.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "76) ID: Masculino, 47 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "História pregressa",
+      "start": 374,
+      "end": 392,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e1a349b6cf02",
+        "concept_name": "HISTÓRIA PREGRESSA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "História pregressa de tremores e episódios semelhantes de cefaleia/sudorese há anos, sem gatilhos claros."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "MMSS",
+      "start": 541,
+      "end": 545,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2304f3174413",
+        "concept_name": "MEMBROS SUPERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "No exame: desorientado no tempo, tremor distal importante em MMSS, diaforético, sem sintomas psicóticos francos, sem aceleração do pensamento; sem déficits focais descritos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "SSVV",
+      "start": 697,
+      "end": 701,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "6edda192e163",
+        "concept_name": "SINAIS VITAIS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "SSVV aferidos no leito com taquicardia e PA elevada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 738,
+      "end": 740,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "SSVV aferidos no leito com taquicardia e PA elevada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Glicemia capilar",
+      "start": 750,
+      "end": 766,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "101fab9e861b",
+        "concept_name": "GLICEMIA CAPILAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Glicemia capilar sem hipoglicemia; eletrólitos com hipomagnesemia discreta."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "clínica",
+      "start": 835,
+      "end": 842,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "9d123e457f16",
+        "concept_name": "CLÍNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hipótese clínica: síndrome de abstinência alcoólica grave (quadro hiperadrenérgico com agitação)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 975,
+      "end": 982,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega dor torácica e dispneia no momento; sem queixas urinárias; sem diarreia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1008,
+      "end": 1010,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Etilismo crônico (padrão diário)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1104,
+      "end": 1106,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Contexto social de consumo de álcool recorrente; familiares como rede de apoio."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 76,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,123 @@
+{
+  "doc_id": "pepv1_case_0032",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "32) ID: Masculino, 5 anos, internado em enfermaria pediátrica (leito 01), D3 de tratamento. QD: “Apareceram lesões na pele coçando muito.” HPMA: Em 3º dia de tratamento de pneumonia lobar, com derrame pleural laminar à direita não puncionável, em uso de penicilina cristalina, com melhora clínica significativa do quadro respiratório. Desde a manhã de hoje, iniciou lesões cutâneas pruriginosas difusas (aspecto conforme imagem do enunciado). Encontra-se em quarto compartilhado com outras duas crianças, incluindo menina de 9 anos com imunossupressão grave por doença neoplásica (leito",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "32) ID: Masculino, 5 anos, internado em enfermaria pediátrica (leito 01), D3 de tratamento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 80,
+      "end": 90,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "32) ID: Masculino, 5 anos, internado em enfermaria pediátrica (leito 01), D3 de tratamento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pele",
+      "start": 118,
+      "end": 122,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.5",
+        "concept_name": "Pele",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: “Apareceram lesões na pele coçando muito.”"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 158,
+      "end": 168,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Em 3º dia de tratamento de pneumonia lobar, com derrame pleural laminar à direita não puncionável, em uso de penicilina cristalina, com melhora clínica significativa do quadro respiratório."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pneumonia",
+      "start": 172,
+      "end": 181,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f8b58659fae1",
+        "concept_name": "PNEUMONIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Em 3º dia de tratamento de pneumonia lobar, com derrame pleural laminar à direita não puncionável, em uso de penicilina cristalina, com melhora clínica significativa do quadro respiratório."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "clínica",
+      "start": 289,
+      "end": 296,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "9d123e457f16",
+        "concept_name": "CLÍNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Em 3º dia de tratamento de pneumonia lobar, com derrame pleural laminar à direita não puncionável, em uso de penicilina cristalina, com melhora clínica significativa do quadro respiratório."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 32,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,408 @@
+{
+  "doc_id": "pepv1_case_0027",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "27) ID: Feminino, 35 anos, primigesta, IG 33 semanas. QD: “Cólicas frequentes há 4 horas.” HPMA: Gestante 33 semanas, procura PS com dor abdominal em cólica há 4 horas, intervalos <5 min. Antecedente pessoal: cardiopatia reumática com estenose mitral moderada, em uso de furosemida 40 mg/dia e propranolol 40 mg/dia. Ao exame: bom estado geral, PA 130×80 mmHg, FC 96 bpm; bulhas rítmicas normofonéticas, sopro com ruflar diastólico em foco mitral. Abdome gravídico, AU 32 cm, dinâmica uterina com 2 contrações moderadas em 10 min, tônus uterino normal, BCF 136 bpm. Ao exame vaginal: colo médio, medianizado, 3 cm de dilatação, com líquido claro sem grumos em fundo de saco posterior (sugestivo de amniorrexe; em prontuário real, registrar teste de cristalização/inspeção/USG e avaliação de cor/odor). Diante de suspeita de trabalho de parto prematuro e comorbidade cardíaca, registrada necessidade de manejo em alto risco: monitorização materno-fetal, avaliação cardiológica/anestésica, e definição de tocolise/corticoterapia/GBS conforme elegibilidade e contraindicações. ISDA: Nega febre e sintomas urinários; sem tosse/coriza; nega dor torácica/ortopneia no momento (triagem importante pela estenose mitral). AP: Cardiopatia reumática com estenose mitral moderada. Medicações: furosemida e propranolol conforme acima. Alergias/cirurgias: não informadas. Hábitos: não informado. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "27) ID: Feminino, 35 anos, primigesta, IG 33 semanas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PS",
+      "start": 126,
+      "end": 128,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "588331c61fba",
+        "concept_name": "PRESSÃO DE SUPORTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Gestante 33 semanas, procura PS com dor abdominal em cólica há 4 horas, intervalos <5 min."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "estenose mitral",
+      "start": 235,
+      "end": 250,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "I05.0",
+        "concept_name": "Estenose mitral",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Antecedente pessoal: cardiopatia reumática com estenose mitral moderada, em uso de furosemida 40 mg/dia e propranolol 40 mg/dia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "furosemida 40 mg",
+      "start": 271,
+      "end": 287,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90097300",
+        "concept_name": "FUROSEMIDA 10 MG/ ML SOL INJ CX 100 AMP VD AMB X 2 ML (EMB HOSP) HIPOLABOR FARMACEUTICA LTDA 01/03/2019 31/08/2014 1134301350015",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Antecedente pessoal: cardiopatia reumática com estenose mitral moderada, em uso de furosemida 40 mg/dia e propranolol 40 mg/dia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "propranolol 40 mg",
+      "start": 294,
+      "end": 311,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90434064",
+        "concept_name": "PROPRANOLOL 10 MG COM CT BL AL PLAS INC X 30 EMS SIGMA PHARMA LTDA 01/08/2019 31/10/2019 1356907100015",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Antecedente pessoal: cardiopatia reumática com estenose mitral moderada, em uso de furosemida 40 mg/dia e propranolol 40 mg/dia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 327,
+      "end": 343,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame: bom estado geral, PA 130×80 mmHg, FC 96 bpm; bulhas rítmicas normofonéticas, sopro com ruflar diastólico em foco mitral."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 345,
+      "end": 347,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: bom estado geral, PA 130×80 mmHg, FC 96 bpm; bulhas rítmicas normofonéticas, sopro com ruflar diastólico em foco mitral."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 361,
+      "end": 363,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: bom estado geral, PA 130×80 mmHg, FC 96 bpm; bulhas rítmicas normofonéticas, sopro com ruflar diastólico em foco mitral."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 367,
+      "end": 370,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: bom estado geral, PA 130×80 mmHg, FC 96 bpm; bulhas rítmicas normofonéticas, sopro com ruflar diastólico em foco mitral."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 448,
+      "end": 454,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome gravídico, AU 32 cm, dinâmica uterina com 2 contrações moderadas em 10 min, tônus uterino normal, BCF 136 bpm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 561,
+      "end": 564,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Abdome gravídico, AU 32 cm, dinâmica uterina com 2 contrações moderadas em 10 min, tônus uterino normal, BCF 136 bpm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "teste",
+      "start": 740,
+      "end": 745,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90583787",
+        "concept_name": "TESTE VENCIMENTO TESTE VENCTO EMPRESA DE TESTE LTDA. (VS01) 01/06/2024 31/08/2024 1672500150010",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Ao exame vaginal: colo médio, medianizado, 3 cm de dilatação, com líquido claro sem grumos em fundo de saco posterior (sugestivo de amniorrexe; em prontuário real, registrar teste de cristalização/inspeção/USG e avaliação de cor/odor)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "USG",
+      "start": 772,
+      "end": 775,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame vaginal: colo médio, medianizado, 3 cm de dilatação, com líquido claro sem grumos em fundo de saco posterior (sugestivo de amniorrexe; em prontuário real, registrar teste de cristalização/inspeção/USG e avaliação de cor/odor)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "cor",
+      "start": 791,
+      "end": 794,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bd3eac2e3bd5",
+        "concept_name": "CORTISOL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame vaginal: colo médio, medianizado, 3 cm de dilatação, com líquido claro sem grumos em fundo de saco posterior (sugestivo de amniorrexe; em prontuário real, registrar teste de cristalização/inspeção/USG e avaliação de cor/odor)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 1117,
+      "end": 1122,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega febre e sintomas urinários; sem tosse/coriza; nega dor torácica/ortopneia no momento (triagem importante pela estenose mitral)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "estenose mitral",
+      "start": 1195,
+      "end": 1210,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "I05.0",
+        "concept_name": "Estenose mitral",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega febre e sintomas urinários; sem tosse/coriza; nega dor torácica/ortopneia no momento (triagem importante pela estenose mitral)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1213,
+      "end": 1215,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Cardiopatia reumática com estenose mitral moderada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "estenose mitral",
+      "start": 1243,
+      "end": 1258,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "I05.0",
+        "concept_name": "Estenose mitral",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AP: Cardiopatia reumática com estenose mitral moderada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "furosemida",
+      "start": 1281,
+      "end": 1291,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90097300",
+        "concept_name": "FUROSEMIDA 10 MG/ ML SOL INJ CX 100 AMP VD AMB X 2 ML (EMB HOSP) HIPOLABOR FARMACEUTICA LTDA 01/03/2019 31/08/2014 1134301350015",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Medicações: furosemida e propranolol conforme acima."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "propranolol",
+      "start": 1294,
+      "end": 1305,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90434064",
+        "concept_name": "PROPRANOLOL 10 MG COM CT BL AL PLAS INC X 30 EMS SIGMA PHARMA LTDA 01/08/2019 31/10/2019 1356907100015",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Medicações: furosemida e propranolol conforme acima."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1382,
+      "end": 1384,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 27,
+  "group": "caso_estruturado"
+}

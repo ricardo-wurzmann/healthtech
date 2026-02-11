@@ -1,0 +1,8 @@
+entry_text,concept_id,conflict_type,possible_meanings,context_rule,source_file
+ADA,7d1362bfd0a4,multiple_meanings,ADENOSINA DEAMINASE; AMPLITUDE DE ACOMODAÇÃO,Use context to disambiguate,siglarario1.pdf
+ANTI,29f6524b4e95,multiple_meanings,HIV I EXAME ANTI VÍRUS DA IMUNODEFICIÊNCIA HUMANA TIPO I; HIV II EXAME ANTI VÍRUS DA IMUNODEFICIÊNCIA HUMANA TIPO II,Use context to disambiguate,siglarario1.pdf
+CA,ce725f79358d,multiple_meanings,125 CA 125; 15.3 CA 15.3; 19-9 CA 19-9; CÂNCER,Use context to disambiguate,siglarario1.pdf
+CKMB,a02a074c001d,multiple_meanings,CREATINOFOSFOQUINASE FRAÇÃO MB; FRAÇÃO DA ENZIMA CPK,Use context to disambiguate,siglarario1.pdf
+HCV,941dba4a363c,multiple_meanings,HIDRATAÇÃO VENOSA CENTRAL; VÍRUS DA HEPATITE C,Use context to disambiguate,siglarario1.pdf
+HSV,e2cef117459b,multiple_meanings,-1 VÍRUS HERPES SIMPLES TIPO 1; -2 VÍRUS HERPES SIMPLES TIPO 2,Use context to disambiguate,siglarario1.pdf
+OC,100bbb2d1125,multiple_meanings,GRAUS CELSIUS; OCULAR,Use context to disambiguate,siglarario1.pdf

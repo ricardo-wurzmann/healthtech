@@ -1,0 +1,465 @@
+{
+  "doc_id": "pepv1_case_0071",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "71) ID: Mulher, 52 anos, com histórico de câncer de mama. QD: \"Dor no peito após início de quimioterapia.\" HPMA: Paciente em seguimento oncológico por câncer de mama (mastectomia realizada há 4 anos), atualmente em quimioterapia adjuvante com paclitaxel. Iniciou há 1 semana dor em peito esquerdo, tipo peso, que piora com movimento e melhora com repouso, associada a sensação de falta de ar nas últimas 48h. Nega edema de membros, dor no corpo, febre ou calafrios. Exame físico: PA 130×85 mmHg, FC 96 bpm, sem sopros cardíacos, sem sinais de insuficiência venosa nos membros. Ao exame pulmonar, estertores finos em base esquerda. ECG sem alterações. A tomografia de tórax evidenciou fibrose pulmonar associada à quimioterapia. Hipótese de toxidade pulmonar induzida por quimioterapia (paclitaxel). ISDA: Nega dor torácica intensa, febre, síncope ou sintomas urinários. AP: Câncer de mama com mastectomia unilateral; em quimioterapia adjuvante com paclitaxel. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "71) ID: Mulher, 52 anos, com histórico de câncer de mama."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "câncer",
+      "start": 42,
+      "end": 48,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd589f423782",
+        "concept_name": "CÂNCER",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "71) ID: Mulher, 52 anos, com histórico de câncer de mama."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mama",
+      "start": 52,
+      "end": 56,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.6",
+        "concept_name": "Mama",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "71) ID: Mulher, 52 anos, com histórico de câncer de mama."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "quimioterapia",
+      "start": 91,
+      "end": 104,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ff16a3dfb7f7",
+        "concept_name": "QUIMIOTERAPIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: \"Dor no peito após início de quimioterapia.\""
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Paciente",
+      "start": 113,
+      "end": 121,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Paciente em seguimento oncológico por câncer de mama (mastectomia realizada há 4 anos), atualmente em quimioterapia adjuvante com paclitaxel."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "câncer",
+      "start": 151,
+      "end": 157,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd589f423782",
+        "concept_name": "CÂNCER",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Paciente em seguimento oncológico por câncer de mama (mastectomia realizada há 4 anos), atualmente em quimioterapia adjuvante com paclitaxel."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mama",
+      "start": 161,
+      "end": 165,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.6",
+        "concept_name": "Mama",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Paciente em seguimento oncológico por câncer de mama (mastectomia realizada há 4 anos), atualmente em quimioterapia adjuvante com paclitaxel."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "quimioterapia",
+      "start": 215,
+      "end": 228,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ff16a3dfb7f7",
+        "concept_name": "QUIMIOTERAPIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Paciente em seguimento oncológico por câncer de mama (mastectomia realizada há 4 anos), atualmente em quimioterapia adjuvante com paclitaxel."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paclitaxel",
+      "start": 243,
+      "end": 253,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90002504",
+        "concept_name": "PACLITAXEL 6 MG/ ML SOL INJ IV CT FA VD INC X 16,7 ML ACCORD FARMACÊUTICA LTDA 10/10/2012 31/08/2014 1553700040021",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "HPMA: Paciente em seguimento oncológico por câncer de mama (mastectomia realizada há 4 anos), atualmente em quimioterapia adjuvante com paclitaxel."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Exame físico",
+      "start": 466,
+      "end": 478,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exame físico: PA 130×85 mmHg, FC 96 bpm, sem sopros cardíacos, sem sinais de insuficiência venosa nos membros."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 480,
+      "end": 482,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exame físico: PA 130×85 mmHg, FC 96 bpm, sem sopros cardíacos, sem sinais de insuficiência venosa nos membros."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 496,
+      "end": 498,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exame físico: PA 130×85 mmHg, FC 96 bpm, sem sopros cardíacos, sem sinais de insuficiência venosa nos membros."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 502,
+      "end": 505,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exame físico: PA 130×85 mmHg, FC 96 bpm, sem sopros cardíacos, sem sinais de insuficiência venosa nos membros."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ECG",
+      "start": 631,
+      "end": 634,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b6dfe7f75c7b",
+        "concept_name": "ELETROCARDIOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "ECG sem alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tórax",
+      "start": 667,
+      "end": 672,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.1",
+        "concept_name": "Tórax",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "A tomografia de tórax evidenciou fibrose pulmonar associada à quimioterapia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "quimioterapia",
+      "start": 713,
+      "end": 726,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ff16a3dfb7f7",
+        "concept_name": "QUIMIOTERAPIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "A tomografia de tórax evidenciou fibrose pulmonar associada à quimioterapia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "quimioterapia",
+      "start": 771,
+      "end": 784,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "ff16a3dfb7f7",
+        "concept_name": "QUIMIOTERAPIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hipótese de toxidade pulmonar induzida por quimioterapia (paclitaxel)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paclitaxel",
+      "start": 786,
+      "end": 796,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "90002504",
+        "concept_name": "PACLITAXEL 6 MG/ ML SOL INJ IV CT FA VD INC X 16,7 ML ACCORD FARMACÊUTICA LTDA 10/10/2012 31/08/2014 1553700040021",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Hipótese de toxidade pulmonar induzida por quimioterapia (paclitaxel)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 870,
+      "end": 872,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Câncer de mama com mastectomia unilateral; em quimioterapia adjuvante com paclitaxel."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Câncer",
+      "start": 874,
+      "end": 880,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd589f423782",
+        "concept_name": "CÂNCER",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AP: Câncer de mama com mastectomia unilateral; em quimioterapia adjuvante com paclitaxel."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mama",
+      "start": 884,
+      "end": 888,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.6",
+        "concept_name": "Mama",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AP: Câncer de mama com mastectomia unilateral; em quimioterapia adjuvante com paclitaxel."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "quimioterapia",
+      "start": 920,
+      "end": 933,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ff16a3dfb7f7",
+        "concept_name": "QUIMIOTERAPIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AP: Câncer de mama com mastectomia unilateral; em quimioterapia adjuvante com paclitaxel."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paclitaxel",
+      "start": 948,
+      "end": 958,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90002504",
+        "concept_name": "PACLITAXEL 6 MG/ ML SOL INJ IV CT FA VD INC X 16,7 ML ACCORD FARMACÊUTICA LTDA 10/10/2012 31/08/2014 1553700040021",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "AP: Câncer de mama com mastectomia unilateral; em quimioterapia adjuvante com paclitaxel."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 960,
+      "end": 962,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 71,
+  "group": "caso_estruturado"
+}

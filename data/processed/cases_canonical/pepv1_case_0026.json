@@ -1,0 +1,275 @@
+{
+  "doc_id": "pepv1_case_0026",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "26) ID: Feminino, 23 anos, primigesta, gestação por fertilização assistida, IG ~5 semanas. QD: “Sangramento em borra de café no começo da gravidez.” HPMA: Gestante de 5 semanas (diagnosticada por beta-hCG sérico 2.350 mUI/mL há 2 dias) procura pronto atendimento por sangramento vaginal em pequena quantidade, tipo “borra de café”, sem exteriorização de coágulos. Refere cólica leve intermitente, sem dor intensa unilateral. Ao exame clínico: hemodinamicamente estável, abdome indolor, sem sinais de irritação peritoneal; ao exame ginecológico, pequena quantidade de sangue coletado em fórnice posterior. USG: útero em AVF com eco endometrial espessado 16 mm e imagem paraovariana esquerda 28×20×22 mm (imagem anexa no enunciado). Repetido beta-hCG no atendimento: 1.650 mUI/mL. Registrado risco aumentado por gestação assistida e diferencial entre gestação intrauterina inicial não evolutiva vs gestação ectópica/heterotópica; orientada vigilância clínica rigorosa, reavaliação seriada com beta-hCG e ultrassom conforme protocolo, com retorno imediato se dor abdominal forte, síncope ou sangramento volumoso. ISDA: Nega febre; nega sintomas urinários; nega sintomas respiratórios. Sem diarreia/vômitos importantes. AP: Infertilidade com necessidade de reprodução assistida (sem detalhes). Medicações: provável suporte luteínico (progesterona) — não informado no enunciado; em sua versão, pode registrar “em uso de progesterona conforme protocolo” se quiser aumentar realismo. Alergias/cirurgias: não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "26) ID: Feminino, 23 anos, primigesta, gestação por fertilização assistida, IG ~5 semanas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "beta",
+      "start": 196,
+      "end": 200,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90206770",
+        "concept_name": "BETA LONG 3MG + 3MG/ML SUS INJ CT AMP VD AMB X 1 ML UNIÃO QUÍMICA FARMACÊUTICA NACIONAL S/A 10/10/2012 31/08/2014 1049711730014",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "HPMA: Gestante de 5 semanas (diagnosticada por beta-hCG sérico 2.350 mUI/mL há 2 dias) procura pronto atendimento por sangramento vaginal em pequena quantidade, tipo “borra de café”, sem exteriorização de coágulos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemodinamicamente",
+      "start": 443,
+      "end": 460,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f02b49020101",
+        "concept_name": "HEMODINAMICAMENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico: hemodinamicamente estável, abdome indolor, sem sinais de irritação peritoneal; ao exame ginecológico, pequena quantidade de sangue coletado em fórnice posterior."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 470,
+      "end": 476,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico: hemodinamicamente estável, abdome indolor, sem sinais de irritação peritoneal; ao exame ginecológico, pequena quantidade de sangue coletado em fórnice posterior."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "USG",
+      "start": 605,
+      "end": 608,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "USG: útero em AVF com eco endometrial espessado 16 mm e imagem paraovariana esquerda 28×20×22 mm (imagem anexa no enunciado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "útero",
+      "start": 610,
+      "end": 615,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D39.0",
+        "concept_name": "Útero",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "USG: útero em AVF com eco endometrial espessado 16 mm e imagem paraovariana esquerda 28×20×22 mm (imagem anexa no enunciado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "eco",
+      "start": 627,
+      "end": 630,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "eecf01dffe81",
+        "concept_name": "ECOCARDIOGRAMA/ ECODOPPLERCARDIOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "USG: útero em AVF com eco endometrial espessado 16 mm e imagem paraovariana esquerda 28×20×22 mm (imagem anexa no enunciado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "beta",
+      "start": 740,
+      "end": 744,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90206770",
+        "concept_name": "BETA LONG 3MG + 3MG/ML SUS INJ CT AMP VD AMB X 1 ML UNIÃO QUÍMICA FARMACÊUTICA NACIONAL S/A 10/10/2012 31/08/2014 1049711730014",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Repetido beta-hCG no atendimento: 1.650 mUI/mL. Registrado risco aumentado por gestação assistida e diferencial entre gestação intrauterina inicial não evolutiva vs gestação ectópica/heterotópica; orientada vigilância clínica rigorosa, reavaliação seriada com beta-hCG e ultrassom conforme protocolo, com retorno imediato se dor abdominal forte, síncope ou sangramento volumoso."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "clínica",
+      "start": 949,
+      "end": 956,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "9d123e457f16",
+        "concept_name": "CLÍNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Repetido beta-hCG no atendimento: 1.650 mUI/mL. Registrado risco aumentado por gestação assistida e diferencial entre gestação intrauterina inicial não evolutiva vs gestação ectópica/heterotópica; orientada vigilância clínica rigorosa, reavaliação seriada com beta-hCG e ultrassom conforme protocolo, com retorno imediato se dor abdominal forte, síncope ou sangramento volumoso."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "beta",
+      "start": 991,
+      "end": 995,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90206770",
+        "concept_name": "BETA LONG 3MG + 3MG/ML SUS INJ CT AMP VD AMB X 1 ML UNIÃO QUÍMICA FARMACÊUTICA NACIONAL S/A 10/10/2012 31/08/2014 1049711730014",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Repetido beta-hCG no atendimento: 1.650 mUI/mL. Registrado risco aumentado por gestação assistida e diferencial entre gestação intrauterina inicial não evolutiva vs gestação ectópica/heterotópica; orientada vigilância clínica rigorosa, reavaliação seriada com beta-hCG e ultrassom conforme protocolo, com retorno imediato se dor abdominal forte, síncope ou sangramento volumoso."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1216,
+      "end": 1218,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Infertilidade com necessidade de reprodução assistida (sem detalhes)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "progesterona",
+      "start": 1330,
+      "end": 1342,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "3c0a3e948788",
+        "concept_name": "PROGESTERONA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Medicações: provável suporte luteínico (progesterona) — não informado no enunciado; em sua versão, pode registrar “em uso de progesterona conforme protocolo” se quiser aumentar realismo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "progesterona",
+      "start": 1415,
+      "end": 1427,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "3c0a3e948788",
+        "concept_name": "PROGESTERONA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Medicações: provável suporte luteínico (progesterona) — não informado no enunciado; em sua versão, pode registrar “em uso de progesterona conforme protocolo” se quiser aumentar realismo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1513,
+      "end": 1515,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 26,
+  "group": "caso_estruturado"
+}

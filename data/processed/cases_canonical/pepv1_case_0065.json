@@ -1,0 +1,370 @@
+{
+  "doc_id": "pepv1_case_0065",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "65) ID: F, 63 anos. QD: “Barriga aumentada e empachamento.” HPMA: Refere aumento progressivo do volume abdominal há meses, associado a leve empachamento pós-prandial. Nega febre, perda de peso, alteração do hábito intestinal ou sangramentos digestivos. Independente para AVDs, sem comorbidades e sem restrições funcionais. Exame físico evidenciou massa palpável profunda em flanco direito, ~16 cm, fixa, com pouca mobilidade; sem variações respiratórias. TC de tórax sem alterações. TC de abdome evidenciou lesão sólida retroperitoneal de grande volume, em íntimo contato com rim direito, veia cava, coluna, fígado e cólon direito (hipótese: tumor retroperitoneal primário, provável sarcoma retroperitoneal). ISDA: Nega icterícia, colúria, hematúria, disúria, dispneia, dor torácica, síncope. Sem queixas osteoarticulares relevantes. AP: Nega HAS/DM/DLP. Nega cirurgias prévias. Sem uso contínuo de medicações. Nega alergias. Nega tabagismo; etilismo social. AF: BEG, corada, afebril, hemodinamicamente estável. Abdome: plano a discretamente globoso, ruídos hidroaéreos presentes, indolor; massa profunda palpável em flanco direito, pouco móvel. Sem sinais de peritonite. Sem edema de MMII. Demais sistemas sem alterações relevantes.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "65) ID: F, 63 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "alteração do hábito intestinal",
+      "start": 194,
+      "end": 224,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R19.4",
+        "concept_name": "Alteração do hábito intestinal",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega febre, perda de peso, alteração do hábito intestinal ou sangramentos digestivos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "digestivos",
+      "start": 241,
+      "end": 251,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "T47.5",
+        "concept_name": "Digestivos",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega febre, perda de peso, alteração do hábito intestinal ou sangramentos digestivos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Exame físico",
+      "start": 323,
+      "end": 335,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exame físico evidenciou massa palpável profunda em flanco direito, ~16 cm, fixa, com pouca mobilidade; sem variações respiratórias."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tórax",
+      "start": 461,
+      "end": 466,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.1",
+        "concept_name": "Tórax",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "TC de tórax sem alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 489,
+      "end": 495,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "TC de abdome evidenciou lesão sólida retroperitoneal de grande volume, em íntimo contato com rim direito, veia cava, coluna, fígado e cólon direito (hipótese: tumor retroperitoneal primário, provável sarcoma retroperitoneal)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "rim",
+      "start": 576,
+      "end": 579,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D30.0",
+        "concept_name": "Rim",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "TC de abdome evidenciou lesão sólida retroperitoneal de grande volume, em íntimo contato com rim direito, veia cava, coluna, fígado e cólon direito (hipótese: tumor retroperitoneal primário, provável sarcoma retroperitoneal)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "fígado",
+      "start": 608,
+      "end": 614,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D13.4",
+        "concept_name": "Fígado",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "TC de abdome evidenciou lesão sólida retroperitoneal de grande volume, em íntimo contato com rim direito, veia cava, coluna, fígado e cólon direito (hipótese: tumor retroperitoneal primário, provável sarcoma retroperitoneal)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "cólon",
+      "start": 617,
+      "end": 622,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D01.0",
+        "concept_name": "Cólon",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "TC de abdome evidenciou lesão sólida retroperitoneal de grande volume, em íntimo contato com rim direito, veia cava, coluna, fígado e cólon direito (hipótese: tumor retroperitoneal primário, provável sarcoma retroperitoneal)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tumor",
+      "start": 642,
+      "end": 647,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "d637b419fb1e",
+        "concept_name": "TUMOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "TC de abdome evidenciou lesão sólida retroperitoneal de grande volume, em íntimo contato com rim direito, veia cava, coluna, fígado e cólon direito (hipótese: tumor retroperitoneal primário, provável sarcoma retroperitoneal)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 751,
+      "end": 758,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega icterícia, colúria, hematúria, disúria, dispneia, dor torácica, síncope."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 797,
+      "end": 804,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Sem queixas osteoarticulares relevantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 834,
+      "end": 836,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Nega HAS/DM/DLP."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 843,
+      "end": 846,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Nega HAS/DM/DLP."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 959,
+      "end": 961,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: BEG, corada, afebril, hemodinamicamente estável."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "BEG",
+      "start": 963,
+      "end": 966,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: BEG, corada, afebril, hemodinamicamente estável."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemodinamicamente",
+      "start": 985,
+      "end": 1002,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f02b49020101",
+        "concept_name": "HEMODINAMICAMENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AF: BEG, corada, afebril, hemodinamicamente estável."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 1012,
+      "end": 1018,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome: plano a discretamente globoso, ruídos hidroaéreos presentes, indolor; massa profunda palpável em flanco direito, pouco móvel."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "MMII",
+      "start": 1185,
+      "end": 1189,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "50b05748c28a",
+        "concept_name": "MEMBROS INFERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Sem edema de MMII."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 65,
+  "group": "caso_estruturado"
+}

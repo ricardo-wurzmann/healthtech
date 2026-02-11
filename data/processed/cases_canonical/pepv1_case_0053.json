@@ -1,0 +1,180 @@
+{
+  "doc_id": "pepv1_case_0053",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "53) ID: Homem, 65 anos, em quimioterapia. QD: “Ferida extensa no dorso da mão após extravasamento de quimioterápico.” HPMA: Há cerca de 3 semanas, após extravasamento local de agente quimioterápico, evoluiu com necrose cutânea no dorso da mão, com exposição de tendões. Submetido a desbridamento cirúrgico e revitalização de bordas, permanecendo com defeito de partes moles em dorso de mão, com leito pouco favorável a enxertia simples pela exposição tendínea (sem paratênon íntegro), sem sinais sistêmicos de infecção no momento. Quadro compatível com defeito complexo de cobertura em dorso de mão pós-extravasamento, em paciente imunossuprimido por quimioterapia. ISDA: Sem febre; sem calafrios; sem dor desproporcional. AP: Neoplasia em tratamento quimioterápico (esquema não informado). AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "53) ID: Homem, 65 anos, em quimioterapia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "quimioterapia",
+      "start": 27,
+      "end": 40,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ff16a3dfb7f7",
+        "concept_name": "QUIMIOTERAPIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "53) ID: Homem, 65 anos, em quimioterapia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "complexo",
+      "start": 561,
+      "end": 569,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "90468570",
+        "concept_name": "COMPLEXO B 12 32,65 MG + 3,3 MG + 10 MG + 50 MG + 25 MG +15 MCG COM REV CT FR PLAS OPC X 20EMS S/A 01/09/2020 30/11/2020 1023502420086",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Quadro compatível com defeito complexo de cobertura em dorso de mão pós-extravasamento, em paciente imunossuprimido por quimioterapia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 622,
+      "end": 630,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro compatível com defeito complexo de cobertura em dorso de mão pós-extravasamento, em paciente imunossuprimido por quimioterapia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "quimioterapia",
+      "start": 651,
+      "end": 664,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ff16a3dfb7f7",
+        "concept_name": "QUIMIOTERAPIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro compatível com defeito complexo de cobertura em dorso de mão pós-extravasamento, em paciente imunossuprimido por quimioterapia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 723,
+      "end": 725,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Neoplasia em tratamento quimioterápico (esquema não informado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Neoplasia",
+      "start": 727,
+      "end": 736,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0c76b34aee3",
+        "concept_name": "NEOPLASIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AP: Neoplasia em tratamento quimioterápico (esquema não informado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 740,
+      "end": 750,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AP: Neoplasia em tratamento quimioterápico (esquema não informado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 791,
+      "end": 793,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 53,
+  "group": "caso_estruturado"
+}

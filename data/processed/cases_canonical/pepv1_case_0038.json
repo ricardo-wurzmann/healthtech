@@ -1,0 +1,142 @@
+{
+  "doc_id": "pepv1_case_0038",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "38) ID: Feminino, 7 meses, sem seguimento prévio. QD: “Choro estridente e inchaço em mãos e pés.” HPMA: Há 3 dias com agitação e choro estridente, sem febre, sem trauma e sem uso de medicações. Nascida de parto vaginal não assistido; mãe sem pré-natal; sem avaliações médicas prévias. Ao exame: irritada e inconsolável; mucosas descoradas 2+/4+ e icterícia 2+/4+; sopro sistólico suave 2+/6 em foco mitral; FC 160 bpm, PA normal para idade. Edema importante não depressível de mãos até punhos e pés até tornozelos, com hiperemia e aumento de temperatura local. Quadro compatível com dactilite/vaso-oclusão por hemoglobinopatia (a confirmar); DDx: celulite, osteomielite/artrite séptica, reação alérgica. ISDA: Nega sintomas respiratórios, vômitos/diarreia e disúria (conforme cuidadora). AP: Sem comorbidades conhecidas; alergias não referidas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "38) ID: Feminino, 7 meses, sem seguimento prévio."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 407,
+      "end": 409,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: irritada e inconsolável; mucosas descoradas 2+/4+ e icterícia 2+/4+; sopro sistólico suave 2+/6 em foco mitral; FC 160 bpm, PA normal para idade."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 414,
+      "end": 417,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: irritada e inconsolável; mucosas descoradas 2+/4+ e icterícia 2+/4+; sopro sistólico suave 2+/6 em foco mitral; FC 160 bpm, PA normal para idade."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 419,
+      "end": 421,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: irritada e inconsolável; mucosas descoradas 2+/4+ e icterícia 2+/4+; sopro sistólico suave 2+/6 em foco mitral; FC 160 bpm, PA normal para idade."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 758,
+      "end": 765,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega sintomas respiratórios, vômitos/diarreia e disúria (conforme cuidadora)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 788,
+      "end": 790,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades conhecidas; alergias não referidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 845,
+      "end": 847,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 38,
+  "group": "caso_estruturado"
+}

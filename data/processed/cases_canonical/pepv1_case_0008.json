@@ -1,0 +1,294 @@
+{
+  "doc_id": "pepv1_case_0008",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "8) Maria Helena, 35 anos, G2 P1c, 38 6/7 semanas (idade gestacional confirmada pela data da última menstruação e pela ultrassonografia precoce), procura a maternidade relatando dor em abdome inferior, tipo cólica, de intensidade moderada, a cada 5 minutos. A paciente nega perdas vaginais e refere boa movimentação fetal. Pesquisa de estreptococos do grupo B negativa. Ao exame clínico, a paciente apresentava-se em bom estado geral, corada, hidratada, acianótica, anictérica, afebril. PA: 130 x 88 mmHg; FC: 90 bpm. Abdome gravídico; BCF: 140 bpm; dinâmica uterina: 2 contrações em 10 minutos, de moderada intensidade; tônus uterino normal; altura uterina: 35 cm. Ao toque vaginal: colo fino, medianizado, 3 cm de dilatação, cefálico, -3 de Lee. O médico que a atendeu diagnosticou trabalho de parto, optou pela internação da paciente e a conduziu ao pré- parto. Após três horas, a paciente dizia estar com muita dor. Foi optado, neste momento, pela realização de analgesia de parto. Durante a anestesia peridural, a dura-máter foi acidentalmente perfurada. O anestesista realizou nova punção no espaço intervertebral superior com sucesso.",
+  "entities": [
+    {
+      "span": "ultrassonografia",
+      "start": 118,
+      "end": 134,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "8) Maria Helena, 35 anos, G2 P1c, 38 6/7 semanas (idade gestacional confirmada pela data da última menstruação e pela ultrassonografia precoce), procura a maternidade relatando dor em abdome inferior, tipo cólica, de intensidade moderada, a cada 5 minutos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 184,
+      "end": 190,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "8) Maria Helena, 35 anos, G2 P1c, 38 6/7 semanas (idade gestacional confirmada pela data da última menstruação e pela ultrassonografia precoce), procura a maternidade relatando dor em abdome inferior, tipo cólica, de intensidade moderada, a cada 5 minutos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 259,
+      "end": 267,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "A paciente nega perdas vaginais e refere boa movimentação fetal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 389,
+      "end": 397,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico, a paciente apresentava-se em bom estado geral, corada, hidratada, acianótica, anictérica, afebril."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 416,
+      "end": 432,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico, a paciente apresentava-se em bom estado geral, corada, hidratada, acianótica, anictérica, afebril."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 486,
+      "end": 488,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "PA: 130 x 88 mmHg; FC: 90 bpm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 505,
+      "end": 507,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "PA: 130 x 88 mmHg; FC: 90 bpm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 512,
+      "end": 515,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "PA: 130 x 88 mmHg; FC: 90 bpm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 517,
+      "end": 523,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome gravídico; BCF: 140 bpm; dinâmica uterina: 2 contrações em 10 minutos, de moderada intensidade; tônus uterino normal; altura uterina: 35 cm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 544,
+      "end": 547,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Abdome gravídico; BCF: 140 bpm; dinâmica uterina: 2 contrações em 10 minutos, de moderada intensidade; tônus uterino normal; altura uterina: 35 cm."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Lee",
+      "start": 742,
+      "end": 745,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e6d4e12c6500",
+        "concept_name": "PROPOSTO POR THOMAS H. LEE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao toque vaginal: colo fino, medianizado, 3 cm de dilatação, cefálico, -3 de Lee."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 827,
+      "end": 835,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "O médico que a atendeu diagnosticou trabalho de parto, optou pela internação da paciente e a conduziu ao pré- parto."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 883,
+      "end": 891,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Após três horas, a paciente dizia estar com muita dor."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Foi",
+      "start": 919,
+      "end": 922,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Foi optado, neste momento, pela realização de analgesia de parto."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foi",
+      "start": 1029,
+      "end": 1032,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Durante a anestesia peridural, a dura-máter foi acidentalmente perfurada."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 8,
+  "group": "prontuario"
+}

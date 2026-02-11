@@ -1,0 +1,142 @@
+{
+  "doc_id": "pepv1_case_0061",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "61) ID: Masculino, 2 anos. QD: “Testículo não desceu”. HPMA: Em consulta de puericultura, observado apenas testículo esquerdo palpável em bolsa escrotal; hemiescroto direito hipodesenvolvido, sem massa palpável em trajeto inguinal. Criança sem dor, sem episódios de torção, sem história de prematuridade relatada. Desenvolvimento neuropsicomotor adequado, sem intercorrências urinárias. Cariótipo: 46, XY. Hipótese: criptorquidia direita (testículo não palpável). ISDA: Sem febre; sem vômitos/diarreia; sem sintomas urinários. AP: Gestação/parto sem intercorrências relevantes referidas; vacinas em dia. Sem cirurgias. Sem alergias conhecidas. AF: Sem história familiar de criptorquidia/alterações genitais/infertilidade.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "61) ID: Masculino, 2 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Testículo",
+      "start": 32,
+      "end": 41,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D40.1",
+        "concept_name": "Testículo",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: “Testículo não desceu”."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "testículo",
+      "start": 107,
+      "end": 116,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D40.1",
+        "concept_name": "Testículo",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Em consulta de puericultura, observado apenas testículo esquerdo palpável em bolsa escrotal; hemiescroto direito hipodesenvolvido, sem massa palpável em trajeto inguinal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bolsa",
+      "start": 138,
+      "end": 143,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "517ba6909271",
+        "concept_name": "BOLSA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Em consulta de puericultura, observado apenas testículo esquerdo palpável em bolsa escrotal; hemiescroto direito hipodesenvolvido, sem massa palpável em trajeto inguinal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "testículo",
+      "start": 439,
+      "end": 448,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D40.1",
+        "concept_name": "Testículo",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hipótese: criptorquidia direita (testículo não palpável)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 527,
+      "end": 529,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Gestação/parto sem intercorrências relevantes referidas; vacinas em dia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 644,
+      "end": 646,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Sem história familiar de criptorquidia/alterações genitais/infertilidade."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 61,
+  "group": "caso_estruturado"
+}

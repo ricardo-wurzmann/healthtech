@@ -1,0 +1,503 @@
+{
+  "doc_id": "pepv1_case_0010",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "10) Um paciente masculino, com 25 dias de vida, que foi trazido por quadro de febre de até 38, 1°C. A mãe refere que o quadro se iniciou há 8 horas atrás, foram 2 picos febris com temperaturas de 37, 9° e 38, 1°C, sendo medicado com paracetamol há 1 hora atrás. Nega tosse, coriza ou cansaço. Diurese presente, sem alterações. Evacuações de 5 a 6 vezes ao dia, com fezes pastosas esverdeadas, sem mudança de padrão nos últimos dias. Boa aceitação das mamadas. Nascida de termo, parto cesárea por iteratividade, peso de nascimento de 3.100 g, sem intercorrências peri-natais. Trata-se do terceiro filho de mãe de 35 anos, professora universitária, e pai de 37 anos, engenheiro civil, ambos hígidos. Ao exame clínico, a criança está em bom estado geral, corada, hidratada, anictérica. Temperatura axilar de 36, 5°C. FC = 126 bpm, FR = 48 irpm, tempo de enchimento capilar < 3 segundos. Ativa e reativa, bom tônus, fontanela bregmática normotensa. Sem alterações as propedêuticas cardíaca, pulmonar e abdominal. Períneo íntegro. Boa perfusão periférica. No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas. Hemocultura, Urocultura e Pesquisa de vírus respiratórios já colhidos, aguardando resultado. Tendo em vista os dados apresentados, é necessário solicitar algum outro exame complementar para este paciente?",
+  "entities": [
+    {
+      "span": "paciente",
+      "start": 7,
+      "end": 15,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "10) Um paciente masculino, com 25 dias de vida, que foi trazido por quadro de febre de até 38, 1°C."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foi",
+      "start": 52,
+      "end": 55,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "10) Um paciente masculino, com 25 dias de vida, que foi trazido por quadro de febre de até 38, 1°C."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paracetamol",
+      "start": 233,
+      "end": 244,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90012712",
+        "concept_name": "PARACETAMOL + FOSFATO DE CODEÍNA 500 + 30 MG COM CT BL AL PLAS INC X 12 BIOLAB FARMA GENERICOS LTDA 01/06/2019 31/03/2016 1049201850050",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "A mãe refere que o quadro se iniciou há 8 horas atrás, foram 2 picos febris com temperaturas de 37, 9° e 38, 1°C, sendo medicado com paracetamol há 1 hora atrás."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hora",
+      "start": 250,
+      "end": 254,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90247795",
+        "concept_name": "HORA H 1,5 MG COM CT BL AL PLAS INC X 1 INDÚSTRIA FARMACÊUTICA MELCON DO BRASIL S.A. 01/01/2016 31/03/2016 1558900030061",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "A mãe refere que o quadro se iniciou há 8 horas atrás, foram 2 picos febris com temperaturas de 37, 9° e 38, 1°C, sendo medicado com paracetamol há 1 hora atrás."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 267,
+      "end": 272,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega tosse, coriza ou cansaço."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pai",
+      "start": 649,
+      "end": 652,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e3828c94ba95",
+        "concept_name": "PRESSÃO ARTERIAL INVASIVA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Trata-se do terceiro filho de mãe de 35 anos, professora universitária, e pai de 37 anos, engenheiro civil, ambos hígidos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 734,
+      "end": 750,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico, a criança está em bom estado geral, corada, hidratada, anictérica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Temperatura axilar",
+      "start": 783,
+      "end": 801,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "0bb1ae87d35d",
+        "concept_name": "TEMPERATURA AXILAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Temperatura axilar de 36, 5°C."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 814,
+      "end": 816,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "FC = 126 bpm, FR = 48 irpm, tempo de enchimento capilar < 3 segundos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 823,
+      "end": 826,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "FC = 126 bpm, FR = 48 irpm, tempo de enchimento capilar < 3 segundos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FR",
+      "start": 828,
+      "end": 830,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "FC = 126 bpm, FR = 48 irpm, tempo de enchimento capilar < 3 segundos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 836,
+      "end": 840,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "FC = 126 bpm, FR = 48 irpm, tempo de enchimento capilar < 3 segundos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Hemograma",
+      "start": 1137,
+      "end": 1146,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b3810f8eaf",
+        "concept_name": "HEMOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Leucócitos",
+      "start": 1185,
+      "end": 1195,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5cafb91f3dd1",
+        "concept_name": "LEUCÓCITOS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "linfócitos",
+      "start": 1236,
+      "end": 1246,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "180b46b9f358",
+        "concept_name": "LINFÓCITOS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Plaquetas",
+      "start": 1301,
+      "end": 1310,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "3b4bc43def14",
+        "concept_name": "PLAQUETAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "sondagem vesical de alívio",
+      "start": 1352,
+      "end": 1378,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "1cdb54093630",
+        "concept_name": "SONDAGEM VESICAL DE ALÍVIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "negativo",
+      "start": 1422,
+      "end": 1430,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "9e4cc76c8747",
+        "concept_name": "NEGATIVO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Glicose",
+      "start": 1432,
+      "end": 1439,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "419efe9bcf68",
+        "concept_name": "GLICOSE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "negativo",
+      "start": 1442,
+      "end": 1450,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "9e4cc76c8747",
+        "concept_name": "NEGATIVO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "negativo",
+      "start": 1462,
+      "end": 1470,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "9e4cc76c8747",
+        "concept_name": "NEGATIVO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Leucócitos",
+      "start": 1526,
+      "end": 1536,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5cafb91f3dd1",
+        "concept_name": "LEUCÓCITOS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tórax",
+      "start": 1644,
+      "end": 1649,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.1",
+        "concept_name": "Tórax",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13, 4 g/dL, Ht = 37, 6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7, 0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Hemocultura",
+      "start": 1683,
+      "end": 1694,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b4b610cd07a4",
+        "concept_name": "HEMOCULTURA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hemocultura, Urocultura e Pesquisa de vírus respiratórios já colhidos, aguardando resultado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Urocultura",
+      "start": 1696,
+      "end": 1706,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25792c5572e6",
+        "concept_name": "UROCULTURA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hemocultura, Urocultura e Pesquisa de vírus respiratórios já colhidos, aguardando resultado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 1878,
+      "end": 1886,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Tendo em vista os dados apresentados, é necessário solicitar algum outro exame complementar para este paciente?"
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 10,
+  "group": "prontuario"
+}

@@ -1,0 +1,66 @@
+{
+  "doc_id": "pepv1_case_0005",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "5). Paciente de 45 anos de idade com dor na região lombar direita há 7 dias. Nega febre. Antecedente de 4 gestações e 4 partos vaginais, último há 10 anos. Nega uso de método contraceptivo. Refere atividade sexual regular, sem parceiro fixo, com secreção vaginal eventual de odor desagradável e sinusiorragia há 4 meses. Refere tratamento para sífilis durante a segunda gestação. Sem acompanhamento médico regular. Afebril, exame clínico geral sem alterações, punho-percussão positiva em região lombar direita. Exame ginecológico com achado especular abaixo. Realiza ultrassonografia de vias urinárias. Exame de sedimento urinário sem alterações.",
+  "entities": [
+    {
+      "span": "Paciente",
+      "start": 4,
+      "end": 12,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Paciente de 45 anos de idade com dor na região lombar direita há 7 dias."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 328,
+      "end": 338,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Refere tratamento para sífilis durante a segunda gestação."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ultrassonografia",
+      "start": 567,
+      "end": 583,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Realiza ultrassonografia de vias urinárias."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 5,
+  "group": "prontuario"
+}

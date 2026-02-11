@@ -1,0 +1,218 @@
+{
+  "doc_id": "pepv1_case_0028",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "28) ID: Feminino, 35 anos, gestante, IG 39 semanas. QD: “Contrações fortes e regulares.” HPMA: Admitida no centro obstétrico em trabalho de parto espontâneo. Refere contrações regulares e dolorosas, sem sangramento vaginal. Nega perda de líquido há muitas horas, porém evoluiu com rotura espontânea de membranas já na admissão, com líquido amniótico claro. Ao exame: bom estado geral, sem sinais de sofrimento. Abdome gravídico, AU 37 cm, dinâmica uterina presente, BCF 146 bpm, apresentação cefálica. Toque vaginal: colo fino, medianizado, 7 cm, plano 0 de De Lee. Sem sinais clínicos de corioamnionite. Iniciada monitorização fetal contínua e medidas de rotina do pré-parto (acesso venoso, analgesia conforme protocolo/solicitação, hidratação venosa conforme necessidade). ISDA: Nega cefaleia intensa/escotomas; nega dispneia, dor torácica; nega disúria; afebril. AP: Nega doenças prévias (sem HAS/DM). Cirurgias: nega. Medicações: apenas polivitamínico/ferro (habitual de pré-natal). Alergias: nega. AF: Sem dados relevantes referidos.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "28) ID: Feminino, 35 anos, gestante, IG 39 semanas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 367,
+      "end": 383,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame: bom estado geral, sem sinais de sofrimento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 411,
+      "end": 417,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome gravídico, AU 37 cm, dinâmica uterina presente, BCF 146 bpm, apresentação cefálica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 474,
+      "end": 477,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Abdome gravídico, AU 37 cm, dinâmica uterina presente, BCF 146 bpm, apresentação cefálica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Lee",
+      "start": 561,
+      "end": 564,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e6d4e12c6500",
+        "concept_name": "PROPOSTO POR THOMAS H. LEE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Toque vaginal: colo fino, medianizado, 7 cm, plano 0 de De Lee."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hidratação venosa",
+      "start": 734,
+      "end": 751,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "38c7ec419038",
+        "concept_name": "HIDRATAÇÃO VENOSA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Iniciada monitorização fetal contínua e medidas de rotina do pré-parto (acesso venoso, analgesia conforme protocolo/solicitação, hidratação venosa conforme necessidade)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 848,
+      "end": 855,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega cefaleia intensa/escotomas; nega dispneia, dor torácica; nega disúria; afebril."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 866,
+      "end": 868,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Nega doenças prévias (sem HAS/DM)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 896,
+      "end": 899,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Nega doenças prévias (sem HAS/DM)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ferro",
+      "start": 956,
+      "end": 961,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90448537",
+        "concept_name": "FERRO 50 MG/ML SOL OR CT FR PLAS AMB GOT X 30 ML BIOLAB SANUS FARMACÊUTICA LTDA 01/06/2020 31/08/2020 1097402750037",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Medicações: apenas polivitamínico/ferro (habitual de pré-natal)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1003,
+      "end": 1005,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Sem dados relevantes referidos."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 28,
+  "group": "caso_estruturado"
+}

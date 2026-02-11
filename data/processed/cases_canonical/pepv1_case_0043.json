@@ -1,0 +1,408 @@
+{
+  "doc_id": "pepv1_case_0043",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "43) ID: Feminino, 12 anos, sarcoma de Ewing em quadril esquerdo há 1 ano; internada há 3 dias para controle álgico. QD: “Sonolência e confusão.” HPMA: Em uso de omeprazol, gabapentina, amitriptilina, dipirona e morfina, com relato de pior controle álgico e necessidade de doses extras de morfina. Evoluiu há ~4 horas com sonolência e confusão. Ao exame: regular estado geral, sonolenta/confusa, abre olhos ao chamado; pupilas puntiformes; consegue sentar-se quando solicitada. Sinais vitais: FR 12 irpm, FC 60 bpm, PA 98×56 mmHg; glicemia capilar 70 mg/dL. Quadro compatível com intoxicação por opioide/efeito depressor do SNC por polifarmácia (toxíndrome opioide); DDx: hipercapnia, evento neurológico agudo, sepse. ISDA: Sem queixa respiratória nova, sem vômitos/diarreia e sem disúria (questionados). AP: Neoplasia óssea (sarcoma de Ewing) em tratamento; em uso de analgésicos opioides e adjuvantes. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "43) ID: Feminino, 12 anos, sarcoma de Ewing em quadril esquerdo há 1 ano; internada há 3 dias para controle álgico."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Sonolência",
+      "start": 121,
+      "end": 131,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R40.0",
+        "concept_name": "Sonolência",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: “Sonolência e confusão.”"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "omeprazol",
+      "start": 161,
+      "end": 170,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90047524",
+        "concept_name": "OMEPRAZOL 20 MG CAP GEL DURA C/ MCGRAN CT BL AL PLAS BCO OPC X 07 CRISTÁLIA PRODUTOS QUÍMICOS FARMACÊUTICOS LTDA. 10/10/2012 31/08/2014 1029803540047",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "HPMA: Em uso de omeprazol, gabapentina, amitriptilina, dipirona e morfina, com relato de pior controle álgico e necessidade de doses extras de morfina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "gabapentina",
+      "start": 172,
+      "end": 183,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90012470",
+        "concept_name": "GABAPENTINA 300 MG CAP GEL DURA CT BL AL PLAS INC X 30 BIOLAB FARMA GENERICOS LTDA 01/06/2019 31/03/2016 1049201770030",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "HPMA: Em uso de omeprazol, gabapentina, amitriptilina, dipirona e morfina, com relato de pior controle álgico e necessidade de doses extras de morfina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "dipirona",
+      "start": 200,
+      "end": 208,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90055888",
+        "concept_name": "DIPIRONA SÓDICA 50 MG/ML SOL OR CT FR VD AMB X 100 ML + CP MED EMS S/A 10/10/2012 31/08/2014 1023508000011",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "HPMA: Em uso de omeprazol, gabapentina, amitriptilina, dipirona e morfina, com relato de pior controle álgico e necessidade de doses extras de morfina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "morfina",
+      "start": 211,
+      "end": 218,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "695dda9e910f",
+        "concept_name": "MORFINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Em uso de omeprazol, gabapentina, amitriptilina, dipirona e morfina, com relato de pior controle álgico e necessidade de doses extras de morfina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "morfina",
+      "start": 288,
+      "end": 295,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "695dda9e910f",
+        "concept_name": "MORFINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Em uso de omeprazol, gabapentina, amitriptilina, dipirona e morfina, com relato de pior controle álgico e necessidade de doses extras de morfina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "sonolência",
+      "start": 321,
+      "end": 331,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R40.0",
+        "concept_name": "Sonolência",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Evoluiu há ~4 horas com sonolência e confusão."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Sinais vitais",
+      "start": 477,
+      "end": 490,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "6edda192e163",
+        "concept_name": "SINAIS VITAIS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Sinais vitais: FR 12 irpm, FC 60 bpm, PA 98×56 mmHg; glicemia capilar 70 mg/dL. Quadro compatível com intoxicação por opioide/efeito depressor do SNC por polifarmácia (toxíndrome opioide); DDx: hipercapnia, evento neurológico agudo, sepse."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FR",
+      "start": 492,
+      "end": 494,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Sinais vitais: FR 12 irpm, FC 60 bpm, PA 98×56 mmHg; glicemia capilar 70 mg/dL. Quadro compatível com intoxicação por opioide/efeito depressor do SNC por polifarmácia (toxíndrome opioide); DDx: hipercapnia, evento neurológico agudo, sepse."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 498,
+      "end": 502,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Sinais vitais: FR 12 irpm, FC 60 bpm, PA 98×56 mmHg; glicemia capilar 70 mg/dL. Quadro compatível com intoxicação por opioide/efeito depressor do SNC por polifarmácia (toxíndrome opioide); DDx: hipercapnia, evento neurológico agudo, sepse."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 504,
+      "end": 506,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Sinais vitais: FR 12 irpm, FC 60 bpm, PA 98×56 mmHg; glicemia capilar 70 mg/dL. Quadro compatível com intoxicação por opioide/efeito depressor do SNC por polifarmácia (toxíndrome opioide); DDx: hipercapnia, evento neurológico agudo, sepse."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 510,
+      "end": 513,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Sinais vitais: FR 12 irpm, FC 60 bpm, PA 98×56 mmHg; glicemia capilar 70 mg/dL. Quadro compatível com intoxicação por opioide/efeito depressor do SNC por polifarmácia (toxíndrome opioide); DDx: hipercapnia, evento neurológico agudo, sepse."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 515,
+      "end": 517,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Sinais vitais: FR 12 irpm, FC 60 bpm, PA 98×56 mmHg; glicemia capilar 70 mg/dL. Quadro compatível com intoxicação por opioide/efeito depressor do SNC por polifarmácia (toxíndrome opioide); DDx: hipercapnia, evento neurológico agudo, sepse."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "glicemia capilar",
+      "start": 530,
+      "end": 546,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "101fab9e861b",
+        "concept_name": "GLICEMIA CAPILAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Sinais vitais: FR 12 irpm, FC 60 bpm, PA 98×56 mmHg; glicemia capilar 70 mg/dL. Quadro compatível com intoxicação por opioide/efeito depressor do SNC por polifarmácia (toxíndrome opioide); DDx: hipercapnia, evento neurológico agudo, sepse."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "SNC",
+      "start": 623,
+      "end": 626,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "5ec8d983392c",
+        "concept_name": "SISTEMA NERVOSO CENTRAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Sinais vitais: FR 12 irpm, FC 60 bpm, PA 98×56 mmHg; glicemia capilar 70 mg/dL. Quadro compatível com intoxicação por opioide/efeito depressor do SNC por polifarmácia (toxíndrome opioide); DDx: hipercapnia, evento neurológico agudo, sepse."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 780,
+      "end": 787,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Sem queixa respiratória nova, sem vômitos/diarreia e sem disúria (questionados)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 804,
+      "end": 806,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Neoplasia óssea (sarcoma de Ewing) em tratamento; em uso de analgésicos opioides e adjuvantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Neoplasia",
+      "start": 808,
+      "end": 817,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0c76b34aee3",
+        "concept_name": "NEOPLASIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AP: Neoplasia óssea (sarcoma de Ewing) em tratamento; em uso de analgésicos opioides e adjuvantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 846,
+      "end": 856,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AP: Neoplasia óssea (sarcoma de Ewing) em tratamento; em uso de analgésicos opioides e adjuvantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 903,
+      "end": 905,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 43,
+  "group": "caso_estruturado"
+}

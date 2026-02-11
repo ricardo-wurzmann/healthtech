@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "description": "Simple case with CID and procedure",
+    "text": "Paciente com diarreia infecciosa (A09). Realizou consulta em consultório."
+  },
+  {
+    "id": 2,
+    "description": "Case with abbreviations",
+    "text": "Solicitado HCV e ADA. Paciente com histórico de CA."
+  },
+  {
+    "id": 3,
+    "description": "Case with lab tests",
+    "text": "Exames: hemograma completo, glicemia de jejum, creatinina sérica."
+  },
+  {
+    "id": 4,
+    "description": "Case with medications",
+    "text": "Prescrito paracetamol 500mg e omeprazol 20mg."
+  },
+  {
+    "id": 5,
+    "description": "Complex case with multiple entity types",
+    "text": "Paciente diabético (E11) em uso de metformina. Queixa de cefaleia intensa. Solicitado TAC de crânio e glicemia."
+  }
+]

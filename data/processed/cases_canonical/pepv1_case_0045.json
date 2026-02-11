@@ -1,0 +1,161 @@
+{
+  "doc_id": "pepv1_case_0045",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "45) ID: Menina, 9 meses, residente em São Paulo-SP, trazida à UBS para atualização vacinal. QD: “Atualização do calendário vacinal.” HPMA: Criança previamente hígida, sem intercorrências agudas no dia da consulta. Carteira vacinal mostra esquema realizado adequadamente apenas até o 3º mês de vida. Responsável solicita “colocar as vacinas em dia”; além das vacinas programadas no serviço (pentavalente e meningocócica C, conforme agenda do dia), não há registro de eventos adversos graves pós-vacinação anteriores, nem uso recente de corticoide sistêmico/imunossupressores. Exame físico sumário: bom estado geral, afebril, ativa e reativa. ISDA: Sem febre, sem tosse/dispneia, sem vômitos ou diarreia, sem exantema no momento. AP: Sem comorbidades conhecidas. Alergias: não referidas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "45) ID: Menina, 9 meses, residente em São Paulo-SP, trazida à UBS para atualização vacinal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "SP",
+      "start": 48,
+      "end": 50,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "76f4c5ddebaa",
+        "concept_name": "SINÉQUIAS POSTERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "45) ID: Menina, 9 meses, residente em São Paulo-SP, trazida à UBS para atualização vacinal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "UBS",
+      "start": 62,
+      "end": 65,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "0b8536c41fc8",
+        "concept_name": "UNIDADE BÁSICA DE SAÚDE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "45) ID: Menina, 9 meses, residente em São Paulo-SP, trazida à UBS para atualização vacinal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Exame físico",
+      "start": 575,
+      "end": 587,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exame físico sumário: bom estado geral, afebril, ativa e reativa."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 597,
+      "end": 613,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exame físico sumário: bom estado geral, afebril, ativa e reativa."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 662,
+      "end": 667,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Sem febre, sem tosse/dispneia, sem vômitos ou diarreia, sem exantema no momento."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 728,
+      "end": 730,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades conhecidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 786,
+      "end": 788,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 45,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,389 @@
+{
+  "doc_id": "pepv1_case_0023",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "23) ID: Feminino, 60 anos, sem dados de paridade no enunciado. QD: “Barriga inchada, cansaço e falta de ar.” HPMA: Refere aumento progressivo do volume abdominal nas últimas semanas/meses, associado a astenia e dispneia intensa, principalmente aos esforços habituais. Nega dor abdominal importante, mas relata sensação de plenitude/empachamento e redução do apetite. Ao exame clínico, abdome globoso com ascite volumosa (macicez móvel e sem sinais de irritação peritoneal). No exame pélvico (toque vaginal), identifica-se tumor sólido, irregular e fixo, deslocando o útero lateralmente à esquerda, além de nódulos irregulares em fórnice vaginal posterior (sugestivos de implantes). Realizada punção de alívio de ascite com envio para citologia, cujo resultado foi compatível com adenocarcinoma seroso de ovário. Paciente orientada quanto a sinais de alarme pós-paracentese (dor progressiva, febre, hipotensão), e solicitados exames de estadiamento (hemograma, função renal/hepática, albumina, coagulograma e imagem abdominal/pélvica) conforme disponibilidade do serviço. ISDA: Nega tosse/chiado; nega dor torácica típica; nega disúria; relata possível perda ponderal não quantificada (a esclarecer); sem febre. AP: Sem comorbidades informadas. Cirurgias: não informado. Medicações: não informado. Alergias: não informado. Hábitos: não informado. AF: Não informado (a checar: câncer de ovário/mama, padrão hereditário).",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "23) ID: Feminino, 60 anos, sem dados de paridade no enunciado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 385,
+      "end": 391,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico, abdome globoso com ascite volumosa (macicez móvel e sem sinais de irritação peritoneal)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ascite",
+      "start": 404,
+      "end": 410,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R18",
+        "concept_name": "Ascite",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico, abdome globoso com ascite volumosa (macicez móvel e sem sinais de irritação peritoneal)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tumor",
+      "start": 522,
+      "end": 527,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "d637b419fb1e",
+        "concept_name": "TUMOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No exame pélvico (toque vaginal), identifica-se tumor sólido, irregular e fixo, deslocando o útero lateralmente à esquerda, além de nódulos irregulares em fórnice vaginal posterior (sugestivos de implantes)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "útero",
+      "start": 567,
+      "end": 572,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D39.0",
+        "concept_name": "Útero",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "No exame pélvico (toque vaginal), identifica-se tumor sólido, irregular e fixo, deslocando o útero lateralmente à esquerda, além de nódulos irregulares em fórnice vaginal posterior (sugestivos de implantes)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ascite",
+      "start": 712,
+      "end": 718,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R18",
+        "concept_name": "Ascite",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Realizada punção de alívio de ascite com envio para citologia, cujo resultado foi compatível com adenocarcinoma seroso de ovário."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foi",
+      "start": 760,
+      "end": 763,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Realizada punção de alívio de ascite com envio para citologia, cujo resultado foi compatível com adenocarcinoma seroso de ovário."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ovário",
+      "start": 804,
+      "end": 810,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "D39.1",
+        "concept_name": "Ovário",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Realizada punção de alívio de ascite com envio para citologia, cujo resultado foi compatível com adenocarcinoma seroso de ovário."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Paciente",
+      "start": 812,
+      "end": 820,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Paciente orientada quanto a sinais de alarme pós-paracentese (dor progressiva, febre, hipotensão), e solicitados exames de estadiamento (hemograma, função renal/hepática, albumina, coagulograma e imagem abdominal/pélvica) conforme disponibilidade do serviço."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 949,
+      "end": 958,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b3810f8eaf",
+        "concept_name": "HEMOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Paciente orientada quanto a sinais de alarme pós-paracentese (dor progressiva, febre, hipotensão), e solicitados exames de estadiamento (hemograma, função renal/hepática, albumina, coagulograma e imagem abdominal/pélvica) conforme disponibilidade do serviço."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "albumina",
+      "start": 983,
+      "end": 991,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "1c51b25395d8",
+        "concept_name": "ALBUMINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Paciente orientada quanto a sinais de alarme pós-paracentese (dor progressiva, febre, hipotensão), e solicitados exames de estadiamento (hemograma, função renal/hepática, albumina, coagulograma e imagem abdominal/pélvica) conforme disponibilidade do serviço."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "coagulograma",
+      "start": 993,
+      "end": 1005,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bca44410d9c1",
+        "concept_name": "COAGULOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Paciente orientada quanto a sinais de alarme pós-paracentese (dor progressiva, febre, hipotensão), e solicitados exames de estadiamento (hemograma, função renal/hepática, albumina, coagulograma e imagem abdominal/pélvica) conforme disponibilidade do serviço."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 1082,
+      "end": 1087,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega tosse/chiado; nega dor torácica típica; nega disúria; relata possível perda ponderal não quantificada (a esclarecer); sem febre."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 1127,
+      "end": 1134,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega tosse/chiado; nega dor torácica típica; nega disúria; relata possível perda ponderal não quantificada (a esclarecer); sem febre."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "a esclarecer",
+      "start": 1185,
+      "end": 1197,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "88005203de44",
+        "concept_name": "A ESCLARECER",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega tosse/chiado; nega dor torácica típica; nega disúria; relata possível perda ponderal não quantificada (a esclarecer); sem febre."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1211,
+      "end": 1213,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades informadas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1346,
+      "end": 1348,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado (a checar: câncer de ovário/mama, padrão hereditário)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "câncer",
+      "start": 1375,
+      "end": 1381,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd589f423782",
+        "concept_name": "CÂNCER",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AF: Não informado (a checar: câncer de ovário/mama, padrão hereditário)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ovário",
+      "start": 1385,
+      "end": 1391,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D39.1",
+        "concept_name": "Ovário",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AF: Não informado (a checar: câncer de ovário/mama, padrão hereditário)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mama",
+      "start": 1392,
+      "end": 1396,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.6",
+        "concept_name": "Mama",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AF: Não informado (a checar: câncer de ovário/mama, padrão hereditário)."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 23,
+  "group": "caso_estruturado"
+}

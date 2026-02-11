@@ -1,0 +1,237 @@
+{
+  "doc_id": "pepv1_case_0019",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "19) ID: Feminino, 30 anos, G1P1 (parto vaginal há 8 anos), uso de preservativo. QD: “Cólica do lado direito há meses, não melhora.” HPMA: Há 4 meses iniciou dor em região lombar direita, em cólica, com irradiação para pelve, progressiva, sem melhora com analgésicos/AINEs. Nega disúria e polaciúria. Ciclos regulares, dismenorreia leve autolimitada. Nega febre, náuseas/vômitos persistentes, alteração do hábito intestinal. Exame abdominal: plano, flácido, sem massas, dor à palpação profunda em fossa ilíaca direita; punho-percussão lombar negativa. Exame ginecológico: especular com conteúdo vaginal habitual, colo epitelizado, zona de transição normal; toque com útero retrovertido, tamanho habitual, dor à palpação em fórnice posterior e tumoração anexial direita regular, móvel e indolor. Exames: sedimento urinário normal; colpocitologia classe II. Diante de dor persistente com massa anexial, foi solicitado USG pélvico/transvaginal e o USG de vias urinárias (rim direito) constava como parte da investigação diferencial (litíase/hidronefrose), com laudo ainda não descrito/pendente no encaminhamento trazido pela paciente. ISDA: Nega febre/calafrios; nega corrimento anormal/prurido; nega sintomas urinários; nega perda ponderal; dor pélvica/lombar à direita persistente. AP: Sem comorbidades referidas. Cirurgias: nega. Medicações: analgésicos e AINEs esporádicos, sem resposta. Alergias: nega. Hábitos: não informados. AF: Sem dados no enunciado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "19) ID: Feminino, 30 anos, G1P1 (parto vaginal há 8 anos), uso de preservativo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pelve",
+      "start": 218,
+      "end": 223,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.3",
+        "concept_name": "Pelve",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Há 4 meses iniciou dor em região lombar direita, em cólica, com irradiação para pelve, progressiva, sem melhora com analgésicos/AINEs."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 278,
+      "end": 285,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega disúria e polaciúria."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "alteração do hábito intestinal",
+      "start": 392,
+      "end": 422,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R19.4",
+        "concept_name": "Alteração do hábito intestinal",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega febre, náuseas/vômitos persistentes, alteração do hábito intestinal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "útero",
+      "start": 666,
+      "end": 671,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D39.0",
+        "concept_name": "Útero",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exame ginecológico: especular com conteúdo vaginal habitual, colo epitelizado, zona de transição normal; toque com útero retrovertido, tamanho habitual, dor à palpação em fórnice posterior e tumoração anexial direita regular, móvel e indolor."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foi",
+      "start": 900,
+      "end": 903,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Diante de dor persistente com massa anexial, foi solicitado USG pélvico/transvaginal e o USG de vias urinárias (rim direito) constava como parte da investigação diferencial (litíase/hidronefrose), com laudo ainda não descrito/pendente no encaminhamento trazido pela paciente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "USG",
+      "start": 915,
+      "end": 918,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Diante de dor persistente com massa anexial, foi solicitado USG pélvico/transvaginal e o USG de vias urinárias (rim direito) constava como parte da investigação diferencial (litíase/hidronefrose), com laudo ainda não descrito/pendente no encaminhamento trazido pela paciente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "USG",
+      "start": 944,
+      "end": 947,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Diante de dor persistente com massa anexial, foi solicitado USG pélvico/transvaginal e o USG de vias urinárias (rim direito) constava como parte da investigação diferencial (litíase/hidronefrose), com laudo ainda não descrito/pendente no encaminhamento trazido pela paciente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "rim",
+      "start": 967,
+      "end": 970,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D30.0",
+        "concept_name": "Rim",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Diante de dor persistente com massa anexial, foi solicitado USG pélvico/transvaginal e o USG de vias urinárias (rim direito) constava como parte da investigação diferencial (litíase/hidronefrose), com laudo ainda não descrito/pendente no encaminhamento trazido pela paciente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 1121,
+      "end": 1129,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Diante de dor persistente com massa anexial, foi solicitado USG pélvico/transvaginal e o USG de vias urinárias (rim direito) constava como parte da investigação diferencial (litíase/hidronefrose), com laudo ainda não descrito/pendente no encaminhamento trazido pela paciente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1280,
+      "end": 1282,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades referidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1429,
+      "end": 1431,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Sem dados no enunciado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 19,
+  "group": "caso_estruturado"
+}

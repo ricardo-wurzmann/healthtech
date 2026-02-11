@@ -1,0 +1,2497 @@
+{
+  "analysis": {
+    "total_segments": 80,
+    "total_entities": 1021,
+    "avg_entities_per_segment": 12.7625,
+    "by_entity_type": {
+      "ABBREV": 761,
+      "PROBLEM": 198,
+      "DRUG": 62
+    },
+    "by_vocabulary": {
+      "SIGLARIO": 761,
+      "CID10": 198,
+      "TUSS_DRUG": 62
+    },
+    "avg_confidence": {
+      "ABBREV": 0.8885676741130188,
+      "PROBLEM": 0.949242424242422,
+      "DRUG": 0.8500000000000009
+    },
+    "ambiguous_entities": 5,
+    "ambiguous_rate": 0.004897159647404506
+  },
+  "potential_errors": [
+    {
+      "text": "ID",
+      "entity_type": "ABBREV",
+      "frequency": 63,
+      "examples": [
+        {
+          "segment_id": "case_18",
+          "context": "18) ID: Feminino, 32 anos, G1P0A1, e"
+        },
+        {
+          "segment_id": "case_19",
+          "context": "19) ID: Feminino, 30 anos, G1P1 (par"
+        },
+        {
+          "segment_id": "case_20",
+          "context": "20) ID: Feminino, 25 anos, nuligesta"
+        }
+      ]
+    },
+    {
+      "text": "AP",
+      "entity_type": "ABBREV",
+      "frequency": 62,
+      "examples": [
+        {
+          "segment_id": "case_18",
+          "context": "refere apenas hipermenorreia. AP: Aborto espontâneo 1º trimest"
+        },
+        {
+          "segment_id": "case_19",
+          "context": "lombar à direita persistente. AP: Sem comorbidades referidas. "
+        },
+        {
+          "segment_id": "case_20",
+          "context": "ega lesões cutâneas extensas. AP: Nega comorbidades. Medicaçõe"
+        }
+      ]
+    },
+    {
+      "text": "AF",
+      "entity_type": "ABBREV",
+      "frequency": 62,
+      "examples": [
+        {
+          "segment_id": "case_18",
+          "context": "entual (anotado em consulta). AF: Sem história familiar referi"
+        },
+        {
+          "segment_id": "case_19",
+          "context": "ega. Hábitos: não informados. AF: Sem dados no enunciado."
+        },
+        {
+          "segment_id": "case_20",
+          "context": "tado por relevância clínica). AF: Não informado."
+        }
+      ]
+    },
+    {
+      "text": "bpm",
+      "entity_type": "ABBREV",
+      "frequency": 35,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": "ocal do acidente: pulso = 112 bpm; pressão arterial = 130 x 90 "
+        },
+        {
+          "segment_id": "case_1",
+          "context": " ar ambiente. C – pulso = 108 bpm; pressão arterial = 120 x 70 "
+        },
+        {
+          "segment_id": "case_1",
+          "context": "nta frequência cardíaca de 86 bpm e pressão arterial de 120 x 7"
+        }
+      ]
+    },
+    {
+      "text": "PA",
+      "entity_type": "ABBREV",
+      "frequency": 28,
+      "examples": [
+        {
+          "segment_id": "case_8",
+          "context": "anótica, anictérica, afebril. PA: 130 x 88 mmHg; FC: 90 bpm. A"
+        },
+        {
+          "segment_id": "case_11",
+          "context": "imento capilar de 4 segundos. PA = 90 x 62 mmHg, T = 39,2°C. S"
+        },
+        {
+          "segment_id": "case_20",
+          "context": "ular estado geral; FC 80 bpm; PA 120/70 mmHg; temperatura axil"
+        }
+      ]
+    },
+    {
+      "text": "paciente",
+      "entity_type": "ABBREV",
+      "frequency": 21,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": "lgesia. Após essas medidas, o paciente apresenta frequência cardíaca"
+        },
+        {
+          "segment_id": "case_4",
+          "context": "erida de 38,5°C. Há um mês, a paciente refere ter apresentado sintom"
+        },
+        {
+          "segment_id": "case_7",
+          "context": "jantar - 4 ui e vitaminas). A paciente refere estar muito preocupada"
+        }
+      ]
+    },
+    {
+      "text": "tosse",
+      "entity_type": "PROBLEM",
+      "frequency": 21,
+      "examples": [
+        {
+          "segment_id": "case_10",
+          "context": "cetamol há 1 hora atrás. Nega tosse, coriza ou cansaço. Diurese p"
+        },
+        {
+          "segment_id": "case_11",
+          "context": "efere também cansaço, mas sem tosse, coriza ou obstrução nasal. N"
+        },
+        {
+          "segment_id": "case_14",
+          "context": " de até 39°C no período. Nega tosse, odinofagia, coriza. Nega alt"
+        }
+      ]
+    },
+    {
+      "text": "HAS",
+      "entity_type": "ABBREV",
+      "frequency": 21,
+      "examples": [
+        {
+          "segment_id": "case_18",
+          "context": "1º trimestre há 8 meses. Nega HAS/DM/trombose prévia. Cirurgias"
+        },
+        {
+          "segment_id": "case_22",
+          "context": " coágulos e astenia. AP: Nega HAS/DM. Cirurgias: nega. Medicaçõ"
+        },
+        {
+          "segment_id": "case_28",
+          "context": "AP: Nega doenças prévias (sem HAS/DM). Cirurgias: nega. Medicaç"
+        }
+      ]
+    },
+    {
+      "text": "abdome",
+      "entity_type": "PROBLEM",
+      "frequency": 20,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": "matizado a região superior do abdome contra o guidão da bicicleta "
+        },
+        {
+          "segment_id": "case_2",
+          "context": "icemia capilar de 200mg/dL. O abdome é globoso, tenso, distendido,"
+        },
+        {
+          "segment_id": "case_3",
+          "context": "cemia capilar de 200 mg/dl. O abdome é globoso, tenso, distendido,"
+        }
+      ]
+    },
+    {
+      "text": "disúria",
+      "entity_type": "PROBLEM",
+      "frequency": 19,
+      "examples": [
+        {
+          "segment_id": "case_4",
+          "context": " pronto-socorro com queixa de disúria há 3 dias, dor lombar direita"
+        },
+        {
+          "segment_id": "case_19",
+          "context": "a com analgésicos/AINEs. Nega disúria e polaciúria. Ciclos regulare"
+        },
+        {
+          "segment_id": "case_20",
+          "context": "guinolento; dor pélvica; nega disúria; nega tosse/dispneia; nega le"
+        }
+      ]
+    },
+    {
+      "text": "FC",
+      "entity_type": "ABBREV",
+      "frequency": 19,
+      "examples": [
+        {
+          "segment_id": "case_8",
+          "context": ", afebril. PA: 130 x 88 mmHg; FC: 90 bpm. Abdome gravídico; BC"
+        },
+        {
+          "segment_id": "case_10",
+          "context": "Temperatura axilar de 36,5°C. FC = 126 bpm, FR = 48 irpm, temp"
+        },
+        {
+          "segment_id": "case_11",
+          "context": " seguintes parâmetros vitais: FC=162bpm, FR=46 irpm, com tempo"
+        }
+      ]
+    },
+    {
+      "text": "queixas",
+      "entity_type": "ABBREV",
+      "frequency": 19,
+      "examples": [
+        {
+          "segment_id": "case_31",
+          "context": " nega sintomas urinários; sem queixas respiratórias; nega sangramen"
+        },
+        {
+          "segment_id": "case_39",
+          "context": "a ambulatorial de rotina, sem queixas, PA sistólica e diastólica af"
+        },
+        {
+          "segment_id": "case_40",
+          "context": "a que os colegas”, sem outras queixas. Nascido a termo, AIG, sem in"
+        }
+      ]
+    },
+    {
+      "text": "tratamento",
+      "entity_type": "ABBREV",
+      "frequency": 15,
+      "examples": [
+        {
+          "segment_id": "case_5",
+          "context": "usiorragia há 4 meses. Refere tratamento para sífilis durante a segund"
+        },
+        {
+          "segment_id": "case_7",
+          "context": "as as doenças necessitavam de tratamento medicamentoso prévio à gestaç"
+        },
+        {
+          "segment_id": "case_32",
+          "context": " pediátrica (leito 01), D3 de tratamento. QD: “Apareceram lesões na pe"
+        }
+      ]
+    },
+    {
+      "text": "foi",
+      "entity_type": "ABBREV",
+      "frequency": 14,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": "ário pelo Serviço de Resgate, foi vítima de queda de bicicleta "
+        },
+        {
+          "segment_id": "case_4",
+          "context": "entado sintomas semelhantes e foi tratada com cefadroxila oral "
+        },
+        {
+          "segment_id": "case_8",
+          "context": "tesia peridural, a dura-máter foi acidentalmente perfurada. O a"
+        }
+      ]
+    },
+    {
+      "text": "irpm",
+      "entity_type": "ABBREV",
+      "frequency": 14,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": " frequência respiratória = 16 irpm; saturação de oxigênio 97% em"
+        },
+        {
+          "segment_id": "case_1",
+          "context": "ção; sem crepitações; FR = 16 irpm; saturação de O2 = 98% em ar "
+        },
+        {
+          "segment_id": "case_3",
+          "context": "frequência respiratória de 28 irpm e pressão arterial de 150 x 1"
+        }
+      ]
+    },
+    {
+      "text": "Abdome",
+      "entity_type": "PROBLEM",
+      "frequency": 14,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": "mHg; sem sangramento visível. Abdome doloroso à palpação em epigás"
+        },
+        {
+          "segment_id": "case_7",
+          "context": ". Frequência cardíaca:86 bpm. Abdome gravídico, BCF: 140 bpm, dinâ"
+        },
+        {
+          "segment_id": "case_8",
+          "context": "A: 130 x 88 mmHg; FC: 90 bpm. Abdome gravídico; BCF: 140 bpm; dinâ"
+        }
+      ]
+    },
+    {
+      "text": "bom estado geral",
+      "entity_type": "ABBREV",
+      "frequency": 14,
+      "examples": [
+        {
+          "segment_id": "case_7",
+          "context": " amniótico. Ao exame clínico: bom estado geral, corada, hidratada. acianótic"
+        },
+        {
+          "segment_id": "case_8",
+          "context": " a paciente apresentava-se em bom estado geral, corada, hidratada, acianótic"
+        },
+        {
+          "segment_id": "case_10",
+          "context": "me clínico, a criança está em bom estado geral, corada, hidratada, anictéric"
+        }
+      ]
+    },
+    {
+      "text": "Paciente",
+      "entity_type": "ABBREV",
+      "frequency": 13,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": "ocidade contra anteparo fixo. Paciente relata ter traumatizado a reg"
+        },
+        {
+          "segment_id": "case_4",
+          "context": "4) Paciente feminina, com 37 anos de idad"
+        },
+        {
+          "segment_id": "case_5",
+          "context": "5). Paciente de 45 anos de idade com dor n"
+        }
+      ]
+    },
+    {
+      "text": "pressão arterial",
+      "entity_type": "ABBREV",
+      "frequency": 12,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": "do acidente: pulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência r"
+        },
+        {
+          "segment_id": "case_1",
+          "context": "mbiente. C – pulso = 108 bpm; pressão arterial = 120 x 70 mmHg; sem sangrame"
+        },
+        {
+          "segment_id": "case_1",
+          "context": "equência cardíaca de 86 bpm e pressão arterial de 120 x 70 mmHg. Foi realiza"
+        }
+      ]
+    },
+    {
+      "text": "FR",
+      "entity_type": "ABBREV",
+      "frequency": 11,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": " à palpação; sem crepitações; FR = 16 irpm; saturação de O2 = "
+        },
+        {
+          "segment_id": "case_10",
+          "context": "ilar de 36,5°C. FC = 126 bpm, FR = 48 irpm, tempo de enchiment"
+        },
+        {
+          "segment_id": "case_11",
+          "context": "parâmetros vitais: FC=162bpm, FR=46 irpm, com tempo de enchime"
+        }
+      ]
+    },
+    {
+      "text": "hemograma",
+      "entity_type": "ABBREV",
+      "frequency": 10,
+      "examples": [
+        {
+          "segment_id": "case_4",
+          "context": "es laboratoriais e de imagem: hemograma: hemoglobina = 12,3 g/dl; hem"
+        },
+        {
+          "segment_id": "case_18",
+          "context": "ento reprodutivo, solicitados hemograma, ferritina e USG transvaginal"
+        },
+        {
+          "segment_id": "case_22",
+          "context": "empo de evolução, solicitados hemograma, ferritina, TSH e USG transva"
+        }
+      ]
+    },
+    {
+      "text": "insulina",
+      "entity_type": "ABBREV",
+      "frequency": 10,
+      "examples": [
+        {
+          "segment_id": "case_7",
+          "context": "uso:levotiroxina 150 mcg/dia, insulina NPH (café da manhã- 16 ui, al"
+        },
+        {
+          "segment_id": "case_7",
+          "context": "lmoço- 8 ui, às 22hs - 8 ui), insulina regular (café da manhã- 10 ui"
+        },
+        {
+          "segment_id": "case_15",
+          "context": "ético há 20 anos e faz uso de insulina ultralenta e ultrarrápida ori"
+        }
+      ]
+    },
+    {
+      "text": "clínica",
+      "entity_type": "ABBREV",
+      "frequency": 10,
+      "examples": [
+        {
+          "segment_id": "case_20",
+          "context": "ativo (anotado por relevância clínica). AF: Não informado."
+        },
+        {
+          "segment_id": "case_26",
+          "context": "otópica; orientada vigilância clínica rigorosa, reavaliação seriada"
+        },
+        {
+          "segment_id": "case_30",
+          "context": "ratação EV conforme avaliação clínica e função renal), analgesia e "
+        }
+      ]
+    },
+    {
+      "text": "mama",
+      "entity_type": "PROBLEM",
+      "frequency": 10,
+      "examples": [
+        {
+          "segment_id": "case_23",
+          "context": "o (a checar: câncer de ovário/mama, padrão hereditário)."
+        },
+        {
+          "segment_id": "case_30",
+          "context": "D: “Febre, calafrios e dor na mama esquerda.” HPMA: Procura pron"
+        },
+        {
+          "segment_id": "case_30",
+          "context": "lafrios, febre e mastalgia em mama esquerda. Antecedentes: HAS c"
+        }
+      ]
+    },
+    {
+      "text": "exame físico",
+      "entity_type": "ABBREV",
+      "frequency": 9,
+      "examples": [
+        {
+          "segment_id": "case_36",
+          "context": "mbros, com bom estado geral e exame físico sem outras alterações relevan"
+        },
+        {
+          "segment_id": "case_39",
+          "context": " 95 para idade/sexo/estatura; exame físico sem alterações. Achado compat"
+        },
+        {
+          "segment_id": "case_46",
+          "context": "tal completa e correlação com exame físico e exames complementares do RN"
+        }
+      ]
+    },
+    {
+      "text": "tórax",
+      "entity_type": "PROBLEM",
+      "frequency": 8,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": "e; expansibilidade simétrica; tórax indolor à palpação; sem crepi"
+        },
+        {
+          "segment_id": "case_10",
+          "context": "té 10.000/mL); Radiografia de tórax = sem alterações significativ"
+        },
+        {
+          "segment_id": "case_17",
+          "context": " complementares:adiografia de tórax sem alterações. Ecocardiogram"
+        }
+      ]
+    },
+    {
+      "text": "USG",
+      "entity_type": "ABBREV",
+      "frequency": 8,
+      "examples": [
+        {
+          "segment_id": "case_18",
+          "context": "itados hemograma, ferritina e USG transvaginal para avaliação d"
+        },
+        {
+          "segment_id": "case_19",
+          "context": "massa anexial, foi solicitado USG pélvico/transvaginal e o USG "
+        },
+        {
+          "segment_id": "case_19",
+          "context": " USG pélvico/transvaginal e o USG de vias urinárias (rim direit"
+        }
+      ]
+    },
+    {
+      "text": "PS",
+      "entity_type": "ABBREV",
+      "frequency": 8,
+      "examples": [
+        {
+          "segment_id": "case_27",
+          "context": " Gestante 33 semanas, procura PS com dor abdominal em cólica h"
+        },
+        {
+          "segment_id": "case_35",
+          "context": "5°C). Na avaliação inicial em PS: regular estado geral, descor"
+        },
+        {
+          "segment_id": "case_42",
+          "context": "progressivamente. Ao exame em PS: bom estado geral, corada, hi"
+        }
+      ]
+    },
+    {
+      "text": "ultrassonografia",
+      "entity_type": "ABBREV",
+      "frequency": 7,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": " 120 x 70 mmHg. Foi realizada ultrassonografia focada no trauma (FAST)."
+        },
+        {
+          "segment_id": "case_5",
+          "context": "ado especular abaixo. Realiza ultrassonografia de vias urinárias. Exame de s"
+        },
+        {
+          "segment_id": "case_7",
+          "context": "s de gestação (confirmada por ultrassonografia de primeiro trimestre). Antec"
+        }
+      ]
+    },
+    {
+      "text": "útero",
+      "entity_type": "PROBLEM",
+      "frequency": 7,
+      "examples": [
+        {
+          "segment_id": "case_6",
+          "context": "r com colo epitelizado. Toque útero em anteversoflexão, aumento d"
+        },
+        {
+          "segment_id": "case_18",
+          "context": "e colo epitelizado; toque com útero em anteversoflexão, regular, "
+        },
+        {
+          "segment_id": "case_19",
+          "context": "e transição normal; toque com útero retrovertido, tamanho habitua"
+        }
+      ]
+    },
+    {
+      "text": "quimioterapia",
+      "entity_type": "ABBREV",
+      "frequency": 7,
+      "examples": [
+        {
+          "segment_id": "case_53",
+          "context": "53) ID: Homem, 65 anos, em quimioterapia. QD: “Ferida extensa no dorso"
+        },
+        {
+          "segment_id": "case_53",
+          "context": " paciente imunossuprimido por quimioterapia. ISDA: Sem febre; sem calafri"
+        },
+        {
+          "segment_id": "case_71",
+          "context": " \"Dor no peito após início de quimioterapia.\" HPMA: Paciente em seguiment"
+        }
+      ]
+    },
+    {
+      "text": "frequência respiratória",
+      "entity_type": "ABBREV",
+      "frequency": 6,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": "são arterial = 130 x 90 mmHg; frequência respiratória = 16 irpm; saturação de oxigê"
+        },
+        {
+          "segment_id": "case_2",
+          "context": "dratado, com pulso de 100bpm, frequência respiratória de 28ipm e pressão arterial d"
+        },
+        {
+          "segment_id": "case_3",
+          "context": "ratado, com pulso de 100 bpm, frequência respiratória de 28 irpm e pressão arterial"
+        }
+      ]
+    },
+    {
+      "text": "glicemia capilar",
+      "entity_type": "ABBREV",
+      "frequency": 6,
+      "examples": [
+        {
+          "segment_id": "case_2",
+          "context": "ssão arterial de 150x100mmHg, glicemia capilar de 200mg/dL. O abdome é globo"
+        },
+        {
+          "segment_id": "case_3",
+          "context": "o arterial de 150 x 100 mmHg, glicemia capilar de 200 mg/dl. O abdome é glob"
+        },
+        {
+          "segment_id": "case_9",
+          "context": "u tremores de extremidades. A glicemia capilar, realizada neste momento, foi"
+        }
+      ]
+    },
+    {
+      "text": "negativo",
+      "entity_type": "ABBREV",
+      "frequency": 6,
+      "examples": [
+        {
+          "segment_id": "case_10",
+          "context": "= 1010, pH = 7,0, Proteínas = negativo, Glicose = negativo, Nitrito "
+        },
+        {
+          "segment_id": "case_10",
+          "context": "oteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactéria"
+        },
+        {
+          "segment_id": "case_10",
+          "context": "Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue "
+        }
+      ]
+    },
+    {
+      "text": "frequência cardíaca",
+      "entity_type": "ABBREV",
+      "frequency": 5,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": "medidas, o paciente apresenta frequência cardíaca de 86 bpm e pressão arterial "
+        },
+        {
+          "segment_id": "case_14",
+          "context": "são arterial = 108 x 66 mmHg; frequência cardíaca = 104 bpm; hepatomegalia dolo"
+        },
+        {
+          "segment_id": "case_15",
+          "context": "ssão arterial = 80 x 50 mmHg; frequência cardíaca = 120 bpm; frequência respira"
+        }
+      ]
+    },
+    {
+      "text": "Foi",
+      "entity_type": "ABBREV",
+      "frequency": 5,
+      "examples": [
+        {
+          "segment_id": "case_1",
+          "context": "ão arterial de 120 x 70 mmHg. Foi realizada ultrassonografia fo"
+        },
+        {
+          "segment_id": "case_8",
+          "context": "te dizia estar com muita dor. Foi optado, neste momento, pela r"
+        },
+        {
+          "segment_id": "case_15",
+          "context": "de emergência e monitorizado. Foi obtido acesso venoso e coleta"
+        }
+      ]
+    },
+    {
+      "text": "hora",
+      "entity_type": "DRUG",
+      "frequency": 5,
+      "examples": [
+        {
+          "segment_id": "case_9",
+          "context": " de membranas foi realizada 1 hora antes do parto, que foi vagin"
+        },
+        {
+          "segment_id": "case_10",
+          "context": "medicado com paracetamol há 1 hora atrás. Nega tosse, coriza ou "
+        },
+        {
+          "segment_id": "case_12",
+          "context": "stá acordando praticamente de hora em hora durante a madrugada. "
+        }
+      ]
+    },
+    {
+      "text": "fígado",
+      "entity_type": "PROBLEM",
+      "frequency": 5,
+      "examples": [
+        {
+          "segment_id": "case_11",
+          "context": " pulmonar. Abdome flácido com fígado palpável a 3 centímetros do r"
+        },
+        {
+          "segment_id": "case_12",
+          "context": "ruídos hidroaéreos presentes, fígado palpável a 1cm do RCD e baço "
+        },
+        {
+          "segment_id": "case_37",
+          "context": "4+, abdome globoso e flácido, fígado palpável a 2 cm do RCD e baço"
+        }
+      ]
+    },
+    {
+      "text": "conduta",
+      "entity_type": "ABBREV",
+      "frequency": 5,
+      "examples": [
+        {
+          "segment_id": "case_15",
+          "context": "a capilar = 390 mg/dl. Cite a conduta terapêutica imediata:"
+        },
+        {
+          "segment_id": "case_29",
+          "context": "nográfica (quando não atrasar conduta) e discussão imediata de via "
+        },
+        {
+          "segment_id": "case_30",
+          "context": "uir coleções/abscesso e guiar conduta antibiótica, com reavaliação "
+        }
+      ]
+    },
+    {
+      "text": "câncer",
+      "entity_type": "ABBREV",
+      "frequency": 5,
+      "examples": [
+        {
+          "segment_id": "case_23",
+          "context": " AF: Não informado (a checar: câncer de ovário/mama, padrão heredi"
+        },
+        {
+          "segment_id": "case_55",
+          "context": "vio. Antecedentes: HAS, DM2 e câncer de mama em uso de tamoxifeno."
+        },
+        {
+          "segment_id": "case_55",
+          "context": "(questionados). AP: HAS, DM2, câncer de mama em uso de tamoxifeno."
+        }
+      ]
+    },
+    {
+      "text": "MMII",
+      "entity_type": "ABBREV",
+      "frequency": 5,
+      "examples": [
+        {
+          "segment_id": "case_24",
+          "context": "ce 2+/4+ e edema simétrico de MMII 2+/4+, sem sinais clínicos de"
+        },
+        {
+          "segment_id": "case_65",
+          "context": "s de peritonite. Sem edema de MMII. Demais sistemas sem alteraçõ"
+        },
+        {
+          "segment_id": "case_75",
+          "context": "ega ortopneia/PND; nega edema MMII; sem queixas urinárias; sem s"
+        }
+      ]
+    },
+    {
+      "text": "anti",
+      "entity_type": "ABBREV",
+      "frequency": 5,
+      "examples": [
+        {
+          "segment_id": "case_24",
+          "context": "formadas (a checar uso de AAS/anti-hipertensivo). Alergias/cirur"
+        },
+        {
+          "segment_id": "case_25",
+          "context": "em prontuário real, registrar anti-hipertensivos usados e necess"
+        },
+        {
+          "segment_id": "case_30",
+          "context": "em prontuário real, registrar anti-hipertensivos/nefroprotetores"
+        }
+      ]
+    },
+    {
+      "text": "Exame físico",
+      "entity_type": "ABBREV",
+      "frequency": 5,
+      "examples": [
+        {
+          "segment_id": "case_45",
+          "context": " sistêmico/imunossupressores. Exame físico sumário: bom estado geral, af"
+        },
+        {
+          "segment_id": "case_49",
+          "context": " fezes hipocólicas referidas. Exame físico: RN em bom estado geral, ativ"
+        },
+        {
+          "segment_id": "case_59",
+          "context": "ia, prurido, náuseas/vômitos. Exame físico sem estigmas de hepatopatia c"
+        }
+      ]
+    },
+    {
+      "text": "língua",
+      "entity_type": "PROBLEM",
+      "frequency": 5,
+      "examples": [
+        {
+          "segment_id": "case_50",
+          "context": "cida. QD: “Ferida dolorosa na língua com sangramento.” HPMA: Lesão"
+        },
+        {
+          "segment_id": "case_50",
+          "context": "Lesão dolorosa e sangrante em língua há 6 meses, com piora progres"
+        },
+        {
+          "segment_id": "case_50",
+          "context": ") por aumento da mordedura da língua desde o início da lesão. Refe"
+        }
+      ]
+    },
+    {
+      "text": "melena",
+      "entity_type": "PROBLEM",
+      "frequency": 5,
+      "examples": [
+        {
+          "segment_id": "case_57",
+          "context": "omento. ISDA: Nega hematêmese/melena recentes; sem vômitos incoerc"
+        },
+        {
+          "segment_id": "case_66",
+          "context": " desde ontem; nega hematêmese/melena. Evacuação/eliminação de flat"
+        },
+        {
+          "segment_id": "case_68",
+          "context": "oras.” HPMA: Início súbito de melena há ~3 horas. História de epis"
+        }
+      ]
+    }
+  ],
+  "detailed_results": [
+    {
+      "segment_id": "case_1",
+      "text": "1) Adolescente masculino de 16 anos de idade, trazido ao pronto-socorro de hospital terciário pelo Serviço de Resgate, foi vítima de queda de bicicleta após colisão em alta velocidade contra anteparo fixo. Paciente relata ter traumatizado a região superior do abdome contra o guidão da bicicleta e refere intensa dor no local. Apresenta, ainda, trauma craniano, sem perda de consciência, porém refere cefaleia intensa. Nega vômitos. Dados colhidos pela equipe do resgate no local do acidente: pulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência respiratória = 16 irpm; saturação de oxigênio 97% em ar ambiente. Tempo entre acidente e admissão hospitalar: 30 minutos. Na avaliação no pronto-socorro: A – vias aéreas pérvias, com colar cervical. B – murmúrios vesiculares presentes bilateralmente; expansibilidade simétrica; tórax indolor à palpação; sem crepitações; FR = 16 irpm; saturação de O2 = 98% em ar ambiente. C – pulso = 108 bpm; pressão arterial = 120 x 70 mmHg; sem sangramento visível. Abdome doloroso à palpação em epigástrio e mesogástrio, onde se evidenciam equimose e escoriação. Toque retal sem alterações, diurese clara. D – escala de coma de Glasgow = 15; pupilas isocóricas e fotorreagentes. E – sem outras alterações. Realizada expansão volêmica com 2.000 ml de soro fisiológico e analgesia. Após essas medidas, o paciente apresenta frequência cardíaca de 86 bpm e pressão arterial de 120 x 70 mmHg. Foi realizada ultrassonografia focada no trauma (FAST).",
+      "section": "prontuario",
+      "case_id": 1,
+      "entities": [
+        {
+          "text": "foi",
+          "concept_id": "5d624a0a317b",
+          "concept_name": "FÍSSURA ORBITAL INFERIOR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 119,
+          "end": 122
+        },
+        {
+          "text": "Paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 206,
+          "end": 214
+        },
+        {
+          "text": "abdome",
+          "concept_id": "C76.2",
+          "concept_name": "Abdome",
+          "entity_type": "PROBLEM",
+          "vocabulary": "CID10",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 260,
+          "end": 266
+        },
+        {
+          "text": "bpm",
+          "concept_id": "dd873c1e8fb0",
+          "concept_name": "BATIMENTO POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 505,
+          "end": 508
+        },
+        {
+          "text": "pressão arterial",
+          "concept_id": "f045822f74b3",
+          "concept_name": "PRESSÃO ARTERIAL",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 510,
+          "end": 526
+        },
+        {
+          "text": "frequência respiratória",
+          "concept_id": "37cb81d606b4",
+          "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 544,
+          "end": 567
+        },
+        {
+          "text": "irpm",
+          "concept_id": "18e1ac579372",
+          "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 573,
+          "end": 577
+        },
+        {
+          "text": "oxigênio",
+          "concept_id": "d9aebd108866",
+          "concept_name": "OXIGÊNIO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 592,
+          "end": 600
+        },
+        {
+          "text": "tórax",
+          "concept_id": "C76.1",
+          "concept_name": "Tórax",
+          "entity_type": "PROBLEM",
+          "vocabulary": "CID10",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 833,
+          "end": 838
+        },
+        {
+          "text": "FR",
+          "concept_id": "37cb81d606b4",
+          "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 876,
+          "end": 878
+        },
+        {
+          "text": "irpm",
+          "concept_id": "18e1ac579372",
+          "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 884,
+          "end": 888
+        },
+        {
+          "text": "O2",
+          "concept_id": "d9aebd108866",
+          "concept_name": "OXIGÊNIO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 903,
+          "end": 905
+        },
+        {
+          "text": "bpm",
+          "concept_id": "dd873c1e8fb0",
+          "concept_name": "BATIMENTO POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 944,
+          "end": 947
+        },
+        {
+          "text": "pressão arterial",
+          "concept_id": "f045822f74b3",
+          "concept_name": "PRESSÃO ARTERIAL",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 949,
+          "end": 965
+        },
+        {
+          "text": "Abdome",
+          "concept_id": "C76.2",
+          "concept_name": "Abdome",
+          "entity_type": "PROBLEM",
+          "vocabulary": "CID10",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1008,
+          "end": 1014
+        },
+        {
+          "text": "Toque retal",
+          "concept_id": "e11f1dc5b597",
+          "concept_name": "TOQUE RETAL",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1106,
+          "end": 1117
+        },
+        {
+          "text": "escala de coma de Glasgow",
+          "concept_id": "22aeffa7d8f6",
+          "concept_name": "ESCALA DE COMA DE GLASGOW",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1153,
+          "end": 1178
+        },
+        {
+          "text": "soro",
+          "concept_id": "90400445",
+          "concept_name": "SORO ANTI-RÁBICO SOL INJ CX 4 AMP VD INC X 5ML FUNDAÇÃO EZEQUIEL DIAS - FUNED 01/03/2019 31/05/2019 1120901310014",
+          "entity_type": "DRUG",
+          "vocabulary": "TUSS_DRUG",
+          "match_type": "normalized",
+          "match_policy": "safe_exact",
+          "entry_type": "drug_normalized",
+          "confidence": 0.85,
+          "start": 1293,
+          "end": 1297
+        },
+        {
+          "text": "paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1345,
+          "end": 1353
+        },
+        {
+          "text": "frequência cardíaca",
+          "concept_id": "89a00e3f1859",
+          "concept_name": "FREQUÊNCIA CARDÍACA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1364,
+          "end": 1383
+        },
+        {
+          "text": "bpm",
+          "concept_id": "dd873c1e8fb0",
+          "concept_name": "BATIMENTO POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 1390,
+          "end": 1393
+        },
+        {
+          "text": "pressão arterial",
+          "concept_id": "f045822f74b3",
+          "concept_name": "PRESSÃO ARTERIAL",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1396,
+          "end": 1412
+        },
+        {
+          "text": "Foi",
+          "concept_id": "5d624a0a317b",
+          "concept_name": "FÍSSURA ORBITAL INFERIOR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 1431,
+          "end": 1434
+        },
+        {
+          "text": "ultrassonografia",
+          "concept_id": "2954b9dc5da2",
+          "concept_name": "ULTRASSONOGRAFIA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1445,
+          "end": 1461
+        }
+      ]
+    },
+    {
+      "segment_id": "case_2",
+      "text": "2). Homem de 38 anos de idade, vem ao Pronto Socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue. Refere ingerir cerca de 300mL de aguardente / dia, há 10 anos. Apresenta diarreia e perda de peso nos últimos seis meses; nega outras doenças. Ao exame clínico, está em regular estado geral, tem Índice de Massa Corpórea de 30kg/m², desidratado, com pulso de 100bpm, frequência respiratória de 28ipm e pressão arterial de 150x100mmHg, glicemia capilar de 200mg/dL. O abdome é globoso, tenso, distendido, com muita dor à palpação do epigástrio e hipocôndrio esquerdo. A descompressão brusca não piora a dor, e não há outras alterações relevantes.",
+      "section": "prontuario",
+      "case_id": 2,
+      "entities": [
+        {
+          "text": "frequência respiratória",
+          "concept_id": "37cb81d606b4",
+          "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 432,
+          "end": 455
+        },
+        {
+          "text": "pressão arterial",
+          "concept_id": "f045822f74b3",
+          "concept_name": "PRESSÃO ARTERIAL",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 467,
+          "end": 483
+        },
+        {
+          "text": "glicemia capilar",
+          "concept_id": "101fab9e861b",
+          "concept_name": "GLICEMIA CAPILAR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 500,
+          "end": 516
+        },
+        {
+          "text": "abdome",
+          "concept_id": "C76.2",
+          "concept_name": "Abdome",
+          "entity_type": "PROBLEM",
+          "vocabulary": "CID10",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 532,
+          "end": 538
+        },
+        {
+          "text": "hipocôndrio esquerdo",
+          "concept_id": "dea409a669f9",
+          "concept_name": "HIPOCÔNDRIO ESQUERDO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 610,
+          "end": 630
+        }
+      ]
+    },
+    {
+      "segment_id": "case_3",
+      "text": "3) Homem, 38 anos de idade, vem ao pronto-socorro com história de dor epigástrica intensa e vários episódios de vômitos há 6 horas, o último com laivos de sangue. Refere ingerir cerca de 300 ml de aguardente/dia, há 10 anos. Apresenta diarreia e perda de peso nos últimos seis meses; nega outras doenças. Ao exame clínico, está em regular estado geral, tem índice de massa corpórea de 30 kg/m², desidratado, com pulso de 100 bpm, frequência respiratória de 28 irpm e pressão arterial de 150 x 100 mmHg, glicemia capilar de 200 mg/dl. O abdome é globoso, tenso, distendido, com muita dor à palpação do epigástrio e hipocôndrio esquerdo. A descompressão brusca não piora a dor, e não há outras alterações relevantes.",
+      "section": "prontuario",
+      "case_id": 3,
+      "entities": [
+        {
+          "text": "bpm",
+          "concept_id": "dd873c1e8fb0",
+          "concept_name": "BATIMENTO POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 425,
+          "end": 428
+        },
+        {
+          "text": "frequência respiratória",
+          "concept_id": "37cb81d606b4",
+          "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 430,
+          "end": 453
+        },
+        {
+          "text": "irpm",
+          "concept_id": "18e1ac579372",
+          "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 460,
+          "end": 464
+        },
+        {
+          "text": "pressão arterial",
+          "concept_id": "f045822f74b3",
+          "concept_name": "PRESSÃO ARTERIAL",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 467,
+          "end": 483
+        },
+        {
+          "text": "glicemia capilar",
+          "concept_id": "101fab9e861b",
+          "concept_name": "GLICEMIA CAPILAR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 503,
+          "end": 519
+        },
+        {
+          "text": "abdome",
+          "concept_id": "C76.2",
+          "concept_name": "Abdome",
+          "entity_type": "PROBLEM",
+          "vocabulary": "CID10",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 536,
+          "end": 542
+        },
+        {
+          "text": "hipocôndrio esquerdo",
+          "concept_id": "dea409a669f9",
+          "concept_name": "HIPOCÔNDRIO ESQUERDO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 614,
+          "end": 634
+        }
+      ]
+    },
+    {
+      "segment_id": "case_4",
+      "text": "4) Paciente feminina, com 37 anos de idade, atendida no pronto-socorro com queixa de disúria há 3 dias, dor lombar direita e febre aferida de 38,5°C. Há um mês, a paciente refere ter apresentado sintomas semelhantes e foi tratada com cefadroxila oral por 14 dias, sem a realização de exames subsidiários com regressão completa dos sintomas na ocasião. Realizados os seguintes exames laboratoriais e de imagem: hemograma: hemoglobina = 12,3 g/dl; hematócrito = 38%; proteína C-reativa: 11 mg/dl; creatinina: 0,9 mg/dl; urina tipo I; pH = 5,0; aspecto ligeiramente turvo; densidade = 1,006; odor = sui generis; sedimento urinário: células epiteliais raras; muco raro; cristais = ausentes; substâncias amorfas = ausentes; leucócitos = 134.000/ml; hemácias = 91.000/ml; cultura de urina: bactéria Gram-negativa em identificação;",
+      "section": "prontuario",
+      "case_id": 4,
+      "entities": [
+        {
+          "text": "Paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 3,
+          "end": 11
+        },
+        {
+          "text": "disúria",
+          "concept_id": "R30.0",
+          "concept_name": "Disúria",
+          "entity_type": "PROBLEM",
+          "vocabulary": "CID10",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 85,
+          "end": 92
+        },
+        {
+          "text": "paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 163,
+          "end": 171
+        },
+        {
+          "text": "foi",
+          "concept_id": "5d624a0a317b",
+          "concept_name": "FÍSSURA ORBITAL INFERIOR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 218,
+          "end": 221
+        },
+        {
+          "text": "cefadroxila",
+          "concept_id": "90018222",
+          "concept_name": "CEFADROXILA 500 MG CAP GEL DURA CT BL AL PVC/PVDC INC X 8 AUROBINDO PHARMA INDÚSTRIA FARMACÊUTICA LIMITADA 10/10/2012 31/08/2014 1516700260017",
+          "entity_type": "DRUG",
+          "vocabulary": "TUSS_DRUG",
+          "match_type": "normalized",
+          "match_policy": "safe_exact",
+          "entry_type": "drug_normalized",
+          "confidence": 0.85,
+          "start": 234,
+          "end": 245
+        },
+        {
+          "text": "hemograma",
+          "concept_id": "25b3810f8eaf",
+          "concept_name": "HEMOGRAMA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 410,
+          "end": 419
+        },
+        {
+          "text": "hematócrito",
+          "concept_id": "699a2d9ea20d",
+          "concept_name": "HEMATÓCRITO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 446,
+          "end": 457
+        },
+        {
+          "text": "creatinina",
+          "concept_id": "5b011c4e27db",
+          "concept_name": "CREATININA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 495,
+          "end": 505
+        },
+        {
+          "text": "leucócitos",
+          "concept_id": "5cafb91f3dd1",
+          "concept_name": "LEUCÓCITOS",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 719,
+          "end": 729
+        },
+        {
+          "text": "cultura de urina",
+          "concept_id": "7999a6a9b868",
+          "concept_name": "CULTURA DE URINA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 766,
+          "end": 782
+        }
+      ]
+    },
+    {
+      "segment_id": "case_5",
+      "text": "5). Paciente de 45 anos de idade com dor na região lombar direita há 7 dias. Nega febre. Antecedente de 4 gestações e 4 partos vaginais, último há 10 anos. Nega uso de método contraceptivo. Refere atividade sexual regular, sem parceiro fixo, com secreção vaginal eventual de odor desagradável e sinusiorragia há 4 meses. Refere tratamento para sífilis durante a segunda gestação. Sem acompanhamento médico regular. Afebril, exame clínico geral sem alterações, punho-percussão positiva em região lombar direita. Exame ginecológico com achado especular abaixo. Realiza ultrassonografia de vias urinárias. Exame de sedimento urinário sem alterações.",
+      "section": "prontuario",
+      "case_id": 5,
+      "entities": [
+        {
+          "text": "Paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 4,
+          "end": 12
+        },
+        {
+          "text": "tratamento",
+          "concept_id": "270f7cc9a6dd",
+          "concept_name": "TRATAMENTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 328,
+          "end": 338
+        },
+        {
+          "text": "ultrassonografia",
+          "concept_id": "2954b9dc5da2",
+          "concept_name": "ULTRASSONOGRAFIA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 567,
+          "end": 583
+        }
+      ]
+    },
+    {
+      "segment_id": "case_6",
+      "text": "6) Paciente de 40 anos refere amenorréia e o aparecimento de acne há 4 meses, com hipersensibilidade clitoridiana há 1 mês. Refere ciclos menstruais regulares até então. Apresenta antecedente de 2 partos vaginais, sendo o último há 4 anos. Refere menarca aos 12 anos, ciclos menstruais irregulares e espaniomenorrêicos até os 17 anos que passaram a ciclos de 32 dias com fluxo de 4 dias a partir de então. Nega uso de contraceptivos hormonais, com uso regular de preservativo. Nega cirurgias ou uso regular de medicamentos. Sem antecedentes familiares significativos. Achados relevantes no exame clínico IMC 32 Kg/m2. Órgãos genitais externos sem alterações. Exame especular com colo epitelizado. Toque útero em anteversoflexão, aumento do volume anexial esquerdo e região anexial direita normal. Perfil hormonal.",
+      "section": "prontuario",
+      "case_id": 6,
+      "entities": [
+        {
+          "text": "Paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 3,
+          "end": 11
+        },
+        {
+          "text": "IMC",
+          "concept_id": "1efcbebbb9ac",
+          "concept_name": "ÍNDICE DE MASSA CORPORAL",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 604,
+          "end": 607
+        },
+        {
+          "text": "útero",
+          "concept_id": "D39.0",
+          "concept_name": "Útero",
+          "entity_type": "PROBLEM",
+          "vocabulary": "CID10",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 703,
+          "end": 708
+        }
+      ]
+    },
+    {
+      "segment_id": "case_7",
+      "text": "7) Maria da Silva, 39 anos, em acompanhamento pré natal, primigesta, atualmente com 29 semanas de gestação (confirmada por ultrassonografia de primeiro trimestre). Antecede… pessoal:hipotireoidismo de diabetes mellitus diagnosticados há 10 anos. Ambas as doenças necessitavam de tratamento medicamentoso prévio à gestação. Nega tabagismo, etilismo e uso de drogas. Medicamentos em uso:levotiroxina 150 mcg/dia, insulina NPH (café da manhã- 16 ui, almoço- 8 ui, às 22hs - 8 ui), insulina regular (café da manhã- 10 ui, almoço - 8 ui, jantar - 4 ui e vitaminas). A paciente refere estar muito preocupada por ter lido na internet sobre as complicações que o diabetes pode causar ao seu bebê como alterações de crescimento e liquido amniótico. Ao exame clínico: bom estado geral, corada, hidratada. acianótica, anictérica, afebril. Pressão arterial 125 x 85 mmHg. Frequência cardíaca:86 bpm. Abdome gravídico, BCF: 140 bpm, dinâmica uterina ausente, tônus uterino normal, altura uterina:23 cm. A paciente realizou ultrassonografia obstétrica com peso estimado fetal de 950g e índice de liquido amniótico:11 cm. A seguinte imagem acompanhava o exame: Resultados anexos à imagem. S/D - Razão sístole diástole = 7,58. PI - índice de pulsatilidade = 2,09. Frequência cardíaca fetal = 132 bpm. Valores de referência para medida de índice de pulsatilidade e de razão sístole diástrole na artéria umbilical, baseada na idade gestacional.",
+      "section": "prontuario",
+      "case_id": 7,
+      "entities": [
+        {
+          "text": "ultrassonografia",
+          "concept_id": "2954b9dc5da2",
+          "concept_name": "ULTRASSONOGRAFIA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 123,
+          "end": 139
+        },
+        {
+          "text": "tratamento",
+          "concept_id": "270f7cc9a6dd",
+          "concept_name": "TRATAMENTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 279,
+          "end": 289
+        },
+        {
+          "text": "levotiroxina 150 mcg",
+          "concept_id": "90383710",
+          "concept_name": "LEVOTIROXINA SÓDICA 75 MCG COM BL AL/ AL X 30 MERCK S/A 01/01/2018 31/03/2018 1008903920078",
+          "entity_type": "DRUG",
+          "vocabulary": "TUSS_DRUG",
+          "match_type": "normalized",
+          "match_policy": "safe_exact",
+          "entry_type": "drug_normalized",
+          "confidence": 0.85,
+          "start": 385,
+          "end": 405
+        },
+        {
+          "text": "insulina",
+          "concept_id": "393abdc04902",
+          "concept_name": "INSULINA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 411,
+          "end": 419
+        },
+        {
+          "text": "NPH",
+          "concept_id": "633a5f1782bd",
+          "concept_name": "NEUTRAL PROTAMINE HAGEDORN",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 420,
+          "end": 423
+        },
+        {
+          "text": "insulina",
+          "concept_id": "393abdc04902",
+          "concept_name": "INSULINA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 478,
+          "end": 486
+        },
+        {
+          "text": "paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 563,
+          "end": 571
+        },
+        {
+          "text": "seu",
+          "concept_id": "3218c197d430",
+          "concept_name": "ENFERMAGEM EM SISTEMA URINÁRIO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 679,
+          "end": 682
+        },
+        {
+          "text": "bom estado geral",
+          "concept_id": "bf1af17640a9",
+          "concept_name": "BOM ESTADO GERAL",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 758,
+          "end": 774
+        },
+        {
+          "text": "Pressão arterial",
+          "concept_id": "f045822f74b3",
+          "concept_name": "PRESSÃO ARTERIAL",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 828,
+          "end": 844
+        },
+        {
+          "text": "Frequência cardíaca",
+          "concept_id": "89a00e3f1859",
+          "concept_name": "FREQUÊNCIA CARDÍACA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 860,
+          "end": 879
+        },
+        {
+          "text": "bpm",
+          "concept_id": "dd873c1e8fb0",
+          "concept_name": "BATIMENTO POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 883,
+          "end": 886
+        },
+        {
+          "text": "Abdome",
+          "concept_id": "C76.2",
+          "concept_name": "Abdome",
+          "entity_type": "PROBLEM",
+          "vocabulary": "CID10",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 888,
+          "end": 894
+        },
+        {
+          "text": "bpm",
+          "concept_id": "dd873c1e8fb0",
+          "concept_name": "BATIMENTO POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 915,
+          "end": 918
+        },
+        {
+          "text": "paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 992,
+          "end": 1000
+        },
+        {
+          "text": "ultrassonografia",
+          "concept_id": "2954b9dc5da2",
+          "concept_name": "ULTRASSONOGRAFIA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1010,
+          "end": 1026
+        },
+        {
+          "text": "PI",
+          "concept_id": "8ea7667f2c73",
+          "concept_name": "PIAUÍ",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 1211,
+          "end": 1213
+        },
+        {
+          "text": "Frequência cardíaca",
+          "concept_id": "89a00e3f1859",
+          "concept_name": "FREQUÊNCIA CARDÍACA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1248,
+          "end": 1267
+        },
+        {
+          "text": "bpm",
+          "concept_id": "dd873c1e8fb0",
+          "concept_name": "BATIMENTO POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 1280,
+          "end": 1283
+        }
+      ]
+    },
+    {
+      "segment_id": "case_8",
+      "text": "8) Maria Helena, 35 anos, G2 P1c, 38 6/7 semanas (idade gestacional confirmada pela data da última menstruação e pela ultrassonografia precoce), procura a maternidade relatando dor em abdome inferior, tipo cólica, de intensidade moderada, a cada 5 minutos. A paciente nega perdas vaginais e refere boa movimentação fetal. Pesquisa de estreptococos do grupo B negativa. Ao exame clínico, a paciente apresentava-se em bom estado geral, corada, hidratada, acianótica, anictérica, afebril. PA: 130 x 88 mmHg; FC: 90 bpm. Abdome gravídico; BCF: 140 bpm; dinâmica uterina: 2 contrações em 10 minutos, de moderada intensidade; tônus uterino normal; altura uterina: 35 cm. Ao toque vaginal: colo fino, medianizado, 3 cm de dilatação, cefálico, -3 de Lee. O médico que a atendeu diagnosticou trabalho de parto, optou pela internação da paciente e a conduziu ao pré- parto. Após três horas, a paciente dizia estar com muita dor. Foi optado, neste momento, pela realização de analgesia de parto. Durante a anestesia peridural, a dura-máter foi acidentalmente perfurada. O anestesista realizou nova punção no espaço intervertebral superior com sucesso.",
+      "section": "prontuario",
+      "case_id": 8,
+      "entities": [
+        {
+          "text": "ultrassonografia",
+          "concept_id": "2954b9dc5da2",
+          "concept_name": "ULTRASSONOGRAFIA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 118,
+          "end": 134
+        },
+        {
+          "text": "abdome",
+          "concept_id": "C76.2",
+          "concept_name": "Abdome",
+          "entity_type": "PROBLEM",
+          "vocabulary": "CID10",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 184,
+          "end": 190
+        },
+        {
+          "text": "paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 259,
+          "end": 267
+        },
+        {
+          "text": "paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 389,
+          "end": 397
+        },
+        {
+          "text": "bom estado geral",
+          "concept_id": "bf1af17640a9",
+          "concept_name": "BOM ESTADO GERAL",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 416,
+          "end": 432
+        },
+        {
+          "text": "PA",
+          "concept_id": "f045822f74b3",
+          "concept_name": "PRESSÃO ARTERIAL",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 486,
+          "end": 488
+        },
+        {
+          "text": "FC",
+          "concept_id": "89a00e3f1859",
+          "concept_name": "FREQUÊNCIA CARDÍACA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 505,
+          "end": 507
+        },
+        {
+          "text": "bpm",
+          "concept_id": "dd873c1e8fb0",
+          "concept_name": "BATIMENTO POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 512,
+          "end": 515
+        },
+        {
+          "text": "Abdome",
+          "concept_id": "C76.2",
+          "concept_name": "Abdome",
+          "entity_type": "PROBLEM",
+          "vocabulary": "CID10",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 517,
+          "end": 523
+        },
+        {
+          "text": "bpm",
+          "concept_id": "dd873c1e8fb0",
+          "concept_name": "BATIMENTO POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 544,
+          "end": 547
+        },
+        {
+          "text": "Lee",
+          "concept_id": "e6d4e12c6500",
+          "concept_name": "PROPOSTO POR THOMAS H. LEE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 742,
+          "end": 745
+        },
+        {
+          "text": "paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 827,
+          "end": 835
+        },
+        {
+          "text": "paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 883,
+          "end": 891
+        },
+        {
+          "text": "Foi",
+          "concept_id": "5d624a0a317b",
+          "concept_name": "FÍSSURA ORBITAL INFERIOR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 919,
+          "end": 922
+        },
+        {
+          "text": "foi",
+          "concept_id": "5d624a0a317b",
+          "concept_name": "FÍSSURA ORBITAL INFERIOR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 1029,
+          "end": 1032
+        }
+      ]
+    },
+    {
+      "segment_id": "case_9",
+      "text": "9). Gestante HDF, com 15 anos de idade, é admitida na maternidade em trabalho de parto, com idade gestacional de 36 semanas e 2 dias. Realizou Pré-natal em Unidade Básica de Saúde. A rotura de membranas foi realizada 1 hora antes do parto, que foi vaginal. Recém-nascida (RN) com Boletim de Apgar de 7, 8 e 10 no primeiro, quinto e décimo minutos de vida, com peso de nascimento de 3.700 g, estatura de 48,0 cm e perímetro cefálico de 33,5 cm. Encaminhada ao Alojamento Conjunto, permaneceu bem até que, com 23 horas de vida, apresentou tremores de extremidades. A glicemia capilar, realizada neste momento, foi de 55 mg%.",
+      "section": "prontuario",
+      "case_id": 9,
+      "entities": [
+        {
+          "text": "Unidade Básica de Saúde",
+          "concept_id": "0b8536c41fc8",
+          "concept_name": "UNIDADE BÁSICA DE SAÚDE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 156,
+          "end": 179
+        },
+        {
+          "text": "foi",
+          "concept_id": "5d624a0a317b",
+          "concept_name": "FÍSSURA ORBITAL INFERIOR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 203,
+          "end": 206
+        },
+        {
+          "text": "hora",
+          "concept_id": "90247795",
+          "concept_name": "HORA H 1,5 MG COM CT BL AL PLAS INC X 1 INDÚSTRIA FARMACÊUTICA MELCON DO BRASIL S.A. 01/01/2016 31/03/2016 1558900030061",
+          "entity_type": "DRUG",
+          "vocabulary": "TUSS_DRUG",
+          "match_type": "normalized",
+          "match_policy": "safe_exact",
+          "entry_type": "drug_normalized",
+          "confidence": 0.85,
+          "start": 219,
+          "end": 223
+        },
+        {
+          "text": "foi",
+          "concept_id": "5d624a0a317b",
+          "concept_name": "FÍSSURA ORBITAL INFERIOR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 244,
+          "end": 247
+        },
+        {
+          "text": "glicemia capilar",
+          "concept_id": "101fab9e861b",
+          "concept_name": "GLICEMIA CAPILAR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 565,
+          "end": 581
+        },
+        {
+          "text": "foi",
+          "concept_id": "5d624a0a317b",
+          "concept_name": "FÍSSURA ORBITAL INFERIOR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 608,
+          "end": 611
+        }
+      ]
+    },
+    {
+      "segment_id": "case_10",
+      "text": "10) Um paciente masculino, com 25 dias de vida, que foi trazido por quadro de febre de até 38,1°C. A mãe refere que o quadro se iniciou há 8 horas atrás, foram 2 picos febris com temperaturas de 37,9° e 38,1°C, sendo medicado com paracetamol há 1 hora atrás. Nega tosse, coriza ou cansaço. Diurese presente, sem alterações. Evacuações de 5 a 6 vezes ao dia, com fezes pastosas esverdeadas, sem mudança de padrão nos últimos dias. Boa aceitação das mamadas. Nascida de termo, parto cesárea por iteratividade, peso de nascimento de 3.100 g, sem intercorrências peri-natais. Trata-se do terceiro filho de mãe de 35 anos, professora universitária, e pai de 37 anos, engenheiro civil, ambos hígidos. Ao exame clínico, a criança está em bom estado geral, corada, hidratada, anictérica. Temperatura axilar de 36,5°C. FC = 126 bpm, FR = 48 irpm, tempo de enchimento capilar < 3 segundos. Ativa e reativa, bom tônus, fontanela bregmática normotensa. Sem alterações as propedêuticas cardíaca, pulmonar e abdominal. Períneo íntegro. Boa perfusão periférica. No plantão anterior, o médico plantonista optou pela realização dos seguintes exames: Hemograma Completo; Hb 13,4 g/dL, Ht = 37,6%; Leucócitos = 7.440/mm³ (42% de segmentados, 46% de linfócitos, 10% de monócitos, 1% de eosinófilos, 1% de basófilo… Plaquetas = 473 mil/mcL; Urina tipo 1 (colhida por sondagem vesical de alívio): Densidade = 1010, pH = 7,0, Proteínas = negativo, Glicose = negativo, Nitrito = negativo, Bactérias = ausente, Sangue = ++; Sedimento Urinário: Leucócitos = 6.000/mL (referência = até 10.000/ mL); Hemácias = 8.000/mL (referência = até 10.000/mL); Radiografia de tórax = sem alterações significativas. Hemocultura, Urocultura e Pesquisa de vírus respiratórios já colhidos, aguardando resultado. Tendo em vista os dados apresentados, é necessário solicitar algum outro exame complementar para este paciente?",
+      "section": "prontuario",
+      "case_id": 10,
+      "entities": [
+        {
+          "text": "paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 7,
+          "end": 15
+        },
+        {
+          "text": "foi",
+          "concept_id": "5d624a0a317b",
+          "concept_name": "FÍSSURA ORBITAL INFERIOR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 52,
+          "end": 55
+        },
+        {
+          "text": "paracetamol",
+          "concept_id": "90012712",
+          "concept_name": "PARACETAMOL + FOSFATO DE CODEÍNA 500 + 30 MG COM CT BL AL PLAS INC X 12 BIOLAB FARMA GENERICOS LTDA 01/06/2019 31/03/2016 1049201850050",
+          "entity_type": "DRUG",
+          "vocabulary": "TUSS_DRUG",
+          "match_type": "normalized",
+          "match_policy": "safe_exact",
+          "entry_type": "drug_normalized",
+          "confidence": 0.85,
+          "start": 230,
+          "end": 241
+        },
+        {
+          "text": "hora",
+          "concept_id": "90247795",
+          "concept_name": "HORA H 1,5 MG COM CT BL AL PLAS INC X 1 INDÚSTRIA FARMACÊUTICA MELCON DO BRASIL S.A. 01/01/2016 31/03/2016 1558900030061",
+          "entity_type": "DRUG",
+          "vocabulary": "TUSS_DRUG",
+          "match_type": "normalized",
+          "match_policy": "safe_exact",
+          "entry_type": "drug_normalized",
+          "confidence": 0.85,
+          "start": 247,
+          "end": 251
+        },
+        {
+          "text": "tosse",
+          "concept_id": "R05",
+          "concept_name": "Tosse",
+          "entity_type": "PROBLEM",
+          "vocabulary": "CID10",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 264,
+          "end": 269
+        },
+        {
+          "text": "pai",
+          "concept_id": "e3828c94ba95",
+          "concept_name": "PRESSÃO ARTERIAL INVASIVA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 646,
+          "end": 649
+        },
+        {
+          "text": "bom estado geral",
+          "concept_id": "bf1af17640a9",
+          "concept_name": "BOM ESTADO GERAL",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 731,
+          "end": 747
+        },
+        {
+          "text": "Temperatura axilar",
+          "concept_id": "0bb1ae87d35d",
+          "concept_name": "TEMPERATURA AXILAR",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 780,
+          "end": 798
+        },
+        {
+          "text": "FC",
+          "concept_id": "89a00e3f1859",
+          "concept_name": "FREQUÊNCIA CARDÍACA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 810,
+          "end": 812
+        },
+        {
+          "text": "bpm",
+          "concept_id": "dd873c1e8fb0",
+          "concept_name": "BATIMENTO POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 819,
+          "end": 822
+        },
+        {
+          "text": "FR",
+          "concept_id": "37cb81d606b4",
+          "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 824,
+          "end": 826
+        },
+        {
+          "text": "irpm",
+          "concept_id": "18e1ac579372",
+          "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "abbr",
+          "confidence": 0.85,
+          "start": 832,
+          "end": 836
+        },
+        {
+          "text": "Hemograma",
+          "concept_id": "25b3810f8eaf",
+          "concept_name": "HEMOGRAMA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1133,
+          "end": 1142
+        },
+        {
+          "text": "Leucócitos",
+          "concept_id": "5cafb91f3dd1",
+          "concept_name": "LEUCÓCITOS",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1179,
+          "end": 1189
+        },
+        {
+          "text": "linfócitos",
+          "concept_id": "180b46b9f358",
+          "concept_name": "LINFÓCITOS",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1230,
+          "end": 1240
+        },
+        {
+          "text": "Plaquetas",
+          "concept_id": "3b4bc43def14",
+          "concept_name": "PLAQUETAS",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1295,
+          "end": 1304
+        },
+        {
+          "text": "sondagem vesical de alívio",
+          "concept_id": "1cdb54093630",
+          "concept_name": "SONDAGEM VESICAL DE ALÍVIO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1346,
+          "end": 1372
+        },
+        {
+          "text": "negativo",
+          "concept_id": "9e4cc76c8747",
+          "concept_name": "NEGATIVO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1415,
+          "end": 1423
+        },
+        {
+          "text": "Glicose",
+          "concept_id": "419efe9bcf68",
+          "concept_name": "GLICOSE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1425,
+          "end": 1432
+        },
+        {
+          "text": "negativo",
+          "concept_id": "9e4cc76c8747",
+          "concept_name": "NEGATIVO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1435,
+          "end": 1443
+        },
+        {
+          "text": "negativo",
+          "concept_id": "9e4cc76c8747",
+          "concept_name": "NEGATIVO",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1455,
+          "end": 1463
+        },
+        {
+          "text": "Leucócitos",
+          "concept_id": "5cafb91f3dd1",
+          "concept_name": "LEUCÓCITOS",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1519,
+          "end": 1529
+        },
+        {
+          "text": "tórax",
+          "concept_id": "C76.1",
+          "concept_name": "Tórax",
+          "entity_type": "PROBLEM",
+          "vocabulary": "CID10",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1637,
+          "end": 1642
+        },
+        {
+          "text": "Hemocultura",
+          "concept_id": "b4b610cd07a4",
+          "concept_name": "HEMOCULTURA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1676,
+          "end": 1687
+        },
+        {
+          "text": "Urocultura",
+          "concept_id": "25792c5572e6",
+          "concept_name": "UROCULTURA",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1689,
+          "end": 1699
+        },
+        {
+          "text": "paciente",
+          "concept_id": "25b99106f55d",
+          "concept_name": "PACIENTE",
+          "entity_type": "ABBREV",
+          "vocabulary": "SIGLARIO",
+          "match_type": "exact",
+          "match_policy": "safe_exact",
+          "entry_type": "official",
+          "confidence": 0.95,
+          "start": 1871,
+          "end": 1879
+        }
+      ]
+    }
+  ]
+}

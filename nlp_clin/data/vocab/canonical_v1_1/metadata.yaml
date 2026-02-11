@@ -1,0 +1,82 @@
+version: v1.1
+generated_at: '2026-02-03T18:42:25.881743Z'
+generated_by: scripts/generate_canonical.py
+counts:
+  total_concepts: 62423
+  total_entries: 137109
+  blocked_terms: 0
+  ambiguity: 7
+  by_vocabulary:
+    CID10: 22706
+    TUSS_PROC: 5841
+    TUSS_DRUG: 45239
+    LABS: 636
+    SIGLARIO: 900
+entry_types:
+  official: 75322
+  code: 73786
+  abbr: 900
+match_policies:
+  safe_exact:
+    description: Exact string match only, no fuzzy matching allowed
+    applies_to:
+      - CID10
+      - TUSS_PROC
+      - TUSS_DRUG
+      - LABS
+      - SIGLARIO (non-ambiguous)
+    rationale: Medical terminology requires precision to avoid errors
+    count: 137093
+  context_required:
+    description: Match requires clinical context for disambiguation
+    applies_to:
+      - SIGLARIO (ambiguous only)
+    rationale: Ambiguous abbreviations need surrounding context
+    examples:
+      - ADA: ADENOSINA DEAMINASE vs AMPLITUDE DE ACOMODACAO
+      - CA: cancer marker vs cancer
+    count: 16
+  blocked:
+    description: Terms explicitly blocked from matching
+    applies_to:
+    rationale: Reserved for prohibited terms
+    count: 0
+sources:
+  -
+    file: cid10_raw.csv
+    rows: 22706
+    hash: 4cf9d005c671e863331e1d35ec26b27a
+  -
+    file: tuss_proc_raw.csv
+    rows: 5841
+    hash: 32f161d80a50f76f1f194b1ba910ed13
+  -
+    file: tuss_drugs_raw.csv
+    rows: 45239
+    hash: a49f14b80f9e70248c6ee198dfa401e8
+  -
+    file: labs_raw.csv
+    rows: 636
+    hash: 89157e63bb2d3f7f1bb6645d8154042d
+  -
+    file: siglario_allowed_raw.csv
+    rows: 900
+    hash: a98d46292d7fd1c2638c60cb19bc2b44
+  -
+    file: siglario_ambiguous_raw.csv
+    rows: 0
+    hash: 8d78616dfd7b7ebcbed59b1a836ae8f5
+  -
+    file: siglario_institucional_raw.csv
+    rows: 701
+    hash: f06df1bfb365b6fb9b6f221efbf053c0
+  -
+    file: siglario_prohibited_raw.csv
+    rows: 0
+    hash: c68b3e65917de0e308c74a473d5bb391
+file_hashes:
+  concepts_csv: c17101c952a61624201cd64e0d1ee7ab
+  entries_csv: 88bd405c4904e2333df931425b5b1fab
+  blocked_terms_csv: 42d7a54e7c6880871f6ee4104070bcdd
+  ambiguity_csv: b2b86a5036d5b382377b6b7cfcd17bda
+notes: 'v1.1: Added strict match_policy rules based on vocabulary type'

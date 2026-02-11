@@ -1,0 +1,161 @@
+{
+  "doc_id": "pepv1_case_0054",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "54) ID: Homem, 25 anos, internado em Pronto-Socorro. QD: Sonolência excessiva e depressão respiratória após analgesia com opioide. HPMA: Em internação no PS por dor intensa (etiologia em investigação), recebeu morfina 10 mg e, em seguida, evoluiu com rebaixamento importante do nível de consciência e depressão respiratória, com hipoventilação progressiva e dessaturação em monitorização, necessitando acionamento da anestesia. Plantonista optou por IOT por falência ventilatória iminente; à avaliação, anestesista sinaliza via aérea difícil, com necessidade de preparo completo para intubação difícil (otimização de pré-oxigenação, material avançado e estratégia de resgate). Quadro compatível com intoxicação por opioide com insuficiência respiratória aguda. ISDA: Sem febre referida; sem vômitos; sem queixa torácica descrita no momento. AP: Não informados comorbidades/uso crônico de medicações; etilismo e outras drogas não informados. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "54) ID: Homem, 25 anos, internado em Pronto-Socorro."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Sonolência",
+      "start": 57,
+      "end": 67,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R40.0",
+        "concept_name": "Sonolência",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: Sonolência excessiva e depressão respiratória após analgesia com opioide."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PS",
+      "start": 154,
+      "end": 156,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "588331c61fba",
+        "concept_name": "PRESSÃO DE SUPORTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "HPMA: Em internação no PS por dor intensa (etiologia em investigação), recebeu morfina 10 mg e, em seguida, evoluiu com rebaixamento importante do nível de consciência e depressão respiratória, com hipoventilação progressiva e dessaturação em monitorização, necessitando acionamento da anestesia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "morfina",
+      "start": 210,
+      "end": 217,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "695dda9e910f",
+        "concept_name": "MORFINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Em internação no PS por dor intensa (etiologia em investigação), recebeu morfina 10 mg e, em seguida, evoluiu com rebaixamento importante do nível de consciência e depressão respiratória, com hipoventilação progressiva e dessaturação em monitorização, necessitando acionamento da anestesia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "IOT",
+      "start": 450,
+      "end": 453,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "9b291befb83f",
+        "concept_name": "INTUBAÇÃO OROTRAQUEAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Plantonista optou por IOT por falência ventilatória iminente; à avaliação, anestesista sinaliza via aérea difícil, com necessidade de preparo completo para intubação difícil (otimização de pré-oxigenação, material avançado e estratégia de resgate)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "insuficiência respiratória aguda",
+      "start": 727,
+      "end": 759,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "464a16829e26",
+        "concept_name": "INSUFICIÊNCIA RESPIRATÓRIA AGUDA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro compatível com intoxicação por opioide com insuficiência respiratória aguda."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 841,
+      "end": 843,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Não informados comorbidades/uso crônico de medicações; etilismo e outras drogas não informados."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 941,
+      "end": 943,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 54,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,123 @@
+{
+  "doc_id": "pepv1_case_0047",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "47) ID: Gestante, 35 semanas e 2 dias, pré-natal adequado, HBsAg positivo. QD: “Parto vaginal em gestante HBsAg+ e conduta neonatal imediata.” HPMA: Evoluiu para parto vaginal sem intercorrências com 35s2d. Sorologia do pré-natal com HBsAg reagente; demais dados do rastreio não informados. RN masculino, pequeno para idade gestacional, peso ao nascer 1.850 g, com necessidade de avaliação neonatal direcionada (vitalidade ao nascimento e exame físico imediato a documentar), em contexto de risco de transmissão vertical do HBV. ISDA: Sem dados maternos adicionais de sintomas infecciosos no periparto. AP: Gestação atual com HBsAg positivo. Alergias: não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "47) ID: Gestante, 35 semanas e 2 dias, pré-natal adequado, HBsAg positivo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "conduta",
+      "start": 115,
+      "end": 122,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "1f9083ca360b",
+        "concept_name": "CONDUTA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: “Parto vaginal em gestante HBsAg+ e conduta neonatal imediata.”"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "exame físico",
+      "start": 439,
+      "end": 451,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "c75b55807b50",
+        "concept_name": "EXAME FÍSICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "RN masculino, pequeno para idade gestacional, peso ao nascer 1.850 g, com necessidade de avaliação neonatal direcionada (vitalidade ao nascimento e exame físico imediato a documentar), em contexto de risco de transmissão vertical do HBV."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HBV",
+      "start": 524,
+      "end": 527,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b800b2df22d3",
+        "concept_name": "VÍRUS DA HEPATITE B",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "RN masculino, pequeno para idade gestacional, peso ao nascer 1.850 g, com necessidade de avaliação neonatal direcionada (vitalidade ao nascimento e exame físico imediato a documentar), em contexto de risco de transmissão vertical do HBV."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 603,
+      "end": 605,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Gestação atual com HBsAg positivo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 668,
+      "end": 670,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 47,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,541 @@
+{
+  "doc_id": "pepv1_case_0030",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "30) ID: Feminino, 32 anos, puérpera de parto vaginal a termo, D8 pós-parto. QD: “Febre, calafrios e dor na mama esquerda.” HPMA: Procura pronto-atendimento no 8º dia pós-parto com calafrios, febre e mastalgia em mama esquerda. Antecedentes: HAS crônica desde os 13 anos e doença renal crônica não dialítica em seguimento com nefrologia. Exame: bom estado geral, corada, T oral 38, 4°C, FC 110 bpm, PA 98×60 mmHg. Abdome indolor; útero contraído; lóquios fisiológicos; toque vaginal: colo grosso, posterior, impérvio. Inspeção mamária (conforme imagem do enunciado) com achados compatíveis com processo inflamatório localizado; palpação da mama esquerda limitada pela dor, sem tumoração identificável (sem flutuação evidente). Diante de febre + taquicardia e PA limítrofe, registrado risco de infecção puerperal/mastite com necessidade de estratificar gravidade: iniciadas medidas de suporte (hidratação EV conforme avaliação clínica e função renal), analgesia e orientação para manutenção do esvaziamento mamário; solicitados hemograma, PCR e, se disponível, ultrassom de mama para excluir coleções/abscesso e guiar conduta antibiótica, com reavaliação seriada de sinais vitais. ISDA: Nega tosse/coriza; nega disúria; sem dor abdominal importante; sem sangramento uterino anormal. AP: HAS crônica + DRC não dialítica. Medicações habituais: não especificadas no enunciado (em prontuário real, registrar anti-hipertensivos/nefroprotetores e ajustar conforme lactação/DRC). Alergias/cirurgias: não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "30) ID: Feminino, 32 anos, puérpera de parto vaginal a termo, D8 pós-parto."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mama",
+      "start": 107,
+      "end": 111,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.6",
+        "concept_name": "Mama",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: “Febre, calafrios e dor na mama esquerda.”"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mama",
+      "start": 212,
+      "end": 216,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.6",
+        "concept_name": "Mama",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Procura pronto-atendimento no 8º dia pós-parto com calafrios, febre e mastalgia em mama esquerda."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 241,
+      "end": 244,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Antecedentes: HAS crônica desde os 13 anos e doença renal crônica não dialítica em seguimento com nefrologia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "doença renal crônica",
+      "start": 272,
+      "end": 292,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "10de29463564",
+        "concept_name": "DOENÇA RENAL CRÔNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Antecedentes: HAS crônica desde os 13 anos e doença renal crônica não dialítica em seguimento com nefrologia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 344,
+      "end": 360,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exame: bom estado geral, corada, T oral 38, 4°C, FC 110 bpm, PA 98×60 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 386,
+      "end": 388,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exame: bom estado geral, corada, T oral 38, 4°C, FC 110 bpm, PA 98×60 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 393,
+      "end": 396,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exame: bom estado geral, corada, T oral 38, 4°C, FC 110 bpm, PA 98×60 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 398,
+      "end": 400,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exame: bom estado geral, corada, T oral 38, 4°C, FC 110 bpm, PA 98×60 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 413,
+      "end": 419,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome indolor; útero contraído; lóquios fisiológicos; toque vaginal: colo grosso, posterior, impérvio."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "útero",
+      "start": 429,
+      "end": 434,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D39.0",
+        "concept_name": "Útero",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome indolor; útero contraído; lóquios fisiológicos; toque vaginal: colo grosso, posterior, impérvio."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mama",
+      "start": 639,
+      "end": 643,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.6",
+        "concept_name": "Mama",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Inspeção mamária (conforme imagem do enunciado) com achados compatíveis com processo inflamatório localizado; palpação da mama esquerda limitada pela dor, sem tumoração identificável (sem flutuação evidente)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 758,
+      "end": 760,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Diante de febre + taquicardia e PA limítrofe, registrado risco de infecção puerperal/mastite com necessidade de estratificar gravidade: iniciadas medidas de suporte (hidratação EV conforme avaliação clínica e função renal), analgesia e orientação para manutenção do esvaziamento mamário; solicitados hemograma, PCR e, se disponível, ultrassom de mama para excluir coleções/abscesso e guiar conduta antibiótica, com reavaliação seriada de sinais vitais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "infecção puerperal",
+      "start": 792,
+      "end": 810,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "O85",
+        "concept_name": "Infecção puerperal",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Diante de febre + taquicardia e PA limítrofe, registrado risco de infecção puerperal/mastite com necessidade de estratificar gravidade: iniciadas medidas de suporte (hidratação EV conforme avaliação clínica e função renal), analgesia e orientação para manutenção do esvaziamento mamário; solicitados hemograma, PCR e, se disponível, ultrassom de mama para excluir coleções/abscesso e guiar conduta antibiótica, com reavaliação seriada de sinais vitais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "EV",
+      "start": 903,
+      "end": 905,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "fed8d4906506",
+        "concept_name": "ENDOVENOSA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Diante de febre + taquicardia e PA limítrofe, registrado risco de infecção puerperal/mastite com necessidade de estratificar gravidade: iniciadas medidas de suporte (hidratação EV conforme avaliação clínica e função renal), analgesia e orientação para manutenção do esvaziamento mamário; solicitados hemograma, PCR e, se disponível, ultrassom de mama para excluir coleções/abscesso e guiar conduta antibiótica, com reavaliação seriada de sinais vitais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "clínica",
+      "start": 925,
+      "end": 932,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "9d123e457f16",
+        "concept_name": "CLÍNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Diante de febre + taquicardia e PA limítrofe, registrado risco de infecção puerperal/mastite com necessidade de estratificar gravidade: iniciadas medidas de suporte (hidratação EV conforme avaliação clínica e função renal), analgesia e orientação para manutenção do esvaziamento mamário; solicitados hemograma, PCR e, se disponível, ultrassom de mama para excluir coleções/abscesso e guiar conduta antibiótica, com reavaliação seriada de sinais vitais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 1026,
+      "end": 1035,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b3810f8eaf",
+        "concept_name": "HEMOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Diante de febre + taquicardia e PA limítrofe, registrado risco de infecção puerperal/mastite com necessidade de estratificar gravidade: iniciadas medidas de suporte (hidratação EV conforme avaliação clínica e função renal), analgesia e orientação para manutenção do esvaziamento mamário; solicitados hemograma, PCR e, se disponível, ultrassom de mama para excluir coleções/abscesso e guiar conduta antibiótica, com reavaliação seriada de sinais vitais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mama",
+      "start": 1072,
+      "end": 1076,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "D48.6",
+        "concept_name": "Mama",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Diante de febre + taquicardia e PA limítrofe, registrado risco de infecção puerperal/mastite com necessidade de estratificar gravidade: iniciadas medidas de suporte (hidratação EV conforme avaliação clínica e função renal), analgesia e orientação para manutenção do esvaziamento mamário; solicitados hemograma, PCR e, se disponível, ultrassom de mama para excluir coleções/abscesso e guiar conduta antibiótica, com reavaliação seriada de sinais vitais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "conduta",
+      "start": 1116,
+      "end": 1123,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "1f9083ca360b",
+        "concept_name": "CONDUTA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Diante de febre + taquicardia e PA limítrofe, registrado risco de infecção puerperal/mastite com necessidade de estratificar gravidade: iniciadas medidas de suporte (hidratação EV conforme avaliação clínica e função renal), analgesia e orientação para manutenção do esvaziamento mamário; solicitados hemograma, PCR e, se disponível, ultrassom de mama para excluir coleções/abscesso e guiar conduta antibiótica, com reavaliação seriada de sinais vitais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "sinais vitais",
+      "start": 1164,
+      "end": 1177,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "6edda192e163",
+        "concept_name": "SINAIS VITAIS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Diante de febre + taquicardia e PA limítrofe, registrado risco de infecção puerperal/mastite com necessidade de estratificar gravidade: iniciadas medidas de suporte (hidratação EV conforme avaliação clínica e função renal), analgesia e orientação para manutenção do esvaziamento mamário; solicitados hemograma, PCR e, se disponível, ultrassom de mama para excluir coleções/abscesso e guiar conduta antibiótica, com reavaliação seriada de sinais vitais."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 1190,
+      "end": 1195,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega tosse/coriza; nega disúria; sem dor abdominal importante; sem sangramento uterino anormal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 1209,
+      "end": 1216,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega tosse/coriza; nega disúria; sem dor abdominal importante; sem sangramento uterino anormal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1281,
+      "end": 1283,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS crônica + DRC não dialítica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 1285,
+      "end": 1288,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS crônica + DRC não dialítica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "DRC",
+      "start": 1299,
+      "end": 1302,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "10de29463564",
+        "concept_name": "DOENÇA RENAL CRÔNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS crônica + DRC não dialítica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "anti",
+      "start": 1402,
+      "end": 1406,
+      "type": "ABBREV",
+      "score": 0.5,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "1ca1b718cb46",
+        "concept_name": "HIV II EXAME ANTI VÍRUS DA IMUNODEFICIÊNCIA HUMANA TIPO II",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "context_required",
+        "entry_type": "abbr",
+        "sentence": "Medicações habituais: não especificadas no enunciado (em prontuário real, registrar anti-hipertensivos/nefroprotetores e ajustar conforme lactação/DRC)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "DRC",
+      "start": 1465,
+      "end": 1468,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "10de29463564",
+        "concept_name": "DOENÇA RENAL CRÔNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Medicações habituais: não especificadas no enunciado (em prontuário real, registrar anti-hipertensivos/nefroprotetores e ajustar conforme lactação/DRC)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1507,
+      "end": 1509,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 30,
+  "group": "caso_estruturado"
+}

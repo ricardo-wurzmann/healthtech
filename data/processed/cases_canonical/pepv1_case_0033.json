@@ -1,0 +1,199 @@
+{
+  "doc_id": "pepv1_case_0033",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "33) ID: Masculino, 11 anos, fibrose cística, em seguimento regular em ambulatório de pneumologia. QD: “Tosse com catarro verde e falta de ar.” HPMA: Há 3 dias com tosse produtiva com expectoração esverdeada, associada a dispneia e dor torácica pleurítica, com piora de tolerância ao esforço e aumento de necessidade de fisioterapia respiratória domiciliar. Nega hemoptise. Mantém boa aceitação alimentar, sem vômitos. Radiografia de tórax com padrão semelhante ao basal, sem novos achados. Em culturas recentes de escarro houve crescimento de Staphylococcus aureus meticilino-sensível e Pseudomonas aeruginosa multi-sensível. Quadro sugerindo exacerbação pulmonar da fibrose cística; DDx: pneumonia comunitária, ABPA, exacerbação por broncoespasmo. ISDA: Nega diarreia, disúria, rash cutâneo e cefaleia importante. AP: Fibrose cística (demais comorbidades não informadas). Alergias: não referidas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "33) ID: Masculino, 11 anos, fibrose cística, em seguimento regular em ambulatório de pneumologia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Tosse",
+      "start": 103,
+      "end": 108,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "QD: “Tosse com catarro verde e falta de ar.”"
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 163,
+      "end": 168,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Há 3 dias com tosse produtiva com expectoração esverdeada, associada a dispneia e dor torácica pleurítica, com piora de tolerância ao esforço e aumento de necessidade de fisioterapia respiratória domiciliar."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemoptise",
+      "start": 362,
+      "end": 371,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R04.2",
+        "concept_name": "Hemoptise",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega hemoptise."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tórax",
+      "start": 433,
+      "end": 438,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.1",
+        "concept_name": "Tórax",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Radiografia de tórax com padrão semelhante ao basal, sem novos achados."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pneumonia",
+      "start": 689,
+      "end": 698,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f8b58659fae1",
+        "concept_name": "PNEUMONIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro sugerindo exacerbação pulmonar da fibrose cística; DDx: pneumonia comunitária, ABPA, exacerbação por broncoespasmo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "broncoespasmo",
+      "start": 734,
+      "end": 747,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "3db7775c20c3",
+        "concept_name": "BRONCOESPASMO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro sugerindo exacerbação pulmonar da fibrose cística; DDx: pneumonia comunitária, ABPA, exacerbação por broncoespasmo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 770,
+      "end": 777,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega diarreia, disúria, rash cutâneo e cefaleia importante."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 815,
+      "end": 817,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Fibrose cística (demais comorbidades não informadas)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 898,
+      "end": 900,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 33,
+  "group": "caso_estruturado"
+}

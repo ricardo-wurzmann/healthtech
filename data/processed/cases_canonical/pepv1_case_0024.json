@@ -1,0 +1,427 @@
+{
+  "doc_id": "pepv1_case_0024",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "24) ID: Feminino, 32 anos, primigesta, IG 35 semanas (compatível com 1º US). QD: “Bebê mexendo menos há 1 dia.” HPMA: Gestante com 35 semanas, refere redução da movimentação fetal percebida há 24h. Traz anotações de pré-natal: ao exame, bom estado geral, PA 160×100 mmHg, FC 84 bpm, BRNF 2T com sopro sistólico em foco aórtico 2+/6+. Abdome gravídico, altura uterina 29 cm, BCF presente, dinâmica uterina ausente. Edema de mãos e face 2+/4+ e edema simétrico de MMII 2+/4+, sem sinais clínicos de TVP. Exames do dia anterior: proteinúria de 24h 1, 54 g/volume e ácido úrico 7, 5 mg/dL. Na admissão, realizada avaliação inicial de bem-estar materno-fetal: ausculta de BCF confirmada e orientada monitorização fetal (cardiotocografia) e ultrassonografia obstétrica com doppler conforme protocolo do serviço, além de investigação laboratorial materna para gravidade (hemograma/plaquetas, transaminases, creatinina, DHL) e pesquisa de sintomas de alarme (cefaleia, escotomas, epigastralgia, dispneia). ISDA: Nega febre; nega sintomas urinários; nega tosse/coriza. Em triagem dirigida para gravidade: questionada cefaleia intensa, alterações visuais e dor epigástrica (não descritas no enunciado; registradas como “a esclarecer/negadas se ausentes”). AP: Sem comorbidades informadas. Medicações: não informadas (a checar uso de AAS/anti-hipertensivo). Alergias/cirurgias: não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "24) ID: Feminino, 32 anos, primigesta, IG 35 semanas (compatível com 1º US)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 237,
+      "end": 253,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Traz anotações de pré-natal: ao exame, bom estado geral, PA 160×100 mmHg, FC 84 bpm, BRNF 2T com sopro sistólico em foco aórtico 2+/6+."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 255,
+      "end": 257,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Traz anotações de pré-natal: ao exame, bom estado geral, PA 160×100 mmHg, FC 84 bpm, BRNF 2T com sopro sistólico em foco aórtico 2+/6+."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 272,
+      "end": 274,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Traz anotações de pré-natal: ao exame, bom estado geral, PA 160×100 mmHg, FC 84 bpm, BRNF 2T com sopro sistólico em foco aórtico 2+/6+."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 278,
+      "end": 281,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Traz anotações de pré-natal: ao exame, bom estado geral, PA 160×100 mmHg, FC 84 bpm, BRNF 2T com sopro sistólico em foco aórtico 2+/6+."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "2T",
+      "start": 288,
+      "end": 290,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5b99fabcd836",
+        "concept_name": "DOIS TEMPOS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Traz anotações de pré-natal: ao exame, bom estado geral, PA 160×100 mmHg, FC 84 bpm, BRNF 2T com sopro sistólico em foco aórtico 2+/6+."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 334,
+      "end": 340,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome gravídico, altura uterina 29 cm, BCF presente, dinâmica uterina ausente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "MMII",
+      "start": 462,
+      "end": 466,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "50b05748c28a",
+        "concept_name": "MEMBROS INFERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Edema de mãos e face 2+/4+ e edema simétrico de MMII 2+/4+, sem sinais clínicos de TVP."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "TVP",
+      "start": 497,
+      "end": 500,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "b12ac7f2cc21",
+        "concept_name": "TROMBOSE VENOSA PROFUNDA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Edema de mãos e face 2+/4+ e edema simétrico de MMII 2+/4+, sem sinais clínicos de TVP."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "proteinúria",
+      "start": 526,
+      "end": 537,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b38df573f454",
+        "concept_name": "PROTEINÚRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames do dia anterior: proteinúria de 24h 1, 54 g/volume e ácido úrico 7, 5 mg/dL. Na admissão, realizada avaliação inicial de bem-estar materno-fetal: ausculta de BCF confirmada e orientada monitorização fetal (cardiotocografia) e ultrassonografia obstétrica com doppler conforme protocolo do serviço, além de investigação laboratorial materna para gravidade (hemograma/plaquetas, transaminases, creatinina, DHL) e pesquisa de sintomas de alarme (cefaleia, escotomas, epigastralgia, dispneia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ácido úrico",
+      "start": 562,
+      "end": 573,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cb34b03daac8",
+        "concept_name": "ÁCIDO ÚRICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames do dia anterior: proteinúria de 24h 1, 54 g/volume e ácido úrico 7, 5 mg/dL. Na admissão, realizada avaliação inicial de bem-estar materno-fetal: ausculta de BCF confirmada e orientada monitorização fetal (cardiotocografia) e ultrassonografia obstétrica com doppler conforme protocolo do serviço, além de investigação laboratorial materna para gravidade (hemograma/plaquetas, transaminases, creatinina, DHL) e pesquisa de sintomas de alarme (cefaleia, escotomas, epigastralgia, dispneia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ultrassonografia",
+      "start": 735,
+      "end": 751,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames do dia anterior: proteinúria de 24h 1, 54 g/volume e ácido úrico 7, 5 mg/dL. Na admissão, realizada avaliação inicial de bem-estar materno-fetal: ausculta de BCF confirmada e orientada monitorização fetal (cardiotocografia) e ultrassonografia obstétrica com doppler conforme protocolo do serviço, além de investigação laboratorial materna para gravidade (hemograma/plaquetas, transaminases, creatinina, DHL) e pesquisa de sintomas de alarme (cefaleia, escotomas, epigastralgia, dispneia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "materna",
+      "start": 840,
+      "end": 847,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90214021",
+        "concept_name": "MATERNA COM REV CT FR PLAS OPC X 30 WYETH INDÚSTRIA FARMACÊUTICA LTDA 10/10/2012 31/08/2014 1211000800019",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Exames do dia anterior: proteinúria de 24h 1, 54 g/volume e ácido úrico 7, 5 mg/dL. Na admissão, realizada avaliação inicial de bem-estar materno-fetal: ausculta de BCF confirmada e orientada monitorização fetal (cardiotocografia) e ultrassonografia obstétrica com doppler conforme protocolo do serviço, além de investigação laboratorial materna para gravidade (hemograma/plaquetas, transaminases, creatinina, DHL) e pesquisa de sintomas de alarme (cefaleia, escotomas, epigastralgia, dispneia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 864,
+      "end": 873,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b3810f8eaf",
+        "concept_name": "HEMOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames do dia anterior: proteinúria de 24h 1, 54 g/volume e ácido úrico 7, 5 mg/dL. Na admissão, realizada avaliação inicial de bem-estar materno-fetal: ausculta de BCF confirmada e orientada monitorização fetal (cardiotocografia) e ultrassonografia obstétrica com doppler conforme protocolo do serviço, além de investigação laboratorial materna para gravidade (hemograma/plaquetas, transaminases, creatinina, DHL) e pesquisa de sintomas de alarme (cefaleia, escotomas, epigastralgia, dispneia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "plaquetas",
+      "start": 874,
+      "end": 883,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "3b4bc43def14",
+        "concept_name": "PLAQUETAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames do dia anterior: proteinúria de 24h 1, 54 g/volume e ácido úrico 7, 5 mg/dL. Na admissão, realizada avaliação inicial de bem-estar materno-fetal: ausculta de BCF confirmada e orientada monitorização fetal (cardiotocografia) e ultrassonografia obstétrica com doppler conforme protocolo do serviço, além de investigação laboratorial materna para gravidade (hemograma/plaquetas, transaminases, creatinina, DHL) e pesquisa de sintomas de alarme (cefaleia, escotomas, epigastralgia, dispneia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "creatinina",
+      "start": 900,
+      "end": 910,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5b011c4e27db",
+        "concept_name": "CREATININA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames do dia anterior: proteinúria de 24h 1, 54 g/volume e ácido úrico 7, 5 mg/dL. Na admissão, realizada avaliação inicial de bem-estar materno-fetal: ausculta de BCF confirmada e orientada monitorização fetal (cardiotocografia) e ultrassonografia obstétrica com doppler conforme protocolo do serviço, além de investigação laboratorial materna para gravidade (hemograma/plaquetas, transaminases, creatinina, DHL) e pesquisa de sintomas de alarme (cefaleia, escotomas, epigastralgia, dispneia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "DHL",
+      "start": 912,
+      "end": 915,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "d9bb9279209b",
+        "concept_name": "DESIDROGENASE LÁTICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Exames do dia anterior: proteinúria de 24h 1, 54 g/volume e ácido úrico 7, 5 mg/dL. Na admissão, realizada avaliação inicial de bem-estar materno-fetal: ausculta de BCF confirmada e orientada monitorização fetal (cardiotocografia) e ultrassonografia obstétrica com doppler conforme protocolo do serviço, além de investigação laboratorial materna para gravidade (hemograma/plaquetas, transaminases, creatinina, DHL) e pesquisa de sintomas de alarme (cefaleia, escotomas, epigastralgia, dispneia)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 1046,
+      "end": 1051,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega febre; nega sintomas urinários; nega tosse/coriza."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "a esclarecer",
+      "start": 1210,
+      "end": 1222,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "88005203de44",
+        "concept_name": "A ESCLARECER",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Em triagem dirigida para gravidade: questionada cefaleia intensa, alterações visuais e dor epigástrica (não descritas no enunciado; registradas como “a esclarecer/negadas se ausentes”)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1246,
+      "end": 1248,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades informadas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "anti",
+      "start": 1327,
+      "end": 1331,
+      "type": "ABBREV",
+      "score": 0.5,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "1ca1b718cb46",
+        "concept_name": "HIV II EXAME ANTI VÍRUS DA IMUNODEFICIÊNCIA HUMANA TIPO II",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "context_required",
+        "entry_type": "abbr",
+        "sentence": "Medicações: não informadas (a checar uso de AAS/anti-hipertensivo)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1383,
+      "end": 1385,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 24,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,370 @@
+{
+  "doc_id": "pepv1_case_0015",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "15) Homem de 34 anos de idade procura o pronto-socorro de um hospital terciário, pois apresenta há 4 dias mal-estar, náuseas, vômitos, dor abdominal, tosse produtiva, dispneia, e períodos de febre com temperatura axilar de até 39°C. É diabético há 20 anos e faz uso de insulina ultralenta e ultrarrápida orientando-se por contagem de carboidratos. Está em seguimento ambulatorial regular com ótima aderência e bom controle. Entretanto, nos últimos 4 dias, houve aumento da glicemia com necessidade de doses mais elevadas de insulina. Também fez uso de inalação com fenoterol na tentativa de melhorar a sensação de dispneia. Hoje apresentou queda do estado geral importante. O paciente foi levado à sala de emergência e monitorizado. Foi obtido acesso venoso e coletados exames. Ao exame clínico de entrada, apresentava-se em mau estado geral, desidratado +3/+4, acianótico, anictérico, afebril, desorientado temporoespacialmente e torporoso; sem sinais meníngeos; tempo de enchimento capilar de 6 segundos; pressão arterial = 80 x 50 mmHg; frequência cardíaca = 120 bpm; frequência respiratória = 40 irpm; saturação de O ₂ em ar ambiente = 95%; ausculta pulmonar com estertores finos em ápice direito; bulhas taquicárdicas sem outras alterações na ausculta cardíaca; abdome plano, flácido, descompressão brusca indolor, Giordano negativo; exame clínico sem outras alterações. Realizada glicemia capilar = 390 mg/dl. Cite a conduta terapêutica imediata:",
+  "entities": [
+    {
+      "span": "tosse",
+      "start": 150,
+      "end": 155,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "15) Homem de 34 anos de idade procura o pronto-socorro de um hospital terciário, pois apresenta há 4 dias mal-estar, náuseas, vômitos, dor abdominal, tosse produtiva, dispneia, e períodos de febre com temperatura axilar de até 39°C."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "temperatura axilar",
+      "start": 201,
+      "end": 219,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "0bb1ae87d35d",
+        "concept_name": "TEMPERATURA AXILAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "15) Homem de 34 anos de idade procura o pronto-socorro de um hospital terciário, pois apresenta há 4 dias mal-estar, náuseas, vômitos, dor abdominal, tosse produtiva, dispneia, e períodos de febre com temperatura axilar de até 39°C."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "insulina",
+      "start": 269,
+      "end": 277,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "393abdc04902",
+        "concept_name": "INSULINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "É diabético há 20 anos e faz uso de insulina ultralenta e ultrarrápida orientando-se por contagem de carboidratos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "insulina",
+      "start": 524,
+      "end": 532,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "393abdc04902",
+        "concept_name": "INSULINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Entretanto, nos últimos 4 dias, houve aumento da glicemia com necessidade de doses mais elevadas de insulina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "fez",
+      "start": 541,
+      "end": 544,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "952a2122a1bd",
+        "concept_name": "PARASITOLÓGICO DE FEZES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Também fez uso de inalação com fenoterol na tentativa de melhorar a sensação de dispneia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 676,
+      "end": 684,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "O paciente foi levado à sala de emergência e monitorizado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foi",
+      "start": 685,
+      "end": 688,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "O paciente foi levado à sala de emergência e monitorizado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Foi",
+      "start": 733,
+      "end": 736,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Foi obtido acesso venoso e coletados exames."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pressão arterial",
+      "start": 1007,
+      "end": 1023,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico de entrada, apresentava-se em mau estado geral, desidratado +3/+4, acianótico, anictérico, afebril, desorientado temporoespacialmente e torporoso; sem sinais meníngeos; tempo de enchimento capilar de 6 segundos; pressão arterial = 80 x 50 mmHg; frequência cardíaca = 120 bpm; frequência respiratória = 40 irpm; saturação de O ₂ em ar ambiente = 95%; ausculta pulmonar com estertores finos em ápice direito; bulhas taquicárdicas sem outras alterações na ausculta cardíaca; abdome plano, flácido, descompressão brusca indolor, Giordano negativo; exame clínico sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "frequência cardíaca",
+      "start": 1040,
+      "end": 1059,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico de entrada, apresentava-se em mau estado geral, desidratado +3/+4, acianótico, anictérico, afebril, desorientado temporoespacialmente e torporoso; sem sinais meníngeos; tempo de enchimento capilar de 6 segundos; pressão arterial = 80 x 50 mmHg; frequência cardíaca = 120 bpm; frequência respiratória = 40 irpm; saturação de O ₂ em ar ambiente = 95%; ausculta pulmonar com estertores finos em ápice direito; bulhas taquicárdicas sem outras alterações na ausculta cardíaca; abdome plano, flácido, descompressão brusca indolor, Giordano negativo; exame clínico sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 1066,
+      "end": 1069,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico de entrada, apresentava-se em mau estado geral, desidratado +3/+4, acianótico, anictérico, afebril, desorientado temporoespacialmente e torporoso; sem sinais meníngeos; tempo de enchimento capilar de 6 segundos; pressão arterial = 80 x 50 mmHg; frequência cardíaca = 120 bpm; frequência respiratória = 40 irpm; saturação de O ₂ em ar ambiente = 95%; ausculta pulmonar com estertores finos em ápice direito; bulhas taquicárdicas sem outras alterações na ausculta cardíaca; abdome plano, flácido, descompressão brusca indolor, Giordano negativo; exame clínico sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "frequência respiratória",
+      "start": 1071,
+      "end": 1094,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico de entrada, apresentava-se em mau estado geral, desidratado +3/+4, acianótico, anictérico, afebril, desorientado temporoespacialmente e torporoso; sem sinais meníngeos; tempo de enchimento capilar de 6 segundos; pressão arterial = 80 x 50 mmHg; frequência cardíaca = 120 bpm; frequência respiratória = 40 irpm; saturação de O ₂ em ar ambiente = 95%; ausculta pulmonar com estertores finos em ápice direito; bulhas taquicárdicas sem outras alterações na ausculta cardíaca; abdome plano, flácido, descompressão brusca indolor, Giordano negativo; exame clínico sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 1100,
+      "end": 1104,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico de entrada, apresentava-se em mau estado geral, desidratado +3/+4, acianótico, anictérico, afebril, desorientado temporoespacialmente e torporoso; sem sinais meníngeos; tempo de enchimento capilar de 6 segundos; pressão arterial = 80 x 50 mmHg; frequência cardíaca = 120 bpm; frequência respiratória = 40 irpm; saturação de O ₂ em ar ambiente = 95%; ausculta pulmonar com estertores finos em ápice direito; bulhas taquicárdicas sem outras alterações na ausculta cardíaca; abdome plano, flácido, descompressão brusca indolor, Giordano negativo; exame clínico sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ápice",
+      "start": 1187,
+      "end": 1192,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90501772",
+        "concept_name": "ÁPICE 150 MG CAP DURA CT BL AL PLAS PVC TRANS X 30 SUPERA FARMA LABORATÓRIOS S.A 01/03/2021 31/05/2021 1037202980116",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Ao exame clínico de entrada, apresentava-se em mau estado geral, desidratado +3/+4, acianótico, anictérico, afebril, desorientado temporoespacialmente e torporoso; sem sinais meníngeos; tempo de enchimento capilar de 6 segundos; pressão arterial = 80 x 50 mmHg; frequência cardíaca = 120 bpm; frequência respiratória = 40 irpm; saturação de O ₂ em ar ambiente = 95%; ausculta pulmonar com estertores finos em ápice direito; bulhas taquicárdicas sem outras alterações na ausculta cardíaca; abdome plano, flácido, descompressão brusca indolor, Giordano negativo; exame clínico sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ausculta cardíaca",
+      "start": 1248,
+      "end": 1265,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "09642353f773",
+        "concept_name": "AUSCULTA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico de entrada, apresentava-se em mau estado geral, desidratado +3/+4, acianótico, anictérico, afebril, desorientado temporoespacialmente e torporoso; sem sinais meníngeos; tempo de enchimento capilar de 6 segundos; pressão arterial = 80 x 50 mmHg; frequência cardíaca = 120 bpm; frequência respiratória = 40 irpm; saturação de O ₂ em ar ambiente = 95%; ausculta pulmonar com estertores finos em ápice direito; bulhas taquicárdicas sem outras alterações na ausculta cardíaca; abdome plano, flácido, descompressão brusca indolor, Giordano negativo; exame clínico sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 1267,
+      "end": 1273,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico de entrada, apresentava-se em mau estado geral, desidratado +3/+4, acianótico, anictérico, afebril, desorientado temporoespacialmente e torporoso; sem sinais meníngeos; tempo de enchimento capilar de 6 segundos; pressão arterial = 80 x 50 mmHg; frequência cardíaca = 120 bpm; frequência respiratória = 40 irpm; saturação de O ₂ em ar ambiente = 95%; ausculta pulmonar com estertores finos em ápice direito; bulhas taquicárdicas sem outras alterações na ausculta cardíaca; abdome plano, flácido, descompressão brusca indolor, Giordano negativo; exame clínico sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "negativo",
+      "start": 1329,
+      "end": 1337,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "9e4cc76c8747",
+        "concept_name": "NEGATIVO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico de entrada, apresentava-se em mau estado geral, desidratado +3/+4, acianótico, anictérico, afebril, desorientado temporoespacialmente e torporoso; sem sinais meníngeos; tempo de enchimento capilar de 6 segundos; pressão arterial = 80 x 50 mmHg; frequência cardíaca = 120 bpm; frequência respiratória = 40 irpm; saturação de O ₂ em ar ambiente = 95%; ausculta pulmonar com estertores finos em ápice direito; bulhas taquicárdicas sem outras alterações na ausculta cardíaca; abdome plano, flácido, descompressão brusca indolor, Giordano negativo; exame clínico sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "glicemia capilar",
+      "start": 1386,
+      "end": 1402,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "101fab9e861b",
+        "concept_name": "GLICEMIA CAPILAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Realizada glicemia capilar = 390 mg/dl."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "conduta",
+      "start": 1423,
+      "end": 1430,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "1f9083ca360b",
+        "concept_name": "CONDUTA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Cite a conduta terapêutica imediata:"
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 15,
+  "group": "prontuario"
+}

@@ -1,0 +1,123 @@
+{
+  "doc_id": "pepv1_case_0077",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "77) ID: Feminino, 46 anos. QD: Cefaleia hemicrânica direita há 3 dias, intensa, com náuseas e fotofobia. HPMA: Início há 3 dias de cefaleia hemicrânica direita latejante, predominando retro-orbitária, forte intensidade, associada a fotofobia e náuseas, piora ao deitar e ao subir/descer escadas. Nega febre, emagrecimento, trauma, quadros prévios semelhantes. Nega déficit neurológico focal, síncope, convulsão. Exame: consciente, orientada, sem sinais focais, sem rigidez de nuca; orofaringe discretamente hiperemiada, sem exsudato; restante sem alterações. TC de crânio realizada na triagem, com achado sugestivo de trombose venosa cerebral (hiperdensidade em topografia de seio dural). Hipótese clínica: trombose de seio venoso cerebral. ISDA: Sem dispneia/dor torácica; sem alteração do hábito intestinal; sem disúria. AP: Nega comorbidades conhecidas; sem uso crônico de medicações relatado. Nega alergias. AF: Sem tabagismo; etilismo eventual.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "77) ID: Feminino, 46 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "clínica",
+      "start": 698,
+      "end": 705,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "9d123e457f16",
+        "concept_name": "CLÍNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hipótese clínica: trombose de seio venoso cerebral."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "sem alteração",
+      "start": 774,
+      "end": 787,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e57e825176e6",
+        "concept_name": "SEM ALTERAÇÃO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Sem dispneia/dor torácica; sem alteração do hábito intestinal; sem disúria."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "disúria",
+      "start": 814,
+      "end": 821,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R30.0",
+        "concept_name": "Disúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Sem dispneia/dor torácica; sem alteração do hábito intestinal; sem disúria."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 823,
+      "end": 825,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Nega comorbidades conhecidas; sem uso crônico de medicações relatado."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 912,
+      "end": 914,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Sem tabagismo; etilismo eventual."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 77,
+  "group": "caso_estruturado"
+}

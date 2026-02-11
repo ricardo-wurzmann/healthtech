@@ -1,0 +1,123 @@
+{
+  "doc_id": "pepv1_case_0009",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "9). Gestante HDF, com 15 anos de idade, é admitida na maternidade em trabalho de parto, com idade gestacional de 36 semanas e 2 dias. Realizou Pré-natal em Unidade Básica de Saúde. A rotura de membranas foi realizada 1 hora antes do parto, que foi vaginal. Recém-nascida (RN) com Boletim de Apgar de 7, 8 e 10 no primeiro, quinto e décimo minutos de vida, com peso de nascimento de 3.700 g, estatura de 48, 0 cm e perímetro cefálico de 33, 5 cm. Encaminhada ao Alojamento Conjunto, permaneceu bem até que, com 23 horas de vida, apresentou tremores de extremidades. A glicemia capilar, realizada neste momento, foi de 55 mg%.",
+  "entities": [
+    {
+      "span": "Unidade Básica de Saúde",
+      "start": 156,
+      "end": 179,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "0b8536c41fc8",
+        "concept_name": "UNIDADE BÁSICA DE SAÚDE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Realizou Pré-natal em Unidade Básica de Saúde."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foi",
+      "start": 203,
+      "end": 206,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "A rotura de membranas foi realizada 1 hora antes do parto, que foi vaginal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hora",
+      "start": 219,
+      "end": 223,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90247795",
+        "concept_name": "HORA H 1,5 MG COM CT BL AL PLAS INC X 1 INDÚSTRIA FARMACÊUTICA MELCON DO BRASIL S.A. 01/01/2016 31/03/2016 1558900030061",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "A rotura de membranas foi realizada 1 hora antes do parto, que foi vaginal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foi",
+      "start": 244,
+      "end": 247,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "A rotura de membranas foi realizada 1 hora antes do parto, que foi vaginal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "glicemia capilar",
+      "start": 567,
+      "end": 583,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "101fab9e861b",
+        "concept_name": "GLICEMIA CAPILAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "A glicemia capilar, realizada neste momento, foi de 55 mg%."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "foi",
+      "start": 610,
+      "end": 613,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "A glicemia capilar, realizada neste momento, foi de 55 mg%."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 9,
+  "group": "prontuario"
+}

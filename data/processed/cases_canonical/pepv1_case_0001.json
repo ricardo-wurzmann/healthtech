@@ -1,0 +1,465 @@
+{
+  "doc_id": "pepv1_case_0001",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "1) Adolescente masculino de 16 anos de idade, trazido ao pronto-socorro de hospital terciário pelo Serviço de Resgate, foi vítima de queda de bicicleta após colisão em alta velocidade contra anteparo fixo. Paciente relata ter traumatizado a região superior do abdome contra o guidão da bicicleta e refere intensa dor no local. Apresenta, ainda, trauma craniano, sem perda de consciência, porém refere cefaleia intensa. Nega vômitos. Dados colhidos pela equipe do resgate no local do acidente: pulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência respiratória = 16 irpm; saturação de oxigênio 97% em ar ambiente. Tempo entre acidente e admissão hospitalar: 30 minutos. Na avaliação no pronto-socorro: A – vias aéreas pérvias, com colar cervical. B – murmúrios vesiculares presentes bilateralmente; expansibilidade simétrica; tórax indolor à palpação; sem crepitações; FR = 16 irpm; saturação de O2 = 98% em ar ambiente. C – pulso = 108 bpm; pressão arterial = 120 x 70 mmHg; sem sangramento visível. Abdome doloroso à palpação em epigástrio e mesogástrio, onde se evidenciam equimose e escoriação. Toque retal sem alterações, diurese clara. D – escala de coma de Glasgow = 15; pupilas isocóricas e fotorreagentes. E – sem outras alterações. Realizada expansão volêmica com 2.000 ml de soro fisiológico e analgesia. Após essas medidas, o paciente apresenta frequência cardíaca de 86 bpm e pressão arterial de 120 x 70 mmHg. Foi realizada ultrassonografia focada no trauma (FAST).",
+  "entities": [
+    {
+      "span": "foi",
+      "start": 119,
+      "end": 122,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "1) Adolescente masculino de 16 anos de idade, trazido ao pronto-socorro de hospital terciário pelo Serviço de Resgate, foi vítima de queda de bicicleta após colisão em alta velocidade contra anteparo fixo."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Paciente",
+      "start": 206,
+      "end": 214,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Paciente relata ter traumatizado a região superior do abdome contra o guidão da bicicleta e refere intensa dor no local."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 260,
+      "end": 266,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Paciente relata ter traumatizado a região superior do abdome contra o guidão da bicicleta e refere intensa dor no local."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 505,
+      "end": 508,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Dados colhidos pela equipe do resgate no local do acidente: pulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência respiratória = 16 irpm; saturação de oxigênio 97% em ar ambiente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pressão arterial",
+      "start": 510,
+      "end": 526,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Dados colhidos pela equipe do resgate no local do acidente: pulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência respiratória = 16 irpm; saturação de oxigênio 97% em ar ambiente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "frequência respiratória",
+      "start": 544,
+      "end": 567,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Dados colhidos pela equipe do resgate no local do acidente: pulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência respiratória = 16 irpm; saturação de oxigênio 97% em ar ambiente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 573,
+      "end": 577,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Dados colhidos pela equipe do resgate no local do acidente: pulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência respiratória = 16 irpm; saturação de oxigênio 97% em ar ambiente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "oxigênio",
+      "start": 592,
+      "end": 600,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "d9aebd108866",
+        "concept_name": "OXIGÊNIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Dados colhidos pela equipe do resgate no local do acidente: pulso = 112 bpm; pressão arterial = 130 x 90 mmHg; frequência respiratória = 16 irpm; saturação de oxigênio 97% em ar ambiente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tórax",
+      "start": 833,
+      "end": 838,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.1",
+        "concept_name": "Tórax",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "B – murmúrios vesiculares presentes bilateralmente; expansibilidade simétrica; tórax indolor à palpação; sem crepitações; FR = 16 irpm; saturação de O2 = 98% em ar ambiente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FR",
+      "start": 876,
+      "end": 878,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "B – murmúrios vesiculares presentes bilateralmente; expansibilidade simétrica; tórax indolor à palpação; sem crepitações; FR = 16 irpm; saturação de O2 = 98% em ar ambiente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 884,
+      "end": 888,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "B – murmúrios vesiculares presentes bilateralmente; expansibilidade simétrica; tórax indolor à palpação; sem crepitações; FR = 16 irpm; saturação de O2 = 98% em ar ambiente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "O2",
+      "start": 903,
+      "end": 905,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "d9aebd108866",
+        "concept_name": "OXIGÊNIO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "B – murmúrios vesiculares presentes bilateralmente; expansibilidade simétrica; tórax indolor à palpação; sem crepitações; FR = 16 irpm; saturação de O2 = 98% em ar ambiente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 944,
+      "end": 947,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "C – pulso = 108 bpm; pressão arterial = 120 x 70 mmHg; sem sangramento visível."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pressão arterial",
+      "start": 949,
+      "end": 965,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "C – pulso = 108 bpm; pressão arterial = 120 x 70 mmHg; sem sangramento visível."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Abdome",
+      "start": 1008,
+      "end": 1014,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Abdome doloroso à palpação em epigástrio e mesogástrio, onde se evidenciam equimose e escoriação."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Toque retal",
+      "start": 1106,
+      "end": 1117,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "e11f1dc5b597",
+        "concept_name": "TOQUE RETAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Toque retal sem alterações, diurese clara."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "escala de coma de Glasgow",
+      "start": 1153,
+      "end": 1178,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "22aeffa7d8f6",
+        "concept_name": "ESCALA DE COMA DE GLASGOW",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "D – escala de coma de Glasgow = 15; pupilas isocóricas e fotorreagentes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "soro",
+      "start": 1293,
+      "end": 1297,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90400445",
+        "concept_name": "SORO ANTI-RÁBICO SOL INJ CX 4 AMP VD INC X 5ML FUNDAÇÃO EZEQUIEL DIAS - FUNED 01/03/2019 31/05/2019 1120901310014",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Realizada expansão volêmica com 2.000 ml de soro fisiológico e analgesia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 1345,
+      "end": 1353,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Após essas medidas, o paciente apresenta frequência cardíaca de 86 bpm e pressão arterial de 120 x 70 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "frequência cardíaca",
+      "start": 1364,
+      "end": 1383,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Após essas medidas, o paciente apresenta frequência cardíaca de 86 bpm e pressão arterial de 120 x 70 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 1390,
+      "end": 1393,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Após essas medidas, o paciente apresenta frequência cardíaca de 86 bpm e pressão arterial de 120 x 70 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pressão arterial",
+      "start": 1396,
+      "end": 1412,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Após essas medidas, o paciente apresenta frequência cardíaca de 86 bpm e pressão arterial de 120 x 70 mmHg."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Foi",
+      "start": 1431,
+      "end": 1434,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5d624a0a317b",
+        "concept_name": "FÍSSURA ORBITAL INFERIOR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Foi realizada ultrassonografia focada no trauma (FAST)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ultrassonografia",
+      "start": 1445,
+      "end": 1461,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "2954b9dc5da2",
+        "concept_name": "ULTRASSONOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Foi realizada ultrassonografia focada no trauma (FAST)."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 1,
+  "group": "prontuario"
+}

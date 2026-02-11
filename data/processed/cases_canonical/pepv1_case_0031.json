@@ -1,0 +1,161 @@
+{
+  "doc_id": "pepv1_case_0031",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "31) ID: Feminino, gestante, 27 semanas, DM1. QD: “Consulta de vitalidade fetal / pré-natal de alto risco.” HPMA: Em seguimento por diabetes mellitus tipo 1, comparece para exame de vitalidade fetal com 27 semanas. Optado por dopplerfluxometria do cordão umbilical. No laudo, considerados os valores de referência para 27 semanas: relação sístole/diástole (S/D) 2, 17–4, 5 (P5–P95) e PI da artéria umbilical 0, 63–1, 65 (P5–P95). Registrado no prontuário que a interpretação do Doppler deve correlacionar os índices obtidos com esses limites (P95) para definir se há aumento de resistência placentária, necessidade de maior vigilância e eventual ajuste de programação de vitalidade fetal. ISDA: Nega febre; nega sintomas urinários; sem queixas respiratórias; nega sangramento/perda de líquido. AP: DM1 (tempo de doença não informado). Medicações: insulinoterapia (esquema a detalhar). Alergias/cirurgias: não informadas. AF: Não informado.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "31) ID: Feminino, gestante, 27 semanas, DM1."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "P95",
+      "start": 376,
+      "end": 379,
+      "type": "PROBLEM",
+      "score": 0.9,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "P95",
+        "concept_name": "Morte fetal de causa não especificada",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "code",
+        "sentence": "No laudo, considerados os valores de referência para 27 semanas: relação sístole/diástole (S/D) 2, 17–4, 5 (P5–P95) e PI da artéria umbilical 0, 63–1, 65 (P5–P95)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PI",
+      "start": 383,
+      "end": 385,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "8ea7667f2c73",
+        "concept_name": "PIAUÍ",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "No laudo, considerados os valores de referência para 27 semanas: relação sístole/diástole (S/D) 2, 17–4, 5 (P5–P95) e PI da artéria umbilical 0, 63–1, 65 (P5–P95)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "P95",
+      "start": 423,
+      "end": 426,
+      "type": "PROBLEM",
+      "score": 0.9,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "P95",
+        "concept_name": "Morte fetal de causa não especificada",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "code",
+        "sentence": "No laudo, considerados os valores de referência para 27 semanas: relação sístole/diástole (S/D) 2, 17–4, 5 (P5–P95) e PI da artéria umbilical 0, 63–1, 65 (P5–P95)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "P95",
+      "start": 542,
+      "end": 545,
+      "type": "PROBLEM",
+      "score": 0.9,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "P95",
+        "concept_name": "Morte fetal de causa não especificada",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "code",
+        "sentence": "Registrado no prontuário que a interpretação do Doppler deve correlacionar os índices obtidos com esses limites (P95) para definir se há aumento de resistência placentária, necessidade de maior vigilância e eventual ajuste de programação de vitalidade fetal."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 735,
+      "end": 742,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega febre; nega sintomas urinários; sem queixas respiratórias; nega sangramento/perda de líquido."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 793,
+      "end": 795,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: DM1 (tempo de doença não informado)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 920,
+      "end": 922,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Não informado."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 31,
+  "group": "caso_estruturado"
+}

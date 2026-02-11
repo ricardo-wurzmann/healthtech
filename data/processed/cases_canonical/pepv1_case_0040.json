@@ -1,0 +1,180 @@
+{
+  "doc_id": "pepv1_case_0040",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "40) ID: Masculino, 5 anos, consulta de rotina. QD: “Pais preocupados com baixa estatura.” HPMA: Pais referem que criança está “mais baixa que os colegas”, sem outras queixas. Nascido a termo, AIG, sem internações/cirurgias prévias, vacinação em dia. Em avaliação de crescimento, mantém estatura abaixo do esperado para idade (medidas seriadas/velocidade de crescimento a documentar), sem sinais sistêmicos exuberantes ao exame. Quadro de baixa estatura a esclarecer (avaliar variante constitucional vs baixa estatura familiar); DDx: hipotireoidismo, deficiência de GH, doença celíaca/doença crônica. ISDA: Nega diarreia crônica, dor abdominal recorrente, poliúria/polidipsia e cefaleia. AP: Sem comorbidades; alergias não referidas. AF: A esclarecer estaturas parentais e história familiar.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "40) ID: Masculino, 5 anos, consulta de rotina."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 166,
+      "end": 173,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Pais referem que criança está “mais baixa que os colegas”, sem outras queixas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "a esclarecer",
+      "start": 453,
+      "end": 465,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "88005203de44",
+        "concept_name": "A ESCLARECER",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro de baixa estatura a esclarecer (avaliar variante constitucional vs baixa estatura familiar); DDx: hipotireoidismo, deficiência de GH, doença celíaca/doença crônica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "doença celíaca",
+      "start": 569,
+      "end": 583,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "K90.0",
+        "concept_name": "Doença celíaca",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Quadro de baixa estatura a esclarecer (avaliar variante constitucional vs baixa estatura familiar); DDx: hipotireoidismo, deficiência de GH, doença celíaca/doença crônica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "poliúria",
+      "start": 655,
+      "end": 663,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R35",
+        "concept_name": "Poliúria",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega diarreia crônica, dor abdominal recorrente, poliúria/polidipsia e cefaleia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "polidipsia",
+      "start": 664,
+      "end": 674,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R63.1",
+        "concept_name": "Polidipsia",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega diarreia crônica, dor abdominal recorrente, poliúria/polidipsia e cefaleia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 687,
+      "end": 689,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades; alergias não referidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 733,
+      "end": 735,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: A esclarecer estaturas parentais e história familiar."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "A esclarecer",
+      "start": 737,
+      "end": 749,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "88005203de44",
+        "concept_name": "A ESCLARECER",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AF: A esclarecer estaturas parentais e história familiar."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 40,
+  "group": "caso_estruturado"
+}

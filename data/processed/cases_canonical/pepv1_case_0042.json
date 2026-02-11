@@ -1,0 +1,275 @@
+{
+  "doc_id": "pepv1_case_0042",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "42) ID: Feminino, 2 anos, previamente hígida. QD: “Crise convulsiva associada à febre.” HPMA: Há 1 dia com tosse e coriza hialina nasal, febre até 38, 9°C, sem vômitos/diarreia e com boa aceitação alimentar. Há 1 hora, episódio presenciado de perda de consciência com abalos de membros, sialorreia e eversão do olhar, duração ~3 min, com resolução espontânea e sonolência pós-ictal breve, recuperando progressivamente. Ao exame em PS: bom estado geral, corada, hidratada, ativa e reativa, boa perfusão; FR 28 irpm, FC 90 bpm, PA 92×58 mmHg, T 39, 1°C; discreta hiperemia de orofaringe; sem sinais meníngeos e sem outras alterações. Quadro compatível com convulsão febril simples; DDx: meningite/encefalite, epilepsia inaugural, distúrbio metabólico. ISDA: Nega exantema, rigidez de nuca, vômitos em jato e sintomas urinários. AP: Sem comorbidades; alergias não referidas. AF: A esclarecer história familiar de convulsão febril/epilepsia.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "42) ID: Feminino, 2 anos, previamente hígida."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 107,
+      "end": 112,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "HPMA: Há 1 dia com tosse e coriza hialina nasal, febre até 38, 9°C, sem vômitos/diarreia e com boa aceitação alimentar."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hora",
+      "start": 213,
+      "end": 217,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90247795",
+        "concept_name": "HORA H 1,5 MG COM CT BL AL PLAS INC X 1 INDÚSTRIA FARMACÊUTICA MELCON DO BRASIL S.A. 01/01/2016 31/03/2016 1558900030061",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Há 1 hora, episódio presenciado de perda de consciência com abalos de membros, sialorreia e eversão do olhar, duração ~3 min, com resolução espontânea e sonolência pós-ictal breve, recuperando progressivamente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "sonolência",
+      "start": 361,
+      "end": 371,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R40.0",
+        "concept_name": "Sonolência",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Há 1 hora, episódio presenciado de perda de consciência com abalos de membros, sialorreia e eversão do olhar, duração ~3 min, com resolução espontânea e sonolência pós-ictal breve, recuperando progressivamente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PS",
+      "start": 431,
+      "end": 433,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "588331c61fba",
+        "concept_name": "PRESSÃO DE SUPORTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame em PS: bom estado geral, corada, hidratada, ativa e reativa, boa perfusão; FR 28 irpm, FC 90 bpm, PA 92×58 mmHg, T 39, 1°C; discreta hiperemia de orofaringe; sem sinais meníngeos e sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bom estado geral",
+      "start": 435,
+      "end": 451,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "bf1af17640a9",
+        "concept_name": "BOM ESTADO GERAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame em PS: bom estado geral, corada, hidratada, ativa e reativa, boa perfusão; FR 28 irpm, FC 90 bpm, PA 92×58 mmHg, T 39, 1°C; discreta hiperemia de orofaringe; sem sinais meníngeos e sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FR",
+      "start": 503,
+      "end": 505,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame em PS: bom estado geral, corada, hidratada, ativa e reativa, boa perfusão; FR 28 irpm, FC 90 bpm, PA 92×58 mmHg, T 39, 1°C; discreta hiperemia de orofaringe; sem sinais meníngeos e sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 509,
+      "end": 513,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame em PS: bom estado geral, corada, hidratada, ativa e reativa, boa perfusão; FR 28 irpm, FC 90 bpm, PA 92×58 mmHg, T 39, 1°C; discreta hiperemia de orofaringe; sem sinais meníngeos e sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 515,
+      "end": 517,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame em PS: bom estado geral, corada, hidratada, ativa e reativa, boa perfusão; FR 28 irpm, FC 90 bpm, PA 92×58 mmHg, T 39, 1°C; discreta hiperemia de orofaringe; sem sinais meníngeos e sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 521,
+      "end": 524,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame em PS: bom estado geral, corada, hidratada, ativa e reativa, boa perfusão; FR 28 irpm, FC 90 bpm, PA 92×58 mmHg, T 39, 1°C; discreta hiperemia de orofaringe; sem sinais meníngeos e sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 526,
+      "end": 528,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame em PS: bom estado geral, corada, hidratada, ativa e reativa, boa perfusão; FR 28 irpm, FC 90 bpm, PA 92×58 mmHg, T 39, 1°C; discreta hiperemia de orofaringe; sem sinais meníngeos e sem outras alterações."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 826,
+      "end": 828,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: Sem comorbidades; alergias não referidas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 872,
+      "end": 874,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: A esclarecer história familiar de convulsão febril/epilepsia."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "A esclarecer",
+      "start": 876,
+      "end": 888,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "88005203de44",
+        "concept_name": "A ESCLARECER",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AF: A esclarecer história familiar de convulsão febril/epilepsia."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 42,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,237 @@
+{
+  "doc_id": "pepv1_case_0014",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "14) Mulher de 67 anos de idade, procedente de São Paulo-SP, procura pronto-socorro de hospital secundário por conta de febre há 3 dias. Relata vômitos, mialgia, cefaleia principalmente retro-orbitária, prostração, astenia e febre diária de até 39°C no período. Nega tosse, odinofagia, coriza. Nega alterações urinárias. Refere casos semelhantes em sua região com diagnóstico de dengue. Acompanha no ambulatório por insuficiência coronariana crônica classe funcional I (infarto prévio há 3 anos tratado com angioplastia primária) e hipertensão arterial sistêmica. Faz uso regular de ácido acetilsalicílico, enalapril, hidroclorotiazida e atenolol. Ao exame clínico, apresenta-se em regular estado geral; desidratada +2/+4; pressão arterial = 108 x 66 mmHg; frequência cardíaca = 104 bpm; hepatomegalia dolorosa a 2 cm do rebordo costal direito; semiologia pulmonar com ausculta da voz diminuída e percussão submaciça em base pulmonar direita; restante do exame clínico sem alterações significativas. Indique a classificação de risco para manejo da dengue neste caso, conforme os critérios do Ministério da Saúde.",
+  "entities": [
+    {
+      "span": "SP",
+      "start": 56,
+      "end": 58,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "76f4c5ddebaa",
+        "concept_name": "SINÉQUIAS POSTERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "14) Mulher de 67 anos de idade, procedente de São Paulo-SP, procura pronto-socorro de hospital secundário por conta de febre há 3 dias."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "mialgia",
+      "start": 152,
+      "end": 159,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "M79.1",
+        "concept_name": "Mialgia",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Relata vômitos, mialgia, cefaleia principalmente retro-orbitária, prostração, astenia e febre diária de até 39°C no período."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tosse",
+      "start": 266,
+      "end": 271,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R05",
+        "concept_name": "Tosse",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega tosse, odinofagia, coriza."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "insuficiência coronariana",
+      "start": 415,
+      "end": 440,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b2590eaead8e",
+        "concept_name": "INSUFICIÊNCIA CORONARIANA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Acompanha no ambulatório por insuficiência coronariana crônica classe funcional I (infarto prévio há 3 anos tratado com angioplastia primária) e hipertensão arterial sistêmica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hipertensão arterial sistêmica",
+      "start": 531,
+      "end": 561,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "HISTORICAL",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Acompanha no ambulatório por insuficiência coronariana crônica classe funcional I (infarto prévio há 3 anos tratado com angioplastia primária) e hipertensão arterial sistêmica."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "ácido",
+      "start": 582,
+      "end": 587,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90042298",
+        "concept_name": "ÁCIDO ACETILSALICÍLICO 100 MG COM CT BL AL PLAS INC X 200 (EMB MULT) CIMED INDÚSTRIA DE MEDICAMENTOS LTDA 10/10/2012 31/08/2014 1438101040049",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Faz uso regular de ácido acetilsalicílico, enalapril, hidroclorotiazida e atenolol."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hidroclorotiazida",
+      "start": 617,
+      "end": 634,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dce69882270b",
+        "concept_name": "HIDROCLOROTIAZIDA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Faz uso regular de ácido acetilsalicílico, enalapril, hidroclorotiazida e atenolol."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "atenolol",
+      "start": 637,
+      "end": 645,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90018036",
+        "concept_name": "ATENOLOL 25 MG COM CT BL AL PLAS INC X 28 AUROBINDO PHARMA INDÚSTRIA FARMACÊUTICA LIMITADA 10/10/2012 31/08/2014 1516700320028",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Faz uso regular de ácido acetilsalicílico, enalapril, hidroclorotiazida e atenolol."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "pressão arterial",
+      "start": 722,
+      "end": 738,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico, apresenta-se em regular estado geral; desidratada +2/+4; pressão arterial = 108 x 66 mmHg; frequência cardíaca = 104 bpm; hepatomegalia dolorosa a 2 cm do rebordo costal direito; semiologia pulmonar com ausculta da voz diminuída e percussão submaciça em base pulmonar direita; restante do exame clínico sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "frequência cardíaca",
+      "start": 756,
+      "end": 775,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame clínico, apresenta-se em regular estado geral; desidratada +2/+4; pressão arterial = 108 x 66 mmHg; frequência cardíaca = 104 bpm; hepatomegalia dolorosa a 2 cm do rebordo costal direito; semiologia pulmonar com ausculta da voz diminuída e percussão submaciça em base pulmonar direita; restante do exame clínico sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 782,
+      "end": 785,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame clínico, apresenta-se em regular estado geral; desidratada +2/+4; pressão arterial = 108 x 66 mmHg; frequência cardíaca = 104 bpm; hepatomegalia dolorosa a 2 cm do rebordo costal direito; semiologia pulmonar com ausculta da voz diminuída e percussão submaciça em base pulmonar direita; restante do exame clínico sem alterações significativas."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "Saúde",
+      "start": 1105,
+      "end": 1110,
+      "type": "DRUG",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "90328949",
+        "concept_name": "A SAÚDE DA MULHER (0,625 ML + 400 MG + 0,30 ML + 0,013 ML) 15 ML SOL OR CT FR VD AMB X 150 ML + COEPMS S/A 01/01/2016 31/03/2016 1023510590025",
+        "vocabulary": "TUSS_DRUG",
+        "match_type": "normalized",
+        "match_policy": "safe_exact",
+        "entry_type": "drug_normalized",
+        "sentence": "Indique a classificação de risco para manejo da dengue neste caso, conforme os critérios do Ministério da Saúde."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 14,
+  "group": "prontuario"
+}

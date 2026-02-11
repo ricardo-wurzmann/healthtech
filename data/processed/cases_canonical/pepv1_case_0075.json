@@ -1,0 +1,370 @@
+{
+  "doc_id": "pepv1_case_0075",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "75) ID: Feminino, 49 anos, procedente de SP. DM2 em uso de metformina. QD: Dispneia progressiva há 2 meses + febre intermitente + perda ponderal. HPMA: Evolui há ~8 semanas com dispneia aos esforços progressiva, associada a febre vespertina intermitente (picos ~38 °C) e perda de ~10 kg no período. Nega tabagismo/etilismo. Nega dor torácica típica, hemoptise, sibilância. Ao exame: FR 28 irpm, FC 93 bpm, PA 112 x 68 mmHg, SatO ₂ 94% em AA. Pulmão: MV presente bilateralmente, porém diminuído em terço inferior E; sinal de Signorelli positivo e egofonia em terço médio E. Sem outras alterações relevantes. Exames na admissão: hemograma com anemia discreta e leucócitos sem desvio; PCR elevada. RX de tórax: velamento de base esquerda com menisco e redução de expansibilidade, compatível com derrame pleural à esquerda. Hipótese clínica: derrame pleural de provável etiologia infecciosa crônica (sugestivo de derrame pleural tuberculoso). ISDA: Nega ortopneia/PND; nega edema MMII; sem queixas urinárias; sem sintomas GI relevantes. AP: DM2 (metformina). Nega DPOC/asma. Nega alergias. AF: Nega tabagismo e etilismo. Sem uso de drogas ilícitas.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "75) ID: Feminino, 49 anos, procedente de SP."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "SP",
+      "start": 41,
+      "end": 43,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "76f4c5ddebaa",
+        "concept_name": "SINÉQUIAS POSTERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "75) ID: Feminino, 49 anos, procedente de SP."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemoptise",
+      "start": 350,
+      "end": 359,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "R04.2",
+        "concept_name": "Hemoptise",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Nega dor torácica típica, hemoptise, sibilância."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FR",
+      "start": 383,
+      "end": 385,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "37cb81d606b4",
+        "concept_name": "FREQUÊNCIA RESPIRATÓRIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: FR 28 irpm, FC 93 bpm, PA 112 x 68 mmHg, SatO ₂ 94% em AA."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "irpm",
+      "start": 389,
+      "end": 393,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "18e1ac579372",
+        "concept_name": "INCURSÕES RESPIRATÓRIAS POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: FR 28 irpm, FC 93 bpm, PA 112 x 68 mmHg, SatO ₂ 94% em AA."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "FC",
+      "start": 395,
+      "end": 397,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "89a00e3f1859",
+        "concept_name": "FREQUÊNCIA CARDÍACA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: FR 28 irpm, FC 93 bpm, PA 112 x 68 mmHg, SatO ₂ 94% em AA."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "bpm",
+      "start": 401,
+      "end": 404,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "dd873c1e8fb0",
+        "concept_name": "BATIMENTO POR MINUTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: FR 28 irpm, FC 93 bpm, PA 112 x 68 mmHg, SatO ₂ 94% em AA."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "PA",
+      "start": 406,
+      "end": 408,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f045822f74b3",
+        "concept_name": "PRESSÃO ARTERIAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Ao exame: FR 28 irpm, FC 93 bpm, PA 112 x 68 mmHg, SatO ₂ 94% em AA."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "MV",
+      "start": 450,
+      "end": 452,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "b5c8f31217e7",
+        "concept_name": "MURMÚRIO VESICULAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Pulmão: MV presente bilateralmente, porém diminuído em terço inferior E; sinal de Signorelli positivo e egofonia em terço médio E. Sem outras alterações relevantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "hemograma",
+      "start": 627,
+      "end": 636,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "25b3810f8eaf",
+        "concept_name": "HEMOGRAMA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames na admissão: hemograma com anemia discreta e leucócitos sem desvio; PCR elevada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "leucócitos",
+      "start": 659,
+      "end": 669,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "5cafb91f3dd1",
+        "concept_name": "LEUCÓCITOS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Exames na admissão: hemograma com anemia discreta e leucócitos sem desvio; PCR elevada."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "RX",
+      "start": 695,
+      "end": 697,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "8d67856dd068",
+        "concept_name": "RAIOS X/RADIOGRAFIA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "RX de tórax: velamento de base esquerda com menisco e redução de expansibilidade, compatível com derrame pleural à esquerda."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tórax",
+      "start": 701,
+      "end": 706,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.1",
+        "concept_name": "Tórax",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "RX de tórax: velamento de base esquerda com menisco e redução de expansibilidade, compatível com derrame pleural à esquerda."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "clínica",
+      "start": 829,
+      "end": 836,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "9d123e457f16",
+        "concept_name": "CLÍNICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Hipótese clínica: derrame pleural de provável etiologia infecciosa crônica (sugestivo de derrame pleural tuberculoso)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "MMII",
+      "start": 976,
+      "end": 980,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "50b05748c28a",
+        "concept_name": "MEMBROS INFERIORES",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "ISDA: Nega ortopneia/PND; nega edema MMII; sem queixas urinárias; sem sintomas GI relevantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "queixas",
+      "start": 986,
+      "end": 993,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "d79004c81e2a",
+        "concept_name": "QUEIXAS",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "ISDA: Nega ortopneia/PND; nega edema MMII; sem queixas urinárias; sem sintomas GI relevantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "GI",
+      "start": 1018,
+      "end": 1020,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "NEGATED",
+      "evidence": {
+        "concept_id": "cad7b9b07406",
+        "concept_name": "GRASTROINTESTINAL",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "ISDA: Nega ortopneia/PND; nega edema MMII; sem queixas urinárias; sem sintomas GI relevantes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1033,
+      "end": 1035,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: DM2 (metformina)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1086,
+      "end": 1088,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: Nega tabagismo e etilismo."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 75,
+  "group": "caso_estruturado"
+}

@@ -1,0 +1,256 @@
+{
+  "doc_id": "pepv1_case_0063",
+  "source": "nlp_clin\\data\\raw\\pepv1.json",
+  "text": "63) ID: Masculino, 60 anos. QD: Distensão abdominal, vômitos e parada de eliminação de fezes/flatos. HPMA: Há 6 meses com episódios recorrentes de cólica intestinal, progressivamente mais frequentes e intensos. Há 1 mês passou a apresentar episódios de diarreia “explosiva” com incontinência fecal, intercalando períodos de redução do trânsito. Há 1 semana evoluiu com distensão abdominal importante, vômitos, anorexia e parada de eliminação de gases e fezes. Antecedentes: apendicectomia há 20 anos; colocação de prótese endovascular de aorta há 1 ano. Em tratamento de HAS e DM. Ao exame: desidratado leve/moderado, abdome distendido, timpânico, dor em cólica à palpação difusa sem sinais claros de peritonite, RHA aumentados inicialmente. Radiografia de abdome com distensão de alças e níveis hidroaéreos compatíveis com obstrução intestinal mecânica, hipótese principal de obstrução por bridas/aderências em paciente com cirurgia abdominal prévia, no contexto de piora progressiva recente. ISDA: Nega dor torácica/dispneia; sem sintomas urinários. AP: HAS e DM2; medicações de uso contínuo (anti-hipertensivos e hipoglicemiantes/insulina conforme rotina). Cirurgias: apendicectomia; EVAR (endoprótese aórtica). Nega alergias. AF: História familiar não contributiva. Hábitos: tabagismo/etilismo não referidos.",
+  "entities": [
+    {
+      "span": "ID",
+      "start": 4,
+      "end": 6,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "f0f462620de4",
+        "concept_name": "INTRADÉRMICO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "63) ID: Masculino, 60 anos."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "incontinência fecal",
+      "start": 278,
+      "end": 297,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R15",
+        "concept_name": "Incontinência fecal",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Há 1 mês passou a apresentar episódios de diarreia “explosiva” com incontinência fecal, intercalando períodos de redução do trânsito."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "anorexia",
+      "start": 410,
+      "end": 418,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "R63.0",
+        "concept_name": "Anorexia",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Há 1 semana evoluiu com distensão abdominal importante, vômitos, anorexia e parada de eliminação de gases e fezes."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "tratamento",
+      "start": 557,
+      "end": 567,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "270f7cc9a6dd",
+        "concept_name": "TRATAMENTO",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Em tratamento de HAS e DM."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 571,
+      "end": 574,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "Em tratamento de HAS e DM."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 618,
+      "end": 624,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Ao exame: desidratado leve/moderado, abdome distendido, timpânico, dor em cólica à palpação difusa sem sinais claros de peritonite, RHA aumentados inicialmente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "abdome",
+      "start": 757,
+      "end": 763,
+      "type": "PROBLEM",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "C76.2",
+        "concept_name": "Abdome",
+        "vocabulary": "CID10",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Radiografia de abdome com distensão de alças e níveis hidroaéreos compatíveis com obstrução intestinal mecânica, hipótese principal de obstrução por bridas/aderências em paciente com cirurgia abdominal prévia, no contexto de piora progressiva recente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "paciente",
+      "start": 912,
+      "end": 920,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "POSSIBLE",
+      "evidence": {
+        "concept_id": "25b99106f55d",
+        "concept_name": "PACIENTE",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "Radiografia de abdome com distensão de alças e níveis hidroaéreos compatíveis com obstrução intestinal mecânica, hipótese principal de obstrução por bridas/aderências em paciente com cirurgia abdominal prévia, no contexto de piora progressiva recente."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AP",
+      "start": 1052,
+      "end": 1054,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "30539823cc76",
+        "concept_name": "AUSCULTA PUMONAR",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS e DM2; medicações de uso contínuo (anti-hipertensivos e hipoglicemiantes/insulina conforme rotina)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "HAS",
+      "start": 1056,
+      "end": 1059,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "ac7e67515ac3",
+        "concept_name": "HIPERTENSÃO ARTERIAL SISTÊMICA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS e DM2; medicações de uso contínuo (anti-hipertensivos e hipoglicemiantes/insulina conforme rotina)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "anti",
+      "start": 1095,
+      "end": 1099,
+      "type": "ABBREV",
+      "score": 0.5,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "1ca1b718cb46",
+        "concept_name": "HIV II EXAME ANTI VÍRUS DA IMUNODEFICIÊNCIA HUMANA TIPO II",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "context_required",
+        "entry_type": "abbr",
+        "sentence": "AP: HAS e DM2; medicações de uso contínuo (anti-hipertensivos e hipoglicemiantes/insulina conforme rotina)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "insulina",
+      "start": 1133,
+      "end": 1141,
+      "type": "ABBREV",
+      "score": 0.95,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "393abdc04902",
+        "concept_name": "INSULINA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "official",
+        "sentence": "AP: HAS e DM2; medicações de uso contínuo (anti-hipertensivos e hipoglicemiantes/insulina conforme rotina)."
+      },
+      "links": [],
+      "icd10": []
+    },
+    {
+      "span": "AF",
+      "start": 1230,
+      "end": 1232,
+      "type": "ABBREV",
+      "score": 0.85,
+      "assertion": "PRESENT",
+      "evidence": {
+        "concept_id": "cd1dc647fab2",
+        "concept_name": "ANGIOGRAFIA COM FLUORESCEÍNA",
+        "vocabulary": "SIGLARIO",
+        "match_type": "exact",
+        "match_policy": "safe_exact",
+        "entry_type": "abbr",
+        "sentence": "AF: História familiar não contributiva."
+      },
+      "links": [],
+      "icd10": []
+    }
+  ],
+  "case_id": 63,
+  "group": "caso_estruturado"
+}
